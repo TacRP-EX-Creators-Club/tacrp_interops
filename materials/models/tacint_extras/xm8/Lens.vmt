@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\tacint_extras\xm8\Lens"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\tacint_extras\xm8\Lens_ref"
+
+}

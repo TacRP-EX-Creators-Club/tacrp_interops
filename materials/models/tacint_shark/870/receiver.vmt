@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+"$basetexture" "models\tacint_shark\870\rec"
+"$envmap" "env_cubemap"
+"$envmapmask" "models\tacint_shark\870\rec_ref"
+}

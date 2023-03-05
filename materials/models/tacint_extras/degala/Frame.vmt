@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/tacint_extras/degala/Frame"
+	"$bumpmap" "models/tacint_extras/degala/Frame norm"
+     	"$phong" "1"
+      "$phongboost" "1"
+	"$phongexponent" "50"
+      "$phongfresnelranges" "[1 3 8]"
+	
+
+	
