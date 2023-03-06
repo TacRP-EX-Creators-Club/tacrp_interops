@@ -110,7 +110,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 // reload
 SWEP.ClipSize = 8
 SWEP.Ammo = "357"
-SWEP.ReloadTimeMult = 1.2
+SWEP.ReloadTimeMult = 1.4
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
@@ -236,9 +236,9 @@ local function addsound(name, spath)
         sound = spath
     })
 end
-addsound("tacint_degala.clip_in", path1 .. "gsr1911_clip_in.wav")
+addsound("tacint_degala.clip_in", path .. "clip_in.wav")
 addsound("tacint_degala.clip_in-mid", path1 .. "gsr1911_clip_in-mid.wav")
-addsound("tacint_degala.clip_out", path1 .. "gsr1911_clip_out.wav")
+addsound("tacint_degala.clip_out", path .. "clip_out.wav")
 addsound("tacint_degala.slide_action", path1 .. "gsr1911_slide_action.wav")
-addsound("tacint_degala.slide_shut", path1 .. "gsr1911_slide_shut.wav")
+addsound("tacint_degala.slide_shut", path .. "slide_shut.wav")
 addsound("tacint_degala.cock_hammer", path1 .. "gsr1911_cockhammer.wav")

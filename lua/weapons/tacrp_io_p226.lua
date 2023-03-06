@@ -128,7 +128,7 @@ SWEP.DropMagazineImpact = "pistol"
 local path = "tacint_extras/p226/"
 local path1 = "tacrp/weapons/p250/p250_"
 SWEP.Sound_Shoot = "^" .. path .. "p228-1.wav"
-SWEP.Sound_Shoot_Silenced = path1 .. "p250_fire_silenced-1.wav"
+SWEP.Sound_Shoot_Silenced = path1 .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -217,7 +217,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "perk_extendedmag", "acc_holster", "acc_brace"},
+        Category = {"acc", "acc_extmag_pistol", "acc_holster", "acc_brace"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

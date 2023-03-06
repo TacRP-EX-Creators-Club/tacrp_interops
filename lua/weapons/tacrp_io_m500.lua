@@ -119,7 +119,7 @@ SWEP.ScopedSway = 1
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 1.25
 
 // sounds
 

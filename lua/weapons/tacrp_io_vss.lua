@@ -56,16 +56,16 @@ SWEP.Spread = 0.0005
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 6
+SWEP.RecoilMaximum = 8
 SWEP.RecoilResetTime = 0.1
-SWEP.RecoilDissipationRate = 10
-SWEP.RecoilFirstShotMult = 0.5
+SWEP.RecoilDissipationRate = 12
+SWEP.RecoilFirstShotMult = 0.4
 
-SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilVisualKick = 0.5
 
-SWEP.RecoilKick = 4
+SWEP.RecoilKick = 2.5
 
-SWEP.RecoilSpreadPenalty = 0.0075
+SWEP.RecoilSpreadPenalty = 0.0055
 SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
@@ -232,7 +232,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag"},
+        Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag", "acc_bipod"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
