@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Machine gun configuration of an experimental multi-purpose rifle. Mobile, high capacity and low recoil, but damage is poor."
+SWEP.Description = "Machine gun configuration of an experimental multi-purpose rifle. Light, high capacity and low recoil, but damage is poor.\nHas an integrated 4x scope but no optic mount."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_xm8lmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_xm8lmg.mdl"
@@ -23,7 +23,7 @@ SWEP.ArcadeStats = {
     Damage_Min = 10,
 
     MoveSpeedMult = 0.85,
-    ShootingSpeedMult = 0.85,
+    ShootingSpeedMult = 0.75,
     SightedSpeedMult = 0.8,
     MeleeSpeedMult = 1,
     ReloadSpeedMult = 1,
@@ -39,7 +39,7 @@ SWEP.Penetration = 7 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.4,
+    [HITGROUP_CHEST] = 1.375,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -74,7 +74,7 @@ SWEP.RecoilVisualKick = 0.9
 SWEP.RecoilKick = 1
 
 SWEP.RecoilSpreadPenalty = 0.0006
-SWEP.HipFireSpreadPenalty = 0.015
+SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.CanBlindFire = true
 
@@ -86,7 +86,7 @@ SWEP.SightedSpeedMult = 0.25
 SWEP.MeleeSpeedMult = 0.5
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.4
+SWEP.AimDownSightsTime = 0.42
 SWEP.SprintToFireTime = 0.37
 
 // hold types
@@ -122,7 +122,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Scope = true
 SWEP.ScopeOverlay = Material("tacrp/scopes/g36.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 2
+SWEP.ScopeFOV = 90 / 4
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
 
