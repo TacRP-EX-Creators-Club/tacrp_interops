@@ -14,7 +14,7 @@ SWEP.Description = "Modernized short barrel rifle capable of firing in full auto
 
 // https://gamebanana.com/mods/211865
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m14.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_m14.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_m14.mdl"
 
 SWEP.Slot = 2
 
@@ -223,7 +223,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
         Pos_VM = Vector(-4.75, 0.2, 12),
-        Pos_WM = Vector(14.5, 0.6, -9.1),
+        Pos_WM = Vector(14.5, 0.6, -9.8),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(-22.5, 5, 180),
     },
@@ -234,10 +234,11 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.3, 0.2, 26.5),
-        Pos_WM = Vector(30, 0, -14.5),
+        Pos_WM = Vector(27.5, -0.5, -13.6),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(-22.5, 5, 180),
-        VMScale = 0.75
+        VMScale = 0.75,
+        WMScale = 0.75,
     },
     [3] = {
         PrintName = "Tactical",
@@ -246,9 +247,9 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         Pos_VM = Vector(-3.6, -0.5, 17),
-        Pos_WM = Vector(23, 0, -11),
+        Pos_WM = Vector(20, 1, -11),
         Ang_VM = Angle(90, 0, -70),
-        Ang_WM = Angle(-22.5, 5, 90),
+        Ang_WM = Angle(-22.5, 5, 110),
     },
     [4] = {
         PrintName = "Accessory",
