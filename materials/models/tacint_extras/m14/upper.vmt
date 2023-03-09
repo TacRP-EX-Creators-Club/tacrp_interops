@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\tacint_extras\m14\upper"
+	"$bumpmap" 			"models\tacint_extras\m14\upper_normal"
+
+}
