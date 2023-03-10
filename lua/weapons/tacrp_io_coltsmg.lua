@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Common"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "AR-pattern burst fire SMG. Good damage for its class."
+SWEP.Description = "AR pattern burst SMG. Great damage and range for its caliber."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_coltsmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
@@ -18,6 +18,10 @@ SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
 SWEP.Slot = 2
 
 SWEP.ArcadeStats = {
+
+    Damage_Max = 20,
+    Damage_Min = 9,
+
     MoveSpeedMult = 0.9,
     ShootingSpeedMult = 0.8,
     SightedSpeedMult = 0.85,
@@ -27,10 +31,10 @@ SWEP.ArcadeStats = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
-SWEP.Damage_Min = 11
-SWEP.Range_Min = 800
-SWEP.Range_Max = 4000
+SWEP.Damage_Max = 14
+SWEP.Damage_Min = 6
+SWEP.Range_Min = 1200
+SWEP.Range_Max = 3800
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
@@ -130,7 +134,7 @@ SWEP.DropMagazineImpact = "metal"
 
 local path = "tacint_shark/coltsmg/"
 local path1 = "tacrp/weapons/m4/"
-local path2 = "tacint_extras/mac10/"
+local path2 = "tacrp_extras/mac10/"
 SWEP.Sound_Shoot = "^" .. path .. "car-151.wav"
 SWEP.Sound_Shoot_Silenced = path2 .. "mac10-suppressed-1.wav"
 
@@ -252,7 +256,7 @@ SWEP.Attachments = {
     },
     [7] = {
         PrintName = "Ammo",
-        Category = {"ammo_rifle"},
+        Category = {"ammo_pistol"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
