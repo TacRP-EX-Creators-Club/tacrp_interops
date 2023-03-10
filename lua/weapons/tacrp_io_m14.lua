@@ -64,7 +64,7 @@ SWEP.Spread = 0.0005
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 6
+SWEP.RecoilMaximum = 8
 SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 8
 SWEP.RecoilFirstShotMult = 0.65
