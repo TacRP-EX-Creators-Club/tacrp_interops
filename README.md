@@ -1,8 +1,9 @@
 # TacRP Interops Expansion
 
-Extra weapons ported for Interops ported for TacRP. It's like that meme where two artists pass the same $20 to each other for commissions.
+Extra weapons ported for Interops ported for TacRP, as well as a few new ones. It's like that meme where two artists pass the same $20 to each other for commissions.
 
 https://github.com/RMC-Interops-Creators-Club/RMC-Interops
+
 https://github.com/RMC-Interops-Creators-Club/RMC-Interops-Extras
 
 # Models
@@ -17,3 +18,9 @@ https://github.com/RMC-Interops-Creators-Club/RMC-Interops-Extras
 - RPK [https://gamebanana.com/mods/370688]
 - M1A1 Thompson [https://gamebanana.com/mods/209199]
 - Colt SMG [https://gamebanana.com/mods/395109]
+- Sako TRG-42 [https://gamebanana.com/mods/211224]
+- Deagle [https://gamebanana.com/mods/207737]
+- SIG P226 [https://gamebanana.com/mods/207923]
+- VSS Vintorez [https://gamebanana.com/mods/211807]
+- Glock 18C [https://gamebanana.com/mods/206969]
+- XM8 LMG [https://gamebanana.com/mods/211951]
