@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\tacint_extras\trg42\stock"
+	"$bumpmap" "models\tacint_extras\trg42\stock_normal"
+	 "$phong" "1"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1 1 1]"
+	"$phongexponent" "5"
+	"$phongalbedotint" "1"
+	"$halflambert" "1"
+
+}
