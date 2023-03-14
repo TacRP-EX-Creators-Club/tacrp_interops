@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "3Quality"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Magnum caliber sniper rifle very powerful at long range.\nEquipped with a 12x scope by default."
+SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default."
 
 // https://gamebanana.com/mods/211224
 SWEP.ViewModel = "models/weapons/tacint_extras/v_trg42.mdl"
@@ -20,15 +20,15 @@ SWEP.Slot = 2
 
 SWEP.ArcadeStats = {
 
-    Damage_Max = 60,
+    Damage_Max = 70,
     Damage_Min = 125,
 
-    Range_Min = 1200,
+    Range_Min = 1500,
     Range_Max = 4000,
 
     MoveSpeedMult = 0.8,
-    ShootingSpeedMult = 0.55,
-    SightedSpeedMult = 0.75,
+    ShootingSpeedMult = 0.5,
+    SightedSpeedMult = 0.7,
     MeleeSpeedMult = 1,
     ReloadSpeedMult = 1,
 }
@@ -59,7 +59,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 30
+SWEP.RPM = 32
 
 SWEP.Spread = 0.00
 
@@ -68,19 +68,19 @@ SWEP.PeekPenaltyFraction = 0.25
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 1
-SWEP.RecoilResetTime = 0.5 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilResetTime = 0.3
 SWEP.RecoilDissipationRate = 1
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 5
 
-SWEP.RecoilKick = 5
+SWEP.RecoilKick = 6
 
 SWEP.RecoilSpreadPenalty = 0 // extra spread per one unit of recoil
 
 SWEP.CanBlindFire = true
 
-SWEP.ShootTimeMult = 1.25
+SWEP.ShootTimeMult = 1.15
 
 // handling
 
