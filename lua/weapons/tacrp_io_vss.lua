@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "VSS Vintorez"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "1Elite"
+SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Integrally-suppressed rifle with high performance when scoped and firing in short bursts.\nEquipped with a 6x scope by default."
