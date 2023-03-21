@@ -14,7 +14,7 @@ SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowe
 
 // https://gamebanana.com/mods/211224
 SWEP.ViewModel = "models/weapons/tacint_extras/v_trg42.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_uratio.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_trg42.mdl"
 
 SWEP.Slot = 2
 
