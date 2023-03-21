@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\tacint_shark\xm8car\visier"
+	"$additive" 1
+	"$selfillum" 1
+}
