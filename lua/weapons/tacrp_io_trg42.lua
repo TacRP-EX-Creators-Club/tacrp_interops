@@ -236,9 +236,10 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
         VMScale = 0.8,
+        WMScale = 0.8,
         Pos_VM = Vector(-5.1, 0.02, 6),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 5, 2),
+        Pos_WM = Vector(0, 6, 1.6),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -251,7 +252,7 @@ SWEP.Attachments = {
         InstalledElements = {"muzzle"},
         Pos_VM = Vector(-4.1, 0, 36.5),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 35, 0.25),
+        Pos_WM = Vector(0, 45, 0.5),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {
@@ -262,9 +263,9 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(-2.25, 0, 17.5),
+        Pos_VM = Vector(-2, 0, 17.5),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 19.5, -1.5),
+        Pos_WM = Vector(0, 19.5, -2.6),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {
