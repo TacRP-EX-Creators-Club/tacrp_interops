@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\tacint_shark\krieg\scope"
+	"$bumpmap" "models\tacint_shark\krieg\scope norm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1

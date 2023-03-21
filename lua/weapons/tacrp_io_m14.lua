@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Modernized short barrel rifle capable of firing in full auto at a high RPM, but has low damage and range.\nEquipped with a 6x scope by default."
+SWEP.Description = "Modernized short barrel rifle with very fast automatic fire, but punishing recoil.\nEquipped with a 6x scope by default."
 
 // https://gamebanana.com/mods/211865
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m14.mdl"
