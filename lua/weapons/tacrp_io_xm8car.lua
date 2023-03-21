@@ -4,15 +4,15 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "HK XM8 LMG"
+SWEP.PrintName = "HK XM8 Carbine"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Machine gun configuration of an experimental multi-purpose rifle. Light, high capacity and low recoil, but damage is poor.\nHas an integrated 4x scope but no optic mount."
+SWEP.Description = "Experimental multi-purpose weapon in carbine configuration. Easy to use, but low damage.\nHas an integrated 4x scope but no optic mount."
 
-SWEP.ViewModel = "models/weapons/tacint_extras/v_xm8lmg.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_xm8car.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_xm8lmg.mdl"
 
 SWEP.Slot = 2
@@ -20,7 +20,7 @@ SWEP.Slot = 2
 SWEP.ArcadeStats = {
 
     Damage_Max = 15,
-    Damage_Min = 10,
+    Damage_Min = 9,
 
     MoveSpeedMult = 0.85,
     ShootingSpeedMult = 0.75,
@@ -33,8 +33,8 @@ SWEP.ArcadeStats = {
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 15
-SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1100 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
@@ -48,7 +48,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 22000
+SWEP.MuzzleVelocity = 17000
 
 // misc. shooting
 
@@ -64,7 +64,7 @@ SWEP.Spread = 0.0025
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 25
+SWEP.RecoilMaximum = 12
 SWEP.RecoilResetTime = 0.1 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
@@ -73,8 +73,8 @@ SWEP.RecoilVisualKick = 0.5
 
 SWEP.RecoilKick = 1
 
-SWEP.RecoilSpreadPenalty = 0.0006
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.RecoilSpreadPenalty = 0.001
+SWEP.HipFireSpreadPenalty = 0.02
 
 SWEP.CanBlindFire = true
 
@@ -86,8 +86,8 @@ SWEP.SightedSpeedMult = 0.25
 SWEP.MeleeSpeedMult = 0.5
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.42
-SWEP.SprintToFireTime = 0.37
+SWEP.AimDownSightsTime = 0.38
+SWEP.SprintToFireTime = 0.35
 
 // hold types
 
@@ -128,10 +128,10 @@ SWEP.ScopeHideWeapon = true
 
 // reload
 
-SWEP.ClipSize = 100
+SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
-SWEP.ReloadTimeMult = 1.5
+SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/g36k.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
@@ -143,6 +143,7 @@ SWEP.Sound_Shoot = "^" .. path1 .. "m249-1.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 130
+SWEP.Pitch_Shoot = 105
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
@@ -185,7 +186,7 @@ SWEP.AnimationTranslationTable = {
     ["fire5"] = "fire5_M",
     ["melee"] = {"melee1", "melee2"}
 }
-SWEP.DeployTimeMult = 2.25
+SWEP.DeployTimeMult = 1.75
 
 // attachments
 
@@ -228,7 +229,7 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.6, 0.5, 26.5),
+        Pos_VM = Vector(-3.3, 0.075, 22),
         Pos_WM = Vector(-0.25, 24, -1),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
@@ -241,14 +242,15 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(-3.75, -0.8, 17),
+        VMScale = 1.1,
+        Pos_VM = Vector(-4.4, -0.3, 14.2),
         Pos_WM = Vector(0.9, 15, -1),
-        Ang_VM = Angle(90, 0, -80),
+        Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-70, -90, 0),
     },
     [3] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_foldstock2", "acc_sling", "acc_duffle", "extendedbelt", "acc_bipod"},
+        Category = {"acc", "acc_foldstock2", "acc_sling", "acc_duffle", "perk_extendedmag"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
@@ -287,8 +289,8 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_xm8.remove_clip", path1 .. "magout.wav")
-addsound("tacint_xm8.insert_clip", path1 .. "magin.wav")
-addsound("tacint_xm8.bolt_action", path .. "bolt_action.wav")
-addsound("tacint_xm8.fire_select", path .. "fire_selector.wav")
-addsound("tacint_xm8.Buttstock_Back", path .. "buttstock_back.wav")
+addsound("tacint_xm8c.remove_clip", path .. "remove_clip.wav")
+addsound("tacint_xm8c.insert_clip", path .. "insert_clip.wav")
+addsound("tacint_xm8c.bolt_action", path .. "bolt_action.wav")
+addsound("tacint_xm8c.fire_select", path .. "fire_selector.wav")
+addsound("tacint_xm8c.Buttstock_Back", path .. "buttstock_back.wav")
