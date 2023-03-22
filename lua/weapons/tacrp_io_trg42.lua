@@ -87,7 +87,7 @@ SWEP.ShootTimeMult = 1.15
 SWEP.MoveSpeedMult = 0.75
 SWEP.ShootingSpeedMult = 0.25
 SWEP.SightedSpeedMult = 0.15
-SWEP.MeleeSpeedMult = 0.5
+
 SWEP.ReloadSpeedMult = 0.3
 
 SWEP.AimDownSightsTime = 0.38
