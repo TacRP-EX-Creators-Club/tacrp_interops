@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Common"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Rifle caliber machine gun. High damage and good recoil, but mobility and spread is poor."
+SWEP.Description = "Rifle caliber machine gun with drum magazine. High damage and good recoil, but mobility and spread is poor."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_rpk.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
@@ -117,10 +117,10 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.1
 
-SWEP.ClipSize = 75
+SWEP.ClipSize = 60
 SWEP.Ammo = "ar2"
 
-SWEP.ReloadTimeMult = 1.35
+SWEP.ReloadTimeMult = 1.3
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/ak47.mdl"
 SWEP.DropMagazineImpact = "metal"
 
@@ -186,6 +186,11 @@ SWEP.AttachmentElements = {
     ["tactical"] = {
         BGs_VM = {
             {2, 1}
+        },
+    },
+    ["bipod"] = {
+        BGs_VM = {
+            {1, 1}
         },
     },
 }
