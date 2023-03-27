@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$basetexture	"models\tacint_shark\mx4\v_berettamx4"
+	$bumpmap "models\tacint_shark\mx4\v_berettamx4_normal"
+
+	$phong "1"
+	$phongboost "8"
+	$phongexponent "10"
+	$phongfresnelranges "[0.35 0.55 1.0]"
+
+	$envmap "env_cubemap"
+	$envmaptint "[0.3 0.3 0.3]"
+	$normalmapalphaenvmapmask "1"
+	$envmapfresnel "0.4"
+}
