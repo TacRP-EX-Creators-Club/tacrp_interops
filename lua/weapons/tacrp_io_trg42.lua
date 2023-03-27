@@ -17,6 +17,7 @@ SWEP.ViewModel = "models/weapons/tacint_extras/v_trg42.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_trg42.mdl"
 
 SWEP.Slot = 2
+SWEP.SlotAlt = 3
 
 SWEP.ArcadeStats = {
 

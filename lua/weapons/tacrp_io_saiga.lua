@@ -16,6 +16,7 @@ SWEP.ViewModel = "models/weapons/tacint_shark/v_saiga.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
 
 SWEP.Slot = 2
+SWEP.SlotAlt = 3
 
 SWEP.ArcadeStats = {
 

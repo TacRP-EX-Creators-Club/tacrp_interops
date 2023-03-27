@@ -16,6 +16,7 @@ SWEP.ViewModel = "models/weapons/tacint_shark/v_870.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_bekas.mdl"
 
 SWEP.Slot = 2
+SWEP.SlotAlt = 3
 
 SWEP.ArcadeStats = {
     MoveSpeedMult = 0.9,

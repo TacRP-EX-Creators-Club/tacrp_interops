@@ -17,7 +17,8 @@ SWEP.WorldModel = "models/weapons/tacint/w_m320.mdl"
 
 SWEP.NoRanger = true
 
-SWEP.Slot = 4
+SWEP.Slot = 2
+SWEP.SlotAlt = 4
 
 SWEP.ArcadeStats = {
     MoveSpeedMult = 0.9,
@@ -117,9 +118,9 @@ SWEP.SightAng = Angle(-0.7, 2, 2)
 SWEP.SightPos = Vector(-3.8, -3, -5.5)
 
 SWEP.HolsterVisible = true
-SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_GEAR
-SWEP.HolsterPos = Vector(0, -2, -3)
-SWEP.HolsterAng = Angle(0, -90, -25)
+SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
+SWEP.HolsterPos = Vector(5, 0, -6)
+SWEP.HolsterAng = Angle(0, 0, 0)
 
 // melee
 
