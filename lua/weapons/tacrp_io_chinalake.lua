@@ -43,6 +43,13 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
+
+SWEP.Damage_Max = 200 // just to fool the ratings
+SWEP.Damage_Min = 200
+SWEP.Range_Max = 5000
+SWEP.Range_Min = 2000
+
+
 SWEP.MuzzleVelocity = 9000
 
 SWEP.Num = 1
