@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Large magnum pistol. Great capacity and handling for its caliber, but range is low."
+SWEP.Description = "Imposing magnum pistol. Great capacity and handling for its caliber, but range is low."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_deagle.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_deagle.mdl"
