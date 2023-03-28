@@ -34,7 +34,7 @@ SWEP.ArcadeStats = {
 SWEP.Damage_Max = 35
 SWEP.Damage_Min = 25
 SWEP.Range_Min = 800
-SWEP.Range_Max = 5000
+SWEP.Range_Max = 4500
 SWEP.Penetration = 20
 
 SWEP.BodyDamageMultipliers = {
@@ -63,16 +63,16 @@ SWEP.Spread = 0.001
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 7
-SWEP.RecoilResetTime = 0.2
+SWEP.RecoilResetTime = 0.15
 SWEP.RecoilDissipationRate = 8
-SWEP.RecoilFirstShotMult = 0.75
+SWEP.RecoilFirstShotMult = 0.6
 
 SWEP.RecoilVisualKick = 2
 
 SWEP.RecoilKick = 6
 
-SWEP.RecoilSpreadPenalty = 0.006
-SWEP.HipFireSpreadPenalty = 0.05
+SWEP.RecoilSpreadPenalty = 0.005
+SWEP.HipFireSpreadPenalty = 0.04
 SWEP.PeekPenaltyFraction = 0.25
 
 SWEP.CanBlindFire = true
