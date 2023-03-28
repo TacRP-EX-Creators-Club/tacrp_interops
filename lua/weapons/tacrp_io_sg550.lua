@@ -20,10 +20,10 @@ SWEP.Slot = 2
 SWEP.ArcadeStats = {
 
     Damage_Max = 18,
-    Damage_Min = 28,
+    Damage_Min = 32,
 
     Range_Min = 600,
-    Range_Max = 2000,
+    Range_Max = 3000,
 
     MoveSpeedMult = 0.82,
     ShootingSpeedMult = 0.7,
@@ -32,7 +32,7 @@ SWEP.ArcadeStats = {
     ReloadSpeedMult = 1,
 }
 
-SWEP.MuzzleVelocity = 26500
+SWEP.MuzzleVelocity = 28000
 
 // "ballistics"
 
