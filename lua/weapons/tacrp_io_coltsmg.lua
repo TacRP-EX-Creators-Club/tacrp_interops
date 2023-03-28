@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Common"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "AR pattern burst SMG. Great damage and range for its caliber."
+SWEP.Description = "AR pattern burst SMG. Excellent recoil control, good damage and range."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_coltsmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
@@ -19,7 +19,7 @@ SWEP.Slot = 2
 
 SWEP.ArcadeStats = {
 
-    Damage_Max = 20,
+    Damage_Max = 18,
     Damage_Min = 9,
 
     MoveSpeedMult = 0.9,
@@ -31,15 +31,15 @@ SWEP.ArcadeStats = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 14
-SWEP.Damage_Min = 6
-SWEP.Range_Min = 1200
-SWEP.Range_Max = 3800
+SWEP.Damage_Max = 15
+SWEP.Damage_Min = 7
+SWEP.Range_Min = 1400
+SWEP.Range_Max = 4000
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_CHEST] = 1.4,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -58,19 +58,19 @@ SWEP.Firemodes = {
 }
 SWEP.RunawayBurst = true
 SWEP.AutoBurst = false
-SWEP.PostBurstDelay = 0.12
+SWEP.PostBurstDelay = 0.15
 
 SWEP.RPM = 900
 
-SWEP.Spread = 0.0085
+SWEP.Spread = 0.0055
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 15
-SWEP.RecoilResetTime = 0.15
-SWEP.RecoilDissipationRate = 18
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilMaximum = 10
+SWEP.RecoilResetTime = 0.1
+SWEP.RecoilDissipationRate = 15
+SWEP.RecoilFirstShotMult = 0.5
 
 SWEP.RecoilVisualKick = 0.75
 
@@ -149,7 +149,7 @@ SWEP.QCA_Muzzle = 1
 SWEP.QCA_Eject = 2
 
 SWEP.MuzzleEffect = "muzzleflash_ak47"
-SWEP.EjectEffect = 2
+SWEP.EjectEffect = 1
 
 // anims
 
@@ -205,8 +205,9 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
-        VMScale = 1,
-        Pos_VM = Vector(-7.4, 0, 5),
+        InstalledElements = {"tactical"},
+        VMScale = 0.9,
+        Pos_VM = Vector(-7.4, -0.08, 7),
         Pos_WM = Vector(0.75, 5, 1.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90 + 3.5, 0),
