@@ -14,11 +14,15 @@ SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility 
 
 // https://gamebanana.com/mods/207972
 SWEP.ViewModel = "models/weapons/tacint_extras/v_t850.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_mr96.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_t850.mdl"
 
 SWEP.Slot = 1
 
 SWEP.ArcadeStats = {
+
+    Damage_Max = 50,
+    Damage_Min = 18,
+
     MoveSpeedMult = 1,
     ShootingSpeedMult = 0.85,
     SightedSpeedMult = 1,
@@ -28,8 +32,8 @@ SWEP.ArcadeStats = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 50 // damage at minimum range
-SWEP.Damage_Min = 18 // damage at maximum range
+SWEP.Damage_Max = 40
+SWEP.Damage_Min = 12
 SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
@@ -63,11 +67,11 @@ SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
 SWEP.RecoilResetTime = 0.25
 SWEP.RecoilDissipationRate = 7
-SWEP.RecoilFirstShotMult = 0.8
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 2
 
-SWEP.RecoilKick = 10
+SWEP.RecoilKick = 12
 
 SWEP.RecoilSpreadPenalty = 0.01
 SWEP.HipFireSpreadPenalty = 0.005
@@ -131,7 +135,7 @@ local path = "tacint_extras/t850/"
 local path1 = "tacrp/weapons/mr96/"
 SWEP.Sound_Shoot = "^" .. path .. "deagle-1.wav"
 
-SWEP.Vol_Shoot = 130
+SWEP.Vol_Shoot = 120
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
