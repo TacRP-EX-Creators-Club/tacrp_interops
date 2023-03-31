@@ -12,6 +12,7 @@ SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility and hip fire accuracy, and good recoil among magnum pistols."
 
+// https://gamebanana.com/mods/207972
 SWEP.ViewModel = "models/weapons/tacint_extras/v_t850.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_mr96.mdl"
 
@@ -56,7 +57,7 @@ SWEP.RPM = 200
 
 SWEP.Spread = 0.008
 
-SWEP.ShootTimeMult = 1
+SWEP.ShootTimeMult = 0.65
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
@@ -64,7 +65,7 @@ SWEP.RecoilResetTime = 0.25
 SWEP.RecoilDissipationRate = 7
 SWEP.RecoilFirstShotMult = 0.8
 
-SWEP.RecoilVisualKick = 4
+SWEP.RecoilVisualKick = 2
 
 SWEP.RecoilKick = 10
 
