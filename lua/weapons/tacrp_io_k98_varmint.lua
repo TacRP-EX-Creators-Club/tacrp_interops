@@ -4,15 +4,15 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Kar98k Sporter"
+SWEP.PrintName = "Varmint Rifle"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "4Common"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close, but cannot use long range optics."
+SWEP.Description = "Carbine caliber bolt-action rifle. Lightweight, easy to use and has a generous capacity, but damage is low.\nFor rodents of... unassuming size."
 
-SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
+SWEP.ViewModel = "models/weapons/tacint_extras/v_k98_varmint.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_spr.mdl"
 
 SWEP.Slot = 2
@@ -20,23 +20,23 @@ SWEP.SlotAlt = 3
 
 SWEP.ArcadeStats = {
 
-    Damage_Max = 80,
-    Damage_Min = 55,
+    Damage_Max = 40,
+    Damage_Min = 25,
 
-    MoveSpeedMult = 0.8,
-    ShootingSpeedMult = 0.65,
-    SightedSpeedMult = 0.8,
+    MoveSpeedMult = 0.9,
+    ShootingSpeedMult = 0.8,
+    SightedSpeedMult = 0.9,
     MeleeSpeedMult = 1,
     ReloadSpeedMult = 1,
 }
 
 // "ballistics"
 
-SWEP.Damage_Max = 65
-SWEP.Damage_Min = 45
-SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
+SWEP.Damage_Max = 35
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
 SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
-SWEP.Penetration = 15 // units of metal this weapon can penetrate
+SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1.25,
@@ -48,7 +48,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.5
 }
 
-SWEP.MuzzleVelocity = 32000
+SWEP.MuzzleVelocity = 36000
 
 // misc. shooting
 
@@ -56,37 +56,37 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 42
+SWEP.RPM = 60
 
-SWEP.Spread = 0.001
+SWEP.Spread = 0.003
 
-SWEP.HipFireSpreadPenalty = 0.03
+SWEP.HipFireSpreadPenalty = 0.0125
 SWEP.PeekPenaltyFraction = 0.3
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 1
-SWEP.RecoilResetTime = 0.2
-SWEP.RecoilDissipationRate = 1
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilMaximum = 2.5
+SWEP.RecoilResetTime = 0.35
+SWEP.RecoilDissipationRate = 1.1
+SWEP.RecoilFirstShotMult = 0.8
 
-SWEP.RecoilVisualKick = 5
+SWEP.RecoilVisualKick = 2
 
-SWEP.RecoilKick = 5
+SWEP.RecoilKick = 2
 
-SWEP.RecoilSpreadPenalty = 0 // extra spread per one unit of recoil
+SWEP.RecoilSpreadPenalty = 0.005
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.75
-SWEP.ShootingSpeedMult = 0.4
-SWEP.SightedSpeedMult = 0.35
+SWEP.MoveSpeedMult = 0.85
+SWEP.ShootingSpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.5
 
-SWEP.ReloadSpeedMult = 0.3
+SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.3
-SWEP.SprintToFireTime = 0.4
+SWEP.AimDownSightsTime = 0.32
+SWEP.SprintToFireTime = 0.37
 
 // hold types
 
@@ -134,20 +134,21 @@ SWEP.ScopeFOV = 90 / 2
 
 // reload
 
-SWEP.ClipSize = 5
-SWEP.Ammo = "SniperPenetratedRound"
+SWEP.ClipSize = 20
+SWEP.Ammo = "smg1"
 
-SWEP.ReloadTimeMult = 1
-SWEP.ShootTimeMult = 0.9
-SWEP.DropMagazineModel = false
+SWEP.ReloadTimeMult = 1.25
+SWEP.ShootTimeMult = 0.725
+SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.DropMagazineImpact = "metal"
 
 // sounds
 
 // local path = "TacRP/weapons/spr/"
 local path1 = "tacint_extras/k98/"
 
-SWEP.Sound_Shoot = "^" .. path1 .. "scout_fire-1.wav"
-SWEP.Sound_Shoot_Silenced = "TacRP/weapons/ak47/ak47_fire_silenced-1.wav"
+SWEP.Sound_Shoot = "^" .. path1 .. "k98_shoot3.wav"
+SWEP.Sound_Shoot_Silenced = "tacrp/weapons/m1/fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 130
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -159,9 +160,11 @@ SWEP.QCA_Muzzle = 1
 // ditto for shell
 SWEP.QCA_Eject = 2
 
-SWEP.MuzzleEffect = "muzzleflash_1"
+SWEP.MuzzleEffect = "muzzleflash_ak47"
 SWEP.EjectEffect = 2
-SWEP.EjectDelay = 0.7
+SWEP.EjectDelay = 0.4
+
+SWEP.DefaultSkin = 1
 
 // anims
 
@@ -289,11 +292,8 @@ local function addsound(name, spath)
     })
 end
 
-addsound("tacint_extras_k98.Clip_Out", path1 .. "magout.wav")
-addsound("tacint_extras_k98.Clip_In", path1 .. "magin.wav")
-addsound("tacint_extras_k98.Bolt_Back", path1 .. "boltback.wav")
-addsound("tacint_extras_k98.bolt_forward", path1 .. "boltforward.wav")
-addsound("tacint_extras_k98.safety", path1 .. "magrelease.wav")
-
-addsound("tacint_extras_k98.bolt_up", path1 .. "boltlatch.wav")
-addsound("tacint_extras_k98.bolt_down", path1 .. "boltrelease.wav")
+addsound("tacint_extras_k98_varmint.Clip_Out", "tacrp/weapons/m14/m14_remove_clip.wav")
+addsound("tacint_extras_k98_varmint.Clip_In", "tacrp/weapons/m14/m14_insert_clip.wav")
+addsound("tacint_extras_k98_varmint.Bolt_Back", path1 .. "boltback.wav")
+addsound("tacint_extras_k98_varmint.bolt_forward", path1 .. "boltforward.wav")
+addsound("tacint_extras_k98_varmint.safety", path1 .. "magrelease.wav")

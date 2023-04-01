@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models/tacint_extras/k98/v_k98_yellow"
+    "$bumpmap" "models/tacint_extras/k98/v_k98_normal"
+    "$envmap" "env_cubemap"
+    "$envmaptint" "[.1 .1 .1]"
+    "$envmapcontrast" "0.90"
+	"$phong" 		"1"
+	"$phongexponent" 	"0.2"
+	"$phongboost" "0.7"
+
+	"$phongexponenttexture" 	"models\weapons\v_models\hands\v_hands_phongwarp"
+}
