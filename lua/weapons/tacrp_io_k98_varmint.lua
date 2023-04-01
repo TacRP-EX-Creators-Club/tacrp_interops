@@ -13,7 +13,7 @@ SWEP.SubCatType = "7Sniper Rifle"
 SWEP.Description = "Carbine caliber bolt-action rifle. Lightweight, easy to use and has a generous capacity, but damage is low.\nFor rodents of... unassuming size."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98_varmint.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_spr.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_k98_varmint.mdl"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -222,7 +222,7 @@ SWEP.Attachments = {
         InstalledElements = {"optic"},
         Pos_VM = Vector(-3.85, 0.1, 14),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(-3, 1.25, -5.6),
+        Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),
     },
     [2] = {
@@ -233,8 +233,9 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.75,
+        WMScale = 0.75,
         Pos_VM = Vector(-2.5, 0.125, 36),
-        Pos_WM = Vector(22.5, 1.2, -4.9),
+        Pos_WM = Vector(23, 1.2, -4.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
     },
@@ -247,7 +248,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
         Pos_VM = Vector(-2, -0.8, 18),
-        Pos_WM = Vector(8, 2, -4),
+        Pos_WM = Vector(6, 2, -4),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(0, 0, 90),
     },

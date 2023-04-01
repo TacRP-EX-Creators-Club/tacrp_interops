@@ -13,7 +13,7 @@ SWEP.SubCatType = "7Sniper Rifle"
 SWEP.Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close, but cannot use long range optics."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_spr.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_k98.mdl"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -219,7 +219,7 @@ SWEP.Attachments = {
         InstalledElements = {"optic"},
         Pos_VM = Vector(-3.85, 0.1, 14),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(-3, 1.25, -5.6),
+        Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),
     },
     [2] = {
@@ -230,8 +230,9 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.75,
+        WMScale = 0.75,
         Pos_VM = Vector(-2.5, 0.125, 41),
-        Pos_WM = Vector(22.5, 1.2, -4.9),
+        Pos_WM = Vector(25.5, 1.2, -4.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
     },
