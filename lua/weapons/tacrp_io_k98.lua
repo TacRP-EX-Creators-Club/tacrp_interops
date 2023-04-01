@@ -138,7 +138,7 @@ SWEP.ClipSize = 5
 SWEP.Ammo = "SniperPenetratedRound"
 
 SWEP.ReloadTimeMult = 1
-SWEP.ShootTimeMult = 0.9
+SWEP.ShootTimeMult = 0.95
 SWEP.DropMagazineModel = false
 
 // sounds
@@ -268,7 +268,7 @@ SWEP.Attachments = {
     },
     [7] = {
         PrintName = "Ammo",
-        Category = {"ammo_sniper"},
+        Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

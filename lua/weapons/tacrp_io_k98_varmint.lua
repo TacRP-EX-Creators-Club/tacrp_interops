@@ -35,10 +35,10 @@ SWEP.ArcadeStats = {
 SWEP.Damage_Max = 35
 SWEP.Damage_Min = 20
 SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 5500 // distance at which we drop to minimum damage
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.75,
@@ -58,22 +58,22 @@ SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name dist
 
 SWEP.RPM = 60
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.0015
 
 SWEP.HipFireSpreadPenalty = 0.0125
 SWEP.PeekPenaltyFraction = 0.3
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 2.5
-SWEP.RecoilResetTime = 0.35
-SWEP.RecoilDissipationRate = 1.1
-SWEP.RecoilFirstShotMult = 0.8
+SWEP.RecoilResetTime = 0.4
+SWEP.RecoilDissipationRate = 1.25
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 2
 
 SWEP.RecoilKick = 2
 
-SWEP.RecoilSpreadPenalty = 0.005
+SWEP.RecoilSpreadPenalty = 0.0025
 
 SWEP.CanBlindFire = true
 
@@ -162,7 +162,7 @@ SWEP.QCA_Eject = 2
 
 SWEP.MuzzleEffect = "muzzleflash_ak47"
 SWEP.EjectEffect = 2
-SWEP.EjectDelay = 0.4
+SWEP.EjectDelay = 0.5
 
 SWEP.DefaultSkin = 1
 
@@ -233,7 +233,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.75,
-        Pos_VM = Vector(-2.5, 0.125, 41),
+        Pos_VM = Vector(-2.5, 0.125, 36),
         Pos_WM = Vector(22.5, 1.2, -4.9),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 180),
@@ -246,14 +246,14 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(-2, -0.8, 20),
+        Pos_VM = Vector(-2, -0.8, 18),
         Pos_WM = Vector(8, 2, -4),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(0, 0, 90),
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_extmag_sniper", "acc_sling", "acc_duffle", "acc_bipod"},
+        Category = {"acc", "perk_extendedmag", "acc_sling", "acc_duffle", "acc_bipod"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
@@ -271,7 +271,7 @@ SWEP.Attachments = {
     },
     [7] = {
         PrintName = "Ammo",
-        Category = {"ammo_sniper"},
+        Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
