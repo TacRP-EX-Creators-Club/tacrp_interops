@@ -59,21 +59,21 @@ SWEP.FiremodeName = "Double-Action" // only used externally for firemode name di
 
 SWEP.RPM = 200
 
-SWEP.Spread = 0.008
+SWEP.Spread = 0.01
 
 SWEP.ShootTimeMult = 0.65
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
 SWEP.RecoilResetTime = 0.25
-SWEP.RecoilDissipationRate = 7
+SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 2
 
-SWEP.RecoilKick = 12
+SWEP.RecoilKick = 10
 
-SWEP.RecoilSpreadPenalty = 0.01
+SWEP.RecoilSpreadPenalty = 0.014
 SWEP.HipFireSpreadPenalty = 0.005
 
 SWEP.CanBlindFire = true
@@ -127,7 +127,7 @@ SWEP.ScopedSway = 1
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 0.9
+SWEP.ReloadTimeMult = 1
 
 // sounds
 
