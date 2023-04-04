@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Desert Eagle .44"
+SWEP.PrintName = "Desert Eagle"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Imposing magnum pistol. Great capacity and handling for its caliber, but range is low."
+SWEP.Description = "Imposing magnum pistol. Powerful, but recoil is hard to manage."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_deagle.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_deagle.mdl"
@@ -63,16 +63,16 @@ SWEP.ArcadeStats = {
 
 // "ballistics"
 
-SWEP.Damage_Max = 55
-SWEP.Damage_Min = 25
-SWEP.Range_Min = 300
-SWEP.Range_Max = 2000
+SWEP.Damage_Max = 80
+SWEP.Damage_Min = 40
+SWEP.Range_Min = 150
+SWEP.Range_Max = 1500
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 
 SWEP.MuzzleVelocity = 10000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
+    [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1.25,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
@@ -88,19 +88,19 @@ SWEP.Firemode = 1
 
 SWEP.RPM = 180
 
-SWEP.Spread = 0.0075
+SWEP.Spread = 0.009
 
-SWEP.ShootTimeMult = 0.75
+SWEP.ShootTimeMult = 0.7
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 3
+SWEP.RecoilMaximum = 4
 SWEP.RecoilResetTime = 0.3
-SWEP.RecoilDissipationRate = 6
-SWEP.RecoilFirstShotMult = 0.8 // multiplier for the first shot's recoil amount
+SWEP.RecoilDissipationRate = 5
+SWEP.RecoilFirstShotMult = 0.9
 
-SWEP.RecoilVisualKick = 3
+SWEP.RecoilVisualKick = 5
 
-SWEP.RecoilKick = 12
+SWEP.RecoilKick = 15
 
 SWEP.RecoilSpreadPenalty = 0.025
 
@@ -147,7 +147,7 @@ SWEP.Sway = 1.5
 SWEP.ScopedSway = 0.6
 
 // reload
-SWEP.ClipSize = 8
+SWEP.ClipSize = 7
 SWEP.Ammo = "357"
 SWEP.ReloadTimeMult = 1.4
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
