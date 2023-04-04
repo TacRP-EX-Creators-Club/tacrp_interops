@@ -30,7 +30,7 @@ SWEP.BalanceStats = {
         Damage_Max = 15,
         Damage_Min = 7,
 
-        ReloadTimeMult = 1.35 * 1.25,
+        ReloadTimeMult = 1.5 * 1.25,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.75,
@@ -139,7 +139,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 SWEP.ClipSize = 7
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 1.35
+SWEP.ReloadTimeMult = 1.5
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
 SWEP.DropMagazineImpact = "pistol"
@@ -188,7 +188,8 @@ SWEP.AnimationTranslationTable = {
     ["fire_iron"] = "shoot2",
     ["fire"] = {"shoot1", "shoot2", "shoot3"},
     ["blind_fire"] = {"blind_shoot1", "blind_shoot2", "blind_shoot3"},
-    ["melee"] = {"melee1", "melee2"}
+    ["melee"] = {"melee1", "melee2"},
+    ["reload"] = "reload2",
 }
 
 SWEP.NoIdle = true
