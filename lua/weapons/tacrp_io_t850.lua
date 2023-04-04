@@ -18,16 +18,50 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_t850.mdl"
 
 SWEP.Slot = 1
 
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 50,
+        Damage_Min = 18,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.85,
+        SightedSpeedMult = 1,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 37,
+        Damage_Min = 15,
+
+        RPM = 150,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.75
+        },
+
+        RecoilResetTime = 0.3,
+        RecoilDissipationRate = 4,
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.75,
+        ReloadSpeedMult = 0.8,
+    },
+}
+
 SWEP.ArcadeStats = {
 
-    Damage_Max = 50,
-    Damage_Min = 18,
 
-    MoveSpeedMult = 1,
-    ShootingSpeedMult = 0.85,
-    SightedSpeedMult = 1,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
 }
 
 // "ballistics"
@@ -119,8 +153,8 @@ SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
 SWEP.HolsterPos = Vector(0, 3, -4)
 SWEP.HolsterAng = Angle(90, 0, 0)
 
-SWEP.Sway = 1.25
-SWEP.ScopedSway = 0.5
+SWEP.Sway = 0.75
+SWEP.ScopedSway = 0.4
 
 // reload
 

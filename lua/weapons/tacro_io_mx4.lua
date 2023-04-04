@@ -8,25 +8,48 @@ SWEP.PrintName = "Beretta MX4 Storm"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "3Quality"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Submachine Gun"
 
 SWEP.Description = "Compact SMG-carbine hybrid with a higher effective range than its counterparts."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mx4.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_uzi.mdl"
 
-SWEP.Slot = 1
+SWEP.Slot = 2
+
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 15,
+        Damage_Min = 6,
+
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
+        SightedSpeedMult = 0.85,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 12,
+        Damage_Min = 6,
+
+        RPM = 700,
+
+        RecoilSpreadPenalty = 0.0012,
+        HipFireSpreadPenalty = 0.03,
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.95,
+        ShootingSpeedMult = 0.85,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.6,
+        ReloadSpeedMult = 0.7,
+    },
+}
 
 SWEP.ArcadeStats = {
 
-    Damage_Max = 15,
-    Damage_Min = 6,
 
-    MoveSpeedMult = 0.95,
-    ShootingSpeedMult = 0.8,
-    SightedSpeedMult = 0.9,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
 }
 
 // "ballistics"

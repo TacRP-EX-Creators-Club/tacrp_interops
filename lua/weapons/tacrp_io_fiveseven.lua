@@ -17,16 +17,39 @@ SWEP.WorldModel = "models/weapons/tacint/w_p2000.mdl"
 
 SWEP.Slot = 1
 
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 15,
+        Damage_Min = 13,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.9,
+        SightedSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 20,
+        Damage_Min = 15,
+
+        RPM = 240,
+
+        RecoilMaximum = 5,
+        RecoilResetTime = 0.22,
+        RecoilDissipationRate = 7,
+        RecoilSpreadPenalty = 0.0075,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 1,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.75,
+        ReloadSpeedMult = 0.8,
+    },
+}
+
 SWEP.ArcadeStats = {
 
-    Damage_Max = 15,
-    Damage_Min = 13,
 
-    MoveSpeedMult = 1,
-    ShootingSpeedMult = 0.9,
-    SightedSpeedMult = 0.9,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
 }
 
 // "ballistics"
@@ -84,8 +107,8 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.28
 SWEP.SprintToFireTime = 0.28
 
-SWEP.Sway = 2
-SWEP.ScopedSway = 1
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.5
 
 // hold types
 

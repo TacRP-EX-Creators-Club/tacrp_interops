@@ -17,12 +17,48 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_deagle.mdl"
 
 SWEP.Slot = 1
 
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.8,
+        SightedSpeedMult = 0.85,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 40,
+        Damage_Min = 20,
+
+        Range_Min = 200,
+        Range_Max = 1500,
+
+        RPM = 150,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.75
+        },
+
+        RecoilDissipationRate = 4.5,
+
+        ReloadTimeMult = 1.4 * 1.25,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.75,
+        ReloadSpeedMult = 0.75,
+    },
+}
+
 SWEP.ArcadeStats = {
-    MoveSpeedMult = 1,
-    ShootingSpeedMult = 0.8,
-    SightedSpeedMult = 0.85,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+
 }
 
 // "ballistics"
@@ -106,6 +142,9 @@ SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
 SWEP.HolsterPos = Vector(0, 3, -4)
 SWEP.HolsterAng = Angle(90, 0, 0)
+
+SWEP.Sway = 1.5
+SWEP.ScopedSway = 0.6
 
 // reload
 SWEP.ClipSize = 8

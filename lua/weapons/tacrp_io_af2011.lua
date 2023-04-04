@@ -17,17 +17,33 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_m1911.mdl"
 
 SWEP.Slot = 1
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 28,
+        Damage_Min = 8,
 
-    Damage_Max = 28,
-    Damage_Min = 8,
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.9,
+        SightedSpeedMult = 1,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 25,
+        Damage_Min = 6,
 
-    MoveSpeedMult = 1,
-    ShootingSpeedMult = 1,
-    SightedSpeedMult = 1,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        RPM = 150,
+
+        ReloadTimeMult = 1.15 * 1.25,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.75,
+        ReloadSpeedMult = 0.8,
+    },
 }
+
 
 // "ballistics"
 
@@ -58,9 +74,11 @@ SWEP.RPM = 300
 
 SWEP.Num = 2
 
-SWEP.Spread = 0.009
+SWEP.Spread = 0.007
+SWEP.ShotgunPelletSpread = 0.0035
+
 SWEP.RecoilSpreadPenalty = 0.0075
-SWEP.HipFireSpreadPenalty = 0.015
+SWEP.HipFireSpreadPenalty = 0.0125
 
 SWEP.ShootTimeMult = 0.65
 
@@ -87,8 +105,8 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.28
 SWEP.SprintToFireTime = 0.27
 
-SWEP.Sway = 2
-SWEP.ScopedSway = 1
+SWEP.Sway = 1.25
+SWEP.ScopedSway = 0.5
 
 // hold types
 

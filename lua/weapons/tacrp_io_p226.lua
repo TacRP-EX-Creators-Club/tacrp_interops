@@ -17,15 +17,42 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_p226.mdl"
 
 SWEP.Slot = 1
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 1,
+        SightedSpeedMult = 1,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 20,
+        Damage_Min = 16,
 
-    RecoilKick = 4,
+        Range_Min = 500,
+        Range_Max = 3000,
 
-    MoveSpeedMult = 1,
-    ShootingSpeedMult = 1,
-    SightedSpeedMult = 1,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        RPM = 270,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.9,
+            [HITGROUP_RIGHTLEG] = 0.9,
+            [HITGROUP_GEAR] = 0.9
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 1,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.75,
+        ReloadSpeedMult = 0.8,
+    },
 }
 
 // "ballistics"
@@ -46,7 +73,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
     [HITGROUP_RIGHTLEG] = 0.75,
-    [HITGROUP_GEAR] = 0.9
+    [HITGROUP_GEAR] = 0.75
 }
 
 // misc. shooting
@@ -67,7 +94,7 @@ SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 2
 
-SWEP.RecoilKick = 5
+SWEP.RecoilKick = 4
 
 SWEP.RecoilSpreadPenalty = 0.003
 
@@ -110,15 +137,15 @@ SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
 SWEP.HolsterPos = Vector(0, 3, -4)
 SWEP.HolsterAng = Angle(90, 0, 0)
 
-SWEP.Sway = 2
-SWEP.ScopedSway = 1
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.5
 
 // reload
 
 SWEP.ClipSize = 10
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1.1
+SWEP.ReloadTimeMult = 1
 
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p250.mdl"
 SWEP.DropMagazineImpact = "pistol"

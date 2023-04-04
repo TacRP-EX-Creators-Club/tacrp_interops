@@ -1,10 +1,7 @@
 {
   "title": "TacRP InterOps",
-  "type": "weapon",
-  "tags": [
-    "realism",
-    "roleplay"
-  ],
+  "type": "ServerContent",
+  "tags": [],
 	"ignore":
 	[
 		"*.cmd",
@@ -14,9 +11,10 @@
 		"*.psd",
 		"_workfolder/*",
 		".gitattributes",
-    ".gitignore",
+		".gitignore",
 		"README.md",
 		".git/*",
-    "tiers.txt"
+		"tiers.txt",
+		"tacrp_interops.jpg"
 	]
 }
