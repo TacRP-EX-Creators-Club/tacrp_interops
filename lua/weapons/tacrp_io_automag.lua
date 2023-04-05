@@ -206,9 +206,9 @@ SWEP.ProceduralIronFire = {
         },
         {
             bone = "ValveBiped.hammer",
-            ang = Angle(-15, 0, 0),
-            t0 = 0,
-            t1 = 0.2,
+            ang = Angle(-170, 0, 0),
+            t0 = 0.05,
+            t1 = 0.4,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger1",
@@ -225,7 +225,7 @@ SWEP.ProceduralIronFire = {
     },
 }
 
-SWEP.NoIdle = true
+SWEP.NoIdle = false
 
 SWEP.ShootTimeMult = 0.5
 
