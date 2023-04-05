@@ -14,7 +14,7 @@ SWEP.Description = "Highly accurate magnum pistol. Great handling due to its siz
 
 // https://gamebanana.com/mods/207420
 SWEP.ViewModel = "models/weapons/tacint_extras/v_automag.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_p2000.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_automag.mdl"
 
 SWEP.Slot = 1
 
@@ -245,7 +245,7 @@ SWEP.Attachments = {
         WMScale = 1,
         Pos_VM = Vector(-4, -0.14, -0.4),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, -1, -1),
+        Pos_WM = Vector(0, -2.5, -0.75),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -271,9 +271,9 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1.1,
         WMScale = 1.3,
-        Pos_VM = Vector(-2, 0, 6),
+        Pos_VM = Vector(-2.75, 0, 8),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 5, -2.75),
+        Pos_WM = Vector(0, 6.5, -2),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {
