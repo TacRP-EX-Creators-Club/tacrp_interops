@@ -47,11 +47,6 @@ SWEP.BalanceStats = {
     },
 }
 
-SWEP.ArcadeStats = {
-
-
-}
-
 // "ballistics"
 
 SWEP.Damage_Max = 11
@@ -111,6 +106,9 @@ SWEP.ReloadSpeedMult = 0.6
 SWEP.AimDownSightsTime = 0.3
 SWEP.SprintToFireTime = 0.33
 
+SWEP.Sway = 0.8
+SWEP.ScopedSway = 0.2
+
 // hold types
 
 SWEP.HoldType = "revolver"
@@ -139,9 +137,6 @@ SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
 SWEP.HolsterPos = Vector(0, 3, -4)
 SWEP.HolsterAng = Angle(90, 0, 0)
-
-SWEP.Sway = 1.2
-SWEP.ScopedSway = 0.4
 
 // reload
 

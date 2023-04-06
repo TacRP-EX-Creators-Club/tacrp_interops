@@ -18,16 +18,48 @@ SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 10,
+        Damage_Min = 3,
 
-    Damage_Max = 10,
-    Damage_Min = 3,
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.75,
+        SightedSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Description = "Magazine fed shotgun chambered in a relatively small shell. High capacity and fire rate, but low damage and spread.",
 
-    MoveSpeedMult = 0.9,
-    ShootingSpeedMult = 0.75,
-    SightedSpeedMult = 0.9,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        Damage_Max = 6,
+        Damage_Min = 2,
+        Range_Min = 200,
+        Range_Max = 2500,
+        Num = 6,
+        RPM = 200,
+
+        Spread = 0.02,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.4,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.75,
+        ReloadSpeedMult = 0.4,
+    },
 }
 
 // "ballistics"
@@ -99,7 +131,7 @@ SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeBlindFire = false
 
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW
-SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
+SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
 SWEP.PassiveAng = Angle(0, 0, 0)
 SWEP.PassivePos = Vector(0, -2, -6)
