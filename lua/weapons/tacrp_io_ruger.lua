@@ -30,17 +30,18 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 10,
-        Damage_Min = 5,
+        Damage_Min = 7,
+        Range_Min = 1500,
+        Range_Max = 5000,
+        RPM = 600,
 
-        RPM = 300,
-
-        ReloadTimeMult = 1.25,
+        ReloadTimeMult = 1.15,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 1,
         MeleeSpeedMult = 1,
-        SightedSpeedMult = 0.75,
-        ReloadSpeedMult = 0.8,
+        SightedSpeedMult = 0.85,
+        ReloadSpeedMult = 0.9,
     },
 }
 
@@ -79,14 +80,14 @@ SWEP.Spread = 0.0015
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 8
-SWEP.RecoilResetTime = 0.12
+SWEP.RecoilResetTime = 0.1
 SWEP.RecoilDissipationRate = 10
-SWEP.RecoilFirstShotMult = 0.75
+SWEP.RecoilFirstShotMult = 0.9
 
-SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 1
 
-SWEP.RecoilSpreadPenalty = 0.001
+SWEP.RecoilSpreadPenalty = 0.0005
 SWEP.HipFireSpreadPenalty = 0.015
 SWEP.MidAirSpreadPenalty = 0.06
 SWEP.PeekPenaltyFraction = 0.5
@@ -104,8 +105,9 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.225
 SWEP.SprintToFireTime = 0.25
 
-SWEP.Sway = 0.75
-SWEP.ScopedSway = 0.25
+SWEP.Sway = 0.5
+SWEP.ScopedSway = 0.1
+SWEP.BlindFireSway = 0.5
 
 // hold types
 
@@ -192,7 +194,7 @@ SWEP.MuzzleEffect = "muzzleflash_suppressed"
 // attack1
 SWEP.AnimationTranslationTable = {
     ["deploy"] = "draw",
-    ["fire_iron"] = "shoot2",
+    ["fire_iron"] = "sshoot1",
     ["fire"] = {"shoot1", "shoot2", "shoot3"},
     ["blind_fire"] = {"blind_shoot1", "blind_shoot2", "blind_shoot3"},
     ["melee"] = {"melee1", "melee2"}

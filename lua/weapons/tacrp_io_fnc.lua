@@ -10,25 +10,60 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Common"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Assault rifle with high hipfire precision."
+SWEP.Description = "Assault rifle with high hipfire precision and mobility."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_fnc.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_k1a.mdl"
 
 SWEP.Slot = 2
 
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 18,
+        Damage_Min = 8,
+
+        RecoilKick = 2.5,
+
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.8,
+        SightedSpeedMult = 0.8,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 11,
+        Damage_Min = 7,
+        Range_Min = 200,
+        Range_Max = 2000,
+
+        Spread = 0.01,
+        RecoilSpreadPenalty = 0.0015,
+        HipFireSpreadPenalty = 0.005,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.95,
+        ShootingSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.7,
+        ReloadSpeedMult = 0.6,
+    },
+}
+
 SWEP.ArcadeStats = {
 
-    Damage_Max = 18,
-    Damage_Min = 8,
 
-    RecoilKick = 2.5,
-
-    MoveSpeedMult = 0.85,
-    ShootingSpeedMult = 0.8,
-    SightedSpeedMult = 0.8,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
 }
 
 // "ballistics"
@@ -58,7 +93,7 @@ SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 700
 
-SWEP.Spread = 0.005
+SWEP.Spread = 0.0075
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 15
@@ -72,6 +107,7 @@ SWEP.RecoilKick = 3
 
 SWEP.RecoilSpreadPenalty = 0.001
 SWEP.HipFireSpreadPenalty = 0.015
+SWEP.PeekPenaltyFraction = 0.15
 
 SWEP.CanBlindFire = true
 
@@ -83,8 +119,11 @@ SWEP.SightedSpeedMult = 0.25
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.35
-SWEP.SprintToFireTime = 0.375
+SWEP.AimDownSightsTime = 0.32
+SWEP.SprintToFireTime = 0.35
+
+SWEP.Sway = 1.25
+SWEP.ScopedSway = 0.15
 
 // hold types
 

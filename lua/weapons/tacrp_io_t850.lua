@@ -33,7 +33,10 @@ SWEP.BalanceStats = {
         Damage_Max = 37,
         Damage_Min = 15,
 
-        RPM = 150,
+        Range_Min = 100,
+        Range_Max = 1500,
+
+        RPM = 180,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,

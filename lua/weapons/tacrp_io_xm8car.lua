@@ -10,23 +10,52 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Experimental multi-purpose weapon in carbine configuration. Easy to use, but low damage.\nHas an integrated 4x scope but no optic mount."
+SWEP.Description = "Experimental multi-purpose carbine. Easy to use, but low damage.\nHas an integrated 4x scope but no optic mount."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_xm8car.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_xm8lmg.mdl"
 
 SWEP.Slot = 2
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 15,
+        Damage_Min = 9,
 
-    Damage_Max = 15,
-    Damage_Min = 9,
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.75,
+        SightedSpeedMult = 0.8,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 11,
+        Damage_Min = 6,
+        Range_Min = 750,
+        Range_Max = 2500,
+        RPM = 750,
 
-    MoveSpeedMult = 0.85,
-    ShootingSpeedMult = 0.75,
-    SightedSpeedMult = 0.8,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        RecoilSpreadPenalty = 0.001,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.55,
+        ReloadSpeedMult = 0.5,
+    },
 }
 
 // "ballistics"
@@ -74,7 +103,7 @@ SWEP.RecoilVisualKick = 0.5
 SWEP.RecoilKick = 1
 
 SWEP.RecoilSpreadPenalty = 0.001
-SWEP.HipFireSpreadPenalty = 0.02
+SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.CanBlindFire = true
 

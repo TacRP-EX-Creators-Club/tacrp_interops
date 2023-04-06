@@ -29,12 +29,25 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 6,
-        Damage_Min = 2,
-
+        Damage_Max = 10,
+        Damage_Min = 4,
+        Range_Min = 200,
+        Range_Max = 1750,
         RPM = 1000,
 
-        HipFireSpreadPenalty = 0.025,
+        HipFireSpreadPenalty = 0.015,
+        RecoilMaximum = 10,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
 
         ReloadTimeMult = 1.4 * 1.25,
 
