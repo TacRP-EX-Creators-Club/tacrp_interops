@@ -18,16 +18,42 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_k98_varmint.mdl"
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 40,
+        Damage_Min = 20,
 
-    Damage_Max = 40,
-    Damage_Min = 20,
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
+        SightedSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 28,
+        Damage_Min = 20,
+        Range_Min = 600,
+        Range_Max = 4500,
 
-    MoveSpeedMult = 0.9,
-    ShootingSpeedMult = 0.8,
-    SightedSpeedMult = 0.9,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 4,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.8,
+            [HITGROUP_RIGHTARM] = 0.8,
+            [HITGROUP_LEFTLEG] = 0.6,
+            [HITGROUP_RIGHTLEG] = 0.6,
+            [HITGROUP_GEAR] = 0.5
+        },
+
+        ReloadTimeMult = 1.4,
+
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.65,
+        ReloadSpeedMult = 0.6,
+    },
 }
 
 // "ballistics"
@@ -85,8 +111,11 @@ SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.32
-SWEP.SprintToFireTime = 0.37
+SWEP.AimDownSightsTime = 0.36
+SWEP.SprintToFireTime = 0.42
+
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.1
 
 // hold types
 
@@ -123,8 +152,8 @@ SWEP.CorrectivePos = Vector(0.05, 0, 0.2)
 SWEP.CorrectiveAng = Angle(-0.36, -0.3, 0)
 
 SWEP.HolsterVisible = true
-SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
-SWEP.HolsterPos = Vector(5, 0, -6)
+SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
+SWEP.HolsterPos = Vector(5, 4, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
 // scope

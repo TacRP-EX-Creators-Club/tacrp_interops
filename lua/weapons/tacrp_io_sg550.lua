@@ -17,19 +17,49 @@ SWEP.WorldModel = "models/weapons/tacint/w_sg551.mdl"
 
 SWEP.Slot = 2
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 18,
+        Damage_Min = 32,
 
-    Damage_Max = 18,
-    Damage_Min = 32,
+        Range_Min = 600,
+        Range_Max = 3000,
 
-    Range_Min = 600,
-    Range_Max = 3000,
+        MoveSpeedMult = 0.82,
+        ShootingSpeedMult = 0.7,
+        SightedSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 10,
+        Damage_Min = 20,
+        Range_Min = 500,
+        Range_Max = 3000,
+        RPM = 600,
 
-    MoveSpeedMult = 0.82,
-    ShootingSpeedMult = 0.7,
-    SightedSpeedMult = 0.75,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        RecoilDissipationRate = 9,
+        RecoilSpreadPenalty = 0.005,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.75
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.5,
+        ReloadSpeedMult = 0.5,
+    },
 }
 
 SWEP.MuzzleVelocity = 28000
@@ -88,6 +118,9 @@ SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.37
 SWEP.SprintToFireTime = 0.37
+
+SWEP.Sway = 2
+SWEP.ScopedSway = 0.1
 
 // hold types
 

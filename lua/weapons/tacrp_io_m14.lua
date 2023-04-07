@@ -18,19 +18,54 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_m14.mdl"
 
 SWEP.Slot = 2
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 20,
+        Damage_Min = 40,
 
-    Damage_Max = 20,
-    Damage_Min = 40,
+        Range_Min = 1500,
+        Range_Max = 4000,
 
-    Range_Min = 1500,
-    Range_Max = 4000,
+        MoveSpeedMult = 0.8,
+        ShootingSpeedMult = 0.6,
+        SightedSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
 
-    MoveSpeedMult = 0.8,
-    ShootingSpeedMult = 0.6,
-    SightedSpeedMult = 0.75,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        Description = "Modernized short barrel rifle with fast fire rate and punishing recoil.\nEquipped with a 6x scope by default.",
+
+        Damage_Max = 18,
+        Damage_Min = 30,
+        Range_Min = 1500,
+        Range_Max = 2500,
+        RPM = 420,
+
+        RecoilResetTime = 0.15,
+        RecoilDissipationRate = 4,
+        RecoilMaximum = 5,
+        RecoilSpreadPenalty = 0.02,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 4,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.75,
+            [HITGROUP_RIGHTARM] = 0.75,
+            [HITGROUP_LEFTLEG] = 0.5,
+            [HITGROUP_RIGHTLEG] = 0.5,
+            [HITGROUP_GEAR] = 0.5
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.5,
+        ReloadSpeedMult = 0.5,
+    },
 }
 
 // "ballistics"
@@ -90,6 +125,9 @@ SWEP.ReloadSpeedMult = 0.4
 
 SWEP.AimDownSightsTime = 0.38
 SWEP.SprintToFireTime = 0.46
+
+SWEP.Sway = 2
+SWEP.ScopedSway = 0.1
 
 // hold types
 

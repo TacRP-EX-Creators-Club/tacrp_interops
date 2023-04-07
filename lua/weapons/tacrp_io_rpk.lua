@@ -17,12 +17,42 @@ SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
 
 SWEP.Slot = 2
 
-SWEP.ArcadeStats = {
-    MoveSpeedMult = 0.85,
-    ShootingSpeedMult = 0.6,
-    SightedSpeedMult = 0.7,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.6,
+        SightedSpeedMult = 0.7,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 20,
+        Damage_Min = 15,
+
+        Range_Min = 800,
+        Range_Max = 3500,
+
+        ClipSize = 50,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
+
+        ReloadTimeMult = 1.5,
+
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.6,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.55,
+        ReloadSpeedMult = 0.6,
+    },
 }
 
 // "ballistics"

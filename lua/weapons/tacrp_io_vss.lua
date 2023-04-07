@@ -17,12 +17,43 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_vss.mdl"
 
 SWEP.Slot = 2
 
-SWEP.ArcadeStats = {
-    MoveSpeedMult = 0.85,
-    ShootingSpeedMult = 0.75,
-    SightedSpeedMult = 0.75,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.75,
+        SightedSpeedMult = 0.75,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 16,
+        Damage_Min = 13,
+        Range_Min = 800,
+        Range_Max = 4000,
+        RPM = 700,
+
+        RecoilSpreadPenalty = 0.005,
+        HipFireSpreadPenalty = 0.035,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 4,
+            [HITGROUP_CHEST] = 1.5,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.75
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.5,
+        ReloadSpeedMult = 0.65,
+    },
 }
 
 // "ballistics"
@@ -81,6 +112,9 @@ SWEP.ReloadSpeedMult = 0.5
 SWEP.AimDownSightsTime = 0.44
 SWEP.SprintToFireTime = 0.4
 
+SWEP.Sway = 1.25
+SWEP.ScopedSway = 0.15
+
 // hold types
 
 SWEP.HoldType = "ar2"
@@ -117,9 +151,6 @@ SWEP.ScopeOverlay = Material("tacrp/scopes/pso1.png", "mips smooth") // Material
 SWEP.ScopeFOV = 90 / 5
 SWEP.ScopeLevels = 1
 SWEP.ScopeHideWeapon = true
-
-SWEP.Sway = 1
-SWEP.ScopedSway = 0.1
 
 SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"

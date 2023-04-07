@@ -19,19 +19,55 @@ SWEP.WorldModel = "models/weapons/tacint_extras/w_trg42.mdl"
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
 
-SWEP.ArcadeStats = {
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 70,
+        Damage_Min = 125,
 
-    Damage_Max = 70,
-    Damage_Min = 125,
+        Range_Min = 1800,
+        Range_Max = 4000,
 
-    Range_Min = 1800,
-    Range_Max = 4000,
+        MoveSpeedMult = 0.8,
+        ShootingSpeedMult = 0.5,
+        SightedSpeedMult = 0.7,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
 
-    MoveSpeedMult = 0.8,
-    ShootingSpeedMult = 0.5,
-    SightedSpeedMult = 0.7,
-    MeleeSpeedMult = 1,
-    ReloadSpeedMult = 1,
+        Description = "Magnum sniper rifle lethal to the chest at long range, but has poor handling and low close range damage.\nEquipped with a 12x scope by default.",
+
+        Damage_Max = 25,
+        Damage_Min = 80,
+        Range_Min = 1000,
+        Range_Max = 5000,
+        RPM = 30,
+        ShootTimeMult = 1.175,
+        ClipSize = 4,
+
+        AimDownSightsTime = 0.45,
+
+        RecoilResetTime = 0.4,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 5,
+            [HITGROUP_CHEST] = 1.25,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.75,
+            [HITGROUP_RIGHTARM] = 0.75,
+            [HITGROUP_LEFTLEG] = 0.5,
+            [HITGROUP_RIGHTLEG] = 0.5,
+            [HITGROUP_GEAR] = 0.5
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.5,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.5,
+        ReloadSpeedMult = 0.5,
+    },
 }
 
 // "ballistics"
@@ -65,7 +101,7 @@ SWEP.RPM = 32
 SWEP.Spread = 0.00
 
 SWEP.HipFireSpreadPenalty = 0.08
-SWEP.PeekPenaltyFraction = 0.25
+SWEP.PeekPenaltyFraction = 0.2
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 1
@@ -93,6 +129,9 @@ SWEP.ReloadSpeedMult = 0.3
 
 SWEP.AimDownSightsTime = 0.38
 SWEP.SprintToFireTime = 0.46
+
+SWEP.Sway = 2
+SWEP.ScopedSway = 0.075
 
 // hold types
 
@@ -123,8 +162,8 @@ SWEP.CorrectivePos = Vector(0.025, 0, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterVisible = true
-SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
-SWEP.HolsterPos = Vector(5, 0, -6)
+SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
+SWEP.HolsterPos = Vector(5, 8, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
 // scope
@@ -134,6 +173,7 @@ SWEP.ScopeOverlay = Material("tacrp/scopes/sniper.png", "mips smooth") // Materi
 SWEP.ScopeFOV = 90 / 12
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
+SWEP.ScopeOverlaySize = 0.75
 
 // reload
 
