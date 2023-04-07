@@ -254,3 +254,5 @@ end
 addsound("tacint_chinalake.Insertshell", path .. "chinalake_insertshell.wav")
 addsound("tacint_chinalake.Movement", path .. "chinalake_draw.wav")
 addsound("tacint_chinalake.PumpBack", path .. "chinalake_pump.wav")
+
+SWEP.AutoSpawnable = false
