@@ -13,7 +13,7 @@ SWEP.SubCatType = "4Assault Rifle"
 SWEP.Description = "Experimental multi-purpose carbine. Easy to use, but low damage.\nHas an integrated 4x scope but no optic mount."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_xm8car.mdl"
-SWEP.WorldModel = "models/weapons/tacint_extras/w_xm8lmg.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_xm8car.mdl"
 
 SWEP.Slot = 2
 

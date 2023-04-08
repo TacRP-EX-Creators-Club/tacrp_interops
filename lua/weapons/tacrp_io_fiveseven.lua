@@ -13,7 +13,7 @@ SWEP.SubCatType = "1Sidearm"
 SWEP.Description = "PDW caliber pistol with excellent range and capacity."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_57.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_p2000.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_57.mdl"
 
 SWEP.Slot = 1
 
@@ -45,11 +45,6 @@ SWEP.BalanceStats = {
         SightedSpeedMult = 0.75,
         ReloadSpeedMult = 0.9,
     },
-}
-
-SWEP.ArcadeStats = {
-
-
 }
 
 // "ballistics"
@@ -253,7 +248,7 @@ SWEP.Attachments = {
         WMScale = 1,
         Pos_VM = Vector(0.05, 0, -0.2),
         Ang_VM = Angle(0, 90, 180),
-        Pos_WM = Vector(0, -1, -1),
+        Pos_WM = Vector(0, -1, -0.75),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -264,10 +259,10 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.5,
-        WMScale = 0.5,
+        WMScale = 0.6,
         Pos_VM = Vector(-0.5, 0.39, 6),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 8, -1.5),
+        Pos_WM = Vector(0, 9.5, -1.5),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {

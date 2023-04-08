@@ -13,7 +13,7 @@ SWEP.SubCatType = "1Sidearm"
 SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage. Massive."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_500mag.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_mr96.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_m500.mdl"
 
 SWEP.Slot = 1
 
@@ -250,9 +250,9 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(-4.8, -0.1, 10),
+        Pos_VM = Vector(-4.7, -0.1, 10),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 1.5, -0.8),
+        Pos_WM = Vector(0.15, 8, 0),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -266,7 +266,7 @@ SWEP.Attachments = {
         WMScale = 1,
         Pos_VM = Vector(-3, 0, 15),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 8, -2.25),
+        Pos_WM = Vector(0, 10, -1.75),
         Ang_WM = Angle(0, -90, 180),
     },
     [3] = {
