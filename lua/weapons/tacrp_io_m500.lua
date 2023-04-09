@@ -19,6 +19,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        HipFireSpreadPenalty = 0.075,
+
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.7,
         SightedSpeedMult = 0.85,
@@ -64,13 +66,13 @@ SWEP.Damage_Max = 80 // damage at minimum range
 SWEP.Damage_Min = 50 // damage at maximum range
 SWEP.Range_Min = 300 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
-SWEP.Penetration = 6 // units of metal this weapon can penetrate
+SWEP.Penetration = 9 // units of metal this weapon can penetrate
 
 SWEP.MuzzleVelocity = 16500
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,

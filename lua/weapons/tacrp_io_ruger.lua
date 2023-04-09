@@ -222,7 +222,7 @@ SWEP.ProceduralIronFire = {
             bone = "ValveBiped.Bip01_R_Finger1",
             ang = Angle(0, -15, 0),
             t0 = 0,
-            t1 = 0.2,
+            t1 = 0.1,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger11",

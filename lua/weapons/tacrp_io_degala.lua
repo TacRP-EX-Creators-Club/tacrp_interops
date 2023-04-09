@@ -67,13 +67,13 @@ SWEP.Damage_Max = 80
 SWEP.Damage_Min = 40
 SWEP.Range_Min = 150
 SWEP.Range_Max = 1500
-SWEP.Penetration = 1 // units of metal this weapon can penetrate
+SWEP.Penetration = 7 // units of metal this weapon can penetrate
 
 SWEP.MuzzleVelocity = 10000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,
@@ -208,13 +208,13 @@ SWEP.ProceduralIronFire = {
             bone = "ValveBiped.hammer",
             ang = Angle(-15, 0, 0),
             t0 = 0,
-            t1 = 0.2,
+            t1 = 0.1,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger1",
             ang = Angle(0, -15, 0),
             t0 = 0,
-            t1 = 0.2,
+            t1 = 0.1,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger11",
