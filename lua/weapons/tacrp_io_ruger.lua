@@ -19,7 +19,7 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 10,
+        Damage_Max = 12,
         Damage_Min = 6,
 
         MoveSpeedMult = 1,
@@ -29,11 +29,23 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 10,
+        Damage_Max = 12,
         Damage_Min = 7,
         Range_Min = 1500,
         Range_Max = 5000,
         RPM = 600,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 5,
+            [HITGROUP_CHEST] = 1.5,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.9,
+            [HITGROUP_RIGHTLEG] = 0.9,
+            [HITGROUP_GEAR] = 0.9
+        },
+
 
         ReloadTimeMult = 1.15,
 
@@ -60,8 +72,8 @@ SWEP.Penetration = 2 // units of metal this weapon can penetrate
 SWEP.MuzzleVelocity = 32500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
-    [HITGROUP_CHEST] = 1.5,
+    [HITGROUP_HEAD] = 6,
+    [HITGROUP_CHEST] = 2,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
