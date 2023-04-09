@@ -12,8 +12,9 @@ SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Lacking in damage, it makes up with unparalled handling, recoil and accuracy."
 
+// https://gamebanana.com/mods/214299
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ruger.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_p2000.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_ruger.mdl"
 
 SWEP.Slot = 1
 
@@ -276,7 +277,7 @@ SWEP.Attachments = {
         WMScale = 1,
         Pos_VM = Vector(-3.5, -0.18, -0.25),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, -2.5, -0.75),
+        Pos_WM = Vector(0, -2, -1.15),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -302,7 +303,7 @@ SWEP.Attachments = {
         WMScale = 1.3,
         Pos_VM = Vector(-2.6, 0, 10),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 5, -2.75),
+        Pos_WM = Vector(0, 7, -2),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {

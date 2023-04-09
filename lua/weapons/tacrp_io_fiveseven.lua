@@ -19,8 +19,9 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 15,
-        Damage_Min = 13,
+        Damage_Max = 16,
+        Damage_Min = 14,
+        RPM = 550,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.9,
@@ -83,7 +84,7 @@ SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 12
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 2.5
+SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 4
 
 SWEP.RecoilSpreadPenalty = 0.0025
