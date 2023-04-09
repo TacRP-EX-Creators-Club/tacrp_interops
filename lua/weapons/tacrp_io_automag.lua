@@ -218,14 +218,14 @@ SWEP.ProceduralIronFire = {
         {
             bone = "ValveBiped.slide",
             pos = Vector(0, 0, -3),
-            t0 = 0.05,
-            t1 = 0.35,
+            t0 = 0,
+            t1 = 0.3,
         },
         {
             bone = "ValveBiped.hammer",
             ang = Angle(-170, 0, 0),
-            t0 = 0.05,
-            t1 = 0.4,
+            t0 = 0,
+            t1 = 0.35,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger1",

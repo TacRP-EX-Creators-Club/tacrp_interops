@@ -223,7 +223,7 @@ SWEP.ProceduralIronFire = {
         {
             bone = "ValveBiped.bolt_cover",
             pos = Vector(0, 0, -3),
-            t0 = 0.05,
+            t0 = 0,
             t1 = 0.2,
         },
     },

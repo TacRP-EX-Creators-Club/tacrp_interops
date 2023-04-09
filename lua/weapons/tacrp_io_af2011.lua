@@ -206,8 +206,8 @@ SWEP.ProceduralIronFire = {
         {
             bone = "slide",
             pos = Vector(0, 0, -3),
-            t0 = 0.05,
-            t1 = 0.3,
+            t0 = 0,
+            t1 = 0.25,
         },
         {
             bone = "hammer",
