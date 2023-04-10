@@ -60,6 +60,8 @@ SWEP.BalanceStats = {
     },
 }
 
+SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
+
 // "ballistics"
 
 SWEP.Damage_Max = 80 // damage at minimum range

@@ -225,6 +225,8 @@ SWEP.ProceduralIronFire = {
     },
 }
 
+SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
+
 SWEP.LastShot = true
 // attachments
 

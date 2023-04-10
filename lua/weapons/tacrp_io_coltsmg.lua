@@ -64,6 +64,9 @@ SWEP.BalanceStats = {
     },
 }
 
+SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
+
+
 // "ballistics"
 
 SWEP.Damage_Max = 15

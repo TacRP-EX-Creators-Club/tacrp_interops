@@ -56,6 +56,8 @@ SWEP.BalanceStats = {
     },
 }
 
+SWEP.TTTReplace = {["weapon_zm_rifle"] = 0.5, ["weapon_zm_mac10"] = 0.5}
+
 // "ballistics"
 
 SWEP.Damage_Max = 35

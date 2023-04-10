@@ -62,6 +62,8 @@ SWEP.BalanceStats = {
     },
 }
 
+SWEP.TTTReplace = TacRP.TTTReplacePreset.MarksmanRifle
+
 SWEP.MuzzleVelocity = 28000
 
 // "ballistics"
