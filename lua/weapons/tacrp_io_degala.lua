@@ -57,10 +57,6 @@ SWEP.BalanceStats = {
     },
 }
 
-SWEP.ArcadeStats = {
-
-}
-
 // "ballistics"
 
 SWEP.Damage_Max = 80
