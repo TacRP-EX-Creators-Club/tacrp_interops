@@ -8,7 +8,7 @@ SWEP.PrintName = "HK XM8 LMG"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "2Premium"
-SWEP.SubCatType = "4Assault Rifle"
+SWEP.SubCatType = "4Machine Gun"
 
 SWEP.Description = "Machine gun configuration of an experimental multi-purpose rifle. Light, high capacity and low recoil, but damage is poor.\nHas an integrated 4x scope but no optic mount."
 
