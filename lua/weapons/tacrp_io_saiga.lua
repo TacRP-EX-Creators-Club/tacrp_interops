@@ -68,17 +68,20 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AutoShotgun
 
 SWEP.ShootTimeMult = 1
 
-SWEP.Damage_Max = 11
+SWEP.Damage_Max = 12
 SWEP.Damage_Min = 4
-SWEP.Range_Min = 600 // distance for which to maintain maximum damage
+SWEP.Range_Min = 500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2400 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.45
+SWEP.ArmorBonus = 1.3
+
 SWEP.Num = 6
 
 SWEP.MuzzleVelocity = 11000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 1.25,
+    [HITGROUP_HEAD] = 1.5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -101,7 +104,7 @@ SWEP.HipFireSpreadPenalty = 0.02
 SWEP.MidAirSpreadPenalty = 0
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
+SWEP.RecoilMaximum = 4
 SWEP.RecoilResetTime = 0.3
 SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1.25

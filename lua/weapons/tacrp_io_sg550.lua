@@ -69,21 +69,24 @@ SWEP.MuzzleVelocity = 28000
 // "ballistics"
 
 SWEP.Damage_Max = 30
-SWEP.Damage_Min = 15
-SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5500 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
+SWEP.Range_Max = 7000 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.8
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.25,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,
     [HITGROUP_LEFTLEG] = 0.75,
     [HITGROUP_RIGHTLEG] = 0.75,
     [HITGROUP_GEAR] = 0.9
 }
+
+SWEP.MuzzleVelocity = 28000
 
 // misc. shooting
 
@@ -100,11 +103,10 @@ SWEP.RecoilDissipationRate = 10
 SWEP.RecoilFirstShotMult = 0.75
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilVisualShake = 0.5
 
-SWEP.RecoilKick = 2.5
+SWEP.RecoilKick = 2
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.0035
 SWEP.HipFireSpreadPenalty = 0.06
 SWEP.PeekPenaltyFraction = 0.15
 
@@ -116,10 +118,10 @@ SWEP.MoveSpeedMult = 0.875
 SWEP.ShootingSpeedMult = 0.8
 SWEP.SightedSpeedMult = 0.5
 
-SWEP.ReloadSpeedMult = 0.5
+SWEP.ReloadSpeedMult = 0.4
 
 SWEP.AimDownSightsTime = 0.37
-SWEP.SprintToFireTime = 0.37
+SWEP.SprintToFireTime = 0.45
 
 SWEP.Sway = 2
 SWEP.ScopedSway = 0.1

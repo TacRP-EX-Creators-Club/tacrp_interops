@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "Compact SMG-carbine hybrid with a higher effective range than its counterparts."
+SWEP.Description = "SMG-carbine hybrid with good damage but relatively low armor penetration."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mx4.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_uzi.mdl"
@@ -19,8 +19,8 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 15,
-        Damage_Min = 6,
+        Damage_Max = 17,
+        Damage_Min = 8,
 
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.8,
@@ -51,16 +51,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 // "ballistics"
 
-SWEP.Damage_Max = 11
-SWEP.Damage_Min = 5
+SWEP.Damage_Max = 16
+SWEP.Damage_Min = 7
 SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
 SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.525
 
 SWEP.MuzzleVelocity = 12500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
+    [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -132,8 +133,11 @@ SWEP.BlindFireSuicidePos = Vector(31, 25, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0.1, 0, 1)
-SWEP.SightPos = Vector(-3.7, -6.5, -4.3)
+SWEP.SightAng = Angle(0, 0, 0.5)
+SWEP.SightPos = Vector(-3.72, -6.5, -4.35)
+
+SWEP.CorrectiveAng = Angle(-0.05, 0, 0)
+SWEP.CorrectivePos = Vector(0.02, 0, 0.15)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
@@ -225,7 +229,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
         VMScale = 0.95,
-        Pos_VM = Vector(-5.25, -0.25, 5),
+        Pos_VM = Vector(-5.25, -0.275, 5),
         Pos_WM = Vector(7, 1.5, -5.5),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),

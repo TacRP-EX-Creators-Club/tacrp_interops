@@ -7,10 +7,10 @@ AddCSLuaFile()
 SWEP.PrintName = "Sako TRG-42"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "2Premium"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default."
+SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to cycle and not very stable.\nEquipped with a 12x scope by default."
 
 // https://gamebanana.com/mods/211224
 SWEP.ViewModel = "models/weapons/tacint_extras/v_trg42.mdl"
@@ -21,11 +21,16 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default.",
+
         Damage_Max = 70,
         Damage_Min = 125,
 
         Range_Min = 1800,
         Range_Max = 4000,
+
+        Sway = 2,
+        ScopedSway = 0.075,
 
         MoveSpeedMult = 0.8,
         ShootingSpeedMult = 0.5,
@@ -74,19 +79,22 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 120 // damage at minimum range
-SWEP.Damage_Min = 75 // damage at maximum range
-SWEP.Range_Min = 3000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 7000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 125 // damage at minimum range
+SWEP.Damage_Min = 100 // damage at maximum range
+SWEP.Range_Min = 4000 // distance for which to maintain maximum damage
+SWEP.Range_Max = 10000 // distance at which we drop to minimum damage
 SWEP.Penetration = 17 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.95
+SWEP.ArmorBonus = 4
+
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_HEAD] = 3,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
-    [HITGROUP_LEFTARM] = 0.8,
-    [HITGROUP_RIGHTARM] = 0.8,
-    [HITGROUP_LEFTLEG] = 0.6,
-    [HITGROUP_RIGHTLEG] = 0.6,
+    [HITGROUP_LEFTARM] = 0.75,
+    [HITGROUP_RIGHTARM] = 0.75,
+    [HITGROUP_LEFTLEG] = 0.5,
+    [HITGROUP_RIGHTLEG] = 0.5,
     [HITGROUP_GEAR] = 0.5
 }
 
@@ -132,8 +140,8 @@ SWEP.ReloadSpeedMult = 0.3
 SWEP.AimDownSightsTime = 0.38
 SWEP.SprintToFireTime = 0.46
 
-SWEP.Sway = 2
-SWEP.ScopedSway = 0.075
+SWEP.Sway = 2.25
+SWEP.ScopedSway = 0.12
 
 // hold types
 

@@ -60,16 +60,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 23
-SWEP.Damage_Min = 18
-SWEP.Range_Min = 1700 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 22
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
+SWEP.Range_Max = 5500 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.925
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
-    [HITGROUP_CHEST] = 1.5,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.5,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.85,
@@ -77,7 +78,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 13500
+SWEP.MuzzleVelocity = 15500
 
 // misc. shooting
 
@@ -89,16 +90,16 @@ SWEP.Spread = 0.0005
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 9
 SWEP.RecoilResetTime = 0.1
 SWEP.RecoilDissipationRate = 12
-SWEP.RecoilFirstShotMult = 0.4
+SWEP.RecoilFirstShotMult = 0.3
 
 SWEP.RecoilVisualKick = 0.5
 
 SWEP.RecoilKick = 2.5
 
-SWEP.RecoilSpreadPenalty = 0.0055
+SWEP.RecoilSpreadPenalty = 0.0045
 SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true

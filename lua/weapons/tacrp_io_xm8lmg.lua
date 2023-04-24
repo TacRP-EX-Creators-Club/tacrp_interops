@@ -62,16 +62,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachineGun
 
 // "ballistics"
 
-SWEP.Damage_Max = 16
+SWEP.Damage_Max = 20
 SWEP.Damage_Min = 12
 SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.375,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 4.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -105,17 +106,17 @@ SWEP.RecoilVisualKick = 0.5
 SWEP.RecoilKick = 1
 
 SWEP.RecoilSpreadPenalty = 0.0006
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.HipFireSpreadPenalty = 0.035
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.9
 SWEP.ShootingSpeedMult = 0.6
-SWEP.SightedSpeedMult = 0.65
+SWEP.SightedSpeedMult = 0.55
 
-SWEP.ReloadSpeedMult = 0.5
+SWEP.ReloadSpeedMult = 0.25
 
 SWEP.AimDownSightsTime = 0.42
 SWEP.SprintToFireTime = 0.37

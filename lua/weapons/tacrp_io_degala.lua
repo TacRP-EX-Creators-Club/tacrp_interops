@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Desert Eagle"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
-SWEP.SubCatTier = "2Premium"
+SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Imposing magnum pistol. Powerful, but recoil is hard to manage."
@@ -63,7 +63,9 @@ SWEP.Damage_Max = 80
 SWEP.Damage_Min = 40
 SWEP.Range_Min = 150
 SWEP.Range_Max = 1500
-SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.Penetration = 10 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.85
+SWEP.ArmorBonus = 5
 
 SWEP.MuzzleVelocity = 10000
 

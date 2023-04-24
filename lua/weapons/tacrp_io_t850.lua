@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility and hip fire accuracy, and good recoil among magnum pistols."
+SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility and hip fire accuracy, and good recoil among magnum pistols, but performs poorly against armor."
 
 // https://gamebanana.com/mods/207972
 SWEP.ViewModel = "models/weapons/tacint_extras/v_t850.mdl"
@@ -22,6 +22,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 50,
         Damage_Min = 18,
+        ArmorPenetration = 0.75,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.85,
@@ -66,18 +67,20 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
 
 // "ballistics"
 
-SWEP.Damage_Max = 40
+SWEP.Damage_Max = 44
 SWEP.Damage_Min = 12
 SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
-SWEP.Penetration = 6 // units of metal this weapon can penetrate
+SWEP.Penetration = 3 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.5
+SWEP.ArmorBonus = 0.75
 
 SWEP.MuzzleVelocity = 13000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,
     [HITGROUP_LEFTLEG] = 0.75,

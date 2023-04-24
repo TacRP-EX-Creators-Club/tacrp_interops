@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "PDW caliber pistol with excellent range and capacity."
+SWEP.Description = "Bulky PDW caliber pistol with excellent capacity.\nHigh velocity rounds retain effectiveness at range and pierces armor easily."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_57.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_57.mdl"
@@ -19,8 +19,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 16,
-        Damage_Min = 14,
+        Damage_Max = 20,
+        Damage_Min = 16,
         RPM = 550,
 
         MoveSpeedMult = 1,
@@ -52,17 +52,19 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 16
-SWEP.Damage_Min = 14
-SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5500 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 22
+SWEP.Damage_Min = 18
+SWEP.Range_Min = 1600 // distance for which to maintain maximum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.925
+SWEP.ArmorBonus = 2
 
 SWEP.MuzzleVelocity = 22500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_HEAD] = 5,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,

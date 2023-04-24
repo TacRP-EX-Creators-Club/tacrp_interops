@@ -22,6 +22,8 @@ SWEP.BalanceStats = {
         Damage_Max = 18,
         Damage_Min = 9,
 
+        PostBurstDelay = 0.15,
+
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.8,
         SightedSpeedMult = 0.85,
@@ -66,19 +68,19 @@ SWEP.BalanceStats = {
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
-
 // "ballistics"
 
 SWEP.Damage_Max = 15
-SWEP.Damage_Min = 7
-SWEP.Range_Min = 1400
-SWEP.Range_Max = 4000
+SWEP.Damage_Min = 8
+SWEP.Range_Min = 1200
+SWEP.Range_Max = 3800
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.6
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.4,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -96,7 +98,7 @@ SWEP.Firemodes = {
 }
 SWEP.RunawayBurst = true
 SWEP.AutoBurst = false
-SWEP.PostBurstDelay = 0.15
+SWEP.PostBurstDelay = 0.175
 
 SWEP.RPM = 900
 

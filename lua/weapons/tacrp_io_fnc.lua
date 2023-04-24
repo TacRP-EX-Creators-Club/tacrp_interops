@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Assault rifle with high hipfire precision and mobility."
+SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_fnc.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_k1a.mdl"
@@ -65,16 +65,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 15
+SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
-SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 900 // distance for which to maintain maximum damage
+SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.625
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.25,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.85,
@@ -82,27 +83,27 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 25000
+SWEP.MuzzleVelocity = 24000
 
 // misc. shooting
 
 SWEP.Firemodes = {2, 1}
 
-SWEP.RPM = 700
+SWEP.RPM = 750
 
-SWEP.Spread = 0.0075
+SWEP.Spread = 0.009
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 15
-SWEP.RecoilResetTime = 0.25
-SWEP.RecoilDissipationRate = 18
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilResetTime = 0.2
+SWEP.RecoilDissipationRate = 16
+SWEP.RecoilFirstShotMult = 1.5 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilVisualKick = 1
 
-SWEP.RecoilKick = 3
+SWEP.RecoilKick = 3.5
 
-SWEP.RecoilSpreadPenalty = 0.001
+SWEP.RecoilSpreadPenalty = 0.0012
 SWEP.HipFireSpreadPenalty = 0.015
 SWEP.PeekPenaltyFraction = 0.15
 
@@ -244,7 +245,7 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb", "optic_medium", "optic_sniper"},
+        Category = {"optic_cqb", "optic_medium"},
         Bone = "ValveBiped._ROOT_K1a",
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/optic_on.wav",

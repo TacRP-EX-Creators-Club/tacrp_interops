@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "RPK"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Machine Gun"
 
 SWEP.Description = "Rifle caliber machine gun with drum magazine. High damage and good recoil, but mobility and spread is poor."
@@ -19,6 +19,8 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Spread = 0.003,
+
         MoveSpeedMult = 0.85,
         ShootingSpeedMult = 0.6,
         SightedSpeedMult = 0.7,
@@ -62,12 +64,13 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachineGun
 SWEP.Damage_Max = 30
 SWEP.Damage_Min = 19
 SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5500 // distance at which we drop to minimum damage
+SWEP.Range_Max = 4500 // distance at which we drop to minimum damage
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.25,
+    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -87,7 +90,7 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 550
 
-SWEP.Spread = 0.003
+SWEP.Spread = 0.0075
 
 SWEP.ShootTimeMult = 0.5
 
@@ -97,22 +100,22 @@ SWEP.RecoilResetTime = 0.25
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilVisualKick = 0.6
 
-SWEP.RecoilKick = 2
+SWEP.RecoilKick = 2.5
 
 SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.04
+SWEP.HipFireSpreadPenalty = 0.08
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.9
+SWEP.MoveSpeedMult = 0.875
 SWEP.ShootingSpeedMult = 0.5
-SWEP.SightedSpeedMult = 0.6
+SWEP.SightedSpeedMult = 0.5
 
-SWEP.ReloadSpeedMult = 0.5
+SWEP.ReloadSpeedMult = 0.25
 
 SWEP.AimDownSightsTime = 0.45
 SWEP.SprintToFireTime = 0.5
@@ -149,7 +152,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.1
 
-SWEP.ClipSize = 60
+SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.3

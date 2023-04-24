@@ -19,6 +19,9 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+
+        RPM = 70,
+
         HipFireSpreadPenalty = 0.075,
 
         MoveSpeedMult = 1,
@@ -69,6 +72,8 @@ SWEP.Damage_Min = 50 // damage at maximum range
 SWEP.Range_Min = 300 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 9 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.9
+SWEP.ArmorBonus = 5
 
 SWEP.MuzzleVelocity = 16500
 
@@ -89,7 +94,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 75
+SWEP.RPM = 90
 
 SWEP.Spread = 0.001
 
@@ -98,7 +103,7 @@ SWEP.ShootTimeMult = 1
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 2
 SWEP.RecoilResetTime = 0.4
-SWEP.RecoilDissipationRate = 1.5
+SWEP.RecoilDissipationRate = 1.75
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 4

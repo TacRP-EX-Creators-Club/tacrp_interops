@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Lacking in damage, it makes up with unparalled handling, recoil and accuracy."
+SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet does very little damage unless it hits the head."
 
 // https://gamebanana.com/mods/214299
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ruger.mdl"
@@ -20,8 +20,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 12,
-        Damage_Min = 6,
+        Damage_Max = 15,
+        Damage_Min = 10,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 1,
@@ -31,14 +31,14 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 12,
-        Damage_Min = 7,
+        Damage_Min = 10,
         Range_Min = 1500,
         Range_Max = 5000,
         RPM = 600,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 5,
-            [HITGROUP_CHEST] = 1.5,
+            [HITGROUP_HEAD] = 6,
+            [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
             [HITGROUP_RIGHTARM] = 1,
@@ -46,7 +46,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.9,
             [HITGROUP_GEAR] = 0.9
         },
-
 
         ReloadTimeMult = 1.15,
 
@@ -62,17 +61,19 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 10
-SWEP.Damage_Min = 5
-SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 14
+SWEP.Damage_Min = 10
+SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.425
+SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 32500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 6,
-    [HITGROUP_CHEST] = 2,
+    [HITGROUP_HEAD] = 9,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,

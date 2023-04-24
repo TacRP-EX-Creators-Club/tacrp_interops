@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close, but cannot use long range optics."
+SWEP.Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close and has high mobility, but cannot use long range optics and is weak at long distances."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_k98.mdl"
@@ -20,6 +20,8 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close, but cannot use long range optics.",
+
         Damage_Max = 80,
         Damage_Min = 55,
 
@@ -63,15 +65,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 65
+SWEP.Damage_Max = 90
 SWEP.Damage_Min = 45
-SWEP.Range_Min = 2000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 15 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.775
+SWEP.ArmorBonus = 1.5
+
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
-    [HITGROUP_CHEST] = 1.25,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 2,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1.15,
     [HITGROUP_LEFTARM] = 0.75,
     [HITGROUP_RIGHTARM] = 0.75,
     [HITGROUP_LEFTLEG] = 0.5,
