@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AWC Amphibian Ruger"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Common"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Lacking in damage, it makes up with unparalled handling, recoil and accuracy."

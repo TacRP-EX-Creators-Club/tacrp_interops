@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "SIG P226"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
-SWEP.SubCatTier = "3Quality"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Handgun that performs very well at range but has a below average capacity."

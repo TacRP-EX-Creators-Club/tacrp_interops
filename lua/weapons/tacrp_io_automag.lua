@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AMT Automag"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "3Quality"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Highly accurate magnum pistol. Great handling due to its size, but can only mount pistol optics."

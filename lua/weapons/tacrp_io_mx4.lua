@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Beretta MX4 Storm"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "3Quality"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "3Submachine Gun"
 
 SWEP.Description = "Compact SMG-carbine hybrid with a higher effective range than its counterparts."

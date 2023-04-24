@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Kar98k Sporter"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Common"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "7Sniper Rifle"
 
 SWEP.Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close, but cannot use long range optics."

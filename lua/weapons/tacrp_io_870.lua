@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Remington 870 SPMM"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "3Quality"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Nickel plated \"Marine Magnum\" shotgun. Poor handling, but has great capacity and firepower."

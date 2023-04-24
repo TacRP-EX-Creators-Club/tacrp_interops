@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FN FNC Para"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Common"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Assault rifle with high hipfire precision and mobility."

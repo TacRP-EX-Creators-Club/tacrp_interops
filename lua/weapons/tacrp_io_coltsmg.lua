@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Colt SMG"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Common"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
 SWEP.Description = "AR pattern burst SMG. Excellent recoil control, good damage and range."

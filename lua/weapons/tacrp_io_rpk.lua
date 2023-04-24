@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "RPK"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Common"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Machine Gun"
 
 SWEP.Description = "Rifle caliber machine gun with drum magazine. High damage and good recoil, but mobility and spread is poor."

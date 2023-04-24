@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Glock 18C"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
-SWEP.SubCatTier = "3Quality"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Machine pistol with high fire rate and mobility."

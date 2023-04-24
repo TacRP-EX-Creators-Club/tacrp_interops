@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Sako TRG-42"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "3Quality"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "7Sniper Rifle"
 
 SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default."
