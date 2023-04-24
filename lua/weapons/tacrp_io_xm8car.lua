@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "HK XM8 Carbine"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "2Premium"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Experimental multi-purpose carbine. Easy to use, but low damage.\nHas an integrated 4x scope but no optic mount."

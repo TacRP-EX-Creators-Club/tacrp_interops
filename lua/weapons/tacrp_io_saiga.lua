@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Saiga-20"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "2Premium"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Magazine fed shotgun chambered in a relatively small shell. Low damage, but good fire rate and spread."

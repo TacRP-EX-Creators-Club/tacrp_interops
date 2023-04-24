@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "AF2011"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
-SWEP.SubCatTier = "2Premium"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "\"If M1911 is so good, why isn't there a M1911 2?\"\nThis. This is why."

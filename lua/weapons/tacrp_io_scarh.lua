@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FN SCAR-H"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "2Premium"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Compact, high mobility battle rifle."
