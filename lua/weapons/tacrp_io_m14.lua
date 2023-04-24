@@ -72,8 +72,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MarksmanRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 40
-SWEP.Damage_Min = 28
+SWEP.Damage_Max = 42
+SWEP.Damage_Min = 30
 SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 15 // units of metal this weapon can penetrate
@@ -119,9 +119,9 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.75
-SWEP.ShootingSpeedMult = 0.3
-SWEP.SightedSpeedMult = 0.2
+SWEP.MoveSpeedMult = 0.85
+SWEP.ShootingSpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.4
 

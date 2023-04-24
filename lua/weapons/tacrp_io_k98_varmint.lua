@@ -107,9 +107,9 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.85
-SWEP.ShootingSpeedMult = 0.75
-SWEP.SightedSpeedMult = 0.5
+SWEP.MoveSpeedMult = 0.925
+SWEP.ShootingSpeedMult = 0.9
+SWEP.SightedSpeedMult = 0.6
 
 SWEP.ReloadSpeedMult = 0.5
 
@@ -161,7 +161,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 // scope
 
 SWEP.Scope = true
-SWEP.ScopeFOV = 90 / 2
+SWEP.ScopeFOV = 90 / 1.5
 
 // reload
 

@@ -62,8 +62,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachineGun
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 15
+SWEP.Damage_Max = 16
+SWEP.Damage_Min = 12
 SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
@@ -111,9 +111,9 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.85
-SWEP.ShootingSpeedMult = 0.4
-SWEP.SightedSpeedMult = 0.35
+SWEP.MoveSpeedMult = 0.925
+SWEP.ShootingSpeedMult = 0.6
+SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 

@@ -92,7 +92,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 360
+SWEP.RPM = 300
 
 SWEP.Spread = 0.015
 SWEP.ShotgunPelletSpread = 0.01
@@ -117,11 +117,11 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.8
-SWEP.ShootingSpeedMult = 0.45
-SWEP.SightedSpeedMult = 0.25
+SWEP.MoveSpeedMult = 0.9
+SWEP.ShootingSpeedMult = 0.6
+SWEP.SightedSpeedMult = 0.7
 
-SWEP.ReloadSpeedMult = 0.25
+SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.4
 SWEP.SprintToFireTime = 0.5
