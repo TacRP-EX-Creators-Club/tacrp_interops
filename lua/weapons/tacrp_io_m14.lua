@@ -20,7 +20,7 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 20,
+        Damage_Max = 26,
         Damage_Min = 40,
 
         Range_Min = 1500,
