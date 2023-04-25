@@ -13,12 +13,14 @@ SWEP.SubCatType = "4Machine Gun"
 SWEP.Description = "Rifle caliber machine gun with drum magazine. High damage and good recoil, but mobility and spread is poor."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_rpk.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_rpk.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 35,
+        Damage_Min = 24,
         Spread = 0.003,
 
         MoveSpeedMult = 0.85,
@@ -145,8 +147,8 @@ SWEP.CorrectivePos = Vector(0, 0, -0.05)
 SWEP.CorrectiveAng = Angle(0.75, 0.7, 0)
 
 SWEP.HolsterVisible = true
-SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
-SWEP.HolsterPos = Vector(5, -2, -6)
+SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
+SWEP.HolsterPos = Vector(5, 6, -8)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Sway = 1
@@ -222,9 +224,15 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 1}
         },
+        BGs_WM = {
+            {2, 1}
+        },
     },
     ["bipod"] = {
         BGs_VM = {
+            {1, 1}
+        },
+        BGs_WM = {
             {1, 1}
         },
     },
@@ -254,7 +262,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.9,
         Pos_VM = Vector(-3.3, 0.075, 34),
-        Pos_WM = Vector(0, 28, -1.75),
+        Pos_WM = Vector(0, 36.5, -1.75),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -266,9 +274,9 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         Pos_VM = Vector(-3.2, -0.1, 25),
-        Pos_WM = Vector(0, 19, -2),
+        Pos_WM = Vector(-0.5, 19, -1.75),
         Ang_VM = Angle(90, 0, -90),
-        Ang_WM = Angle(0, -90, 180),
+        Ang_WM = Angle(0, -90, 90),
     },
     [4] = {
         PrintName = "Accessory",
