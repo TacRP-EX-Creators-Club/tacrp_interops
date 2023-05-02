@@ -14,7 +14,7 @@ SWEP.Description = "Semi-automatic version of the G36 made for precision shootin
 
 // https://gamebanana.com/mods/211404
 SWEP.ViewModel = "models/weapons/tacint_extras/v_sl8.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_g36k.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_sl8.mdl"
 
 SWEP.Slot = 2
 
@@ -22,6 +22,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 25,
         Damage_Min = 18,
+        ArmorPenetration = 0.85,
 
         MoveSpeedMult = 0.85,
         ShootingSpeedMult = 0.75,
@@ -67,12 +68,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
+SWEP.Damage_Max = 20
 SWEP.Damage_Min = 16
 SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 6500 // distance at which we drop to minimum damage
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.775
+SWEP.ArmorPenetration = 0.75
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
@@ -98,10 +99,10 @@ SWEP.Spread = 0.001
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
-SWEP.RecoilResetTime = 0.15
-SWEP.RecoilDissipationRate = 14
-SWEP.RecoilFirstShotMult = 0.8 // multiplier for the first shot's recoil amount
+SWEP.RecoilMaximum = 15
+SWEP.RecoilResetTime = 0.175
+SWEP.RecoilDissipationRate = 15
+SWEP.RecoilFirstShotMult = 0.75
 
 SWEP.RecoilVisualKick = 0.75
 

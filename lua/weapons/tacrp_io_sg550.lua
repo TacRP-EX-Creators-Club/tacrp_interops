@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Carbine caliber marksman rifle with low recoil and fast semi-automatic fire.\nEquipped with a 6x scope by default."
+SWEP.Description = "Carbine caliber marksman rifle with low recoil and fast semi-automatic fire. Penetrates armor easily.\nEquipped with a 6x scope by default."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_sg551.mdl"
@@ -73,7 +73,7 @@ SWEP.Damage_Min = 20
 SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
 SWEP.Range_Max = 7000 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.8
+SWEP.ArmorPenetration = 0.95
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,

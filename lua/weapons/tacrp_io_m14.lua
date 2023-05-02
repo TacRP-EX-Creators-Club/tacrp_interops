@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Modernized short barrel rifle with very fast automatic fire, but punishing recoil.\nEquipped with a 6x scope by default."
+SWEP.Description = "Modernized short barrel rifle with improved mobility and fast automatic fire but punishing recoil.\nEquipped with a 6x scope by default."
 
 // https://gamebanana.com/mods/211865
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m14.mdl"
@@ -106,13 +106,13 @@ SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 8
 SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 8
-SWEP.RecoilFirstShotMult = 0.65
+SWEP.RecoilFirstShotMult = 0.5
 
 SWEP.RecoilVisualKick = 3
 
 SWEP.RecoilKick = 4
 
-SWEP.RecoilSpreadPenalty = 0.01
+SWEP.RecoilSpreadPenalty = 0.006
 SWEP.HipFireSpreadPenalty = 0.075
 SWEP.PeekPenaltyFraction = 0.1
 
@@ -127,8 +127,8 @@ SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.4
 
-SWEP.AimDownSightsTime = 0.38
-SWEP.SprintToFireTime = 0.46
+SWEP.AimDownSightsTime = 0.37
+SWEP.SprintToFireTime = 0.45
 
 SWEP.Sway = 2
 SWEP.ScopedSway = 0.1
