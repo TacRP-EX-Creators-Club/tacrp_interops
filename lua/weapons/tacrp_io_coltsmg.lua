@@ -13,7 +13,7 @@ SWEP.SubCatType = "3Submachine Gun"
 SWEP.Description = "AR pattern burst SMG. Excellent recoil control, good damage and range."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_coltsmg.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_coltsmg.mdl"
 
 SWEP.Slot = 2
 
@@ -133,7 +133,7 @@ SWEP.AimDownSightsTime = 0.34
 SWEP.SprintToFireTime = 0.35
 
 SWEP.Sway = 0.75
-SWEP.ScopedSway = 0.25
+SWEP.ScopedSway = 0.175
 
 // hold types
 
@@ -170,7 +170,7 @@ SWEP.ClipSize = 32
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/coltsmg.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 // sounds
@@ -240,9 +240,15 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
+        BGs_WM = {
+            {1, 1}
+        },
     },
     ["tactical"] = {
         BGs_VM = {
+            {3, 1}
+        },
+        BGs_WM = {
             {3, 1}
         },
     },
@@ -260,7 +266,7 @@ SWEP.Attachments = {
         InstalledElements = {"tactical"},
         VMScale = 0.9,
         Pos_VM = Vector(-7.4, -0.08, 7),
-        Pos_WM = Vector(0.75, 5, 1.15),
+        Pos_WM = Vector(0.75, 5, 2.5),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90 + 3.5, 0),
     },
@@ -273,7 +279,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.9,
         Pos_VM = Vector(-4.1, 0.1, 22),
-        Pos_WM = Vector(1.4, 21, -0.5),
+        Pos_WM = Vector(1.4, 19.5, -0.5),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90 + 3.5, 0),
     },
@@ -285,9 +291,9 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         Pos_VM = Vector(-4.8, -1.1, 13.5),
-        Pos_WM = Vector(2, 13, -0.5),
+        Pos_WM = Vector(2, 11, 0.25),
         Ang_VM = Angle(90, 0, -53),
-        Ang_WM = Angle(-90, -90 + 3.5, 0),
+        Ang_WM = Angle(-53, -90 + 3.5, 0),
     },
     [4] = {
         PrintName = "Accessory",
