@@ -13,7 +13,7 @@ SWEP.SubCatType = "3Submachine Gun"
 SWEP.Description = "SMG-carbine hybrid with good damage but relatively low armor penetration."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mx4.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_uzi.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_mx4.mdl"
 
 SWEP.Slot = 2
 
@@ -114,12 +114,12 @@ SWEP.ScopedSway = 0.2
 
 // hold types
 
-SWEP.HoldType = "revolver"
+SWEP.HoldType = "ar2"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeBlindFire = "pistol"
 
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
-SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
+SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 
 SWEP.PassiveAng = Angle(-2.5, -1, 0)
 SWEP.PassivePos = Vector(0, -2, -4)
@@ -150,7 +150,7 @@ SWEP.ClipSize = 30
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/uzi.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/mx4.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
