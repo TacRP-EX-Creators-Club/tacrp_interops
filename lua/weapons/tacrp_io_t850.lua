@@ -22,7 +22,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 50,
         Damage_Min = 22,
-        ArmorPenetration = 0.75,
+        ArmorPenetration = 0.7,
 
         RPM = 240,
 
@@ -80,7 +80,7 @@ SWEP.ArmorBonus = 0.75
 SWEP.MuzzleVelocity = 13000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.9,
