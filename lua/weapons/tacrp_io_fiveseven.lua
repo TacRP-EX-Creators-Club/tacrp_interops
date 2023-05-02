@@ -149,7 +149,7 @@ SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.35
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/fiveseven.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
@@ -201,7 +201,7 @@ SWEP.AnimationTranslationTable = {
 }
 
 SWEP.ProceduralIronFire = {
-    vm_pos = Vector(0, -0.5, -0.6),
+    vm_pos = Vector(0, -0.5, -0.7),
     vm_ang = Angle(0, 2, 0),
     t = 0.2,
     tmax = 0.2,

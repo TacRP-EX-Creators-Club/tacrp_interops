@@ -159,7 +159,7 @@ SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p250.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/p226.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
