@@ -13,7 +13,7 @@ SWEP.SubCatType = "6Precision Rifle"
 SWEP.Description = "Compact, high mobility battle rifle."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_scarh.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_dsa58.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_scarh.mdl"
 
 SWEP.Slot = 2
 
@@ -241,7 +241,7 @@ SWEP.Attachments = {
         VMScale = 0.9,
         Pos_VM = Vector(-5.9, 0.28, 4),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 6, 0.5),
+        Pos_WM = Vector(0, 2.5, 1.3),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -253,7 +253,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.6, 0.3, 24),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 24, -1.2),
+        Pos_WM = Vector(0, 22.5, -0.9),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {
@@ -267,7 +267,7 @@ SWEP.Attachments = {
         VMScale = 1.1,
         Pos_VM = Vector(-3.6, -0.75, 14),
         Ang_VM = Angle(90, 0, -90),
-        Pos_WM = Vector(0.75, 14, -0.75),
+        Pos_WM = Vector(1.25, 11.5, -0.75),
         Ang_WM = Angle(0, -90, -60),
     },
     [4] = {
