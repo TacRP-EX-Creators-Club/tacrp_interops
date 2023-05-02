@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Kar98k Sporter"
+SWEP.PrintName = "Kar98k \"Ketzerei\""
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close and has high mobility, but cannot use long range optics and is weak at long distances."
+SWEP.Description = "Antique infantry rifle bastardized with a box magazine in an act of \"ketzerei\", or heresy. Sorry.\nPowerful up close and has high mobility, but cannot use long range optics and damage falls off significantly."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_k98.mdl"
@@ -20,8 +20,6 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Description = "Antique infantry rifle bastardized with a box magazine. Powerful up close, but cannot use long range optics.",
-
         Damage_Max = 80,
         Damage_Min = 55,
 
@@ -33,7 +31,7 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 70,
-        Damage_Min = 35,
+        Damage_Min = 30,
         Range_Min = 500,
         Range_Max = 4000,
 
@@ -41,7 +39,7 @@ SWEP.BalanceStats = {
         ShootTimeMult = 1.1,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 3,
+            [HITGROUP_HEAD] = 4,
             [HITGROUP_CHEST] = 1.25,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 0.75,

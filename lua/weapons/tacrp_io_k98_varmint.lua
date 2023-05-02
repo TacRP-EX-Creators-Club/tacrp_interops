@@ -8,7 +8,7 @@ SWEP.PrintName = "Varmint Rifle"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "7Sniper Rifle"
+SWEP.SubCatType = "5Sporter Carbine"
 
 SWEP.Description = "Carbine caliber bolt-action rifle. Lightweight, easy to use and has a generous capacity, but damage is low.\nFor rodents of... unassuming size."
 

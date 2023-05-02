@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"			"models/tacint_extras/sl8/reciever"
+	"$bumpmap"			"models/tacint_extras/sl8/reciever_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+}
