@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Experimental multi-purpose carbine. Easy to use, but low damage.\nHas an integrated 4x scope but no optic mount."
+SWEP.Description = "Experimental multi-purpose carbine. Easy to use, but low damage.\nHas an adjustable integrated 2-8x scope."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_xm8car.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_xm8car.mdl"
@@ -153,8 +153,8 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 // scope
 
 SWEP.Scope = true
-SWEP.ScopeOverlay = Material("tacrp/scopes/g36.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 4
+SWEP.ScopeOverlay = Material("tacrp/scopes/scopeddot.png", "mips smooth") // Material("path/to/overlay")
+SWEP.ScopeFOV = 90 / 2
 SWEP.ScopeLevels = 1 // 2 = like CS:S
 SWEP.ScopeHideWeapon = true
 
@@ -240,21 +240,13 @@ SWEP.AttachmentElements = {
 
 
 SWEP.Attachments = {
-    -- [1] = {
-    --     PrintName = "Optic",
-    --     Category = {"ironsights", "optic_cqb", "optic_medium"},
-    --     Bone = "ValveBiped.g36k_rootbone",
-    --     WMBone = "Box01",
-    --     InstalledElements = {"irons"},
-    --     AttachSound = "TacRP/weapons/optic_on.wav",
-    --     DetachSound = "TacRP/weapons/optic_off.wav",
-    --     VMScale = 1,
-    --     Pos_VM = Vector(-6.4, 0.14, 7),
-    --     Pos_WM = Vector(0, 0, 2.75),
-    --     Ang_VM = Angle(90, 0, 0),
-    --     Ang_WM = Angle(0, -90, 0),
-    -- },
     [1] = {
+        PrintName = "Optic",
+        Category = {"optic_xm8"},
+        AttachSound = "tacrp/weapons/mp5/mp5_fire_select-1.wav",
+        DetachSound = "tacrp/weapons/mp5/mp5_fire_select-3.wav",
+    },
+    [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
         Bone = "ValveBiped.g36k_rootbone",
@@ -266,7 +258,7 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
-    [2] = {
+    [3] = {
         PrintName = "Tactical",
         Category = "tactical",
         Bone = "ValveBiped.g36k_rootbone",
@@ -280,31 +272,31 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-70, -90, 0),
     },
-    [3] = {
+    [4] = {
         PrintName = "Accessory",
         Category = {"acc", "acc_foldstock2", "acc_sling", "acc_duffle", "perk_extendedmag"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [5] = {
         PrintName = "Bolt",
         Category = {"bolt_automatic"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [6] = {
         PrintName = "Trigger",
         Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [7] = {
         PrintName = "Ammo",
         Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [8] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
