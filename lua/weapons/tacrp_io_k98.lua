@@ -178,7 +178,8 @@ SWEP.Ammo = "SniperPenetratedRound"
 
 SWEP.ReloadTimeMult = 1
 SWEP.ShootTimeMult = 0.95
-SWEP.DropMagazineModel = false
+SWEP.DropMagazineImpact = "metal"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/trg42.mdl"
 
 // sounds
 
