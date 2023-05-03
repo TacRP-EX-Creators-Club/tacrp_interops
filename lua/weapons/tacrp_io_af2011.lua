@@ -13,7 +13,7 @@ SWEP.SubCatType = "1Sidearm"
 SWEP.Description = "\"If M1911 is so good, why isn't there a M1911 2?\"\nThis. This is why."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_af2011.mdl"
-SWEP.WorldModel = "models/weapons/tacint_extras/w_m1911.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_af2011.mdl"
 
 SWEP.Slot = 1
 
@@ -151,7 +151,7 @@ SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1.15
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/af2011.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
@@ -241,6 +241,9 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
+        BGs_WM = {
+            {1, 1}
+        },
     },
 }
 
@@ -257,7 +260,7 @@ SWEP.Attachments = {
         WMScale = 1,
         Pos_VM = Vector(0, 0, 0.75),
         Ang_VM = Angle(0, -90, 0),
-        Pos_WM = Vector(0, -1, -1),
+        Pos_WM = Vector(0, -1.5, -0.75),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -283,7 +286,7 @@ SWEP.Attachments = {
         WMScale = 1.3,
         Pos_VM = Vector(-2, 0.1, 6.5),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 5, -2.75),
+        Pos_WM = Vector(0, 5.5, -2.75),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {

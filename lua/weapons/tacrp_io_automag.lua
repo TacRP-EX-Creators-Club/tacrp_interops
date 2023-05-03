@@ -156,8 +156,8 @@ SWEP.Ammo = "357"
 
 SWEP.ReloadTimeMult = 1.5
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
-SWEP.DropMagazineImpact = "pistol"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/automag.mdl"
+SWEP.DropMagazineImpact = "metal"
 
 // sounds
 
@@ -175,7 +175,9 @@ SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 // the .qc attachment for the muzzle
 SWEP.QCA_Muzzle = 4
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
+SWEP.MuzzleEffect = "muzzleflash_ak47"
+
+SWEP.EjectScale = 1.15
 
 // anims
 

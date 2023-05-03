@@ -160,7 +160,7 @@ SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
 
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/p2000.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/ruger.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
@@ -179,7 +179,8 @@ SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 // effects
 
 // the .qc attachment for the muzzle
-SWEP.QCA_Muzzle = 4
+SWEP.QCA_Muzzle = 3
+SWEP.EjectScale = 0.7
 
 SWEP.MuzzleEffect = "muzzleflash_suppressed"
 
