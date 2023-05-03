@@ -245,6 +245,16 @@ SWEP.AttachmentElements = {
         Skin_VM = 1,
         Skin_WM = 1,
     },
+    ["50beo"] = {
+        BGs_VM = {
+            {3, 2}
+        },
+        BGs_WM = {
+            {3, 2}
+        },
+        Skin_VM = 2,
+        Skin_WM = 2,
+    },
 }
 
 

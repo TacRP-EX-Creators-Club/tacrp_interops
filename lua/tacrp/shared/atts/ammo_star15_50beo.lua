@@ -20,10 +20,10 @@ ATT.Mult_RPM = 0.5
 ATT.Mult_ClipSize = 1 / 3
 
 ATT.Add_RecoilKick = 4
-ATT.Mult_RecoilSpreadPenalty = 1.5
+ATT.Mult_RecoilSpreadPenalty = 1.75
 ATT.Add_RecoilResetTime = 0.075
 ATT.Mult_MuzzleVelocity = 0.6
-ATT.Add_RecoilPerShot = 0.5
+ATT.Add_RecoilPerShot = 0.6
 
 ATT.Override_Sound_Shoot = "^tacint_extras/star15/fire_beo.ogg"
 ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_beo-supp.ogg"
