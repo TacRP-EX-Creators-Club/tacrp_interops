@@ -5,12 +5,12 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Colt SMG"
-SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
+SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "AR pattern burst SMG. Excellent recoil control, good damage and range."
+SWEP.Description = "AR platform burst-fire SMG. Excellent recoil control, good damage and range.\n\nLoudspeaker not included."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_coltsmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_coltsmg.mdl"
@@ -107,8 +107,8 @@ SWEP.Spread = 0.0055
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0.1
+SWEP.RecoilMaximum = 9
+SWEP.RecoilResetTime = 0.125
 SWEP.RecoilDissipationRate = 15
 SWEP.RecoilFirstShotMult = 0.5
 
@@ -116,7 +116,7 @@ SWEP.RecoilVisualKick = 0.75
 
 SWEP.RecoilKick = 1.5
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.002
 SWEP.HipFireSpreadPenalty = 0.035
 
 SWEP.CanBlindFire = true

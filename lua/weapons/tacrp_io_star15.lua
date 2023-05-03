@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "ST AR-15"
-SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
+SWEP.PrintName = "Spikes Tactical AR-15"
+SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\n\n"
+SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\nEver the choice for lone wolves on a path of revenge, your fate will be a cacophonous funeral... and a silent farewell."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_star15.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"

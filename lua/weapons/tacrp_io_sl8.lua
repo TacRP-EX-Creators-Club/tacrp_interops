@@ -5,12 +5,12 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "HK SL8"
-SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
+SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Semi-automatic version of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope but has no ironsight option."
+SWEP.Description = "Semi-automatic variant of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope but has no ironsight option."
 
 // https://gamebanana.com/mods/211404
 SWEP.ViewModel = "models/weapons/tacint_extras/v_sl8.mdl"
