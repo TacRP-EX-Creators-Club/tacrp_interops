@@ -11,12 +11,12 @@ ATT.SortOrder = 0.5
 ATT.InstalledElements = {"50beo"}
 
 ATT.Mult_Damage_Max = 2
-ATT.Mult_Damage_Min = 2
-ATT.Mult_Range_Min = 0.5
+ATT.Mult_Damage_Min = 1.5
+ATT.Mult_Range_Min = 0.75
 ATT.Mult_Range_Max = 0.5
 ATT.Add_ArmorPenetration = -0.1
 
-ATT.Mult_RPM = 0.5
+ATT.Mult_RPM = 0.55
 ATT.Mult_ClipSize = 1 / 3
 
 ATT.Add_RecoilKick = 4
