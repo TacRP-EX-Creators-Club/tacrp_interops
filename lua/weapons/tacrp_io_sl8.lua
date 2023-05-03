@@ -22,7 +22,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 28,
         Damage_Min = 19,
-        ArmorPenetration = 0.75,
+        ArmorPenetration = 0.875,
 
         RPM = 360,
 
