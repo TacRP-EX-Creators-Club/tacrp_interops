@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Semi-automatic version of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope by default."
+SWEP.Description = "Semi-automatic version of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope but has no ironsight option."
 
 // https://gamebanana.com/mods/211404
 SWEP.ViewModel = "models/weapons/tacint_extras/v_sl8.mdl"
@@ -137,7 +137,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -4)
+SWEP.PassivePos = Vector(0.5, -2, -5)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
