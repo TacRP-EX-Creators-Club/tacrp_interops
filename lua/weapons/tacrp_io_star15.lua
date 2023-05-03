@@ -13,7 +13,7 @@ SWEP.SubCatType = "5Sporter Carbine"
 SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\nEver the choice for lone wolves on a path of revenge, your fate will be a cacophonous funeral... and a silent farewell. Bring a detonator."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_star15.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_star15.mdl"
 
 SWEP.Slot = 2
 
@@ -152,7 +152,7 @@ SWEP.CorrectiveAng = Angle(0.075, 0.45, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
-SWEP.HolsterPos = Vector(5, 0, -6)
+SWEP.HolsterPos = Vector(5, -4, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
@@ -269,7 +269,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1.1,
         Pos_VM = Vector(-5.4, 0, 10),
-        Pos_WM = Vector(0.75, 5, 1.15),
+        Pos_WM = Vector(0.75, 10, 1.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90 + 3.5, 0),
     },
@@ -281,7 +281,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.95, 0, 30),
-        Pos_WM = Vector(1.4, 21, -0.5),
+        Pos_WM = Vector(2.1, 33.5, -0.5),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90 + 3.5, 0),
     },
@@ -292,8 +292,8 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        Pos_VM = Vector(-3.9, -1.2, 13.5),
-        Pos_WM = Vector(2, 13, -0.5),
+        Pos_VM = Vector(-3.9, -1.2, 18),
+        Pos_WM = Vector(2, 20, -0.5),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-90, -90 + 3.5, 0),
     },

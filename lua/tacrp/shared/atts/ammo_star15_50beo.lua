@@ -28,5 +28,7 @@ ATT.Add_RecoilResetTime = 0.075
 ATT.Mult_MuzzleVelocity = 0.6
 ATT.Add_RecoilPerShot = 0.6
 
+ATT.Mult_ShootTimeMult = 1.5
+
 ATT.Override_Sound_Shoot = "^tacint_extras/star15/fire_beo.ogg"
 ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_beo-supp.ogg"

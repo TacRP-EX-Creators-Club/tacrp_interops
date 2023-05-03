@@ -1,10 +1,10 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models/tacint_extras/star15/star_upper_blk_df"
+    "$basetexture" "models/tacint_extras/star15/star_upper_df"
     "$bumpmap"  "models/tacint_extras/star15/star_upper_df_cc"
     "$phongexponenttexture"		"models/tacint_extras/star15/star_upper_nm"
 
-    "$color2"    "[0.5 0.5 0.5]"
+    "$color2"    "[0.3 0.3 0.3]"
 
 	"$phongexponent" "35"
 	"$phongalbedotint" 3
