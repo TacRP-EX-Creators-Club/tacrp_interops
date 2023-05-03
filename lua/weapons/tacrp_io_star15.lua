@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\nEver the choice for lone wolves on a path of revenge, your fate will be a cacophonous funeral... and a silent farewell."
+SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\nEver the choice for lone wolves on a path of revenge, your fate will be a cacophonous funeral... and a silent farewell. Bring a detonator."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_star15.mdl"
 SWEP.WorldModel = "models/weapons/tacint/w_m4.mdl"
