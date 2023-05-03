@@ -58,7 +58,7 @@ SWEP.Range_Max = 5200 // distance at which we drop to minimum damage
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
 
-SWEP.MuzzleVelocity = 13500
+SWEP.MuzzleVelocity = 15500
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
@@ -270,7 +270,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger_auto"},
+        Category = {"trigger_semi"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
