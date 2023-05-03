@@ -4,23 +4,23 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Beretta MX4 Storm"
+SWEP.PrintName = "Beretta CX4 Storm"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "3Submachine Gun"
+SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Military pistol carbine conversion kit with automatic fire.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
+SWEP.Description = "Semi-automatic pistol carbine conversion kit.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_mx4.mdl"
-SWEP.WorldModel = "models/weapons/tacint_shark/w_mx4.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_cx4.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_cx4.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 17,
-        Damage_Min = 8,
+        Damage_Max = 25,
+        Damage_Min = 10,
 
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.8,
@@ -53,12 +53,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 9
-SWEP.Range_Min = 1000 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3800 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
+SWEP.Range_Max = 5200 // distance at which we drop to minimum damage
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
 
-SWEP.MuzzleVelocity = 12500
+SWEP.MuzzleVelocity = 13500
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
@@ -73,24 +73,20 @@ SWEP.BodyDamageMultipliers = {
 
 // misc. shooting
 
-SWEP.Firemodes = {
-    2,
-    1
-}
+SWEP.Firemode = 1
+SWEP.RPM = 550
 
-SWEP.RPM = 950
+SWEP.Spread = 0.0025
+SWEP.RecoilSpreadPenalty = 0.0012
+SWEP.HipFireSpreadPenalty = 0.02
 
-SWEP.Spread = 0.005
-SWEP.RecoilSpreadPenalty = 0.0015
-SWEP.HipFireSpreadPenalty = 0.015
-
-SWEP.ShootTimeMult = 0.5
+SWEP.ShootTimeMult = 0.65
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 15
-SWEP.RecoilResetTime = 0.15 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 20
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilMaximum = 8
+SWEP.RecoilResetTime = 0.175 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilDissipationRate = 12
+SWEP.RecoilFirstShotMult = 0.75 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
 
@@ -146,10 +142,10 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 30
+SWEP.ClipSize = 20
 SWEP.Ammo = "pistol"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 0.9
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/mx4.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
@@ -163,6 +159,7 @@ SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 130
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
+SWEP.Pitch_Shoot = 97.5
 
 // effects
 
@@ -229,7 +226,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
         VMScale = 0.95,
-        Pos_VM = Vector(-5.25, -0.25, 5),
+        Pos_VM = Vector(-5.25, -0.275, 5),
         Pos_WM = Vector(7, 1.5, -5.5),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
@@ -241,7 +238,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.75,
-        Pos_VM = Vector(-3.75, -0.2, 19.5),
+        Pos_VM = Vector(-3.75, -0.2, 24),
         Pos_WM = Vector(23, 2.5, -2.8),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
@@ -290,17 +287,3 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
 }
-
-local function addsound(name, spath)
-    sound.Add({
-        name = name,
-        channel = 16,
-        volume = 1.0,
-        sound = spath
-    })
-end
-
-addsound("tacint_mx4.insert_clip", path1 .. "mx4_clipin.wav")
-addsound("tacint_mx4.remove_clip", path1 .. "mx4_clipout.wav")
-addsound("tacint_mx4.bolt_action", path1 .. "mx4_boltpull.wav")
-addsound("tacint_mx4.foldingstock_back", path .. "foldingstock_back.wav")
