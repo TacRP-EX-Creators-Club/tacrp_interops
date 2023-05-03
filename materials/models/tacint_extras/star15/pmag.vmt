@@ -1,0 +1,19 @@
+"VertexLitGeneric" 
+{ 
+	"$basetexture" 				"models/tacint_extras/star15/pmag_df"
+	"$bumpmap" 					"models/tacint_extras/star15/wpn_fps_upg_m4_m_pmag_df_cc"
+	"$phongexponenttexture"		"models/tacint_extras/star15/wpn_fps_upg_m4_m_pmag_nm"
+
+	"$phongexponent" "35"
+	"$phongalbedotint" 3
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0 0.5 1]"
+
+	$basemapalphaphongmask 1
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask"	"1"
+	"$envmaptint"	"[0.04 0.04 0.04]"
+	"$envmapfresnel"	"1"
+} 

@@ -1,0 +1,5 @@
+"VertexLitGeneric" 
+{ 
+    "$basetexture" "models/tacint_extras/star15/pts_df"
+    // "$bumpmap"     "models/tacint_extras/star15/pts_nm"
+} 

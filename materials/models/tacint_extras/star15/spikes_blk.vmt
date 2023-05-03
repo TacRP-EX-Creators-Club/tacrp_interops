@@ -1,0 +1,13 @@
+"VertexLitGeneric" 
+{ 
+    "$basetexture" "models/tacint_extras/star15/spikes_blk_df"
+    "$bumpmap"     "models/tacint_extras/star15/spikes_df_cc"
+    "$phongexponenttexture"		"models/tacint_extras/star15/spikes_nm"
+
+	"$phongexponent" "5"
+	"$phongalbedotint" 3
+	"$phong" "1"
+	"$phongboost"	"0"
+	"$phongfresnelranges"	"[0 0.1 0.5]"
+	$basemapalphaphongmask 1
+} 

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/tacint_extras/star15/m4_barrel_standard_df"
+    // "$bumpmap"     "models/tacint_extras/star15/m4_barrel_standard_nm"
+}
+// patch
+// {
+// 	include "materials\models\tacint_extras\star15\shared_metal.vmt"
+// 	insert
+// 	{
+// 		"$basetexture" 				"models/tacint_extras/star15/m4_barrel_standard_df"
+// 		"$bumpmap" 					"models/tacint_extras/star15/m4_barrel_standard_df_cc"
+// 		"$phongexponenttexture"		"models/tacint_extras/star15/m4_barrel_standard_nm"
+// 	}
+// }
