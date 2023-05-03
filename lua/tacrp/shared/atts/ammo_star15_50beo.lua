@@ -2,8 +2,8 @@ ATT.PrintName = ".50 BEO"
 ATT.FullName = "ST AR-15 .50 Beowulf Mod Kit"
 ATT.Icon = Material("entities/tacrp_att_ammo_star15_50beo.png", "mips smooth")
 ATT.Description = "Modification to load low capacity, high power magnum rounds."
-ATT.Pros = {"Damage"}
-ATT.Cons = {"Capacity", "Fire Rate", "Recoil"}
+ATT.Pros = {"Damage increased significantly"}
+ATT.Cons = {"Capacity, Fire Rate, Recoil", "Range, Muzzle Velocity", "Penetration"}
 
 ATT.Category = "ammo_star15"
 ATT.SortOrder = 0.5
@@ -15,6 +15,9 @@ ATT.Mult_Damage_Min = 1.5
 ATT.Mult_Range_Min = 0.75
 ATT.Mult_Range_Max = 0.5
 ATT.Add_ArmorPenetration = -0.1
+ATT.Mult_ArmorBonus = 0.5
+
+ATT.Mult_Penetration = 0.25
 
 ATT.Mult_RPM = 0.55
 ATT.Mult_ClipSize = 1 / 3
