@@ -146,7 +146,7 @@ SWEP.ClipSize = 20
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 0.9
-SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/mx4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/cx4.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
@@ -168,7 +168,7 @@ SWEP.QCA_Muzzle = 1
 // ditto for shell
 SWEP.QCA_Eject = 2
 
-SWEP.MuzzleEffect = "muzzleflash_ak47"
+SWEP.MuzzleEffect = "muzzleflash_smg"
 
 // anims
 
