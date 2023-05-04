@@ -13,7 +13,7 @@ SWEP.SubCatType = "2Machine Pistol"
 SWEP.Description = "Polymer pistol with an innovative holster stock that allows burst fire at an incredible rate of fire. However, it has low range and limited capacity, and the stock hinders mobility."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vp70.mdl"
-SWEP.WorldModel = "models/weapons/tacint_extras/w_glock18.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_vp70.mdl"
 
 SWEP.Slot = 1
 
@@ -126,7 +126,7 @@ SWEP.HoldType = "revolver"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeBlindFire = false
 
-SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
+SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 
 SWEP.PassiveAng = Angle(0, 0, 0)
@@ -210,39 +210,33 @@ SWEP.AnimationTranslationTable = {
 SWEP.ProceduralIronFire = {
     vm_pos = Vector(0, -0.5, -0.6),
     vm_ang = Angle(0, 2, 0),
-    t = 0.2,
-    tmax = 0.2,
+    t = 0.1,
+    tmax = 0.1,
     bones = {
         {
             bone = "ValveBiped.slide",
             pos = Vector(0, 0, -3),
             t0 = 0,
-            t1 = 0.2,
-        },
-        {
-            bone = "ValveBiped.hammer",
-            ang = Angle(-15, 0, 0),
-            t0 = 0,
-            t1 = 0.15,
+            t1 = 0.1,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger1",
             ang = Angle(0, -15, 0),
             t0 = 0,
-            t1 = 0.1,
+            t1 = 0.05,
         },
         {
             bone = "ValveBiped.Bip01_R_Finger11",
             ang = Angle(-35, 0, 0),
             t0 = 0,
-            t1 = 0.15,
+            t1 = 0.075,
         },
     },
 }
 
 SWEP.NoIdle = true
 
-SWEP.ShootTimeMult = 0.4
+SWEP.ShootTimeMult = 0.5
 
 SWEP.LastShot = true
 
@@ -257,10 +251,10 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.9,
-        WMScale = 1.2,
+        WMScale = 1,
         Pos_VM = Vector(0, 0.7, -0.2),
         Ang_VM = Angle(0, 90, 180),
-        Pos_WM = Vector(2, 1.2, -4.5),
+        Pos_WM = Vector(3.5, 1.2, -4.25),
         Ang_WM = Angle(180, 0, 0),
     },
     [2] = {
@@ -284,11 +278,11 @@ SWEP.Attachments = {
         WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
-        VMScale = 0.8,
-        WMScale = 0.8,
+        VMScale = 0.75,
+        WMScale = 0.75,
         Pos_VM = Vector(-2.1, -0.23, 5.5),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(10.5, 1.2, -2.75),
+        Pos_WM = Vector(9.5, 1.2, -2.6),
         Ang_WM = Angle(0, 0, 0),
     },
     [4] = {
