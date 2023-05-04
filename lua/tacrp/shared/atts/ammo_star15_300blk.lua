@@ -23,3 +23,6 @@ ATT.Add_ArmorPenetration = -0.15
 -- forgive me for fudging the dist sounds
 ATT.Override_Sound_Shoot = "^tacint_extras/star15/fire-03.ogg"
 ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_300blk-supp.ogg"
+
+ATT.Override_DropMagazineModel = "models/weapons/tacint_extras/magazines/star15_pmag.mdl"
+ATT.Override_DropMagazineImpact = "plastic"

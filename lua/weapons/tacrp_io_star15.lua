@@ -161,7 +161,7 @@ SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/star15_stanag.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 // sounds
