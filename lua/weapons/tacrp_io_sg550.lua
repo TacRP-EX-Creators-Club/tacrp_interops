@@ -13,7 +13,7 @@ SWEP.SubCatType = "6Precision Rifle"
 SWEP.Description = "Carbine caliber marksman rifle with low recoil and fast semi-automatic fire. Penetrates armor easily.\nEquipped with a 6x scope by default."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_sg551.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
 
 SWEP.Slot = 2
 
@@ -232,9 +232,15 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {1, 1}
         },
+        BGs_WM = {
+            {1, 1}
+        },
     },
     ["sights"] = {
         BGs_VM = {
+            {2, 2}
+        },
+        BGs_WM = {
             {2, 2}
         },
     },
@@ -242,9 +248,15 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 1}
         },
+        BGs_WM = {
+            {2, 1}
+        },
     },
     ["tactical"] = {
         BGs_VM = {
+            {3, 1}
+        },
+        BGs_WM = {
             {3, 1}
         },
     },
@@ -260,8 +272,9 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.75,
+        WMScale = 0.75,
         Pos_VM = Vector(-5, 0, 5.5),
-        Pos_WM = Vector(-0.1, 5, 1.15),
+        Pos_WM = Vector(0, 5, 1),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -273,7 +286,7 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
         Pos_VM = Vector(-3.5, 0, 23.5),
-        Pos_WM = Vector(-0.1, 25, -0.9),
+        Pos_WM = Vector(0.1, 36, -1.2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
