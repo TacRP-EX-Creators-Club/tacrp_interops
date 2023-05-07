@@ -13,14 +13,14 @@ SWEP.SubCatType = "4Assault Rifle"
 SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_fnc.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_k1a.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_fnc.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 18,
-        Damage_Min = 8,
+        Damage_Max = 20,
+        Damage_Min = 12,
 
         RecoilKick = 2.5,
 
@@ -70,7 +70,7 @@ SWEP.Damage_Min = 10
 SWEP.Range_Min = 900 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.625
+SWEP.ArmorPenetration = 0.6
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3.5,
@@ -91,11 +91,11 @@ SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 750
 
-SWEP.Spread = 0.009
+SWEP.Spread = 0.006
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 15
-SWEP.RecoilResetTime = 0.2
+SWEP.RecoilMaximum = 12
+SWEP.RecoilResetTime = 0.175
 SWEP.RecoilDissipationRate = 16
 SWEP.RecoilFirstShotMult = 1.5 // multiplier for the first shot's recoil amount
 
@@ -103,7 +103,7 @@ SWEP.RecoilVisualKick = 1
 
 SWEP.RecoilKick = 3.5
 
-SWEP.RecoilSpreadPenalty = 0.0012
+SWEP.RecoilSpreadPenalty = 0.001
 SWEP.HipFireSpreadPenalty = 0.015
 SWEP.PeekPenaltyFraction = 0.15
 
@@ -120,8 +120,8 @@ SWEP.ReloadSpeedMult = 0.5
 SWEP.AimDownSightsTime = 0.32
 SWEP.SprintToFireTime = 0.35
 
-SWEP.Sway = 1.25
-SWEP.ScopedSway = 0.15
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.175
 
 // hold types
 
@@ -157,8 +157,8 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
-SWEP.ReloadTimeMult = 1.1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
+SWEP.ReloadTimeMult = 1
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/fnc.mdl"
 SWEP.DropMagazineImpact = "plastic"
 
 // sounds
@@ -236,7 +236,7 @@ SWEP.AttachmentElements = {
             {1, 1}
         },
         BGs_WM = {
-            {1, 0}
+            {1, 1}
         }
     },
 }
