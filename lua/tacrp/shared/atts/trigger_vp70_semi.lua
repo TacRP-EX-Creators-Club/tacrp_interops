@@ -1,12 +1,12 @@
-ATT.PrintName = "No Stock"
-ATT.Icon = Material("entities/tacrp_att_acc_foldstock.png", "mips smooth")
+ATT.PrintName = "Stockless"
+ATT.Icon = Material("entities/tacrp_att_trigger_vp70_semi.png", "smooth")
 ATT.Description = "Removes burst fire capability, improving handling and mobility."
 ATT.Pros = {"Handling", "Mobility"}
 ATT.Cons = {"Semi-automatic fire", "Sway"}
 
 ATT.Free = true
 
-ATT.Category = "acc_vp70_foldstock"
+ATT.Category = "trigger_vp70"
 
 ATT.SortOrder = 0
 

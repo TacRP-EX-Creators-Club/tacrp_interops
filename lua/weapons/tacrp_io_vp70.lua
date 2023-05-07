@@ -93,9 +93,9 @@ SWEP.RunawayBurst = true
 SWEP.Spread = 0.005
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
+SWEP.RecoilMaximum = 7
 SWEP.RecoilResetTime = 0.12
-SWEP.RecoilDissipationRate = 11
+SWEP.RecoilDissipationRate = 12
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
@@ -300,7 +300,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_vp70_foldstock", "acc_extmag_pistol", "acc_holster"},
+        Category = {"acc", "acc_extmag_pistol", "acc_holster"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
@@ -312,7 +312,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger", "trigger_burstauto"},
+        Category = {"trigger", "trigger_burstauto", "trigger_vp70"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
