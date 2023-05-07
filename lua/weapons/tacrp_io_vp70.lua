@@ -20,7 +20,7 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 17,
-        Damage_Min = 6,
+        Damage_Min = 9,
 
         MoveSpeedMult = 0.95,
         ShootingSpeedMult = 0.75,
@@ -62,7 +62,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 // "ballistics"
 
 SWEP.Damage_Max = 16
-SWEP.Damage_Min = 6
+SWEP.Damage_Min = 8
 SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
@@ -102,7 +102,7 @@ SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 2
 
 SWEP.RecoilSpreadPenalty = 0.0055
-SWEP.HipFireSpreadPenalty = 0.02
+SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.CanBlindFire = true
 
@@ -117,8 +117,8 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.27
 SWEP.SprintToFireTime = 0.3
 
-SWEP.Sway = 1
-SWEP.ScopedSway = 0.5
+SWEP.Sway = 1.15
+SWEP.ScopedSway = 0.2
 
 // hold types
 
@@ -236,11 +236,24 @@ SWEP.ProceduralIronFire = {
 
 SWEP.NoIdle = true
 
-SWEP.ShootTimeMult = 0.5
+SWEP.ShootTimeMult = 0.6
+SWEP.DeployTimeMult = 1.5
 
 SWEP.LastShot = true
 
 // attachments
+
+SWEP.AttachmentElements = {
+    ["foldstock"] = {
+        BGs_VM = {
+            {1, 1}
+        },
+        BGs_WM = {
+            {1, 1}
+        }
+    },
+}
+
 
 SWEP.Attachments = {
     [1] = {
@@ -287,7 +300,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_extmag_pistol", "acc_holster"},
+        Category = {"acc", "acc_vp70_foldstock", "acc_extmag_pistol", "acc_holster"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
@@ -299,7 +312,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger", "trigger_straight", "trigger_burstauto"},
+        Category = {"trigger", "trigger_burstauto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
