@@ -10,10 +10,10 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "9Special"
 SWEP.SubCatType = "9Equipment"
 
-SWEP.Description = "Heavy pump action grenade launcher with high muzzle velocity."
+SWEP.Description = "Heavy pump action grenade launcher with high muzzle velocity but poor handling."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_chinalake.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_m320.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_chinalake.mdl"
 
 SWEP.NoRanger = true
 
@@ -72,7 +72,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Single-Shot" // only used externally for firemode name distinction
 
-SWEP.RPM = 50
+SWEP.RPM = 42
 
 SWEP.Spread = 0.01
 
@@ -88,8 +88,11 @@ SWEP.RecoilVisualShake = 2
 SWEP.RecoilKick = 15
 
 SWEP.RecoilSpreadPenalty = 0
-SWEP.HipFireSpreadPenalty = 0.1
+SWEP.HipFireSpreadPenalty = 0.075
 SWEP.PeekPenaltyFraction = 0.15
+
+SWEP.Sway = 1.25
+SWEP.ScopedSway = 0.125
 
 SWEP.CanBlindFire = true
 
@@ -110,8 +113,8 @@ SWEP.HoldType = "shotgun"
 SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeBlindFire = false
 
-SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_RPG
-SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
+SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 
 SWEP.PassiveAng = Angle(0, 0, 0)
 SWEP.PassivePos = Vector(0, -2, -4)
