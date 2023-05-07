@@ -13,7 +13,7 @@ SWEP.SubCatType = "5Shotgun"
 SWEP.Description = "Magazine fed shotgun chambered in a relatively small shell. Low damage, but good fire rate and spread."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_saiga.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_ak47.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_saiga.mdl"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -167,6 +167,8 @@ SWEP.Ammo = "buckshot"
 SWEP.ShotgunReload = false
 
 SWEP.ReloadTimeMult = 1.15
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/saiga.mdl"
+SWEP.DropMagazineImpact = "metal"
 
 // sounds
 
