@@ -13,7 +13,7 @@ SWEP.SubCatType = "5Shotgun"
 SWEP.Description = "Nickel plated \"Marine Magnum\" shotgun. Poor handling, but has great capacity and firepower."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_870.mdl"
-SWEP.WorldModel = "models/weapons/tacint/w_bekas.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_870.mdl"
 
 SWEP.Slot = 2
 SWEP.SlotAlt = 3
@@ -243,7 +243,7 @@ SWEP.Attachments = {
         VMScale = 1.25,
         Pos_VM = Vector(-0.5, 0.3, 27),
         Ang_VM = Angle(90, 0, -180),
-        Pos_WM = Vector(25, 0, -12),
+        Pos_WM = Vector(25, 0.5, -12),
         Ang_WM = Angle(-25, 3.5, 90),
     },
     [3] = {
