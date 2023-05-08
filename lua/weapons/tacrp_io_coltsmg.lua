@@ -37,8 +37,8 @@ SWEP.BalanceStats = {
         Range_Min = 700,
         Range_Max = 3500,
 
-        ClipSize = 24,
-        PostBurstDelay = 0.25,
+        ClipSize = 32,
+        PostBurstDelay = 0.2,
 
         RecoilResetTime = 0.125,
         RecoilMaximum = 15,

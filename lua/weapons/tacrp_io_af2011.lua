@@ -10,7 +10,8 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "\"If M1911 is so good, why isn't there a M1911 2?\"\nThis. This is why."
+SWEP.Description = "Effectively two M1911s welded together, this curiosity fires two bullets per trigger pull for double the damage. However, its exotic design is unwieldy and makes accurate shooting nearly impossible."
+// "\"If M1911 is so good, why isn't there a M1911 2?\"\nThis. This is why."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_af2011.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_af2011.mdl"
@@ -19,20 +20,24 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 22,
-        Damage_Min = 8,
-
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.9,
-        SightedSpeedMult = 1,
+        SightedSpeedMult = 0.9,
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 25,
-        Damage_Min = 6,
+        Damage_Min = 8,
+        RPM = 160,
 
-        RPM = 150,
+        Spread = 0.015,
+        RecoilPerShot = 1,
+        RecoilMaximum = 3.5,
+        RecoilResetTime = 0.3,
+        RecoilDissipationRate = 6,
+        RecoilFirstShotMult = 2,
+        RecoilSpreadPenalty = 0.01,
 
         ReloadTimeMult = 1.15 * 1.25,
 
@@ -49,7 +54,7 @@ SWEP.TTTReplace = {["weapon_zm_pistol"] = 0.5}
 // "ballistics"
 
 SWEP.Damage_Max = 24
-SWEP.Damage_Min = 6
+SWEP.Damage_Min = 9
 SWEP.Range_Min = 400
 SWEP.Range_Max = 2500
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
@@ -76,23 +81,23 @@ SWEP.RPM = 300
 
 SWEP.Num = 2
 
-SWEP.Spread = 0.007
+SWEP.Spread = 0.0125
 SWEP.ShotgunPelletSpread = 0.0035
 
-SWEP.RecoilSpreadPenalty = 0.0075
+SWEP.RecoilSpreadPenalty = 0.004
 SWEP.HipFireSpreadPenalty = 0.0125
 
-SWEP.ShootTimeMult = 0.65
+SWEP.ShootTimeMult = 0.55
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 3
+SWEP.RecoilMaximum = 6
 SWEP.RecoilResetTime = 0.25
-SWEP.RecoilDissipationRate = 8
-SWEP.RecoilFirstShotMult = 1
+SWEP.RecoilDissipationRate = 12
+SWEP.RecoilFirstShotMult = 1.5
 
-SWEP.RecoilVisualKick = 3
+SWEP.RecoilVisualKick = 1.5
 
-SWEP.RecoilKick = 9
+SWEP.RecoilKick = 11
 
 SWEP.CanBlindFire = true
 
@@ -104,7 +109,7 @@ SWEP.SightedSpeedMult = 0.9
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.28
+SWEP.AimDownSightsTime = 0.29
 SWEP.SprintToFireTime = 0.27
 
 SWEP.Sway = 1.25

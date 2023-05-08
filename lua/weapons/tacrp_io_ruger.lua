@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet does very little damage unless it hits the head."
+SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet has very little stopping power except on a headshot."
 
 // https://gamebanana.com/mods/214299
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ruger.mdl"
@@ -31,13 +31,13 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 12,
-        Damage_Min = 10,
-        Range_Min = 1500,
+        Damage_Min = 9,
+        Range_Min = 1200,
         Range_Max = 5000,
-        RPM = 600,
+        RPM = 550,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 6,
+            [HITGROUP_HEAD] = 5,
             [HITGROUP_CHEST] = 1,
             [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
@@ -88,7 +88,7 @@ SWEP.Firemode = 1
 
 SWEP.RPM = 550
 
-SWEP.Spread = 0.0015
+SWEP.Spread = 0.0012
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 8
@@ -96,7 +96,7 @@ SWEP.RecoilResetTime = 0.1
 SWEP.RecoilDissipationRate = 10
 SWEP.RecoilFirstShotMult = 0.9
 
-SWEP.RecoilVisualKick = 1
+SWEP.RecoilVisualKick = 0.4
 SWEP.RecoilKick = 1
 
 SWEP.RecoilSpreadPenalty = 0.0005
