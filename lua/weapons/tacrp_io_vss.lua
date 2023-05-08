@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Integrally-suppressed rifle with high performance when scoped and firing in short bursts.\nEquipped with a 6x scope by default."
+SWEP.Description = "Integrally-suppressed rifle with high damage output and precision, but performs poorly over long bursts.\nEquipped with a 6x scope by default."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vss.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_vss.mdl"
@@ -60,11 +60,11 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 25
-SWEP.Damage_Min = 22
-SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5500 // distance at which we drop to minimum damage
-SWEP.Penetration = 7 // units of metal this weapon can penetrate
+SWEP.Damage_Max = 22
+SWEP.Damage_Min = 18
+SWEP.Range_Min = 700 // distance for which to maintain maximum damage
+SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Penetration = 9 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.925
 
 SWEP.BodyDamageMultipliers = {
@@ -115,8 +115,8 @@ SWEP.ReloadSpeedMult = 0.5
 SWEP.AimDownSightsTime = 0.44
 SWEP.SprintToFireTime = 0.4
 
-SWEP.Sway = 1.25
-SWEP.ScopedSway = 0.15
+SWEP.Sway = 1.3
+SWEP.ScopedSway = 0.1
 
 // hold types
 
@@ -159,8 +159,8 @@ SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/ak47.mdl"
-SWEP.DropMagazineImpact = "metal"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/vss.mdl"
+SWEP.DropMagazineImpact = "plastic"
 
 // sounds
 
