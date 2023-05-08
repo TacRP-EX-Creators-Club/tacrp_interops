@@ -153,7 +153,7 @@ SWEP.ScopedSway = 0.6
 SWEP.ClipSize = 7
 SWEP.Ammo = "357"
 SWEP.ReloadTimeMult = 1.4
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/gsr1911.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/deagle.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 // sounds
