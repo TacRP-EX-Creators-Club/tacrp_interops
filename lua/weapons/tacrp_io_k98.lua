@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Kar98k \"Ketzerei\""
+SWEP.PrintName = "Kar98k Sporter"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique infantry rifle bastardized with a box magazine in an act of \"ketzerei\", or heresy. Sorry.\nPowerful up close and has high mobility, but cannot use long range optics and damage falls off significantly."
+SWEP.Description = "Antique infantry rifle bastardized with a box magazine.\nPowerful up close and has high mobility, but cannot use long range optics and damage falls off significantly."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_k98.mdl"
