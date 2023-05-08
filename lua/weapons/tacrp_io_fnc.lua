@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration."
+SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration.\n\nSmells like chocolate in here."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_fnc.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_fnc.mdl"
