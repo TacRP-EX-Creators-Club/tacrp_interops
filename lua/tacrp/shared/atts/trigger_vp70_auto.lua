@@ -5,7 +5,7 @@ ATT.Description = "The engineers at H&K are frothing at their mouths as we speak
 ATT.Pros = {"Automatic fire"}
 ATT.Cons = {"Fire rate", "Recoil"}
 
-ATT.Free = true
+ATT.Free = false
 
 ATT.Category = "trigger_vp70"
 
