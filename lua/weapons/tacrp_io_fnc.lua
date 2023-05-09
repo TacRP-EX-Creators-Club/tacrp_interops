@@ -12,17 +12,18 @@ SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration.\n\nSmells like chocolate in here."
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_fnc.mdl"
-SWEP.WorldModel = "models/weapons/tacint_shark/w_fnc.mdl"
+// https://gamebanana.com/mods/211419
+SWEP.ViewModel = "models/weapons/tacint_extras/v_fnc.mdl" // "models/weapons/tacint_shark/v_fnc.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_fnc.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 20,
-        Damage_Min = 12,
+        Damage_Max = 18,
+        Damage_Min = 9,
 
-        RecoilKick = 2.5,
+        RecoilKick = 3,
 
         MoveSpeedMult = 0.85,
         ShootingSpeedMult = 0.8,
@@ -65,8 +66,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 10
+SWEP.Damage_Max = 16
+SWEP.Damage_Min = 9
 SWEP.Range_Min = 900 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
@@ -91,10 +92,10 @@ SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 750
 
-SWEP.Spread = 0.006
+SWEP.Spread = 0.008
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
+SWEP.RecoilMaximum = 15
 SWEP.RecoilResetTime = 0.175
 SWEP.RecoilDissipationRate = 16
 SWEP.RecoilFirstShotMult = 1.5 // multiplier for the first shot's recoil amount
@@ -104,7 +105,7 @@ SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 3.5
 
 SWEP.RecoilSpreadPenalty = 0.001
-SWEP.HipFireSpreadPenalty = 0.015
+SWEP.HipFireSpreadPenalty = 0.0175
 SWEP.PeekPenaltyFraction = 0.15
 
 SWEP.CanBlindFire = true
@@ -133,7 +134,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -6)
+SWEP.PassivePos = Vector(0, -1, -6)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
@@ -142,19 +143,19 @@ SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
 SWEP.SightAng = Angle(0, 0, 0)
-SWEP.SightPos = Vector(-4.54, -5, -3.6)
+SWEP.SightPos = Vector(-4.35, -5, -4.175)
 
-SWEP.CorrectivePos = Vector(0, 0, 0.1)
-SWEP.CorrectiveAng = Angle(0, 0, 0)
+SWEP.CorrectivePos = Vector(0, 0, 0)
+SWEP.CorrectiveAng = Angle(-0.1, 0.2, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
-SWEP.HolsterPos = Vector(5, 0, -6)
+SWEP.HolsterPos = Vector(6, -4, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 30
+SWEP.ClipSize = 35
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
@@ -239,6 +240,14 @@ SWEP.AttachmentElements = {
             {1, 1}
         }
     },
+    ["sights"] = {
+        BGs_VM = {
+            {2, 1}
+        },
+        BGs_WM = {
+            {2, 1}
+        }
+    },
 }
 
 
@@ -250,9 +259,10 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
-        VMScale = 0.95,
-        Pos_VM = Vector(-5, 0.3, 4),
-        Pos_WM = Vector(0, 5, 1.4),
+        InstalledElements = {"sights"},
+        VMScale = 1,
+        Pos_VM = Vector(-5.9, 0.15, 2.75),
+        Pos_WM = Vector(0, 2, 2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -265,7 +275,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.9,
         Pos_VM = Vector(-3.05, 0.4, 31),
-        Pos_WM = Vector(-0.25, 30, -1),
+        Pos_WM = Vector(0, 30, -0.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },
@@ -277,8 +287,8 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1.3,
-        Pos_VM = Vector(-3.7, -0.2, 21),
-        Pos_WM = Vector(0.9, 15, -1),
+        Pos_VM = Vector(-3.7, -0.2, 22),
+        Pos_WM = Vector(0.5, 20, 0),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-90, -90, 0),
     },
