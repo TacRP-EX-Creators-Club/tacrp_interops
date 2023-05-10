@@ -10,7 +10,7 @@ ATT.SortOrder = 0
 
 ATT.Override_Scope = true
 ATT.Override_ScopeHideWeapon = true
-ATT.Override_ScopeOverlay = Material("tacrp/scopes/acog.png", "mips smooth")
+ATT.Override_ScopeOverlay = Material("tacrp/scopes/coltscope.png", "mips smooth")
 ATT.Override_ScopeFOV = 90 / 3
 ATT.Override_ScopeOverlaySize = 0.85
 
