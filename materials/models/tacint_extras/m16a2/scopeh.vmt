@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\tacint_extras\m16a2\scopeh"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\tacint_extras\m16a2\scopeh_ref"
+}
