@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Vintage burst assault rifle with limited customization options. You wouldn't need them though - rifle is fine."
+SWEP.Description = "Vintage burst assault rifle with limited optic options. Despite this, its stable recoil and high damage makes it reliable at medium range."
 
 // https://gamebanana.com/mods/211832
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m16a2.mdl"
@@ -20,7 +20,7 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 22,
+        Damage_Max = 24,
         Damage_Min = 16,
 
         MoveSpeedMult = 0.85,
@@ -103,9 +103,9 @@ SWEP.RecoilResetTime = 0.16
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.75
+SWEP.RecoilVisualKick = 0.4
 
-SWEP.RecoilKick = 3
+SWEP.RecoilKick = 2.5
 
 SWEP.RecoilSpreadPenalty = 0.0022
 SWEP.HipFireSpreadPenalty = 0.04
@@ -257,43 +257,43 @@ SWEP.Attachments = {
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90 + 3.5, 0),
     },
-    -- [3] = {
-    --     PrintName = "Tactical",
-    --     Category = "tactical",
-    --     Bone = "ValveBiped.m4_rootbone",
-    --     WMBone = "Box01",
-    --     AttachSound = "TacRP/weapons/flashlight_on.wav",
-    --     DetachSound = "TacRP/weapons/flashlight_off.wav",
-    --     Pos_VM = Vector(-3.9, -1.2, 13.5),
-    --     Pos_WM = Vector(2, 13, -0.5),
-    --     Ang_VM = Angle(90, 0, -90),
-    --     Ang_WM = Angle(-90, -90 + 3.5, 0),
-    -- },
     [3] = {
+        PrintName = "Tactical",
+        Category = "tactical",
+        Bone = "ValveBiped.m4_rootbone",
+        WMBone = "Box01",
+        AttachSound = "TacRP/weapons/flashlight_on.wav",
+        DetachSound = "TacRP/weapons/flashlight_off.wav",
+        Pos_VM = Vector(-3.3, 0, 20.5),
+        Pos_WM = Vector(2, 13, -0.5),
+        Ang_VM = Angle(90, 0, 180),
+        Ang_WM = Angle(-90, -90 + 3.5, 0),
+    },
+    [4] = {
         PrintName = "Accessory",
         Category = {"acc", "acc_sling", "acc_duffle", "perk_extendedmag"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
-    [4] = {
+    [5] = {
         PrintName = "Bolt",
         Category = {"bolt_automatic"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [5] = {
+    [6] = {
         PrintName = "Trigger",
         Category = {"trigger_burst"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [6] = {
+    [7] = {
         PrintName = "Ammo",
         Category = {"ammo_rifle"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
-    [7] = {
+    [8] = {
         PrintName = "Perk",
         Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
