@@ -1,0 +1,208 @@
+SWEP.Base = "tacrp_io_tec9"
+SWEP.Spawnable = true
+
+AddCSLuaFile()
+
+// names and stuff
+SWEP.PrintName = "Intratec AB-10"
+SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
+
+SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatType = "1Sidearm"
+
+SWEP.Description = "Semi-automatic \"After Ban\" model of the TEC-9 with a short, non-threaded barrel. High capacity among pistols, but has worse handling."
+
+SWEP.ViewModel = "models/weapons/tacint_extras/v_ab10.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_ab10.mdl"
+
+SWEP.Slot = 1
+
+SWEP.BalanceStats = {
+    [TacRP.BALANCE_SBOX] = {
+        Damage_Max = 24,
+        Damage_Min = 12,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.95,
+        SightedSpeedMult = 1,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
+    [TacRP.BALANCE_TTT] = {
+        Damage_Max = 16,
+        Damage_Min = 10,
+        Range_Min = 300,
+        Range_Max = 1800,
+        RPM = 420,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2.5,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 0.9,
+            [HITGROUP_RIGHTARM] = 0.9,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.9
+        },
+
+        ReloadTimeMult = 1.25,
+
+        MoveSpeedMult = 0.95,
+        ShootingSpeedMult = 0.95,
+        MeleeSpeedMult = 1,
+        SightedSpeedMult = 0.7,
+        ReloadSpeedMult = 0.8,
+    },
+}
+
+SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
+
+// "ballistics"
+
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 8
+
+SWEP.BodyDamageMultipliers = {
+    [HITGROUP_HEAD] = 5,
+    [HITGROUP_CHEST] = 1,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
+    [HITGROUP_LEFTLEG] = 0.75,
+    [HITGROUP_RIGHTLEG] = 0.75,
+    [HITGROUP_GEAR] = 0.9
+}
+
+// misc. shooting
+
+SWEP.Firemodes = false
+SWEP.Firemode = 1
+
+SWEP.RPM = 500
+
+SWEP.Spread = 0.008
+SWEP.RecoilSpreadPenalty = 0.002
+SWEP.HipFireSpreadPenalty = 0.02
+
+SWEP.ShootTimeMult = 0.5
+
+SWEP.RecoilPerShot = 1
+SWEP.RecoilMaximum = 10
+SWEP.RecoilResetTime = 0.12 // time after you stop shooting for recoil to start dissipating
+SWEP.RecoilDissipationRate = 12
+SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+
+SWEP.RecoilVisualKick = 0.5
+
+SWEP.RecoilKick = 2.5
+
+// handling
+
+SWEP.MoveSpeedMult = 0.975
+SWEP.ShootingSpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.8
+
+SWEP.ReloadSpeedMult = 0.6
+
+SWEP.AimDownSightsTime = 0.25
+SWEP.SprintToFireTime = 0.27
+
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.3
+
+// reload
+
+SWEP.Pitch_shoot = 105
+
+SWEP.ClipSize = 24
+SWEP.Ammo = "pistol"
+
+SWEP.ReloadTimeMult = 1
+SWEP.DropMagazineModel = "models/weapons/tacint/magazines/skorpion.mdl"
+SWEP.DropMagazineImpact = "pistol"
+
+SWEP.AttachmentElements = {
+    ["foldstock"] = {
+        BGs_VM = {
+            {1, 1}
+        },
+        BGs_WM = {
+            {1, 1}
+        }
+    },
+    ["tactical"] = {
+        BGs_VM = {
+            {3, 1}
+        },
+    },
+    ["smallmag"] = {
+        BGs_VM = {
+            {2, 1}
+        },
+        BGs_WM = {
+            {2, 1}
+        }
+    },
+}
+
+SWEP.Attachments = {
+    [1] = {
+        PrintName = "Optic",
+        Category = "optic_pistol",
+        Bone = "Skorpion_ROOT",
+        WMBone = "Bone02",
+        AttachSound = "tacrp/weapons/optic_on.wav",
+        DetachSound = "tacrp/weapons/optic_off.wav",
+        VMScale = 1.2,
+        WMScale = 1.2,
+        Pos_VM = Vector(4, 0.06, 0.8),
+        Ang_VM = Angle(90, 0, 180),
+        Pos_WM = Vector(-12, 1.25, -5),
+        Ang_WM = Angle(0, 0, 180),
+    },
+    [2] = {
+        PrintName = "Muzzle",
+        Category = "barrel",
+        Bone = "Skorpion_ROOT",
+        WMBone = "Bone02",
+        AttachSound = "TacRP/weapons/silencer_on.wav",
+        DetachSound = "TacRP/weapons/silencer_off.wav",
+        VMScale = 0.75,
+        WMScale = 0.75,
+        Pos_VM = Vector(3.75, 0, 15),
+        Ang_VM = Angle(90, 0, 180),
+        Pos_WM = Vector(1.5, 1.25, -4.3),
+        Ang_WM = Angle(0, 0, 0),
+    },
+    [3] = {
+        PrintName = "Accessory",
+        Category = {"acc", "acc_extmag_smg", "acc_holster"},
+        AttachSound = "TacRP/weapons/flashlight_on.wav",
+        DetachSound = "TacRP/weapons/flashlight_off.wav",
+    },
+    [4] = {
+        PrintName = "Bolt",
+        Category = {"bolt_automatic"},
+        AttachSound = "TacRP/weapons/flashlight_on.wav",
+        DetachSound = "TacRP/weapons/flashlight_off.wav",
+    },
+    [5] = {
+        PrintName = "Trigger",
+        Category = {"trigger_semi"},
+        AttachSound = "TacRP/weapons/flashlight_on.wav",
+        DetachSound = "TacRP/weapons/flashlight_off.wav",
+    },
+    [6] = {
+        PrintName = "Ammo",
+        Category = {"ammo_pistol"},
+        AttachSound = "TacRP/weapons/flashlight_on.wav",
+        DetachSound = "TacRP/weapons/flashlight_off.wav",
+    },
+    [7] = {
+        PrintName = "Perk",
+        Category = {"perk", "perk_melee", "perk_shooting", "perk_reload"},
+        AttachSound = "tacrp/weapons/flashlight_on.wav",
+        DetachSound = "tacrp/weapons/flashlight_off.wav",
+    },
+}
