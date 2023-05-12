@@ -163,6 +163,9 @@ SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/ruger.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
+SWEP.ReloadUpInTime = 0.75
+SWEP.DropMagazineTime = 0.2
+
 // sounds
 
 local path = "tacrp/weapons/p2000/p2000_"

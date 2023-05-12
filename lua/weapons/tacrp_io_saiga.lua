@@ -166,9 +166,12 @@ SWEP.ClipSize = 10
 SWEP.Ammo = "buckshot"
 SWEP.ShotgunReload = false
 
-SWEP.ReloadTimeMult = 1.15
+SWEP.ReloadTimeMult = 1.2
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/saiga.mdl"
 SWEP.DropMagazineImpact = "metal"
+
+SWEP.ReloadUpInTime = 1.65
+SWEP.DropMagazineTime = 0.65
 
 // sounds
 

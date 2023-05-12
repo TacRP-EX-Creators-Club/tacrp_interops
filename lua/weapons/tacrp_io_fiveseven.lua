@@ -20,7 +20,7 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 22,
-        Damage_Min = 16,
+        Damage_Min = 20,
         RPM = 600,
 
         MoveSpeedMult = 1,
@@ -31,7 +31,7 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 20,
-        Damage_Min = 15,
+        Damage_Min = 16,
 
         RPM = 240,
 
@@ -53,7 +53,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 // "ballistics"
 
 SWEP.Damage_Max = 22
-SWEP.Damage_Min = 18
+SWEP.Damage_Min = 20
 SWEP.Range_Min = 1600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
@@ -151,6 +151,9 @@ SWEP.ReloadTimeMult = 1.35
 
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/fiveseven.mdl"
 SWEP.DropMagazineImpact = "pistol"
+
+SWEP.ReloadUpInTime = 0.85
+SWEP.DropMagazineTime = 0.2
 
 // sounds
 

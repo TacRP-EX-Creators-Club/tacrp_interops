@@ -135,11 +135,14 @@ SWEP.PassivePos = Vector(0, -2, -5)
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(0, -2, -5)
 
+SWEP.BlindFireSuicideAng = Angle(-125, 0, 45)
+SWEP.BlindFireSuicidePos = Vector(25, 12, -5)
+
 SWEP.SprintAng = Angle(0, 30, 0)
 SWEP.SprintPos = Vector(2, 0, -12)
 
-SWEP.SightAng = Angle(0, 0.1, 0)
-SWEP.SightPos = Vector(-3.27, 0, -3.3)
+SWEP.SightAng = Angle(0, 0, 0)
+SWEP.SightPos = Vector(-3.31, 0, -3.2)
 
 SWEP.CorrectivePos = Vector(0.02, -1, 0)
 SWEP.CorrectiveAng = Angle(0.05, -0.05, 0)
@@ -158,6 +161,9 @@ SWEP.ReloadTimeMult = 1.4
 
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/glock.mdl"
 SWEP.DropMagazineImpact = "pistol"
+
+SWEP.ReloadUpInTime = 0.85
+SWEP.DropMagazineTime = 0.2
 
 // sounds
 

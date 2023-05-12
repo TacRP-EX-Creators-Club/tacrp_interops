@@ -20,8 +20,8 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
 
-        Damage_Max = 27,
-        Damage_Min = 20,
+        Damage_Max = 28,
+        Damage_Min = 24,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 1,
@@ -72,13 +72,13 @@ SWEP.Damage_Min = 15
 SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
 SWEP.Range_Max = 4500 // distance at which we drop to minimum damage
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.725
+SWEP.ArmorPenetration = 0.75
 SWEP.ArmorBonus = 1
 
 SWEP.MuzzleVelocity = 14000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4.75,
+    [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
@@ -161,6 +161,9 @@ SWEP.ReloadTimeMult = 1
 
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/p226.mdl"
 SWEP.DropMagazineImpact = "pistol"
+
+SWEP.ReloadUpInTime = 0.85
+SWEP.DropMagazineTime = 0.2
 
 // sounds
 

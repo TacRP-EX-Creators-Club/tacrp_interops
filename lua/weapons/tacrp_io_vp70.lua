@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "2Machine Pistol"
 
-SWEP.Description = "Polymer pistol with an innovative holster stock that allows burst fire at an incredible rate of fire. However, it has low range and limited capacity, and the stock hinders mobility."
+SWEP.Description = "Polymer pistol with an innovative holster stock that allows for incredibly fast burst fire."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vp70.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_vp70.mdl"
@@ -153,6 +153,8 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 SWEP.ClipSize = 18
 SWEP.Ammo = "pistol"
+
+SWEP.ReloadUpInTime = 1
 
 SWEP.ReloadTimeMult = 1.15
 

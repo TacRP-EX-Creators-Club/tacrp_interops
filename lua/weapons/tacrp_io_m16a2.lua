@@ -98,16 +98,16 @@ SWEP.Spread = 0.0024
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
-SWEP.RecoilResetTime = 0.16
-SWEP.RecoilDissipationRate = 20
+SWEP.RecoilMaximum = 15
+SWEP.RecoilResetTime = 0.15
+SWEP.RecoilDissipationRate = 18
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.4
 
 SWEP.RecoilKick = 2.5
 
-SWEP.RecoilSpreadPenalty = 0.0022
+SWEP.RecoilSpreadPenalty = 0.0016
 SWEP.HipFireSpreadPenalty = 0.04
 SWEP.PeekPenaltyFraction = 0.2
 
@@ -164,6 +164,9 @@ SWEP.Ammo = "smg1"
 SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/star15_stanag.mdl" // if anyone complains its not the same I'll break their nico nico kneecaps
 SWEP.DropMagazineImpact = "metal"
+
+SWEP.ReloadUpInTime = 1.3
+SWEP.DropMagazineTime = 0.4
 
 // sounds
 

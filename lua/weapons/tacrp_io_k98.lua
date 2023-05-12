@@ -179,6 +179,9 @@ SWEP.ShootTimeMult = 0.95
 SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/trg42.mdl"
 
+SWEP.ReloadUpInTime = 2.1
+SWEP.DropMagazineTime = 1.4
+
 // sounds
 
 // local path = "TacRP/weapons/spr/"
