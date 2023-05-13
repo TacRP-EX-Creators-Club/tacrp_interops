@@ -5,6 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Remington 870 SPMM"
+SWEP.AbbrevName = "R870 SPMM"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"

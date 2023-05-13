@@ -5,6 +5,8 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "Taurus 850 Ultralite"
+SWEP.AbbrevName = "T850 Ultralite"
+
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
