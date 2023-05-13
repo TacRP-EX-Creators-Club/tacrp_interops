@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "HK VP-70M"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Polymer pistol with an innovative holster stock that allows for incredibly fast burst fire."
@@ -21,6 +21,9 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 17,
         Damage_Min = 9,
+        PostBurstDelay = 0.2,
+
+        RecoilSpreadPenalty = 0.005,
 
         MoveSpeedMult = 0.95,
         ShootingSpeedMult = 0.75,
@@ -61,11 +64,11 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 16
-SWEP.Damage_Min = 8
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 10
 SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
-SWEP.Penetration = 3 // units of metal this weapon can penetrate
+SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.65
 SWEP.ArmorBonus = 1
 
@@ -87,21 +90,21 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemodes = {-3, 1}
 SWEP.RPM = 2000
 
-SWEP.PostBurstDelay = 0.2
+SWEP.PostBurstDelay = 0.16
 SWEP.RunawayBurst = true
 
 SWEP.Spread = 0.005
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 7
-SWEP.RecoilResetTime = 0.12
-SWEP.RecoilDissipationRate = 12
+SWEP.RecoilMaximum = 12
+SWEP.RecoilResetTime = 0.125
+SWEP.RecoilDissipationRate = 16
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 2
 
-SWEP.RecoilSpreadPenalty = 0.0055
+SWEP.RecoilSpreadPenalty = 0.003
 SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.CanBlindFire = true

@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Colt M16A2"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Vintage burst assault rifle with limited optic options. Despite this, its stable recoil and high damage makes it reliable at medium range."

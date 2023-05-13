@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Intratec TEC-9"
 SWEP.Category = "Tactical RP" // "Tactical RP (Arctic)"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Machine pistol notorious for its ease of conversion to fully automatic fire, and subsequent criminal usage."
@@ -61,8 +61,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 16
-SWEP.Damage_Min = 11
+SWEP.Damage_Max = 18
+SWEP.Damage_Min = 12
 SWEP.Range_Min = 500
 SWEP.Range_Max = 2400
 SWEP.Penetration = 6 // units of metal this weapon can penetrate

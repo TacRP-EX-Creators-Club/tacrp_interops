@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "FN FNC Para"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration.\n\nSmells like chocolate in here."
@@ -22,7 +22,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 18,
         Damage_Min = 9,
-
+        ClipSize = 35,
         RecoilKick = 3,
 
         MoveSpeedMult = 0.85,
@@ -36,6 +36,7 @@ SWEP.BalanceStats = {
         Damage_Min = 7,
         Range_Min = 200,
         Range_Max = 2000,
+        ClipSize = 35,
 
         Spread = 0.01,
         RecoilSpreadPenalty = 0.0015,
@@ -66,9 +67,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 16
-SWEP.Damage_Min = 9
-SWEP.Range_Min = 900 // distance for which to maintain maximum damage
+SWEP.Damage_Max = 18
+SWEP.Damage_Min = 8
+SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.6
@@ -155,7 +156,7 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 35
+SWEP.ClipSize = 30
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
