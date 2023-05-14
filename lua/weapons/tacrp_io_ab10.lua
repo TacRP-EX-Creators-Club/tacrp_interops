@@ -123,30 +123,6 @@ SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/skorpion.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
-SWEP.AttachmentElements = {
-    ["foldstock"] = {
-        BGs_VM = {
-            {1, 1}
-        },
-        BGs_WM = {
-            {1, 1}
-        }
-    },
-    ["tactical"] = {
-        BGs_VM = {
-            {3, 1}
-        },
-    },
-    ["smallmag"] = {
-        BGs_VM = {
-            {2, 1}
-        },
-        BGs_WM = {
-            {2, 1}
-        }
-    },
-}
-
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
