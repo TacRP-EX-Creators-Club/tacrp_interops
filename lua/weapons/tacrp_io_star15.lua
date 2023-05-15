@@ -36,7 +36,7 @@ SWEP.BalanceStats = {
         Range_Max = 3000,
 
         RecoilKick = 3,
-        RPM = 300,
+        RPM = 400,
 
         RecoilResetTime = 0.175,
         RecoilSpreadPenalty = 0.0026,
