@@ -183,6 +183,8 @@ SWEP.ReloadTimeMult = 1.25
 
 SWEP.ReloadUpInTime = 1.35
 
+SWEP.JamSkipFix = true
+
 // sounds
 
 local path = "tacint_shark/500mag/"

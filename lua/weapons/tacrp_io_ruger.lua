@@ -23,6 +23,17 @@ SWEP.BalanceStats = {
         Damage_Max = 15,
         Damage_Min = 10,
 
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 7,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.9,
+            [HITGROUP_RIGHTLEG] = 0.9,
+            [HITGROUP_GEAR] = 0.9
+        },
+
         MoveSpeedMult = 1,
         ShootingSpeedMult = 1,
         SightedSpeedMult = 1,
@@ -91,15 +102,15 @@ SWEP.RPM = 550
 SWEP.Spread = 0.0012
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 5
 SWEP.RecoilResetTime = 0.1
-SWEP.RecoilDissipationRate = 10
-SWEP.RecoilFirstShotMult = 0.9
+SWEP.RecoilDissipationRate = 7.5
+SWEP.RecoilFirstShotMult = 0.8
 
-SWEP.RecoilVisualKick = 0.4
-SWEP.RecoilKick = 1
+SWEP.RecoilVisualKick = 0.5
+SWEP.RecoilKick = 1.5
 
-SWEP.RecoilSpreadPenalty = 0.0005
+SWEP.RecoilSpreadPenalty = 0.0015
 SWEP.HipFireSpreadPenalty = 0.015
 SWEP.MidAirSpreadPenalty = 0.06
 SWEP.PeekPenaltyFraction = 0.5

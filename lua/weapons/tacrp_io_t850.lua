@@ -171,6 +171,8 @@ SWEP.ReloadTimeMult = 1
 
 SWEP.ReloadUpInTime = 1.35
 
+SWEP.JamSkipFix = true
+
 // sounds
 
 local path = "tacint_extras/t850/"

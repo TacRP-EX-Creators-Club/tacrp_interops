@@ -19,8 +19,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 17,
-        Damage_Min = 10,
+        Damage_Max = 16,
+        Damage_Min = 11,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.9,
@@ -61,8 +61,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 18
-SWEP.Damage_Min = 12
+SWEP.Damage_Max = 15
+SWEP.Damage_Min = 10
 SWEP.Range_Min = 500
 SWEP.Range_Max = 2400
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
@@ -71,7 +71,7 @@ SWEP.ArmorPenetration = 0.65
 SWEP.MuzzleVelocity = 14000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3,
+    [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
