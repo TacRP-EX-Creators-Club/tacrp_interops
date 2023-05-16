@@ -120,6 +120,11 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.32
 SWEP.SprintToFireTime = 0.27
 
+SWEP.Sway = 1.5
+SWEP.ScopedSway = 0.6
+
+SWEP.FreeAimMaxAngle = 4.5
+
 // hold types
 
 SWEP.HoldType = "revolver"
@@ -145,9 +150,6 @@ SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
 SWEP.HolsterPos = Vector(0, 3, -4)
 SWEP.HolsterAng = Angle(90, 0, 0)
-
-SWEP.Sway = 1.5
-SWEP.ScopedSway = 0.6
 
 // reload
 SWEP.ClipSize = 7

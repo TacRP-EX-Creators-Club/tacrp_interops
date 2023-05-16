@@ -107,7 +107,8 @@ SWEP.RecoilVisualKick = 0.6
 SWEP.RecoilKick = 2.5
 
 SWEP.RecoilSpreadPenalty = 0.002
-SWEP.HipFireSpreadPenalty = 0.08
+SWEP.HipFireSpreadPenalty = 0.035
+SWEP.PeekPenaltyFraction = 0.25
 
 SWEP.CanBlindFire = true
 
@@ -153,6 +154,8 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.1
+
+SWEP.FreeAimMaxAngle = 6
 
 SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"

@@ -132,6 +132,8 @@ SWEP.Sway = 0.5
 SWEP.ScopedSway = 0.1
 SWEP.BlindFireSway = 0.5
 
+SWEP.FreeAimMaxAngle = 2
+
 // hold types
 
 SWEP.HoldType = "revolver"

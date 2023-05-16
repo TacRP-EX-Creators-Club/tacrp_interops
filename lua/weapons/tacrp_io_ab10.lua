@@ -112,6 +112,8 @@ SWEP.SprintToFireTime = 0.27
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.3
 
+SWEP.FreeAimMaxAngle = 3.5
+
 // reload
 
 SWEP.Pitch_shoot = 105

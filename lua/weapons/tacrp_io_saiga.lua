@@ -98,7 +98,7 @@ SWEP.Firemode = 1
 SWEP.RPM = 300
 
 SWEP.Spread = 0.015
-SWEP.ShotgunPelletSpread = 0.01
+SWEP.ShotgunPelletSpread = 0.015
 
 SWEP.HipFireSpreadPenalty = 0.02
 SWEP.MidAirSpreadPenalty = 0
@@ -114,7 +114,7 @@ SWEP.RecoilVisualShake = 1
 
 SWEP.RecoilKick = 7
 
-SWEP.RecoilSpreadPenalty = 0.01
+SWEP.RecoilSpreadPenalty = 0.0085
 
 SWEP.CanBlindFire = true
 
@@ -128,6 +128,11 @@ SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.4
 SWEP.SprintToFireTime = 0.5
+
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.15
+
+SWEP.FreeAimMaxAngle = 5
 
 // hold types
 
@@ -158,8 +163,6 @@ SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
 SWEP.HolsterPos = Vector(5, 0, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
-SWEP.Sway = 1
-SWEP.ScopedSway = 0.1
 // reload
 
 SWEP.ClipSize = 10
@@ -270,7 +273,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_shotgun"}, -- , "acc_foldstock"
+        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_shotgun"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },

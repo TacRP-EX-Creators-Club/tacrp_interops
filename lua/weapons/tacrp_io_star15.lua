@@ -124,8 +124,10 @@ SWEP.ReloadSpeedMult = 0.5
 SWEP.AimDownSightsTime = 0.37
 SWEP.SprintToFireTime = 0.4
 
-SWEP.Sway = 1.35
+SWEP.Sway = 1.3
 SWEP.ScopedSway = 0.125
+
+SWEP.FreeAimMaxAngle = 5
 
 // hold types
 

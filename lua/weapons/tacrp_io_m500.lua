@@ -174,6 +174,8 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 SWEP.Sway = 2
 SWEP.ScopedSway = 0.75
 
+SWEP.FreeAimMaxAngle = 5
+
 // reload
 
 SWEP.ClipSize = 5

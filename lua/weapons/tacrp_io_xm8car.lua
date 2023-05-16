@@ -124,6 +124,8 @@ SWEP.SprintToFireTime = 0.35
 SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.15
 
+SWEP.FreeAimMaxAngle = 3
+
 // hold types
 
 SWEP.HoldType = "ar2"
