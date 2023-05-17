@@ -99,7 +99,7 @@ SWEP.RecoilVisualKick = 2.5
 SWEP.RecoilKick = 10
 
 SWEP.RecoilSpreadPenalty = 0.01
-SWEP.HipFireSpreadPenalty = 0.035
+SWEP.HipFireSpreadPenalty = 0.02
 SWEP.PeekPenaltyFraction = 0.15
 
 SWEP.CanBlindFire = true
