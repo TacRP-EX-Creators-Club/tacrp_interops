@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Integrally-suppressed rifle with high damage output and precision, but performs poorly over long bursts.\nEquipped with a 6x scope by default."
+SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil.\nEquipped with a 6x scope by default."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vss.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_vss.mdl"
@@ -60,17 +60,17 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
-SWEP.Damage_Min = 18
+SWEP.Damage_Max = 26
+SWEP.Damage_Min = 20
 SWEP.Range_Min = 700 // distance for which to maintain maximum damage
 SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
 SWEP.Penetration = 9 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.925
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 3.5,
+    [HITGROUP_HEAD] = 4.5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.5,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.85,
@@ -78,28 +78,28 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 15500
+SWEP.MuzzleVelocity = 16000
 
 // misc. shooting
 
-SWEP.Firemodes = {1, 2}
-SWEP.RPM = 800
+SWEP.Firemode = 1
+SWEP.RPM = 600
 
 SWEP.Spread = 0.0005
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 9
-SWEP.RecoilResetTime = 0.1
-SWEP.RecoilDissipationRate = 12
-SWEP.RecoilFirstShotMult = 0.3
+SWEP.RecoilMaximum = 8
+SWEP.RecoilResetTime = 0.12
+SWEP.RecoilDissipationRate = 10
+SWEP.RecoilFirstShotMult = 0.4
 
 SWEP.RecoilVisualKick = 0.5
 
-SWEP.RecoilKick = 2.5
+SWEP.RecoilKick = 2
 
-SWEP.RecoilSpreadPenalty = 0.0032
+SWEP.RecoilSpreadPenalty = 0.0027
 SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true
@@ -130,7 +130,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -4)
+SWEP.PassivePos = Vector(0, -2, -5)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
@@ -153,9 +153,10 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.Scope = true
 SWEP.ScopeOverlay = Material("tacrp/scopes/pso1.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 5
+SWEP.ScopeFOV = 90 / 6
 SWEP.ScopeLevels = 1
 SWEP.ScopeHideWeapon = true
+SWEP.ScopeOverlaySize = 0.9
 
 SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
@@ -254,7 +255,7 @@ SWEP.Attachments = {
         VMScale = 0.75,
         Pos_VM = Vector(-5.25, 0.15, 4),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 3, 0.5),
+        Pos_WM = Vector(0, 3, 0.2),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -283,7 +284,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Trigger",
-        Category = {"trigger_auto"},
+        Category = {"trigger_semi"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
