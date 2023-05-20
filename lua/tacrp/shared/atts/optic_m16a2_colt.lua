@@ -2,7 +2,7 @@ ATT.PrintName = "Colt 3x20"
 ATT.FullName = "Colt M16A2 3x20 Rifle Scope"
 ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
 ATT.Description = "Low power optical scope with specialized mount for the M16A2."
-ATT.Pros = {"3x Zoom"}
+ATT.Pros = {"att.zoom.3"}
 
 ATT.Category = "optic_m16a2"
 

@@ -1,8 +1,8 @@
-ATT.PrintName = "Compensator"
+ATT.PrintName = "att.muzz_pistol_comp.name"
 ATT.Icon = Material("entities/tacrp_att_muzz_pistol_comp.png", "mips smooth")
 ATT.Description = "Muzzle device which reduces recoil impact."
-ATT.Pros = {"Recoil", "Muzzle Velocity"}
-ATT.Cons = {"Fire rate"}
+ATT.Pros = {"stat.recoil", "stat.muzzlevelocity"}
+ATT.Cons = {"stat.rpm"}
 
 ATT.Category = "comp_m14"
 ATT.InvAtt = "muzz_pistol_comp"

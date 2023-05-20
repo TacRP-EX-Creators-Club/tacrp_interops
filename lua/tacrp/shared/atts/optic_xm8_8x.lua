@@ -2,7 +2,7 @@ ATT.PrintName = "8x"
 ATT.FullName = "XM8 Integrated Scope (8x)"
 ATT.Icon = Material("entities/tacrp_att_optic_acog.png", "mips smooth")
 ATT.Description = "Long range zoom setting with sniper reticle."
-ATT.Pros = {"8x Zoom"}
+ATT.Pros = {"att.zoom.8"}
 
 ATT.Category = "optic_xm8"
 

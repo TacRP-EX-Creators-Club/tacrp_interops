@@ -1,7 +1,7 @@
 ATT.PrintName = "PSO-1"
 ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
 ATT.Description = "Russian scope with medium-long range magnification."
-ATT.Pros = {"6x Zoom"}
+ATT.Pros = {"att.zoom.6"}
 
 ATT.Category = "optic_pso1"
 

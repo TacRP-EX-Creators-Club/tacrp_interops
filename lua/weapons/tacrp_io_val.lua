@@ -214,8 +214,8 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = {"melee1", "melee2"}
 }
 
-SWEP.DeployTimeMult = 1.75
-SWEP.UnholsterTimeMult = 0.75
+SWEP.DeployTimeMult = 2.2
+SWEP.UnholsterTimeMult = 1 / 2.2
 
 // attachments
 
