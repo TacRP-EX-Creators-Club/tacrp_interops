@@ -61,6 +61,18 @@ SWEP.BalanceStats = {
         SightedSpeedMult = 0.7,
         ReloadSpeedMult = 0.75,
     },
+    [TacRP.BALANCE_PVE] = {
+        Damage_Max = 8,
+        Damage_Min = 5,
+        ClipSize = 35,
+        RecoilKick = 2.5,
+
+        MoveSpeedMult = 0.85,
+        ShootingSpeedMult = 0.8,
+        SightedSpeedMult = 0.8,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle

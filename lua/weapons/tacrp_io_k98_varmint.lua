@@ -54,6 +54,27 @@ SWEP.BalanceStats = {
         SightedSpeedMult = 0.65,
         ReloadSpeedMult = 0.6,
     },
+    [TacRP.BALANCE_PVE] = {
+        Damage_Max = 35,
+        Damage_Min = 18,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 2,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1,
+            [HITGROUP_LEFTARM] = 1,
+            [HITGROUP_RIGHTARM] = 1,
+            [HITGROUP_LEFTLEG] = 0.75,
+            [HITGROUP_RIGHTLEG] = 0.75,
+            [HITGROUP_GEAR] = 0.5
+        },
+
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
+        SightedSpeedMult = 0.9,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
 }
 
 SWEP.TTTReplace = {["weapon_zm_rifle"] = 0.5, ["weapon_zm_mac10"] = 0.5}

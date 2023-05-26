@@ -77,6 +77,21 @@ SWEP.BalanceStats = {
         SightedSpeedMult = 0.6,
         ReloadSpeedMult = 0.8,
     },
+    [TacRP.BALANCE_PVE] = {
+        Damage_Max = 80,
+        Damage_Min = 50,
+        Range_Min = 300,
+        Range_Max = 5000,
+        RPM = 90,
+
+        HipFireSpreadPenalty = 0.045,
+
+        MoveSpeedMult = 1,
+        ShootingSpeedMult = 0.7,
+        SightedSpeedMult = 0.85,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum

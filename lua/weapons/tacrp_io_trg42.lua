@@ -73,6 +73,23 @@ SWEP.BalanceStats = {
         SightedSpeedMult = 0.5,
         ReloadSpeedMult = 0.5,
     },
+    [TacRP.BALANCE_PVE] = {
+        Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default.",
+
+        Damage_Max = 25,
+        Damage_Min = 75,
+        Range_Min = 700,
+        Range_Max = 3000,
+
+        Sway = 2,
+        ScopedSway = 0.075,
+
+        MoveSpeedMult = 0.8,
+        ShootingSpeedMult = 0.5,
+        SightedSpeedMult = 0.7,
+        MeleeSpeedMult = 1,
+        ReloadSpeedMult = 1,
+    },
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
