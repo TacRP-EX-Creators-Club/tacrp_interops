@@ -230,24 +230,6 @@ SWEP.AnimationTranslationTable = {
 // attachments
 
 SWEP.AttachmentElements = {
-    ["foldstock"] = {
-        BGs_VM = {
-            {1, 1}
-        },
-        BGs_WM = {
-            {1, 1}
-        }
-    },
-    ["optic"] = {
-        BGs_VM = {
-            {2, 1}
-        },
-    },
-    ["tactical"] = {
-        BGs_VM = {
-            {3, 1}
-        },
-    },
 }
 
 SWEP.Attachments = {
@@ -257,7 +239,6 @@ SWEP.Attachments = {
         Bone = "ValveBiped.mp5_rootbone",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
-        InstalledElements = {"optic"},
         Pos_VM = Vector(-6.3, -0.35, 4),
         Pos_WM = Vector(7, 1.6, -7),
         Ang_VM = Angle(90, 0, 0),
@@ -280,7 +261,6 @@ SWEP.Attachments = {
         Bone = "ValveBiped.mp5_rootbone",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        InstalledElements = {"tactical"},
         Pos_VM = Vector(-4, 0.5, 11),
         Pos_WM = Vector(14, 1.3, -5),
         Ang_VM = Angle(90, 0, 90),
@@ -288,7 +268,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_foldstock", "acc_sling", "acc_duffle", "acc_extmag_smg"},
+        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_smg"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
