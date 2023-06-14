@@ -157,7 +157,7 @@ SWEP.SightAng = Angle(-0, 0, 0)
 SWEP.SightPos = Vector(-4.53, -7.5, -3.535)
 
 SWEP.CorrectivePos = Vector(0, 0, 0)
-SWEP.CorrectiveAng = Angle(0, 0, 0)
+SWEP.CorrectiveAng = Angle(-0.075, 0.2, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -261,7 +261,7 @@ SWEP.Attachments = {
         Bone = "ValveBiped.mp5_rootbone",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        Pos_VM = Vector(-4, 0.5, 11),
+        Pos_VM = Vector(-3.75, 0.7, 13),
         Pos_WM = Vector(14, 1.3, -5),
         Ang_VM = Angle(90, 0, 90),
         Ang_WM = Angle(0, -3.5, -90),
