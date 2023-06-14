@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/tacint_extras/usc/1-Default"
+	"$normalmap" "models/tacint_extras/usc/1-Default_normal"
+}
