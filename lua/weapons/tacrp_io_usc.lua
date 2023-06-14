@@ -11,10 +11,10 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
 
-SWEP.Description = "Semi-automatic carbine variant of the UMP. Low capacity, but retains damage better at medium range, and the gripstock provides extra stability."
+SWEP.Description = "Semi-automatic carbine variant of the UMP. Uses low capacity magazines, but its long barrel and gripstock assembly provides excellent ranged performance."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_usc.mdl"
-SWEP.WorldModel = "models/weapons/tacint_extras/w_ump45.mdl"
+SWEP.WorldModel = "models/weapons/tacint_extras/w_usc.mdl"
 
 SWEP.Slot = 2
 
@@ -106,9 +106,9 @@ SWEP.Spread = 0.002
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
+SWEP.RecoilMaximum = 6
 SWEP.RecoilResetTime = 0.12 // time after you stop shooting for recoil to start dissipating
-SWEP.RecoilDissipationRate = 7
+SWEP.RecoilDissipationRate = 7.5
 SWEP.RecoilFirstShotMult = 0.75
 
 SWEP.RecoilVisualKick = 0.5
@@ -240,7 +240,7 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         Pos_VM = Vector(-6.3, -0.35, 4),
-        Pos_WM = Vector(7, 1.6, -7),
+        Pos_WM = Vector(6.5, 1, -6.75),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
     },
@@ -250,8 +250,8 @@ SWEP.Attachments = {
         Bone = "ValveBiped.mp5_rootbone",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.9, -0.35, 25),
-        Pos_WM = Vector(26, 2.5, -5),
+        Pos_VM = Vector(-3.9, -0.35, 26.5),
+        Pos_WM = Vector(29.5, 2.35, -4.6),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -3.5, 180),
     },
@@ -262,9 +262,9 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         Pos_VM = Vector(-3.75, 0.7, 13),
-        Pos_WM = Vector(14, 1.3, -5),
+        Pos_WM = Vector(15, 2.5, -4.3),
         Ang_VM = Angle(90, 0, 90),
-        Ang_WM = Angle(0, -3.5, -90),
+        Ang_WM = Angle(0, -3.5, 90),
     },
     [4] = {
         PrintName = "Accessory",
