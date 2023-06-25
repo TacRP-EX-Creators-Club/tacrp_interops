@@ -184,7 +184,7 @@ local path2 = "tacint_extras/usc/"
 SWEP.Sound_Shoot = "^" .. path2 .. "ump45-2.wav"
 SWEP.Sound_Shoot_Silenced = path2 .. "fire_silenced-1.wav"
 
-SWEP.Vol_Shoot = 130
+SWEP.Vol_Shoot = 115
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects

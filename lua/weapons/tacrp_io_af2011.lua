@@ -182,7 +182,7 @@ local path1 = "tacint_shark/af2011/"
 
 SWEP.Sound_Shoot = "^" .. path1 .. "af2011a1-1.wav"
 
-SWEP.Vol_Shoot = 130
+SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects

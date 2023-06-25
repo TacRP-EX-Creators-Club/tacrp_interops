@@ -195,7 +195,7 @@ local path2 = "tacrp_extras/mac10/"
 SWEP.Sound_Shoot = "^" .. path .. "car-151.wav"
 SWEP.Sound_Shoot_Silenced = path2 .. "mac10-suppressed-1.wav"
 
-SWEP.Vol_Shoot = 130
+SWEP.Vol_Shoot = 110
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
