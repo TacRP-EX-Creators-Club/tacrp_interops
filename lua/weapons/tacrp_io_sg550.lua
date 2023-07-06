@@ -151,7 +151,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -6)
+SWEP.PassivePos = Vector(0, -2, -5.5)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
@@ -303,7 +303,8 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.5, 0, 23.5),
+        VMScale = 0.85,
+        Pos_VM = Vector(-3.2, 0.05, 32.25),
         Pos_WM = Vector(0.1, 36, -1.2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
