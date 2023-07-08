@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Imposing magnum pistol. Powerful, but recoil is hard to manage."
+SWEP.Description = "Imposing magnum pistol, as iconic as it gets.\nPowerful and high capacity, but recoil is hard to manage."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_deagle.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_deagle.mdl"
@@ -20,7 +20,7 @@ SWEP.Slot = 1
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 75,
-        Damage_Min = 40,
+        Damage_Min = 45,
 
         MoveSpeedMult = 1,
         ShootingSpeedMult = 0.8,
@@ -73,7 +73,7 @@ SWEP.BalanceStats = {
 // "ballistics"
 
 SWEP.Damage_Max = 80
-SWEP.Damage_Min = 40
+SWEP.Damage_Min = 50
 SWEP.Range_Min = 150
 SWEP.Range_Max = 1500
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
@@ -110,8 +110,9 @@ SWEP.RecoilDissipationRate = 5
 SWEP.RecoilFirstShotMult = 0.9
 
 SWEP.RecoilVisualKick = 5
-
 SWEP.RecoilKick = 15
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 100
 
 SWEP.RecoilSpreadPenalty = 0.02
 SWEP.HipFireSpreadPenalty = 0.02

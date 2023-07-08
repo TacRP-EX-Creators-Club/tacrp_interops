@@ -20,7 +20,7 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 24,
+        Damage_Max = 25,
         Damage_Min = 16,
 
         MoveSpeedMult = 0.85,
@@ -74,8 +74,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 21
-SWEP.Damage_Min = 13
+SWEP.Damage_Max = 24
+SWEP.Damage_Min = 14
 SWEP.Range_Min = 1800
 SWEP.Range_Max = 4200
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
@@ -115,9 +115,9 @@ SWEP.RecoilResetTime = 0.15
 SWEP.RecoilDissipationRate = 18
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.4
-
+SWEP.RecoilVisualKick = 0.5
 SWEP.RecoilKick = 2.5
+SWEP.RecoilStability = 0.65
 
 SWEP.RecoilSpreadPenalty = 0.0016
 SWEP.HipFireSpreadPenalty = 0.04

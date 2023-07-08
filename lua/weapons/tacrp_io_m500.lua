@@ -127,7 +127,7 @@ SWEP.FiremodeName = "Double-Action" // only used externally for firemode name di
 
 SWEP.RPM = 90
 
-SWEP.Spread = 0.001
+SWEP.Spread = 0.004
 
 SWEP.ShootTimeMult = 1
 
@@ -138,8 +138,9 @@ SWEP.RecoilDissipationRate = 1.75
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 3
-
 SWEP.RecoilKick = 18
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 150
 
 SWEP.RecoilSpreadPenalty = 0.05 // extra spread per one unit of recoil
 SWEP.HipFireSpreadPenalty = 0.04

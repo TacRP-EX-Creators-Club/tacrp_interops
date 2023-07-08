@@ -97,7 +97,7 @@ SWEP.ArmorPenetration = 0.75
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.4,
+    [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,
@@ -124,8 +124,9 @@ SWEP.RecoilDissipationRate = 15
 SWEP.RecoilFirstShotMult = 0.75
 
 SWEP.RecoilVisualKick = 0.75
-
 SWEP.RecoilKick = 1.5
+SWEP.RecoilStability = 0.4
+SWEP.RecoilAltMultiplier = 1000
 
 SWEP.RecoilSpreadPenalty = 0.0009
 SWEP.HipFireSpreadPenalty = 0.04

@@ -11,7 +11,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter Carbine"
 
 
-SWEP.Description = "Semi-automatic carbine variant of the UMP. Uses low capacity magazines, but its long barrel and gripstock assembly provides excellent ranged performance."
+SWEP.Description = "Semi-automatic carbine variant of the UMP. Uses low capacity magazines, but its long barrel and gripstock assembly provides excellent medium range performance."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_usc.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_usc.mdl"
@@ -21,7 +21,7 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 28,
-        Damage_Min = 13,
+        Damage_Min = 15,
 
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.8,
@@ -76,9 +76,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 // "ballistics"
 
 SWEP.Damage_Max = 25
-SWEP.Damage_Min = 11
+SWEP.Damage_Min = 13
 SWEP.Range_Min = 900 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 4500 // distance at which we drop to minimum damage
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
 
@@ -112,8 +112,8 @@ SWEP.RecoilDissipationRate = 7.5
 SWEP.RecoilFirstShotMult = 0.75
 
 SWEP.RecoilVisualKick = 0.5
-
-SWEP.RecoilKick = 3.5
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.4
 
 SWEP.RecoilSpreadPenalty = 0.002
 
@@ -131,7 +131,7 @@ SWEP.AimDownSightsTime = 0.3
 SWEP.SprintToFireTime = 0.35
 
 SWEP.Sway = 0.85
-SWEP.ScopedSway = 0.175
+SWEP.ScopedSway = 0.075
 
 SWEP.FreeAimMaxAngle = 4
 

@@ -115,9 +115,10 @@ SWEP.RecoilResetTime = 0.1
 SWEP.RecoilDissipationRate = 10
 SWEP.RecoilFirstShotMult = 0.75
 
-SWEP.RecoilVisualKick = 1
-
+SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 2
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 300
 
 SWEP.RecoilSpreadPenalty = 0.0035
 SWEP.HipFireSpreadPenalty = 0.06
