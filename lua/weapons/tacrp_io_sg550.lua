@@ -196,8 +196,9 @@ SWEP.DropMagazineTime = 0.6
 // sounds
 
 local path = "tacrp/weapons/sg551/sg551_"
+local path1 = "tacint_shark/krieg/"
 
-SWEP.Sound_Shoot = "^" .. path .. "fire-1.wav"
+SWEP.Sound_Shoot = path1 .. "sg500.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
