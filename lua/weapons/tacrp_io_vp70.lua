@@ -23,8 +23,6 @@ SWEP.BalanceStats = {
         Damage_Min = 9,
         PostBurstDelay = 0.2,
 
-        RecoilSpreadPenalty = 0.005,
-
         MoveSpeedMult = 0.95,
         ShootingSpeedMult = 0.75,
         SightedSpeedMult = 0.8,
@@ -62,8 +60,6 @@ SWEP.BalanceStats = {
         Damage_Max = 10,
         Damage_Min = 5,
         PostBurstDelay = 0.2,
-
-        RecoilSpreadPenalty = 0.005,
 
         MoveSpeedMult = 0.95,
         ShootingSpeedMult = 0.75,
@@ -109,15 +105,16 @@ SWEP.RunawayBurst = true
 SWEP.Spread = 0.005
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 12
-SWEP.RecoilResetTime = 0.125
-SWEP.RecoilDissipationRate = 16
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilMaximum = 9
+SWEP.RecoilResetTime = 0.15
+SWEP.RecoilDissipationRate = 18
+SWEP.RecoilFirstShotMult = 0.5 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 2
+SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.003
+SWEP.RecoilSpreadPenalty = 0.0025
 SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.CanBlindFire = true
@@ -175,7 +172,7 @@ SWEP.Ammo = "pistol"
 SWEP.ReloadUpInTime = 1
 
 SWEP.ReloadTimeMult = 1.15
-
+SWEP.DropMagazineTime = 0.25
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/vp70.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
