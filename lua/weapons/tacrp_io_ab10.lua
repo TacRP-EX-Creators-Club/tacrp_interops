@@ -88,6 +88,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 SWEP.Damage_Max = 20
 SWEP.Damage_Min = 8
+SWEP.Range_Min = 300
+SWEP.Range_Max = 1800
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
@@ -131,8 +133,8 @@ SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.6
 
-SWEP.AimDownSightsTime = 0.25
-SWEP.SprintToFireTime = 0.27
+SWEP.AimDownSightsTime = 0.26
+SWEP.SprintToFireTime = 0.29
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.3
