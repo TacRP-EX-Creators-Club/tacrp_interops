@@ -259,8 +259,6 @@ SWEP.NoIdle = true
 SWEP.ShootTimeMult = 0.6
 SWEP.DeployTimeMult = 1.5
 
-SWEP.LastShot = true
-
 // attachments
 
 SWEP.AttachmentElements = {
