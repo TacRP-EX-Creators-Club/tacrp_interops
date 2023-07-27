@@ -24,10 +24,10 @@ SWEP.BalanceStats = {
         Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default.",
 
         Damage_Max = 70,
-        Damage_Min = 125,
+        Damage_Min = 115,
 
         Range_Min = 1800,
-        Range_Max = 4000,
+        Range_Max = 8000,
 
         Sway = 2,
         ScopedSway = 0.075,
@@ -96,8 +96,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 125 // damage at minimum range
-SWEP.Damage_Min = 100 // damage at maximum range
+SWEP.Damage_Max = 115 // damage at minimum range
+SWEP.Damage_Min = 90 // damage at maximum range
 SWEP.Range_Min = 4000 // distance for which to maintain maximum damage
 SWEP.Range_Max = 10000 // distance at which we drop to minimum damage
 SWEP.Penetration = 24 // units of metal this weapon can penetrate
@@ -107,7 +107,7 @@ SWEP.ArmorBonus = 4
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 1.15,
     [HITGROUP_LEFTARM] = 0.75,
     [HITGROUP_RIGHTARM] = 0.75,
     [HITGROUP_LEFTLEG] = 0.5,

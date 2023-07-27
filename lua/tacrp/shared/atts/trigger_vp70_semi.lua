@@ -16,7 +16,8 @@ ATT.Add_Damage_Min = 3
 ATT.Mult_ReloadTimeMult = 0.9
 
 ATT.Override_Firemodes = {1}
-ATT.Override_RPM = 600
+ATT.Mult_RPM = 0.667
+-- ATT.Override_RPM = 600
 
 ATT.Add_RecoilKick = 2
 ATT.Add_SprintToFireTime = -0.05

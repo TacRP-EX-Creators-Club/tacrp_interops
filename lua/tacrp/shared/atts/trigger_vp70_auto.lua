@@ -11,8 +11,9 @@ ATT.Category = "trigger_vp70"
 
 ATT.SortOrder = 0.5
 
-ATT.Override_Firemodes = {2}
-ATT.Override_RPM = 1200
+ATT.Override_Firemodes = {2, 1}
+-- ATT.Mult_RPM = 0.778
+-- ATT.Override_RPM = 1200
 
 ATT.Add_RecoilVisualKick = 1
 ATT.Add_RecoilKick = 3
