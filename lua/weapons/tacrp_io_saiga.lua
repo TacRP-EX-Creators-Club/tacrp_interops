@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Saiga-20"
+SWEP.PrintName = "Saiga-12"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "Magazine fed shotgun chambered in a relatively small shell. Low damage, but good fire rate and spread."
+SWEP.Description = "High capacity shotgun feeding from a box magazine. Tight spread and high firerate, but damage is relatively low."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_saiga.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_saiga.mdl"
@@ -20,9 +20,6 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 11,
-        Damage_Min = 3,
-
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.75,
         SightedSpeedMult = 0.9,
@@ -30,8 +27,6 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
-        Description = "Magazine fed shotgun chambered in a relatively small shell. High capacity and fire rate, but low damage and spread.",
-
         Damage_Max = 6,
         Damage_Min = 2,
         Range_Min = 200,
@@ -52,7 +47,7 @@ SWEP.BalanceStats = {
             [HITGROUP_GEAR] = 0.9
         },
 
-        ReloadTimeMult = 1.25,
+        ReloadTimeMult = 1.3,
 
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.4,
@@ -90,19 +85,19 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AutoShotgun
 
 // "ballistics"
 
-SWEP.ShootTimeMult = 1
+SWEP.ShootTimeMult = 0.85
 
 SWEP.Damage_Max = 12
-SWEP.Damage_Min = 4
+SWEP.Damage_Min = 7
 SWEP.Range_Min = 500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2400 // distance at which we drop to minimum damage
+SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.45
-SWEP.ArmorBonus = 1.3
+SWEP.ArmorBonus = 1.25
 
 SWEP.Num = 6
 
-SWEP.MuzzleVelocity = 11000
+SWEP.MuzzleVelocity = 13000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1.5,
@@ -120,6 +115,7 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemode = 1
 
 SWEP.RPM = 300
+SWEP.PostBurstDelay = 0.1
 
 SWEP.Spread = 0.015
 SWEP.ShotgunPelletSpread = 0.015
@@ -128,17 +124,17 @@ SWEP.HipFireSpreadPenalty = 0.02
 SWEP.MidAirSpreadPenalty = 0
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 4
-SWEP.RecoilResetTime = 0.3
-SWEP.RecoilDissipationRate = 6
+SWEP.RecoilMaximum = 5
+SWEP.RecoilResetTime = 0.2
+SWEP.RecoilDissipationRate = 8
 SWEP.RecoilFirstShotMult = 1.25
 
 SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilVisualShake = 1
-
 SWEP.RecoilKick = 7
+SWEP.RecoilStability = 0.25
+SWEP.RecoilAltMultiplier = 150
 
-SWEP.RecoilSpreadPenalty = 0.0085
+SWEP.RecoilSpreadPenalty = 0.009
 
 SWEP.CanBlindFire = true
 
@@ -151,10 +147,10 @@ SWEP.SightedSpeedMult = 0.7
 SWEP.ReloadSpeedMult = 0.5
 
 SWEP.AimDownSightsTime = 0.4
-SWEP.SprintToFireTime = 0.5
+SWEP.SprintToFireTime = 0.44
 
 SWEP.Sway = 1
-SWEP.ScopedSway = 0.15
+SWEP.ScopedSway = 0.2
 
 SWEP.FreeAimMaxAngle = 5
 
@@ -189,16 +185,16 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 10
+SWEP.ClipSize = 8
 SWEP.Ammo = "buckshot"
-SWEP.ShotgunReload = false
 
-SWEP.ReloadTimeMult = 1.2
+SWEP.ReloadTimeMult = 1.15
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/saiga.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 1.65
 SWEP.DropMagazineTime = 0.65
+
 
 // sounds
 
@@ -223,13 +219,17 @@ SWEP.EjectEffect = 3
 // anims
 
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "unholster",
-    ["fire"] = {"fire5_M", "fire5_L", "fire5_R"},
+    ["deploy"] = "deploy",
+    ["fire1"] = {"fire3_M", "fire3_R"},
+    ["fire2"] = {"fire4_M", "fire4_L"},
+    ["fire3"] = {"fire5_M", "fire5_L", "fire5_R"},
+    ["fire4"] = {"fire5_M", "fire5_L", "fire5_R"},
+    ["fire5"] = {"fire5_M", "fire5_L", "fire5_R"},
     ["fire_iron"] = "fire1_M",
     ["melee"] = {"melee1", "melee2"}
 }
 
-SWEP.DeployTimeMult = 2.5
+SWEP.DeployTimeMult = 1.1
 
 SWEP.AttachmentElements = {
     ["foldstock"] = {
@@ -242,6 +242,9 @@ SWEP.AttachmentElements = {
     },
     ["tactical"] = {
         BGs_VM = {
+            {2, 1}
+        },
+        BGs_WM = {
             {2, 1}
         },
     },
@@ -258,10 +261,10 @@ SWEP.Attachments = {
         InstalledElements = {"tactical"},
         AttachSound = "tacrp/weapons/optic_on.wav",
         DetachSound = "tacrp/weapons/optic_off.wav",
-        VMScale = 0.75,
-        Pos_VM = Vector(-5.25, 0.15, 5),
+        VMScale = 0.8,
+        Pos_VM = Vector(-5.25, 0.1, 5),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 3, 0.5),
+        Pos_WM = Vector(0, 2.5, 1),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -278,7 +281,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_sling", "acc_duffle", "acc_extmag_shotgun"},
+        Category = {"acc_foldstock", "acc", "acc_sling", "acc_duffle", "acc_extmag_shotgun"},
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
     },
@@ -320,4 +323,4 @@ end
 addsound("tacint_saiga.remove_clip", path1 .. "remove_clip.wav")
 addsound("tacint_saiga.insert_clip", path1 .. "insert_clip.wav")
 addsound("tacint_saiga.boltaction", path .. "12k_boltpull.wav")
-addsound("tacint_saiga.Buttstock_Back", path .. "buttstock_back.wav")
+addsound("tacint_saiga.Buttstock_Back", path1 .. "buttstock_back.wav")
