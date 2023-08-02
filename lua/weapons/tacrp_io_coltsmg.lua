@@ -19,8 +19,8 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 20,
-        Damage_Min = 9,
+        Damage_Max = 23,
+        Damage_Min = 10,
 
         PostBurstDelay = 0.15,
 
@@ -84,7 +84,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 SWEP.Damage_Max = 15
 SWEP.Damage_Min = 8
-SWEP.Range_Min = 1200
+SWEP.Range_Min = 1000
 SWEP.Range_Max = 3800
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.6
@@ -110,16 +110,17 @@ SWEP.Firemodes = {
 }
 SWEP.RunawayBurst = true
 SWEP.AutoBurst = false
-SWEP.PostBurstDelay = 0.175
+SWEP.PostBurstDelay = 0.16
 
-SWEP.RPM = 900
+SWEP.RPM = 800
+SWEP.RPMMultBurst = 950 / 800
 
 SWEP.Spread = 0.0055
 
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 9
+SWEP.RecoilMaximum = 10
 SWEP.RecoilResetTime = 0.125
 SWEP.RecoilDissipationRate = 15
 SWEP.RecoilFirstShotMult = 0.5
