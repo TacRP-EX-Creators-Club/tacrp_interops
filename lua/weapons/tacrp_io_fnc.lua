@@ -10,20 +10,20 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Close range assault rifle with high hipfire precision and mobility, but low armor penetration.\n\nSmells like chocolate in here."
+SWEP.Description = "Lightweight assault rifle with high hipfire precision and mobility, but low range and poor armor penetration.\n\nSmells like chocolate in here."
 
 // https://gamebanana.com/mods/211419
-SWEP.ViewModel = "models/weapons/tacint_extras/v_fnc.mdl" // "models/weapons/tacint_shark/v_fnc.mdl"
+SWEP.ViewModel = "models/weapons/tacint_extras/v_fnc.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_fnc.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 18,
-        Damage_Min = 9,
+        Damage_Max = 20,
+        Damage_Min = 10,
         ClipSize = 35,
-        RecoilKick = 3,
+        RecoilKick = 2.5,
 
         MoveSpeedMult = 0.85,
         ShootingSpeedMult = 0.8,
@@ -80,7 +80,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 // "ballistics"
 
 SWEP.Damage_Max = 18
-SWEP.Damage_Min = 8
+SWEP.Damage_Min = 9
 SWEP.Range_Min = 600 // distance for which to maintain maximum damage
 SWEP.Range_Max = 2600 // distance at which we drop to minimum damage
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
