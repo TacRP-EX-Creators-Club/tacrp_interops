@@ -76,7 +76,7 @@ SWEP.Damage_Min = 10
 SWEP.Range_Min = 500
 SWEP.Range_Max = 2400
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.65
+SWEP.ArmorPenetration = 0.4
 
 SWEP.MuzzleVelocity = 14000
 
