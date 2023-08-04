@@ -105,7 +105,7 @@ SWEP.MuzzleVelocity = 28000
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 700
+SWEP.RPM = 600
 
 SWEP.Spread = 0.0005
 
@@ -118,7 +118,7 @@ SWEP.RecoilFirstShotMult = 0.75
 SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 2
 SWEP.RecoilStability = 0.5
-SWEP.RecoilAltMultiplier = 300
+SWEP.RecoilAltMultiplier = 250
 
 SWEP.RecoilSpreadPenalty = 0.0035
 SWEP.HipFireSpreadPenalty = 0.06
