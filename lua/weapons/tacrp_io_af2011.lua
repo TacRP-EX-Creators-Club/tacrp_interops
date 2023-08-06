@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "AF2011"
+SWEP.PrintName = "AF2011-A1"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "2Operator"
@@ -187,8 +187,13 @@ SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
 
-// the .qc attachment for the muzzle
-SWEP.QCA_Muzzle = 4
+SWEP.EffectsAlternate = true
+SWEP.EffectsDoubled = true
+
+SWEP.QCA_MuzzleL = 1
+SWEP.QCA_MuzzleR = 2
+SWEP.QCA_EjectL = 3
+SWEP.QCA_EjectR = 4
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 
