@@ -129,9 +129,9 @@ SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 7
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 2
-
+SWEP.RecoilVisualKick = 1.5
 SWEP.RecoilKick = 4
+SWEP.RecoilStability = 0.3
 
 SWEP.RecoilSpreadPenalty = 0.003
 
@@ -265,10 +265,10 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 1,
-        WMScale = 1,
+        WMScale = 1.2,
         Pos_VM = Vector(0.01, 0, 0),
         Ang_VM = Angle(0, 90, 180),
-        Pos_WM = Vector(0, -1, -1),
+        Pos_WM = Vector(0.04, -1.4, -1),
         Ang_WM = Angle(0, -90, 0),
     },
     [2] = {
@@ -282,7 +282,7 @@ SWEP.Attachments = {
         WMScale = 0.5,
         Pos_VM = Vector(-0.6, 0.4, 6),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 8, -1.5),
+        Pos_WM = Vector(0, 8.2, -1.5),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {
@@ -293,10 +293,10 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         VMScale = 1.1,
-        WMScale = 1.3,
+        WMScale = 1,
         Pos_VM = Vector(-2, 0, 5.25),
         Ang_VM = Angle(90, 0, 180),
-        Pos_WM = Vector(0, 5, -2.75),
+        Pos_WM = Vector(0, 4.5, -2.9),
         Ang_WM = Angle(0, -90, 180),
     },
     [4] = {
