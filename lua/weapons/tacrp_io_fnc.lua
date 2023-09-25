@@ -73,6 +73,11 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
+    [TacRP.BALANCE_OLDSCHOOL] = {
+        Description = "Lightweight assault rifle with high precision and mobility, but low range and poor armor penetration.\n\nSmells like chocolate in here.",
+        RecoilSpreadPenalty = 0.0015,
+        RecoilMaximum = 20
+    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle

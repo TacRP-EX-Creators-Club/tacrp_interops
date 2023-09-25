@@ -37,6 +37,10 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 0.5,
     },
+    [TacRP.BALANCE_OLDSCHOOL] = {
+        HipFireSpreadPenalty = 0.04,
+        ShootingSpeedMult = 0.6
+    }
 }
 
 // "ballistics"

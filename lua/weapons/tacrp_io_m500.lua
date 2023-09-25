@@ -92,6 +92,11 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
+    [TacRP.BALANCE_OLDSCHOOL] = {
+        RecoilSpreadPenalty = 0.02,
+        RecoilResetTime = 0.5,
+        RecoilDissipationRate = 5
+    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
@@ -181,6 +186,9 @@ SWEP.SprintPos = Vector(2, 0, -12)
 
 SWEP.SightAng = Angle(-0.05, -0.2, 0.5)
 SWEP.SightPos = Vector(-3.45, 0, -4)
+
+SWEP.CorrectiveAng = Angle(-0.2, 0, 0.5)
+SWEP.CorrectivePos = Vector(-0.125, 0, 0.13)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
