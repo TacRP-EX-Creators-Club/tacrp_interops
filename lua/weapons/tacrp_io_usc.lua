@@ -69,6 +69,10 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
+    [TacRP.BALANCE_OLDSCHOOL] = {
+        RecoilSpreadPenalty = 0.0025,
+        RecoilMaximum = 8
+    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG

@@ -76,6 +76,9 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
+    [TacRP.BALANCE_OLDSCHOOL] = {
+        Description = "Snub-nosed revolver with compact form factor. High mobility and good recoil among magnum pistols, but performs poorly against armor and has middling accuracy.",
+    }
 }
 
 SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
