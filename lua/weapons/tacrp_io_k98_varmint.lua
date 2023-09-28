@@ -75,6 +75,9 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
+	[TacRP.BALANCE_OLDSCHOOL] = {
+		RecoilSpreadPenalty = 0.01
+	}
 }
 
 SWEP.TTTReplace = {["weapon_zm_rifle"] = 0.5, ["weapon_zm_mac10"] = 0.5}
