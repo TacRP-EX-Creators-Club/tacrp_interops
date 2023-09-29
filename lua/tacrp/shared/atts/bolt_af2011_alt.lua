@@ -1,7 +1,7 @@
 ATT.PrintName = "Alternating"
 ATT.FullName = "AF2011-A1 Alternating Bolt"
 ATT.Icon = Material("entities/tacrp_att_bolt_heavy.png", "mips smooth")
-ATT.Description = "Malicious interpratation of the concept of \"double-stacked magazine\"."
+ATT.Description = "Malicious interpretation of the concept of \"double-stacked magazines\"."
 ATT.Pros = {"stat.spread", "rating.control", "stat.rpm"}
 ATT.Cons = {"att.procon.onebullet", "stat.recoilmaximum"}
 
