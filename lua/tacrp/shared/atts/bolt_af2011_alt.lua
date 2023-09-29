@@ -14,8 +14,8 @@ ATT.Override_Num = 1
 
 ATT.Mult_RPM = 2
 
-ATT.Add_RecoilStability = 0.2
-ATT.Mult_RecoilKick = 0.65
+ATT.Add_RecoilStability = 0.3
+ATT.Mult_RecoilKick = 0.55
 ATT.Mult_RecoilSpreadPenalty = 0.75
 ATT.Mult_Spread = 0.75
 
