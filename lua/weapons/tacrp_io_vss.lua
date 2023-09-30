@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil.\nEquipped with a 6x scope by default."
+SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil.\nEquipped with a 6x scope by default.\nCapable of automatic fire."
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vss.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_vss.mdl"
@@ -98,7 +98,11 @@ SWEP.MuzzleVelocity = 16000
 
 // misc. shooting
 
-SWEP.Firemode = 1
+SWEP.Firemodes = {
+	1,
+	2
+}
+
 SWEP.RPM = 600
 
 SWEP.Spread = 0.0005
@@ -282,7 +286,7 @@ SWEP.Attachments = {
     },
     [5] = {
         PrintName = "Trigger",
-        Category = {"trigger_semi"},
+        Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
