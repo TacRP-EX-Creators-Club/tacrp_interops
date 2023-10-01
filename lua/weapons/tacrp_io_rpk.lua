@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Machine Gun"
 
-SWEP.Description = "Rifle caliber machine gun with drum magazine. High damage and good recoil, but mobility and spread is poor."
+SWEP.Description = "Light machine gun derived from an infantry rifle. High damage and good recoil, but mobility and spread is poor."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_rpk.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_rpk.mdl"
