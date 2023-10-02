@@ -87,7 +87,10 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 7
+		Description = "Handgun with excellent accuracy, recoil and range but a small magazine.",
+        RecoilMaximum = 5,
+		RecoilDissipationRate = 12,
+		RecoilSpreadPenalty = 0.0015
     }
 }
 
