@@ -13,8 +13,11 @@ ATT.Override_ScopeFOV = 90 / 6
 ATT.Override_ScopeOverlaySize = 0.9
 ATT.Override_ScopeHideWeapon = true
 
+ATT.SightPos = Vector(0, -17, 1.75)
+ATT.SightAng = Angle(0, 0, 0)
+
 ATT.Model = "models/weapons/tacint_extras/addons/pso1.mdl"
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.Scale = 1.25
+ATT.ModelOffset = Vector(-1.5, 0, -0.75)
 
 ATT.InstalledElements = {"akmount"}
