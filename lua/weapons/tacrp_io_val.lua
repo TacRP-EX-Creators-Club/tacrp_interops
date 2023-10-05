@@ -180,7 +180,6 @@ SWEP.DropMagazineTime = 0.65
 // sounds
 
 local path = "tacint_extras/vss/"
-local path1 = "tacrp_extras/ak47/"
 
 SWEP.Sound_Shoot = "^" .. path .. "fire.wav"
 
@@ -239,13 +238,28 @@ SWEP.AttachmentElements = {
             {2, 2}
         },
     },
+    ["akmount"] = {
+        BGs_VM = {
+            {2, 0}
+        },
+        BGs_WM = {
+            {2, 0}
+        },
+        AttPosMods = {
+            [1] = {
+                Pos_VM = Vector(-5.5, 0.5, 2.5),
+                Pos_WM = Vector(-0.4, 2, 0.5),
+            }
+        },
+        SortOrder = 2,
+    },
 }
 
 
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_pso1", "optic_cqb", "optic_medium", "optic_sniper"},
+        Category = {"optic_pso1", "optic_cqb", "optic_medium", "optic_sniper", "optic_ak2"},
         Bone = "ValveBiped.AK47_rootbone",
         WMBone = "Box01",
         InstalledElements = {"tactical"},

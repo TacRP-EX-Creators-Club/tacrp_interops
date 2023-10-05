@@ -99,8 +99,8 @@ SWEP.MuzzleVelocity = 16000
 // misc. shooting
 
 SWEP.Firemodes = {
-	1,
-	2
+    1,
+    2
 }
 
 SWEP.RPM = 600
@@ -242,13 +242,28 @@ SWEP.AttachmentElements = {
             {2, 2}
         },
     },
+    ["akmount"] = {
+        BGs_VM = {
+            {2, 2}
+        },
+        BGs_WM = {
+            {2, 2}
+        },
+        AttPosMods = {
+            [1] = {
+                Pos_VM = Vector(-5.5, 0.5, 2.5),
+                Pos_WM = Vector(-0.4, 2, 0.5),
+            }
+        },
+        SortOrder = 2,
+    },
 }
 
 
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"ironsights", "optic_cqb", "optic_medium", "optic_sniper"},
+        Category = {"ironsights", "optic_cqb", "optic_medium", "optic_sniper", "optic_ak2"},
         Bone = "ValveBiped.AK47_rootbone",
         WMBone = "Box01",
         InstalledElements = {"tactical"},
