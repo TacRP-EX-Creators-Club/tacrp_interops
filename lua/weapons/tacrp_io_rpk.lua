@@ -112,17 +112,17 @@ SWEP.Spread = 0.0075
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 18
-SWEP.RecoilResetTime = 0.25
+SWEP.RecoilMaximum = 20
+SWEP.RecoilResetTime = 0.22
 SWEP.RecoilDissipationRate = 20
-SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
+SWEP.RecoilFirstShotMult = 2 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.6
 SWEP.RecoilKick = 2.5
 SWEP.RecoilStability = 0.4
-SWEP.RecoilAltMultiplier = 250
+SWEP.RecoilAltMultiplier = 300
 
-SWEP.RecoilSpreadPenalty = 0.002
+SWEP.RecoilSpreadPenalty = 0.0012
 SWEP.HipFireSpreadPenalty = 0.035
 SWEP.PeekPenaltyFraction = 0.25
 
@@ -273,7 +273,7 @@ SWEP.Attachments = {
     },
     [2] = {
         PrintName = "Muzzle",
-        Category = "silencer",
+        Category = {"silencer", "muzz_ak"},
         Bone = "ValveBiped.AK47_rootbone",
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/silencer_on.wav",
