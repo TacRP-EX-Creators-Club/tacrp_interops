@@ -117,8 +117,8 @@ SWEP.RecoilResetTime = 0.22
 SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 2 // multiplier for the first shot's recoil amount
 
-SWEP.RecoilVisualKick = 0.6
-SWEP.RecoilKick = 2.5
+SWEP.RecoilVisualKick = 1
+SWEP.RecoilKick = 4
 SWEP.RecoilStability = 0.4
 SWEP.RecoilAltMultiplier = 300
 
@@ -168,10 +168,14 @@ SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
 SWEP.HolsterPos = Vector(5, 6, -8)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
-SWEP.Sway = 1
-SWEP.ScopedSway = 0.1
+SWEP.Sway = 2
+SWEP.ScopedSway = 0.175
 
 SWEP.FreeAimMaxAngle = 6
+
+SWEP.Bipod = true
+SWEP.BipodRecoil = 0.4
+SWEP.BipodKick = 0.4
 
 SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"

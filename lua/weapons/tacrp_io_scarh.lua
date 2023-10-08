@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Compact, high mobility battle rifle."
+SWEP.Description = "Compact, high mobility battle rifle. Has a grippod that provides some stability if deployed."
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_scarh.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_scarh.mdl"
@@ -115,9 +115,9 @@ SWEP.Spread = 0.001
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 7
-SWEP.RecoilResetTime = 0.15
-SWEP.RecoilDissipationRate = 8
-SWEP.RecoilFirstShotMult = 0.6
+SWEP.RecoilResetTime = 0.12
+SWEP.RecoilDissipationRate = 12
+SWEP.RecoilFirstShotMult = 0.85
 
 SWEP.RecoilVisualKick = 2
 SWEP.RecoilKick = 6
@@ -144,6 +144,10 @@ SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.1
 
 SWEP.FreeAimMaxAngle = 5
+
+SWEP.Bipod = true
+SWEP.BipodRecoil = 0.5
+SWEP.BipodKick = 0.4
 
 // hold types
 
