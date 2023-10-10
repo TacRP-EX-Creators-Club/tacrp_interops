@@ -81,7 +81,7 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
         RecoilSpreadPenalty = 0.015,
-		RecoilMaximum = 3
+        RecoilMaximum = 3
     }
 }
 
@@ -175,7 +175,7 @@ SWEP.SprintPos = Vector(2, 0, -12)
 SWEP.SightAng = Angle(-0.01, 0.85, 0)
 SWEP.SightPos = Vector(-3.4, 0, -4.04)
 
-SWEP.CorrectivePos = Vector(0.02, 0, 0)
+SWEP.CorrectivePos = Vector(0, 0, 0)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterVisible = true
@@ -280,7 +280,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(-4, -0.14, -0.4),
+        Pos_VM = Vector(-4, -0.125, -0.4),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, -2.5, -0.75),
         Ang_WM = Angle(0, -90, 0),
