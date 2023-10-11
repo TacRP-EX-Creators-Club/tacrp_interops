@@ -20,11 +20,15 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 30,
+        Damage_Max = 32,
         Damage_Min = 45,
+        Range_Min = 1500,
+        Range_Max = 3500,
 
-        Range_Min = 800,
-        Range_Max = 3000,
+        ClipSize = 14,
+        DefaultBodygroups = "0001",
+
+        RecoilKick = 5.5,
 
         MoveSpeedMult = 0.8,
         ShootingSpeedMult = 0.6,
@@ -33,14 +37,14 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
-
-        Description = "Modernized short barrel rifle with fast fire rate and punishing recoil.\nEquipped with a 6x scope by default.",
-
-        Damage_Max = 18,
-        Damage_Min = 30,
+        Damage_Max = 20,
+        Damage_Min = 35,
         Range_Min = 1500,
-        Range_Max = 2500,
+        Range_Max = 3000,
         RPM = 420,
+
+        ClipSize = 14,
+        DefaultBodygroups = "0001",
 
         RecoilResetTime = 0.15,
         RecoilDissipationRate = 4,
@@ -98,7 +102,7 @@ SWEP.ArmorPenetration = 0.85
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
-    [HITGROUP_CHEST] = 1.5,
+    [HITGROUP_CHEST] = 1.4,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.9,
     [HITGROUP_RIGHTARM] = 0.9,
@@ -120,15 +124,15 @@ SWEP.Spread = 0.0005
 SWEP.ShootTimeMult = 0.5
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 5
-SWEP.RecoilResetTime = 0.2
-SWEP.RecoilDissipationRate = 12
-SWEP.RecoilFirstShotMult = 0.5
+SWEP.RecoilMaximum = 4
+SWEP.RecoilResetTime = 0.1
+SWEP.RecoilDissipationRate = 8
+SWEP.RecoilFirstShotMult = 0.75
 
 SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilKick = 4
-SWEP.RecoilStability = 0.6
-SWEP.RecoilAltMultiplier = 250
+SWEP.RecoilKick = 5
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 500
 
 SWEP.RecoilSpreadPenalty = 0.006
 SWEP.HipFireSpreadPenalty = 0.075
@@ -235,6 +239,21 @@ SWEP.AnimationTranslationTable = {
     ["deploy"] = "draw",
     ["fire"] = {"shoot1", "shoot2"},
     ["blind_fire"] = "blind_shoot1"
+}
+
+SWEP.ProceduralIronFire = {
+    vm_pos = Vector(0, -0.75, -0.12),
+    vm_ang = Angle(0, 0.3, 0),
+    t = 0.15,
+    tmax = 0.15,
+    bones = {
+        {
+            bone = "ValveBiped.bolt_handle",
+            pos = Vector(0, 0, -3),
+            t0 = 0.02,
+            t1 = 0.1,
+        },
+    },
 }
 
 // attachments
