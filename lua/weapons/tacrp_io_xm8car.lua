@@ -22,8 +22,8 @@ SWEP.BalanceStats = {
         Damage_Max = 18,
         Damage_Min = 10,
 
-        MoveSpeedMult = 0.85,
-        ShootingSpeedMult = 0.75,
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
         SightedSpeedMult = 0.8,
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
@@ -61,8 +61,8 @@ SWEP.BalanceStats = {
         Damage_Min = 5,
         RPM = 700,
 
-        MoveSpeedMult = 0.85,
-        ShootingSpeedMult = 0.75,
+        MoveSpeedMult = 0.9,
+        ShootingSpeedMult = 0.8,
         SightedSpeedMult = 0.8,
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
@@ -117,8 +117,8 @@ SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.5
-
-SWEP.RecoilKick = 1
+SWEP.RecoilKick = 1.5
+SWEP.RecoilStability = 0.5
 
 SWEP.RecoilSpreadPenalty = 0.001
 SWEP.HipFireSpreadPenalty = 0.025
