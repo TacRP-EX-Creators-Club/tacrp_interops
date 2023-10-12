@@ -12,6 +12,18 @@ SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Vintage burst assault rifle with limited optic options. Despite this, its stable recoil and high damage makes it reliable at medium range."
 
+SWEP.Trivia_Caliber = "5.56x45mm"
+SWEP.Trivia_Manufacturer = "Colt"
+SWEP.Trivia_Year = "1983"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model: Twinke Masta, SureShot, vagrant
+Texture: Stoke, modderfreak
+Sound: Vunsunta, Navaro
+Animation: Tactical Intervention
+]]
+
 // https://gamebanana.com/mods/211832
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m16a2.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_m16a2.mdl"
