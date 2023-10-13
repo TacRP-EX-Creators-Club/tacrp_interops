@@ -12,6 +12,17 @@ SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet has very little stopping power except on a headshot."
 
+SWEP.Trivia_Caliber = ".22 LR"
+SWEP.Trivia_Manufacturer = "Sturm, Ruger & Co."
+SWEP.Trivia_Year = "1982"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model: The Lama
+Texture: The Miller
+Animation: Tactical Intervention
+]]
+
 // https://gamebanana.com/mods/214299
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ruger.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_ruger.mdl"

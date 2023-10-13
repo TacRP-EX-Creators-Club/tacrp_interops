@@ -13,6 +13,18 @@ SWEP.SubCatType = "5Sporter Carbine"
 
 SWEP.Description = "Semi-automatic carbine variant of the UMP. Uses low capacity magazines, but its long barrel and gripstock assembly provides excellent medium range performance."
 
+SWEP.Trivia_Caliber = ".45 ACP"
+SWEP.Trivia_Manufacturer = "Heckler & Koch"
+SWEP.Trivia_Year = "2000"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Twinke Masta, xLongWayHome, Stoke, Teh Snake & Millenia etc.
+Animation: Tactical Intervention
+]]
+//In true Gamebanana fashion, it credits everyone who worked on it but doesn't say exactly who did what so *shrug*
+
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_usc.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_usc.mdl"
 

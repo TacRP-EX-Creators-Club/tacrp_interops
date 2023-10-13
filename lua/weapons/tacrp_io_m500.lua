@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SW M500 Magnum"
+SWEP.PrintName = "S&W Model 500"
 SWEP.AbbrevName = "SW M500"
 
 SWEP.Category = "Tactical RP"
@@ -13,6 +13,18 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage. Massive."
+
+SWEP.Trivia_Caliber = ".500 S&W Magnum"
+SWEP.Trivia_Manufacturer = "Smith & Wesson"
+SWEP.Trivia_Year = "2003"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model: Krycek
+Texture: Soldier11
+Sound: Ghost597879, MSKyuuni & Zira
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_500mag.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_m500.mdl"

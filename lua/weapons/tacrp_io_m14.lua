@@ -12,6 +12,18 @@ SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Modernized short barrel rifle with improved mobility and fast automatic fire but punishing recoil.\nEquipped with a 6x scope by default."
 
+SWEP.Trivia_Caliber = "7.62x51mm"
+SWEP.Trivia_Manufacturer = "Troy Industries"
+SWEP.Trivia_Year = "2001"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model: General Tso & Twinke Masta
+Texture: Thanez, Twinke Masta
+Sound: Lakedown, teh strelok & Futon
+Animation: Tactical Intervention
+]]
+
 // https://gamebanana.com/mods/211865
 SWEP.ViewModel = "models/weapons/tacint_extras/v_m14.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_m14.mdl"

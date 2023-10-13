@@ -10,7 +10,18 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Carbine caliber bolt-action rifle. Lightweight, easy to use and has a generous capacity, but damage is low.\nFor rodents of... unassuming size."
+SWEP.Description = "Carbine caliber bolt-action rifle based on the Kar98k. Lightweight, easy to use and has a generous capacity, but damage is low.\nFor rodents of... unassuming size."
+
+SWEP.Trivia_Caliber = ".223 Remington"
+SWEP.Trivia_Manufacturer = "Mauser"
+SWEP.Trivia_Year = "1935"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model & Textures: Day of Defeat: Source, edited by 8Z
+Sound: Day of Infamy
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98_varmint.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_k98_varmint.mdl"

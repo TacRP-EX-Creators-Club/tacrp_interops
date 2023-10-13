@@ -12,6 +12,19 @@ SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil.\nEquipped with a 6x scope by default.\nCapable of automatic fire."
 
+SWEP.Trivia_Caliber = "9x39mm"
+SWEP.Trivia_Manufacturer = "Tula Arms Plant"
+SWEP.Trivia_Year = "1987"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Model: Ettubrutesbro, Millenia & Twinke Masta
+Texture: Millenia
+Sound: S.T.A.L.K.E.R. & Vunsunta
+Animation: Tactical Intervention
+]]
+
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vss.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_vss.mdl"
 

@@ -12,6 +12,18 @@ SWEP.SubCatType = "5Sporter Carbine"
 
 SWEP.Description = "Semi-automatic variant of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope but has no ironsight option."
 
+SWEP.Trivia_Caliber = ".223 Remington"
+SWEP.Trivia_Manufacturer = "Heckler & Koch"
+SWEP.Trivia_Year = "1998"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model: Hav0c
+Texture: Twinke Masta
+Sound: KingFriday
+Animation: Tactical Intervention
+]]
+
 // https://gamebanana.com/mods/211404
 SWEP.ViewModel = "models/weapons/tacint_extras/v_sl8.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_sl8.mdl"

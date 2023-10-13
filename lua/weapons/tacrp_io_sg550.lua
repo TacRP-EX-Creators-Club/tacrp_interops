@@ -10,7 +10,19 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Carbine caliber marksman rifle with low recoil and fast semi-automatic fire. Penetrates armor easily.\nEquipped with a 6x scope by default."
+SWEP.Description = "Carbine caliber marksman rifle with low recoil and burst-fire. Penetrates armor easily but is weaker overall.\nEquipped with a 6x scope by default."
+
+SWEP.Trivia_Caliber = "5.56x45mm"
+SWEP.Trivia_Manufacturer = "SIG Sauger AG"
+SWEP.Trivia_Year = "1988"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Model: Hav0c & Twinke Masta
+Texture: Twinke Masta
+Sound: Farion & Tactical Intervention
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
@@ -19,8 +31,8 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 18,
-        Damage_Min = 32,
+        Damage_Max = 17,
+        Damage_Min = 28,
 
         Range_Min = 600,
         Range_Max = 3000,
@@ -33,7 +45,7 @@ SWEP.BalanceStats = {
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 10,
-        Damage_Min = 20,
+        Damage_Min = 18,
         Range_Min = 500,
         Range_Max = 3000,
         RPM = 450,
@@ -87,8 +99,8 @@ SWEP.MuzzleVelocity = 28000
 
 // "ballistics"
 
-SWEP.Damage_Max = 30
-SWEP.Damage_Min = 20
+SWEP.Damage_Max = 26
+SWEP.Damage_Min = 14
 SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
 SWEP.Range_Max = 7000 // distance at which we drop to minimum damage
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
@@ -109,9 +121,13 @@ SWEP.MuzzleVelocity = 28000
 
 // misc. shooting
 
-SWEP.Firemode = 1
+SWEP.Firemodes = {
+	1,
+	-3
+}
 
 SWEP.RPM = 600
+SWEP.RPMMultBurst = 1.25
 
 SWEP.Spread = 0.0005
 
@@ -325,7 +341,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger_semi"},
+        Category = {"trigger_burst"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

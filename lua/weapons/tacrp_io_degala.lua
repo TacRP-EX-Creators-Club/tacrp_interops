@@ -15,7 +15,7 @@ SWEP.Description_Quote = "\"one deag, two deag, three deag, four deag...\""
 
 SWEP.Trivia_Caliber = ".50 AE"
 SWEP.Trivia_Manufacturer = "Israel Military Industries"
-SWEP.Trivia_Year = "1983" // Looks like a Mark I to me
+SWEP.Trivia_Year = "1995" // It's a Mark XIX.  Teardrop safety lever, top scope rail and taller cocking serrations on the slide (yes i am severely autistic).
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[

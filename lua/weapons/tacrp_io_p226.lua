@@ -12,6 +12,18 @@ SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Handgun that performs very well at range but has a below average capacity."
 
+SWEP.Trivia_Caliber = ".40 S&W" // Underfunded militias and gangsters take whatever they can get
+SWEP.Trivia_Manufacturer = "SIG Sauer AG"
+SWEP.Trivia_Year = "1984"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Model: SoulSlayer
+Texture: Thanez
+Sound: Anders, DMG, FxDarkloki, & Thanez
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_p226.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_p226.mdl"
 

@@ -4,13 +4,23 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Saiga-12"
+SWEP.PrintName = "Saiga-12K"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "High capacity shotgun feeding from a box magazine. Tight spread and high firerate, but damage is relatively low."
+
+SWEP.Trivia_Caliber = "12 Gauge"
+SWEP.Trivia_Manufacturer = "Kalashnikov Concern"
+SWEP.Trivia_Year = "1997"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Battlefield 3
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_saiga.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_saiga.mdl"

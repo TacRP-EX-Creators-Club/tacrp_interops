@@ -12,6 +12,16 @@ SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Compact, high mobility battle rifle. Has a grippod that provides some stability if deployed."
 
+SWEP.Trivia_Caliber = "7.62x51mm"
+SWEP.Trivia_Manufacturer = "FN America"
+SWEP.Trivia_Year = "2004"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Assets: Counter-Strike: Online 2
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_shark/v_scarh.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_scarh.mdl"
 

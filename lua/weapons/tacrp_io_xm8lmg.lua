@@ -12,6 +12,17 @@ SWEP.SubCatType = "4Machine Gun"
 
 SWEP.Description = "Experimental multi-purpose carbine in MG configuration. Light, high capacity and low recoil, but damage is poor.\nHas an adjustable integrated 2-8x scope."
 
+SWEP.Trivia_Caliber = "5.56x45mm"
+SWEP.Trivia_Manufacturer = "Heckler & Koch"
+SWEP.Trivia_Year = "2003"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model: End Of Days
+Textures: Copkiller, Twinke Masta & Wangchung
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_xm8lmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_xm8lmg.mdl"
 

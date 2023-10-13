@@ -12,6 +12,18 @@ SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Integrally-suppressed rifle with high damage output and precision, but performs poorly over long bursts."
 
+SWEP.Trivia_Caliber = "9x39mm"
+SWEP.Trivia_Manufacturer = "Tula Arms Plant"
+SWEP.Trivia_Year = "1987"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model & Textures: S.T.A.L.K.E.R.
+Sound: S.T.A.L.K.E.R. & Vunsunta
+Animation: Tactical Intervention
+]]
+
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_val.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_val.mdl"
 

@@ -4,13 +4,25 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "HK VP-70"
+SWEP.PrintName = "HK VP70"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Polymer pistol with an innovative holster stock that allows for incredibly fast burst fire."
+
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Heckler & Koch"
+SWEP.Trivia_Year = "1970"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Model & Textures: KnechtRuprecht
+Sound: Strelok & xLongWayHome
+Animation: Tactical Intervention, edited by speedonerd
+]]
+
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_vp70.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_vp70.mdl"

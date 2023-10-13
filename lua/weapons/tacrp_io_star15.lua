@@ -13,6 +13,17 @@ SWEP.SubCatType = "5Sporter Carbine"
 
 SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\nEver the choice for lone wolves on a path of revenge, your fate will be a cacophonous funeral... and a silent farewell. Bring a detonator."
 
+SWEP.Trivia_Caliber = "5.56x45mm"
+SWEP.Trivia_Manufacturer = "Spikes Tactical"
+SWEP.Trivia_Year = "2011"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Assets: carl ruins everything, Leon-DLL, Mira + various sources
+Sound: Insurgency & Tactical Intervention
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_star15.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_star15.mdl"
 

@@ -12,6 +12,17 @@ SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Machine pistol notorious for its ease of conversion to fully automatic fire, and subsequent criminal usage."
 
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Intratec"
+SWEP.Trivia_Year = "1984"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Assets: Payday 2
+Animation: Tactical Intervention
+]]
+
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_tec9.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_tec9.mdl"
 

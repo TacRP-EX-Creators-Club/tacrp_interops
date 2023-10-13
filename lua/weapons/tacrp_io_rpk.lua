@@ -12,6 +12,17 @@ SWEP.SubCatType = "4Machine Gun"
 
 SWEP.Description = "Light machine gun derived from an infantry rifle. High damage and good recoil, but mobility and spread is poor."
 
+SWEP.Trivia_Caliber = "7.62x39mm"
+SWEP.Trivia_Manufacturer = "Molot" // I checked, neither Izhmash nor Tula ever manufactured the original RPK.
+SWEP.Trivia_Year = "1961"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Model: BOOLY
+Texture: 98B's
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_shark/v_rpk.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_rpk.mdl"
 

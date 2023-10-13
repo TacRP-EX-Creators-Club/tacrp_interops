@@ -12,6 +12,19 @@ SWEP.SubCatType = "7Sniper Rifle"
 
 SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to cycle and not very stable.\nEquipped with a 12x scope by default."
 
+SWEP.Trivia_Caliber = ".338 Lapua Magnum"
+SWEP.Trivia_Manufacturer = "Sako"
+SWEP.Trivia_Year = "1999"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model: Darkstorn
+Textures: SilentAssassin12
+Sounds: Vunsunta
+Animation: Tactical Intervention
+]]
+
+
 // https://gamebanana.com/mods/211224
 SWEP.ViewModel = "models/weapons/tacint_extras/v_trg42.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_trg42.mdl"

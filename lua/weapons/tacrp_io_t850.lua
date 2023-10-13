@@ -14,6 +14,19 @@ SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility and hip fire accuracy, and good recoil among magnum pistols, but performs poorly against armor."
 
+SWEP.Trivia_Caliber = ".38 Special"
+SWEP.Trivia_Manufacturer = "Taurus"
+SWEP.Trivia_Year = "2001"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Model: Fearfisch
+Textures: Millenia
+Sound: Vunsunta
+Animation: Tactical Intervention
+]]
+
+
 // https://gamebanana.com/mods/207972
 SWEP.ViewModel = "models/weapons/tacint_extras/v_t850.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_t850.mdl"

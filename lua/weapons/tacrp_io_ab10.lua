@@ -12,6 +12,16 @@ SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Semi-automatic \"After Ban\" model of the TEC-9 with a short, non-threaded barrel. High capacity among pistols, but has worse handling."
 
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Intratec"
+SWEP.Trivia_Year = "1984"
+
+SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Credits = [[
+Assets: Payday 2
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_ab10.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_ab10.mdl"
 
