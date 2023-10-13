@@ -10,7 +10,20 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Lightweight assault rifle with high hipfire precision and mobility, but low range and poor armor penetration.\n\nSmells like chocolate in here."
+SWEP.Description = "Lightweight assault rifle with high hipfire precision and mobility, but low range and poor armor penetration."
+SWEP.Description_Quote = "Smells like chocolate in here."
+
+SWEP.Trivia_Caliber = "5.56x45mm"
+SWEP.Trivia_Manufacturer = "FN Herstal"
+SWEP.Trivia_Year = "1979"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model: Twinke Masta
+Texture: Twinke Masta, the_tub,  Xero
+Sound: Vunsunta
+Animation: Tactical Intervention
+]]
 
 // https://gamebanana.com/mods/211419
 SWEP.ViewModel = "models/weapons/tacint_extras/v_fnc.mdl"
@@ -74,10 +87,10 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
-        Description = "Lightweight assault rifle with high precision and mobility, but low range and poor armor penetration.\n\nSmells like chocolate in here.",
+        Description = "Lightweight assault rifle with high precision and mobility, but low range and poor armor penetration.",
         RecoilSpreadPenalty = 0.0015,
         RecoilMaximum = 16,
-		RecoilDissipationRate = 25
+        RecoilDissipationRate = 25
     }
 }
 

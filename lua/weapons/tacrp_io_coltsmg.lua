@@ -10,7 +10,18 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "AR platform burst-fire SMG. Excellent recoil control, good damage and range.\n\nLoudspeaker not included."
+SWEP.Description = "AR platform burst-fire SMG. Excellent recoil control, good damage and range."
+SWEP.Description_Quote = "Loudspeaker not included."
+
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Colt"
+SWEP.Trivia_Year = "1982"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Counter Strike: Online 2
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_coltsmg.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_coltsmg.mdl"

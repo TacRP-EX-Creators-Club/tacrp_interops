@@ -12,6 +12,18 @@ SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Machine pistol with high fire rate and mobility."
 
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Glock Ges.m.b.H"
+SWEP.Trivia_Year = "1982"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model: Hav0k101
+Texture: el maestro de graffiti
+Sound: BlitzBoaR, Lorn, Ghost597879, Zeven II
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_glock18.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_glock18.mdl"
 

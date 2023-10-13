@@ -11,8 +11,19 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Highly accurate magnum pistol. Great handling due to its size, but can only mount pistol optics."
+SWEP.Description_Quote = "A cursed design that doomed most of its manufacturers."
 
-// https://gamebanana.com/mods/207420
+SWEP.Trivia_Caliber = ".44 AMP"
+SWEP.Trivia_Manufacturer = "Arsenal Firearms"
+SWEP.Trivia_Year = "1971"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model: RedRogueXIII
+Texture/Sound: Futon
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_extras/v_automag.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_automag.mdl"
 

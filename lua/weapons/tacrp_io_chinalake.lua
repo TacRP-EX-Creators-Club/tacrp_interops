@@ -11,6 +11,17 @@ SWEP.SubCatTier = "9Special"
 SWEP.SubCatType = "9Equipment"
 
 SWEP.Description = "Heavy pump action grenade launcher with high muzzle velocity but poor handling."
+SWEP.Description_Quote = "Only 59 of these ever existed. Where'd you get this one?"
+
+SWEP.Trivia_Caliber = "40x46mm"
+SWEP.Trivia_Manufacturer = "Naval Air Weapons Station"
+SWEP.Trivia_Year = "1968"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Counter Strike: Online 2
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_chinalake.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_chinalake.mdl"

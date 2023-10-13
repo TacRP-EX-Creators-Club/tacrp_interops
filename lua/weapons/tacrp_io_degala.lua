@@ -11,6 +11,17 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Imposing magnum pistol, as iconic as it gets.\nPowerful and high capacity, but recoil is hard to manage."
+SWEP.Description_Quote = "\"one deag, two deag, three deag, four deag...\""
+
+SWEP.Trivia_Caliber = ".50 AE"
+SWEP.Trivia_Manufacturer = "Israel Military Industries"
+SWEP.Trivia_Year = "1983" // Looks like a Mark I to me
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Vashts1985, Coop, L0RDN00B, Thanez, Henron, OldChili
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_deagle.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_deagle.mdl"

@@ -4,13 +4,26 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "FN FiveseveN"
+SWEP.PrintName = "FN Five-seveN"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Bulky PDW caliber pistol with excellent capacity.\nHigh velocity rounds retain effectiveness at range and pierces armor easily."
+SWEP.Description_Quote = "Is that a ferret running around?"
+
+SWEP.Trivia_Caliber = "5.7x28mm"
+SWEP.Trivia_Manufacturer = "FN Herstal"
+SWEP.Trivia_Year = "1998"
+
+SWEP.Faction = TacRP.FACTION_COALITION
+SWEP.Credits = [[
+Model: Lama, Twinke Masta
+Texture: Flamshmizer, L0RDN00B
+Sound: Vunsunta, Valve
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_57.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_57.mdl"

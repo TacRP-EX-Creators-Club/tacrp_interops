@@ -11,7 +11,17 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "Military pistol carbine conversion kit with automatic fire.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
+SWEP.Description = "Military pistol carbine with high rate of fire.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
+
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Pietro Beretta"
+SWEP.Trivia_Year = "2003"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Counter Strike: Online 2
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_mx4.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_mx4.mdl"

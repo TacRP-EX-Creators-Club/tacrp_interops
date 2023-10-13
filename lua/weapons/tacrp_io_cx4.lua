@@ -11,7 +11,18 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Semi-automatic pistol carbine conversion kit.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
+SWEP.Description = "Semi-automatic pistol carbine with good range.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
+SWEP.Description_Quote = "As famously seen in a certain PMC leader's arsenal."
+
+SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Manufacturer = "Pietro Beretta"
+SWEP.Trivia_Year = "2003"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Counter Strike: Online 2
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_cx4.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_cx4.mdl"
@@ -21,7 +32,7 @@ SWEP.Slot = 2
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 25,
-        Damage_Min = 10,
+        Damage_Min = 15,
 
         MoveSpeedMult = 0.9,
         ShootingSpeedMult = 0.8,
@@ -68,8 +79,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 9
-SWEP.Range_Min = 1400 // distance for which to maintain maximum damage
-SWEP.Range_Max = 5200 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1200 // distance for which to maintain maximum damage
+SWEP.Range_Max = 5000 // distance at which we drop to minimum damage
 SWEP.Penetration = 5 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
 
