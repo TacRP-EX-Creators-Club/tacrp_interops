@@ -10,8 +10,18 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Effectively two M1911s welded together, this curiosity fires two bullets per trigger pull for double the damage. However, its exotic design is unwieldy and makes accurate shooting nearly impossible."
-// "\"If M1911 is so good, why isn't there a M1911 2?\"\nThis. This is why."
+SWEP.Description = "Effectively two M1911s welded together, this exotic abomination fires two bullets per trigger pull."
+SWEP.Description_Quote = "\"If M1911 is so good, why isn't there a M1911 2?\""
+
+SWEP.Trivia_Caliber = ".45 ACP"
+SWEP.Trivia_Manufacturer = "Arsenal Firearms"
+SWEP.Trivia_Year = "2011"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Assets: Counter Strike: Online 2
+Animation: Tactical Intervention
+]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_af2011.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_af2011.mdl"

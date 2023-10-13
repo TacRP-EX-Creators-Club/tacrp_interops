@@ -97,20 +97,34 @@ ATT.Category = "bolt_af2011"
 
 ATT.SortOrder = 0
 
+-- ATT.Override_Firemodes = {1, -2}
+-- ATT.Override_Firemodes_Priority = 0.5
+-- ATT.Override_RunawayBurst = true
+-- ATT.Override_RunawayBurst_Priority = 0.5
+-- ATT.Override_PostBurstDelay = 0.1
+-- ATT.Override_PostBurstDelay_Priority = 0.5
+
+-- ATT.Func_RPMMultBurst = function(wep, modifiers)
+--     if wep:GetFiremodeAmount() == 2 and wep:GetValue("Firemodes")[2] == -2  then
+--         modifiers.set = 1.5
+--         modifiers.prio = 10
+--     end
+-- end
+
 ATT.Override_AmmoPerShot = 1
 ATT.Override_Num = 1
 
-ATT.Mult_RPM = 2
+ATT.Mult_RPM = 1.75
 
 ATT.Add_RecoilStability = 0.3
-ATT.Mult_RecoilKick = 0.55
-ATT.Mult_RecoilSpreadPenalty = 0.75
+ATT.Mult_RecoilKick = 0.4
+ATT.Mult_RecoilSpreadPenalty = 0.7
 ATT.Mult_Spread = 0.75
 
 ATT.Add_RecoilMaximum = 2
 
-ATT.Override_Sound_Shoot = "^tacrp_extras/m1911/fire-1.wav"
-ATT.Add_Pitch_Shoot = -7
+ATT.Override_Sound_Shoot = "^tacint_shark/af2011/af2011a0-1.wav"
+ATT.Add_Pitch_Shoot = 0
 ATT.Override_EffectsDoubled = false
 
 TacRP.LoadAtt(ATT, "bolt_af2011_alt")
