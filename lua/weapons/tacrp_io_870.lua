@@ -13,6 +13,18 @@ SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "Nickel plated \"Marine Magnum\" shotgun. Poor handling, but has great capacity and firepower."
 
+SWEP.Trivia_Caliber = "12 Gauge"
+SWEP.Trivia_Manufacturer = "Remington"
+SWEP.Trivia_Year = "1992"
+
+SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Credits = [[
+Model: Twinke Masta
+Texture: Millenia
+Sound: Vunsunta, xLongWayHome
+Animation: Tactical Intervention
+]]
+
 SWEP.ViewModel = "models/weapons/tacint_shark/v_870.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_870.mdl"
 
@@ -21,9 +33,9 @@ SWEP.SlotAlt = 3
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        MoveSpeedMult = 0.9,
+        MoveSpeedMult = 0.88,
         ShootingSpeedMult = 0.8,
-        SightedSpeedMult = 0.9,
+        SightedSpeedMult = 0.8,
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
@@ -102,7 +114,7 @@ SWEP.ArmorBonus = 1.25
 
 SWEP.Num = 8
 
-SWEP.MuzzleVelocity = 9000
+SWEP.MuzzleVelocity = 10000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1.5,
@@ -125,7 +137,7 @@ SWEP.RPM = 65
 
 SWEP.ShootTimeMult = 0.75
 
-SWEP.Spread = 0.02
+SWEP.Spread = 0.018
 SWEP.ShotgunPelletSpread = 0.008
 
 
@@ -141,9 +153,8 @@ SWEP.RecoilDissipationRate = 1
 SWEP.RecoilFirstShotMult = 1.1
 
 SWEP.RecoilVisualKick = 2
-SWEP.RecoilVisualShake = 2
-
 SWEP.RecoilKick = 15
+SWEP.RecoilStability = 0.15
 
 SWEP.RecoilSpreadPenalty = 0.02
 
@@ -157,8 +168,8 @@ SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.36
-SWEP.SprintToFireTime = 0.42
+SWEP.AimDownSightsTime = 0.39
+SWEP.SprintToFireTime = 0.43
 
 SWEP.Sway = 0.8
 SWEP.ScopedSway = 0.25
@@ -184,11 +195,11 @@ SWEP.BlindFirePos = Vector(4, -2, -4)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(-0.375, -0.6, 2)
-SWEP.SightPos = Vector(-3.7, -4, -2.67)
+SWEP.SightAng = Angle(-0.575, -0.6, 2)
+SWEP.SightPos = Vector(-3.44, -4, -2.775)
 
-SWEP.CorrectivePos = Vector(0.275, 0, -0.2)
-SWEP.CorrectiveAng = Angle(1.21, 0.1, 0)
+SWEP.CorrectivePos = Vector(0.31, 0, -0.21)
+SWEP.CorrectiveAng = Angle(1.2, 0.1, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
@@ -232,6 +243,17 @@ SWEP.AnimationTranslationTable = {
     ["reload"] = {"reload", "reload2"}
 }
 
+SWEP.AttachmentElements = {
+    ["tactical"] = {
+        BGs_VM = {
+            {1, 1}
+        },
+        BGs_WM = {
+            {1, 1}
+        },
+    },
+}
+
 // attachments
 
 SWEP.Attachments = {
@@ -240,13 +262,14 @@ SWEP.Attachments = {
         Category = {"optic_cqb", "optic_medium"},
         Bone = "ValveBiped.bekas_rootbone",
         WMBone = "ValveBiped.Bip01_R_Hand",
-        InstalledElements = {"sights"},
+        InstalledElements = {"tactical"},
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
-        VMScale = 0.75,
-        Pos_VM = Vector(-2.8, 0.32, 8),
+        VMScale = 0.8,
+        WMScale = 0.8,
+        Pos_VM = Vector(-3.3, 0, 8.5),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(11, 0.85, -7),
+        Pos_WM = Vector(8, 0.1, -5.4),
         Ang_WM = Angle(-25, 3.5, 180),
     },
     [2] = {
@@ -255,12 +278,11 @@ SWEP.Attachments = {
         Bone = "ValveBiped.bekas_rootbone",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
-        InstalledElements = {"tactical"},
         VMScale = 1.25,
         Pos_VM = Vector(-0.5, 0.3, 27),
         Ang_VM = Angle(90, 0, -180),
-        Pos_WM = Vector(25, 0.5, -12),
-        Ang_WM = Angle(-25, 3.5, 90),
+        Pos_WM = Vector(25, -0.8, -9.5),
+        Ang_WM = Angle(-25, 3.5, 0),
     },
     [3] = {
         PrintName = "Accessory",
