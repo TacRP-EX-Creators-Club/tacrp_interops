@@ -18,9 +18,10 @@ SWEP.Trivia_Year = "1935"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Model & Textures: Day of Defeat: Source, edited by Cafe Rev. & TheLama
-Sound: Day of Infamy
-Animation: Tactical Intervention
+Model: Day of Defeat: Source, edited by 8Z
+Magazine/Trigger: TheLama, Darkstorn
+Texture: Cafe Rev., rascal, 5hifty
+Sound: Day of Infamy; Animation: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
@@ -265,7 +266,8 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
-        Pos_VM = Vector(-3.85, 0, 14),
+        VMScale = 0.9,
+        Pos_VM = Vector(-3.95, 0, 12.5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),

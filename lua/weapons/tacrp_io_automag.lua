@@ -14,7 +14,7 @@ SWEP.Description = "Highly accurate magnum pistol. Great handling due to its siz
 SWEP.Description_Quote = "A cursed design that doomed most of its manufacturers."
 
 SWEP.Trivia_Caliber = ".44 AMP"
-SWEP.Trivia_Manufacturer = "Arsenal Firearms"
+SWEP.Trivia_Manufacturer = "Auto Mag Corporation"
 SWEP.Trivia_Year = "1971"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL

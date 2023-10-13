@@ -10,15 +10,17 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Carbine caliber bolt-action rifle based on the Kar98k. Lightweight, easy to use and has a generous capacity, but damage is low.\nFor rodents of... unassuming size."
+SWEP.Description = "Carbine caliber bolt-action rifle based on the Kar98k. Lightweight, easy to use and has a generous capacity, but damage is low."
+SWEP.Description_Quote = "For rodents of... unassuming size."
 
 SWEP.Trivia_Caliber = ".223 Remington"
 SWEP.Trivia_Manufacturer = "Mauser"
-SWEP.Trivia_Year = "1935"
+SWEP.Trivia_Year = "1984" // No idea tbh
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
-Model & Textures: Day of Defeat: Source, edited by 8Z
+Model: Day of Defeat: Source, edited by 8Z
+Texture: 5hifty
 Sound: Day of Infamy
 Animation: Tactical Intervention
 ]]
@@ -86,9 +88,9 @@ SWEP.BalanceStats = {
         MeleeSpeedMult = 1,
         ReloadSpeedMult = 1,
     },
-	[TacRP.BALANCE_OLDSCHOOL] = {
-		RecoilSpreadPenalty = 0.01
-	}
+    [TacRP.BALANCE_OLDSCHOOL] = {
+        RecoilSpreadPenalty = 0.01
+    }
 }
 
 SWEP.TTTReplace = {["weapon_zm_rifle"] = 0.5, ["weapon_zm_mac10"] = 0.5}
@@ -274,7 +276,8 @@ SWEP.Attachments = {
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
-        Pos_VM = Vector(-3.85, 0, 14),
+        VMScale = 0.9,
+        Pos_VM = Vector(-3.95, 0, 12.5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),
