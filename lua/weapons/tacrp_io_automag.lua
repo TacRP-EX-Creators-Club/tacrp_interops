@@ -8,7 +8,7 @@ SWEP.PrintName = "AMT Automag"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "2Magnum Pistol"
 
 SWEP.Description = "Highly accurate magnum pistol. Great handling due to its size, but can only mount pistol optics."
 SWEP.Description_Quote = "A cursed design that doomed most of its manufacturers."

@@ -10,7 +10,7 @@ SWEP.AbbrevName = "SW M500"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "2Magnum Pistol"
 
 SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage. Massive."
 
@@ -105,7 +105,7 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
-		Spread = 0.005,
+        Spread = 0.005,
         RecoilSpreadPenalty = 0.018,
         RecoilResetTime = 0.7,
         RecoilDissipationRate = 5
