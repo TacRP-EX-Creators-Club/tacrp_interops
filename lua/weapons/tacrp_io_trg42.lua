@@ -19,8 +19,8 @@ SWEP.Trivia_Year = "1999"
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model: Darkstorn
-Textures: SilentAssassin12
-Sounds: Vunsunta
+Texture: SilentAssassin12
+Sound: Vunsunta
 Animation: Tactical Intervention
 ]]
 

@@ -18,7 +18,7 @@ SWEP.Trivia_Year = "1970"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Model & Textures: KnechtRuprecht
+Model & Texture: KnechtRuprecht
 Sound: Strelok & xLongWayHome
 Animation: Tactical Intervention, edited by speedonerd
 ]]

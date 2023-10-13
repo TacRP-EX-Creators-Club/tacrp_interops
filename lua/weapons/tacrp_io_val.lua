@@ -18,7 +18,7 @@ SWEP.Trivia_Year = "1987"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Model & Textures: S.T.A.L.K.E.R.
+Model & Texture: S.T.A.L.K.E.R.
 Sound: S.T.A.L.K.E.R. & Vunsunta
 Animation: Tactical Intervention
 ]]

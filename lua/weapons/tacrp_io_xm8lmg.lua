@@ -19,7 +19,7 @@ SWEP.Trivia_Year = "2003"
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model: End Of Days
-Textures: Copkiller, Twinke Masta & Wangchung
+Texture: Copkiller, Twinke Masta & Wangchung
 Animation: Tactical Intervention
 ]]
 

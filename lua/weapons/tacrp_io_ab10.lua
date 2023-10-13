@@ -18,7 +18,8 @@ SWEP.Trivia_Year = "1984"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Assets: Payday 2
+Model/Texture: Payday 2
+Sound: The_AntiPirate
 Animation: Tactical Intervention
 ]]
 

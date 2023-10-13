@@ -21,7 +21,7 @@ SWEP.Trivia_Year = "2001"
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Model: Fearfisch
-Textures: Millenia
+Texture: Millenia
 Sound: Vunsunta
 Animation: Tactical Intervention
 ]]
