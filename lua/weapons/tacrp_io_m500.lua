@@ -12,7 +12,8 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Magnum Pistol"
 
-SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage. Massive."
+SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage."
+SWEP.Description_Quote = "Massive."
 
 SWEP.Trivia_Caliber = ".500 S&W Magnum"
 SWEP.Trivia_Manufacturer = "Smith & Wesson"
@@ -33,10 +34,10 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 80,
-        Damage_Min = 50,
+        Damage_Max = 85,
+        Damage_Min = 58,
         Range_Min = 300,
-        Range_Max = 5000,
+        Range_Max = 6000,
         RPM = 70,
 
         BodyDamageMultipliers = {
