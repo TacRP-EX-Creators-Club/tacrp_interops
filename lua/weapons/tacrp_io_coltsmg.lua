@@ -19,7 +19,8 @@ SWEP.Trivia_Year = "1982"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
-Assets: Counter Strike: Online 2
+Assets: Twinke Masta & Kimono
+Sounds: Strelok & New World Interactive
 Animation: Tactical Intervention
 ]]
 
