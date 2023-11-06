@@ -1,7 +1,7 @@
 "vertexlitgeneric"
 {
-	"$baseTexture" "models\tacint_extras\glock\glock18"
-	"$bumpmap" "models\tacint_extras\glock\glock18_ref"
+	"$baseTexture" "models\tacint_extras\glock18c\glock18"
+	"$bumpmap" "models\tacint_extras\glock18c\glock18_ref"
 	"$phong" "1"
 	"$phongexponent" "45"
 	"$phongboost"	"1"

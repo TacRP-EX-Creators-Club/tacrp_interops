@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"models\tacint_extras\glock\lasers"
+	"$basetexture"	"models\tacint_extras\glock18c\lasers"
 	"$model"	"1"
 	"$translucent"	"1"
 	"$alphatest"	"1"

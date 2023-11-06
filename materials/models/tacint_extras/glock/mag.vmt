@@ -1,5 +1,0 @@
-VertexLitGeneric
-{
-	"$baseTexture" "models\tacint_extras\glock\mag"
-	"$nocull"	"1"
-}
