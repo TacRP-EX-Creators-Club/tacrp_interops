@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/tacint_extras/degala/Grip"
-	"$bumpmap" "models/tacint_extras/degala/Grip norm"	
+	"$baseTexture" "models\tacint_extras\degala/Grip"
+	"$bumpmap" "models\tacint_extras\degala/Grip norm"	
      	"$phong" "1"
       "$phongboost" "1"
       "$phongfresnelranges" "[2 4 6]"     	

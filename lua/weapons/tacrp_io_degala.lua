@@ -19,7 +19,9 @@ SWEP.Trivia_Year = "1995" // It's a Mark XIX.  Teardrop safety lever, top scope 
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
-Assets: Vashts1985, Coop, L0RDN00B, Thanez, Henron, OldChili
+Model: Vashts1985
+Texture: Racer445
+Sounds:Vunsunta, XLongWayHome
 Animation: Tactical Intervention
 ]]
 
@@ -169,7 +171,7 @@ SWEP.SprintAng = Angle(0, 30, 0)
 SWEP.SprintPos = Vector(2, 0, -12)
 
 SWEP.SightAng = Angle(-0.05, -0.1, 0)
-SWEP.SightPos = Vector(-3.3, 0, -4)
+SWEP.SightPos = Vector(-3.28, 0, -4)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_PISTOL
@@ -349,5 +351,5 @@ addsound("tacint_degala.clip_in", path .. "clip_in.wav")
 addsound("tacint_degala.clip_in-mid", path1 .. "gsr1911_clip_in-mid.wav")
 addsound("tacint_degala.clip_out", path .. "clip_out.wav")
 addsound("tacint_degala.slide_action", path1 .. "gsr1911_slide_action.wav")
-addsound("tacint_degala.slide_shut", path .. "slide_shut.wav")
+addsound("tacint_degala.slide_shut", path .. "sliderelease.wav")
 addsound("tacint_degala.cock_hammer", path1 .. "gsr1911_cockhammer.wav")

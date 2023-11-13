@@ -19,7 +19,7 @@ https://github.com/RMC-Interops-Creators-Club/RMC-Interops-Extras
 - RPK [https://gamebanana.com/mods/370688]
 - Colt SMG [https://gamebanana.com/mods/395109]
 - Sako TRG-42 [https://gamebanana.com/mods/211224]
-- Deagle [https://gamebanana.com/mods/207737]
+- Deagle [https://gamebanana.com/mods/207742]
 - SIG P226 [https://gamebanana.com/mods/207923]
 - VSS Vintorez [https://gamebanana.com/mods/211807]
 - Glock 18C [https://gamebanana.com/mods/206969]
