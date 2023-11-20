@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "FN SCAR-H"
+SWEP.PrintName = "FN SCAR-H CQC"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Compact, high mobility battle rifle. Has a grippod that provides some stability if deployed."
+SWEP.Description = "Compact, high mobility battle rifle with swift handling."
 
 SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "FN America"
@@ -18,7 +18,7 @@ SWEP.Trivia_Year = "2004"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Assets: Counter-Strike: Online 2
+Assets: Counter-Strike: Online 2, edited by speedonerd
 Animation: Tactical Intervention
 ]]
 
@@ -147,21 +147,21 @@ SWEP.SightedSpeedMult = 0.65
 
 SWEP.ReloadSpeedMult = 0.5
 
-SWEP.AimDownSightsTime = 0.37
-SWEP.SprintToFireTime = 0.4
+SWEP.AimDownSightsTime = 0.35
+SWEP.SprintToFireTime = 0.38
 
 SWEP.Sway = 1.25
 SWEP.ScopedSway = 0.1
 
 SWEP.FreeAimMaxAngle = 5
 
-SWEP.Bipod = true
+SWEP.Bipod = false
 SWEP.BipodRecoil = 0.5
 SWEP.BipodKick = 0.4
 
 // hold types
 
-SWEP.HoldType = "smg"
+SWEP.HoldType = "ar2"
 SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeBlindFire = false
 
@@ -174,14 +174,14 @@ SWEP.PassivePos = Vector(0, -2, -5)
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(3, -2, -5)
 
-SWEP.SightAng = Angle(2.45, 0.3, 0)
-SWEP.SightPos = Vector(-2.55, -5, -4.75)
+SWEP.SightAng = Angle(0.07, 0.45, 0)
+SWEP.SightPos = Vector(-4.36, -7, -4.77)
 
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.CorrectivePos = Vector(-0.675, 0, 0.15)
-SWEP.CorrectiveAng = Angle(-2.5, 2.5, 0)
+SWEP.CorrectivePos = Vector(0, 2, 0)
+SWEP.CorrectiveAng = Angle(-0.1, 0.45, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
@@ -195,7 +195,7 @@ SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/scarh.mdl"
-SWEP.DropMagazineImpact = "plastic"
+SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 1.1
 SWEP.DropMagazineTime = 0.3
@@ -238,7 +238,7 @@ SWEP.AnimationTranslationTable = {
 SWEP.AttachmentElements = {
     ["sights"] = {
         BGs_VM = {
-            {4, 1}
+            {1, 1}
         },
         BGs_WM = {
             {4, 1}
@@ -250,13 +250,13 @@ SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
         Category = {"optic_cqb", "optic_medium", "optic_sniper"},
-        Bone = "ValveBiped.dsa58_rootbone",
+        Bone = "ValveBiped._ROOT_K1a",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"sights"},
-        VMScale = 0.9,
-        Pos_VM = Vector(-5.9, 0.28, 4),
+        VMScale = 1,
+        Pos_VM = Vector(-5.25, 0.19, 3.5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 2.5, 1.3),
         Ang_WM = Angle(0, -90, 0),
@@ -264,28 +264,28 @@ SWEP.Attachments = {
     [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
-        Bone = "ValveBiped.dsa58_rootbone",
+        Bone = "ValveBiped._ROOT_K1a",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.6, 0.3, 24),
+        Pos_VM = Vector(-2.85, 0.35, 23),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(0, 22.5, -0.9),
+        Pos_WM = Vector(0, 21, -0.9),
         Ang_WM = Angle(0, -90, 0),
     },
     [3] = {
         PrintName = "Tactical",
         Category = "tactical",
-        Bone = "ValveBiped.dsa58_rootbone",
+        Bone = "ValveBiped._ROOT_K1a",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
         VMScale = 1.1,
-        Pos_VM = Vector(-3.6, -0.75, 14),
+        Pos_VM = Vector(-2.8, -0.75, 15),
         Ang_VM = Angle(90, 0, -90),
-        Pos_WM = Vector(1.25, 11.5, -0.75),
-        Ang_WM = Angle(0, -90, -60),
+        Pos_WM = Vector(1, 11.5, -0.75),
+        Ang_WM = Angle(0, -90, -90),
     },
     [4] = {
         PrintName = "Accessory",
