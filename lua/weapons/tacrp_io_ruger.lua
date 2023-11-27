@@ -112,9 +112,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 // "ballistics"
 
 SWEP.Damage_Max = 14
-SWEP.Damage_Min = 10
-SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 8
+SWEP.Range_Min = 1200
+SWEP.Range_Max = 2500
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.67
 SWEP.ArmorBonus = 0.5
@@ -228,7 +228,7 @@ SWEP.Sound_Shoot_Silenced = path1 .. "fiveseven-1.wav"
 
 SWEP.Silencer = true
 
-SWEP.Vol_Shoot = 60
+SWEP.Vol_Shoot = 70
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects

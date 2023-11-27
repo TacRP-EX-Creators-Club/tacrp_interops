@@ -99,10 +99,10 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
-		Description = "Handgun with excellent accuracy, recoil and range but a small magazine.",
+        Description = "Handgun with excellent accuracy, recoil and range but a small magazine.",
         RecoilMaximum = 5,
-		RecoilDissipationRate = 12,
-		RecoilSpreadPenalty = 0.0015
+        RecoilDissipationRate = 12,
+        RecoilSpreadPenalty = 0.0015
     }
 }
 
@@ -110,10 +110,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
+SWEP.Damage_Max = 23
 SWEP.Damage_Min = 15
-SWEP.Range_Min = 1500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 4500 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1000
+SWEP.Range_Max = 3000
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
 SWEP.ArmorBonus = 1

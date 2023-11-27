@@ -122,7 +122,7 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemodes = false
 SWEP.Firemode = 1
 
-SWEP.RPM = 400
+SWEP.RPM = 480
 
 SWEP.Spread = 0.008
 SWEP.RecoilSpreadPenalty = 0.002

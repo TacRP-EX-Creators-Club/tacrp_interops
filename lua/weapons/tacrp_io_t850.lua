@@ -99,10 +99,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
 
 // "ballistics"
 
-SWEP.Damage_Max = 44
-SWEP.Damage_Min = 12
-SWEP.Range_Min = 600 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2500 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 50
+SWEP.Damage_Min = 16
+SWEP.Range_Min = 200 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1500 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
 SWEP.ArmorBonus = 0.5
@@ -126,7 +126,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 200
+SWEP.RPM = 250
 
 SWEP.Spread = 0.01
 

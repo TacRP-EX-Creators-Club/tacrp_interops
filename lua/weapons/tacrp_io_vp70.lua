@@ -88,10 +88,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 20
-SWEP.Damage_Min = 10
-SWEP.Range_Min = 700 // distance for which to maintain maximum damage
-SWEP.Range_Max = 1800 // distance at which we drop to minimum damage
+SWEP.Damage_Max = 22
+SWEP.Damage_Min = 9
+SWEP.Range_Min = 500
+SWEP.Range_Max = 1800
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.65
 SWEP.ArmorBonus = 1
@@ -293,8 +293,8 @@ SWEP.Attachments = {
         WMScale = 0.6,
         Pos_VM = Vector(-0, 0, 5.8),
         Ang_VM = Angle(90, 0, 0),
-        Pos_WM = Vector(14.2, 1.2, -4.25),
-        Ang_WM = Angle(0, 0, 0),
+        Pos_WM = Vector(13.5, 1.2, -3.95),
+        Ang_WM = Angle(0, 0, 180),
     },
     [3] = {
         PrintName = "Tactical",
