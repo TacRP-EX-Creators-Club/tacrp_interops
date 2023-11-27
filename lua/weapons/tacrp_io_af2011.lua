@@ -77,10 +77,10 @@ SWEP.TTTReplace = {["weapon_zm_pistol"] = 0.5}
 
 // "ballistics"
 
-SWEP.Damage_Max = 24
+SWEP.Damage_Max = 28
 SWEP.Damage_Min = 9
-SWEP.Range_Min = 400
-SWEP.Range_Max = 2500
+SWEP.Range_Min = 200
+SWEP.Range_Max = 1500
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
 
