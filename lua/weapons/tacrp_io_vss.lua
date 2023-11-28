@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil.\nEquipped with a 6x scope by default.\nCapable of automatic fire."
+SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil, but performs poorly over long bursts.\nEquipped with a 6x scope by default."
 
 SWEP.Trivia_Caliber = "9x39mm"
 SWEP.Trivia_Manufacturer = "Tula Arms Plant"
@@ -89,10 +89,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 26
+SWEP.Damage_Max = 24
 SWEP.Damage_Min = 20
-SWEP.Range_Min = 700 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1000
+SWEP.Range_Max = 2500
 SWEP.Penetration = 9 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.925
 
@@ -112,8 +112,8 @@ SWEP.MuzzleVelocity = 16000
 // misc. shooting
 
 SWEP.Firemodes = {
-    1,
-    2
+    2,
+    1
 }
 
 SWEP.RPM = 700
@@ -122,18 +122,19 @@ SWEP.Spread = 0.0005
 
 SWEP.ShootTimeMult = 0.5
 
+SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 5
-SWEP.RecoilResetTime = 0.11
-SWEP.RecoilDissipationRate = 9
-SWEP.RecoilFirstShotMult = 0.5
+SWEP.RecoilResetTime = 0.01
+SWEP.RecoilDissipationRate = 28
+SWEP.RecoilFirstShotMult = 0.65
 
 SWEP.RecoilVisualKick = 0.5
 SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.6
-SWEP.RecoilAltMultiplier = 300
+SWEP.RecoilStability = 0.5
+SWEP.RecoilAltMultiplier = 400
 
-SWEP.RecoilSpreadPenalty = 0.0044
+SWEP.RecoilSpreadPenalty = 0.0048
 SWEP.HipFireSpreadPenalty = 0.03
 
 SWEP.CanBlindFire = true

@@ -85,7 +85,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_OLDSCHOOL] = {
         Spread = 0.002,
         RecoilSpreadPenalty = 0.004,
-		HipFireSpreadPenalty = 0.0085,
+        HipFireSpreadPenalty = 0.0085,
         RecoilMaximum = 10
     }
 }
@@ -95,16 +95,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 // "ballistics"
 
 SWEP.Damage_Max = 22
-SWEP.Damage_Min = 16
-SWEP.Range_Min = 1800
-SWEP.Range_Max = 6500
+SWEP.Damage_Min = 14
+SWEP.Range_Min = 1200
+SWEP.Range_Max = 3500
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.7
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 5,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1.2,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.9,

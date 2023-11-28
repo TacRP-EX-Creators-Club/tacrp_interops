@@ -146,8 +146,8 @@ ATT.SortOrder = 1
 
 ATT.Mult_RecoilKick = 0.5
 ATT.Mult_RecoilSpreadPenalty = 0.8
-ATT.Mult_RPM = 450 / 700
-ATT.Mult_MuzzleVelocity = 1.15
+ATT.Mult_RPM = 450 / 600
+ATT.Mult_MuzzleVelocity = 1.1
 
 ATT.InstalledElements = {"muzzle"}
 

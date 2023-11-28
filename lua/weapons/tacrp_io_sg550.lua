@@ -101,8 +101,8 @@ SWEP.MuzzleVelocity = 28000
 
 SWEP.Damage_Max = 26
 SWEP.Damage_Min = 14
-SWEP.Range_Min = 1800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 7000 // distance at which we drop to minimum damage
+SWEP.Range_Min = 1400
+SWEP.Range_Max = 4500
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.95
 
@@ -122,12 +122,12 @@ SWEP.MuzzleVelocity = 28000
 // misc. shooting
 
 SWEP.Firemodes = {
-	1,
-	-3
+    1,
+    -3
 }
 
 SWEP.RPM = 600
-SWEP.RPMMultBurst = 1.25
+// SWEP.RPMMultBurst = 1.25
 
 SWEP.Spread = 0.0005
 

@@ -76,8 +76,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 26
-SWEP.Damage_Min = 22
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 20
 SWEP.Range_Min = 1200
 SWEP.Range_Max = 3000
 SWEP.Penetration = 10 // units of metal this weapon can penetrate
@@ -114,6 +114,7 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
 SWEP.RecoilKick = 4
+SWEP.RecoilStability = 0.2
 
 SWEP.RecoilSpreadPenalty = 0.0025
 SWEP.HipFireSpreadPenalty = 0.025

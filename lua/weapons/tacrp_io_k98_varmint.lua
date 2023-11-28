@@ -98,11 +98,11 @@ SWEP.TTTReplace = {["weapon_zm_rifle"] = 0.5, ["weapon_zm_mac10"] = 0.5}
 // "ballistics"
 
 SWEP.Damage_Max = 40
-SWEP.Damage_Min = 22
-SWEP.Range_Min = 800 // distance for which to maintain maximum damage
-SWEP.Range_Max = 6000 // distance at which we drop to minimum damage
-SWEP.Penetration = 12 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.85
+SWEP.Damage_Min = 20
+SWEP.Range_Min = 800
+SWEP.Range_Max = 3500
+SWEP.Penetration = 10
+SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.75,
