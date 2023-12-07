@@ -13,7 +13,7 @@ SWEP.SubCatType = "6Precision Rifle"
 SWEP.Description = "Carbine caliber marksman rifle with low recoil and burst-fire. Penetrates armor easily but is weaker overall.\nEquipped with a 6x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
-SWEP.Trivia_Manufacturer = "SIG Sauger AG"
+SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "1988"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
