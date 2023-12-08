@@ -17,7 +17,7 @@ SWEP.Trivia_Caliber = "40x46mm"
 SWEP.Trivia_Manufacturer = "Naval Air Weapons Station"
 SWEP.Trivia_Year = "1968"
 
-SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Assets: Counter Strike: Online 2
 Animation: Tactical Intervention
@@ -134,7 +134,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -4)
+SWEP.PassivePos = Vector(0, -2, -5.5)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(4, -2, -4)
