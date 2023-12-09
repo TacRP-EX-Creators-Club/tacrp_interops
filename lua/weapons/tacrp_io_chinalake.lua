@@ -17,7 +17,7 @@ SWEP.Trivia_Caliber = "40x46mm"
 SWEP.Trivia_Manufacturer = "Naval Air Weapons Station"
 SWEP.Trivia_Year = "1968"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Assets: Counter Strike: Online 2
 Animation: Tactical Intervention
