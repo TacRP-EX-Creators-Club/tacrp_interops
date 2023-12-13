@@ -8,7 +8,7 @@ SWEP.PrintName = "China Lake"
 SWEP.Category = "Tactical RP (Special)"
 
 SWEP.SubCatTier = "9Special"
-SWEP.SubCatType = "9Equipment"
+SWEP.SubCatType = "6Launcher"
 
 SWEP.Description = "Heavy pump action grenade launcher with high muzzle velocity but poor handling."
 SWEP.Description_Quote = "Only 59 of these ever existed. Where'd you get this one?"
