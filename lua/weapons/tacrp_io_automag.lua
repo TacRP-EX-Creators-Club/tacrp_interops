@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "AMT Automag"
+SWEP.PrintName = "Auto Mag Pistol"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
@@ -252,12 +252,12 @@ SWEP.ProceduralIronFire = {
             t0 = 0,
             t1 = 0.3,
         },
-        {
-            bone = "ValveBiped.hammer",
-            ang = Angle(-170, 0, 0),
-            t0 = 0,
-            t1 = 0.35,
-        },
+        --{
+            --bone = "ValveBiped.hammer",
+            --ang = Angle(90, 0, 0),
+            --t0 = 0,
+            --t1 = 0.15,
+        --},
         {
             bone = "ValveBiped.Bip01_R_Finger1",
             ang = Angle(0, -15, 0),
@@ -291,7 +291,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(-4, -0.125, -0.4),
+        Pos_VM = Vector(-3.9, -0.11, -0.5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, -2.5, -0.75),
         Ang_WM = Angle(0, -90, 0),
@@ -317,9 +317,9 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
-        VMScale = 1.1,
+        VMScale = 1,
         WMScale = 1.3,
-        Pos_VM = Vector(-2.75, 0, 8),
+        Pos_VM = Vector(-2.9, 0, 8),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(0, 6.5, -2),
         Ang_WM = Angle(0, -90, 180),
