@@ -1,8 +1,0 @@
-VertexLitGeneric
-{
-	"$baseTexture" "models\tacint_shark\57\slide"
-	"$bumpmap" "models\tacint_shark\57\slide norm"
-    	"$envmap" "env_cubemap"
-    	"$normalmapalphaenvmapmask" 1
-
-	

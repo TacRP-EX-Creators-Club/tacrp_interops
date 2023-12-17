@@ -19,9 +19,8 @@ SWEP.Trivia_Year = "1998"
 
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
-Model: Lama, Twinke Masta
-Texture: Flamshmizer, L0RDN00B
-Sound: Vunsunta, Valve
+Assets: Counter-Strike: Online 2, edited by speedonerd
+Sounds: Vunsunta, Counter-Strike: Online 2
 Animation: Tactical Intervention
 ]]
 
@@ -147,7 +146,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(0, -2, -5)
+SWEP.PassivePos = Vector(0.25, -2, -5.25)
 
 SWEP.BlindFireAng = Angle(0, 5, 0)
 SWEP.BlindFirePos = Vector(0, -2, -5)
@@ -158,8 +157,8 @@ SWEP.BlindFireSuicidePos = Vector(25, 15, -6)
 SWEP.SprintAng = Angle(0, 30, 0)
 SWEP.SprintPos = Vector(2, 0, -12)
 
-SWEP.SightAng = Angle(0, 1.2, 0)
-SWEP.SightPos = Vector(-3.47, 0, -3.9)
+SWEP.SightAng = Angle(0.1, 0.55, 0)
+SWEP.SightPos = Vector(-3.44, 0, -3.75)
 
 SWEP.CorrectivePos = Vector(0, 0, 0)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
@@ -176,7 +175,7 @@ SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.35
 
-SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/fiveseven.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/57.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
 SWEP.ReloadUpInTime = 0.85
@@ -198,6 +197,7 @@ SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // the .qc attachment for the muzzle
 SWEP.QCA_Muzzle = 4
+SWEP.EjectEffect = 2
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 
@@ -262,7 +262,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(0.05, 0, -0.2),
+        Pos_VM = Vector(0.04, 0.25, -0.4),
         Ang_VM = Angle(0, 90, 180),
         Pos_WM = Vector(0, -1, -0.75),
         Ang_WM = Angle(0, -90, 0),
@@ -270,13 +270,13 @@ SWEP.Attachments = {
     [2] = {
         PrintName = "Muzzle",
         Category = "silencer",
-        Bone = "ValveBiped.barrel_assembly",
+        Bone = "ValveBiped.p2000_rootbone",
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-        VMScale = 0.5,
+        VMScale = 0.55,
         WMScale = 0.6,
-        Pos_VM = Vector(-0.53, 0.4, 7.3),
+        Pos_VM = Vector(-3.2, -0.05, 10),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(0, 10, -1.5),
         Ang_WM = Angle(0, -90, 0),
@@ -290,7 +290,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1.1,
         WMScale = 1.3,
-        Pos_VM = Vector(-2, 0, 6),
+        Pos_VM = Vector(-2, -0.05, 6),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(0, 5, -2.75),
         Ang_WM = Angle(0, -90, 180),
