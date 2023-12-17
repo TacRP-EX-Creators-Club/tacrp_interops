@@ -112,8 +112,8 @@ SWEP.MuzzleVelocity = 16000
 // misc. shooting
 
 SWEP.Firemodes = {
-    2,
-    1
+    1,
+    2
 }
 
 SWEP.RPM = 700
