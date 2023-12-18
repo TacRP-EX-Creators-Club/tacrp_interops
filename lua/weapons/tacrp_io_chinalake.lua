@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "China Lake"
+SWEP.PrintName = "China Lake Launcher"
 SWEP.Category = "Tactical RP (Special)"
 
 SWEP.SubCatTier = "9Special"
@@ -14,10 +14,10 @@ SWEP.Description = "Heavy pump action grenade launcher with high muzzle velocity
 SWEP.Description_Quote = "Only 59 of these ever existed. Where'd you get this one?"
 
 SWEP.Trivia_Caliber = "40x46mm"
-SWEP.Trivia_Manufacturer = "Naval Air Weapons Station"
+SWEP.Trivia_Manufacturer = "NAWS China Lake"
 SWEP.Trivia_Year = "1968"
 
-SWEP.Faction = TacRP.FACTION_NEUTRAL
+SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Assets: Counter Strike: Online 2
 Animation: Tactical Intervention
