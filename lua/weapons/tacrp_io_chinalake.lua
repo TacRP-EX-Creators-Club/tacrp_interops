@@ -180,6 +180,25 @@ SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 SWEP.QCA_Muzzle = 1
 // ditto for shell
 SWEP.QCA_Eject = 2
+SWEP.EjectEffect = 3
+SWEP.EjectDelay = 0.5
+
+hook.Add("TacRP_LoadShellEffects", "tacrp_io_chinalake", function(tbl)
+    local i = table.insert(tbl, {
+        Model = "models/tacint/shells/40mm_shell.mdl",
+        Sounds = {
+            "TacRP/shells/40mmshell_drop1.wav",
+            "TacRP/shells/40mmshell_drop2.wav",
+            "TacRP/shells/40mmshell_drop3.wav",
+            "TacRP/shells/40mmshell_drop4.wav",
+            "TacRP/shells/40mmshell_drop5.wav",
+        }
+    })
+    local wep = weapons.GetStored("tacrp_io_chinalake")
+    if wep then
+        wep.EjectEffect = i
+    end
+end)
 
 SWEP.MuzzleEffect = "muzzleflash_m79"
 
