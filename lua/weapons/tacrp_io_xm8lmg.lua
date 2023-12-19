@@ -126,10 +126,10 @@ SWEP.RecoilDissipationRate = 20
 SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.5
-SWEP.RecoilKick = 1.5
+SWEP.RecoilKick = 2
 SWEP.RecoilStability = 0.5
 
-SWEP.RecoilSpreadPenalty = 0.0006
+SWEP.RecoilSpreadPenalty = 0.0007
 SWEP.HipFireSpreadPenalty = 0.035
 
 SWEP.CanBlindFire = true
@@ -149,6 +149,10 @@ SWEP.Sway = 1
 SWEP.ScopedSway = 0.225
 
 SWEP.FreeAimMaxAngle = 4.5
+
+SWEP.Bipod = true
+SWEP.BipodRecoil = 0.65
+SWEP.BipodKick = 0.3
 
 // hold types
 
@@ -248,6 +252,14 @@ SWEP.AttachmentElements = {
             {2, 1}
         },
     },
+	["bipod"] = {
+        BGs_VM = {
+            {3, 1}
+        },
+        BGs_WM = {
+            {3, 1}
+        }
+    },
 }
 
 
@@ -262,26 +274,27 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         Category = "silencer",
         Bone = "ValveBiped.g36k_rootbone",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
-        Pos_VM = Vector(-3.6, 0.5, 26.5),
-        Pos_WM = Vector(-0.25, 24, -1),
+		WMScale = 0.9,
+        Pos_VM = Vector(-3.65, 0.3, 31),
+        Pos_WM = Vector(35, 1.2, -4.7),
         Ang_VM = Angle(90, 0, 0),
-        Ang_WM = Angle(0, -90, 0),
+        Ang_WM = Angle(0, -0, 0),
     },
     [3] = {
         PrintName = "Tactical",
         Category = "tactical",
         Bone = "ValveBiped.g36k_rootbone",
-        WMBone = "Box01",
+        WMBone = "ValveBiped.Bip01_R_Hand",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
         Pos_VM = Vector(-3.75, -0.8, 17),
-        Pos_WM = Vector(0.9, 15, -1),
+        Pos_WM = Vector(20, 2, -5),
         Ang_VM = Angle(90, 0, -80),
-        Ang_WM = Angle(-70, -90, 0),
+        Ang_WM = Angle(-0, 0, 90),
     },
     [4] = {
         PrintName = "Accessory",
