@@ -13,7 +13,7 @@ SWEP.SubCatType = "7Sniper Rifle"
 SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to cycle and not very stable.\nEquipped with a 12x scope by default."
 
 SWEP.Trivia_Caliber = ".338 Lapua Magnum"
-SWEP.Trivia_Manufacturer = "Sako"
+SWEP.Trivia_Manufacturer = "SAKO"
 SWEP.Trivia_Year = "1999"
 
 SWEP.Faction = TacRP.FACTION_COALITION
