@@ -57,7 +57,7 @@ SWEP.BalanceStats = {
 // "ballistics"
 
 SWEP.ShootEnt = "tacrp_proj_40mm_he"
-SWEP.ShootEntForce = 10000
+SWEP.ShootEntForce = 7000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1,
