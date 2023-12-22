@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Carbine caliber marksman rifle with low recoil and burst-fire. Penetrates armor easily but is weaker overall.\nEquipped with a 6x scope by default."
+SWEP.Description = "Carbine caliber marksman rifle with burst-fire option. Easy to control and has high armor penetration.\nEquipped with a 6x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
@@ -31,10 +31,10 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 17,
+        Damage_Max = 18,
         Damage_Min = 28,
 
-        Range_Min = 600,
+        Range_Min = 300,
         Range_Max = 3000,
 
         MoveSpeedMult = 0.82,
@@ -99,11 +99,11 @@ SWEP.MuzzleVelocity = 28000
 
 // "ballistics"
 
-SWEP.Damage_Max = 26
-SWEP.Damage_Min = 14
-SWEP.Range_Min = 1400
+SWEP.Damage_Max = 28
+SWEP.Damage_Min = 18
+SWEP.Range_Min = 1800
 SWEP.Range_Max = 4500
-SWEP.Penetration = 2 // units of metal this weapon can penetrate
+SWEP.Penetration = 12
 SWEP.ArmorPenetration = 0.95
 
 SWEP.BodyDamageMultipliers = {
@@ -127,22 +127,26 @@ SWEP.Firemodes = {
 }
 
 SWEP.RPM = 600
-// SWEP.RPMMultBurst = 1.25
+SWEP.RPMMultBurst = 750 / 600
+
+SWEP.PostBurstDelay = 0.12
+SWEP.RunawayBurst = false
 
 SWEP.Spread = 0.0005
 
+SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
-SWEP.RecoilResetTime = 0.1
-SWEP.RecoilDissipationRate = 10
-SWEP.RecoilFirstShotMult = 0.75
+SWEP.RecoilMaximum = 6
+SWEP.RecoilResetTime = 0.06
+SWEP.RecoilDissipationRate = 15
+SWEP.RecoilFirstShotMult = 0.65
 
 SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 2
-SWEP.RecoilStability = 0.5
-SWEP.RecoilAltMultiplier = 250
+SWEP.RecoilStability = 0.55
+SWEP.RecoilAltMultiplier = 200
 
-SWEP.RecoilSpreadPenalty = 0.0035
+SWEP.RecoilSpreadPenalty = 0.003
 SWEP.HipFireSpreadPenalty = 0.06
 SWEP.PeekPenaltyFraction = 0.15
 
