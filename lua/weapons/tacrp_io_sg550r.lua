@@ -8,7 +8,7 @@ SWEP.PrintName = "SIG SG 550"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "4Assault Rifle"
+SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "???"
 
