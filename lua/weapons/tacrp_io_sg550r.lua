@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG SG 550-1 Sniper"
+SWEP.PrintName = "SIG SG 550"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "4Assault Rifle"
 
-SWEP.Description = "Carbine caliber marksman rifle with burst-fire option. Easy to control and has high armor penetration.\nEquipped with a 6x scope by default."
+SWEP.Description = "???"
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
@@ -24,7 +24,7 @@ Sound: Farion & Tactical Intervention
 Animation: Tactical Intervention
 ]]
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg550rifle_beta6.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
 
 SWEP.Slot = 2
@@ -122,8 +122,8 @@ SWEP.MuzzleVelocity = 28000
 // misc. shooting
 
 SWEP.Firemodes = {
-    1,
-    -3
+    -3,
+    1
 }
 
 SWEP.RPM = 600
@@ -199,14 +199,6 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 
 SWEP.ScopedSway = 0.1
 
-// scope
-
-SWEP.Scope = true
-SWEP.ScopeOverlay = Material("tacrp/scopes/l96.png", "mips smooth") // Material("path/to/overlay")
-SWEP.ScopeFOV = 90 / 6
-SWEP.ScopeLevels = 1 // 2 = like CS:S
-SWEP.ScopeHideWeapon = true
-
 // reload
 
 SWEP.ClipSize = 20
@@ -263,22 +255,6 @@ SWEP.AttachmentElements = {
             {1, 1}
         },
     },
-    ["sights"] = {
-        BGs_VM = {
-            {2, 2}
-        },
-        BGs_WM = {
-            {2, 2}
-        },
-    },
-    ["irons"] = {
-        BGs_VM = {
-            {2, 1}
-        },
-        BGs_WM = {
-            {2, 1}
-        },
-    },
     ["tactical"] = {
         BGs_VM = {
             {3, 1}
@@ -292,7 +268,7 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"ironsights", "optic_cqb", "optic_medium", "optic_sniper"},
+        Category = {"optic_cqb", "optic_medium"},
         InstalledElements = {"sights"},
         Bone = "ValveBiped.sg551_rootbone",
         WMBone = "Box01",
@@ -300,7 +276,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.75,
         WMScale = 0.75,
-        Pos_VM = Vector(-5, 0, 5.5),
+        Pos_VM = Vector(-5.2, 0, 6.0),
         Pos_WM = Vector(0, 5, 1),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
@@ -313,7 +289,7 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.85,
-        Pos_VM = Vector(-3.2, 0.05, 32.25),
+        Pos_VM = Vector(-3.2, 0.05, 29.25),
         Pos_WM = Vector(0.1, 36, -1.2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
@@ -333,7 +309,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "perk_extendedmag", "acc_sling", "acc_duffle", "acc_bipod"},
+        Category = {"acc", "acc_foldstock", "perk_extendedmag", "acc_sling", "acc_duffle", "acc_bipod"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
