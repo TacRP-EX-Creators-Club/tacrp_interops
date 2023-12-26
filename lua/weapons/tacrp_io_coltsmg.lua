@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "AR platform burst-fire SMG. Excellent recoil control, good damage and range but limited optic options."
+SWEP.Description = "AR platform burst-fire SMG. Excellent recoil control, good damage and range but limited optic options. Favored by the Department of Energy."
 SWEP.Description_Quote = "Loudspeaker not included."
 
 SWEP.Trivia_Caliber = "9x19mm"
