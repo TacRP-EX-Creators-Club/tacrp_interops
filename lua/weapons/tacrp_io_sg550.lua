@@ -16,7 +16,7 @@ SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "1988"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model: Hav0c & Twinke Masta
 Texture: Twinke Masta
@@ -31,11 +31,8 @@ SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 18,
-        Damage_Min = 28,
-
-        Range_Min = 300,
-        Range_Max = 3000,
+        Damage_Max = 25,
+        Damage_Min = 15,
 
         MoveSpeedMult = 0.82,
         ShootingSpeedMult = 0.7,
@@ -44,14 +41,9 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 10,
-        Damage_Min = 18,
-        Range_Min = 500,
-        Range_Max = 3000,
+        Damage_Max = 22,
+        Damage_Min = 10,
         RPM = 450,
-
-        RecoilDissipationRate = 9,
-        RecoilSpreadPenalty = 0.0025,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 4,
@@ -73,11 +65,8 @@ SWEP.BalanceStats = {
         ReloadSpeedMult = 0.5,
     },
     [TacRP.BALANCE_PVE] = {
-        Damage_Max = 12,
-        Damage_Min = 20,
-        Range_Min = 600,
-        Range_Max = 3000,
-        RPM = 500,
+        Damage_Max = 20,
+        Damage_Min = 12,
 
         MoveSpeedMult = 0.82,
         ShootingSpeedMult = 0.7,
@@ -99,11 +88,11 @@ SWEP.MuzzleVelocity = 28000
 
 // "ballistics"
 
-SWEP.Damage_Max = 28
-SWEP.Damage_Min = 18
+SWEP.Damage_Max = 30
+SWEP.Damage_Min = 20
 SWEP.Range_Min = 1800
 SWEP.Range_Max = 4500
-SWEP.Penetration = 12
+SWEP.Penetration = 10
 SWEP.ArmorPenetration = 0.95
 
 SWEP.BodyDamageMultipliers = {
@@ -122,14 +111,14 @@ SWEP.MuzzleVelocity = 28000
 // misc. shooting
 
 SWEP.Firemodes = {
+    -3,
     1,
-    -3
 }
 
 SWEP.RPM = 600
 SWEP.RPMMultBurst = 750 / 600
 
-SWEP.PostBurstDelay = 0.12
+SWEP.PostBurstDelay = 0.15
 SWEP.RunawayBurst = false
 
 SWEP.Spread = 0.0005
@@ -137,9 +126,9 @@ SWEP.Spread = 0.0005
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 6
-SWEP.RecoilResetTime = 0.06
-SWEP.RecoilDissipationRate = 15
-SWEP.RecoilFirstShotMult = 0.65
+SWEP.RecoilResetTime = 0.045
+SWEP.RecoilDissipationRate = 18
+SWEP.RecoilFirstShotMult = 0.8
 
 SWEP.RecoilVisualKick = 0.75
 SWEP.RecoilKick = 2
@@ -160,7 +149,7 @@ SWEP.SightedSpeedMult = 0.5
 
 SWEP.ReloadSpeedMult = 0.4
 
-SWEP.AimDownSightsTime = 0.37
+SWEP.AimDownSightsTime = 0.4
 SWEP.SprintToFireTime = 0.45
 
 SWEP.Sway = 2
@@ -196,8 +185,6 @@ SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK
 SWEP.HolsterPos = Vector(5, 0, -6)
 SWEP.HolsterAng = Angle(0, 0, 0)
-
-SWEP.ScopedSway = 0.1
 
 // scope
 
