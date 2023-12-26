@@ -20,7 +20,7 @@ SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Model: Hav0c & Twinke Masta
 Texture: Twinke Masta
-Sound: Farion & Tactical Intervention
+Sound: Farion, Treyarch & Tactical Intervention
 Animation: Tactical Intervention
 ]]
 
