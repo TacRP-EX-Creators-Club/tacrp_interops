@@ -24,7 +24,7 @@ Sound: Farion & Tactical Intervention
 Animation: Tactical Intervention
 ]]
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg550rifle_beta6.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg550rifle.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
 
 SWEP.Slot = 2
@@ -186,8 +186,8 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0, 0, 0)
-SWEP.SightPos = Vector(-4.2, -7.5, -4.225)
+SWEP.SightAng = Angle(0, 1, 0)
+SWEP.SightPos = Vector(-4.17, -7.5, -4.425)
 
 SWEP.CorrectivePos = Vector(0, 0, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
