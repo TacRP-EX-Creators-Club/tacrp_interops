@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG SG 550"
+SWEP.PrintName = "SIG SG 550-2 SP"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "5Sporter Carbine"
 
-SWEP.Description = "Full-length burst-fire rifle. Faster burst than the sniper variant, but with longer burst delay. Easy to control and has high armor penetration."
+SWEP.Description = "Long barrel rifle converted to semi-automatic for civilian markets. Easy to control and has high armor penetration."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
@@ -24,15 +24,17 @@ Sound: Farion, Treyarch & Tactical Intervention
 Animation: Tactical Intervention
 ]]
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg550rifle.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_sg550_rifle.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
 
 SWEP.Slot = 2
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 25,
-        Damage_Min = 15,
+        Damage_Max = 30,
+        Damage_Min = 17,
+
+        RPM = 500,
 
         MoveSpeedMult = 0.82,
         ShootingSpeedMult = 0.7,
@@ -106,20 +108,14 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 24000
+SWEP.MuzzleVelocity = 27000
 
 // misc. shooting
 
-SWEP.Firemodes = {
-    -3,
-    1
-}
+SWEP.Firemodes = false
+SWEP.Firemode = 1
 
-SWEP.RPM = 600
-SWEP.RPMMultBurst = 850 / 600
-
-SWEP.PostBurstDelay = 0.2
-SWEP.RunawayBurst = true
+SWEP.RPM = 500
 
 SWEP.Spread = 0.0008
 
@@ -207,6 +203,7 @@ SWEP.Sound_Shoot = path1 .. "sg500.wav"
 SWEP.Sound_Shoot_Silenced = path .. "fire_silenced-1.wav"
 
 SWEP.Vol_Shoot = 110
+SWEP.Pitch_Shoot = 94
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
 
 // effects
@@ -323,7 +320,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger_burst"},
+        Category = {"trigger_semi"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },

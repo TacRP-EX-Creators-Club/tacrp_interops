@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\tacint_shark\krieg\reciever_civ"
+	"$bumpmap" "models\tacint_shark\krieg\reciever norm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}

@@ -24,7 +24,7 @@ Sound: Farion, Treyarch & Tactical Intervention
 Animation: Tactical Intervention
 ]]
 
-SWEP.ViewModel = "models/weapons/tacint_shark/v_krieg.mdl"
+SWEP.ViewModel = "models/weapons/tacint_shark/v_sg550_sniper.mdl"
 SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
 
 SWEP.Slot = 2
@@ -106,7 +106,7 @@ SWEP.BodyDamageMultipliers = {
     [HITGROUP_GEAR] = 0.9
 }
 
-SWEP.MuzzleVelocity = 28000
+SWEP.MuzzleVelocity = 22000
 
 // misc. shooting
 
@@ -115,10 +115,10 @@ SWEP.Firemodes = {
     1,
 }
 
-SWEP.RPM = 600
-SWEP.RPMMultBurst = 750 / 600
+SWEP.RPM = 500
+SWEP.RPMMultBurst = 800 / 500
 
-SWEP.PostBurstDelay = 0.15
+SWEP.PostBurstDelay = 0.175
 SWEP.RunawayBurst = false
 
 SWEP.Spread = 0.0005
@@ -257,14 +257,6 @@ SWEP.ProceduralIronFire = {
 // attachments
 
 SWEP.AttachmentElements = {
-    ["foldstock"] = {
-        BGs_VM = {
-            {1, 1}
-        },
-        BGs_WM = {
-            {1, 1}
-        },
-    },
     ["sights"] = {
         BGs_VM = {
             {2, 2}
