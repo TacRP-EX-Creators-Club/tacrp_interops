@@ -34,8 +34,6 @@ SWEP.BalanceStats = {
         Damage_Max = 30,
         Damage_Min = 17,
 
-        RPM = 500,
-
         MoveSpeedMult = 0.82,
         ShootingSpeedMult = 0.7,
         SightedSpeedMult = 0.75,
@@ -123,11 +121,11 @@ SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 6
 SWEP.RecoilResetTime = 0.045
-SWEP.RecoilDissipationRate = 18
+SWEP.RecoilDissipationRate = 22
 SWEP.RecoilFirstShotMult = 0.8
 
-SWEP.RecoilVisualKick = 0.75
-SWEP.RecoilKick = 2
+SWEP.RecoilVisualKick = 1
+SWEP.RecoilKick = 2.5
 SWEP.RecoilStability = 0.55
 SWEP.RecoilAltMultiplier = 200
 
@@ -248,10 +246,10 @@ SWEP.ProceduralIronFire = {
 SWEP.AttachmentElements = {
     ["foldstock"] = {
         BGs_VM = {
-            {1, 1}
+            {2, 1}
         },
         BGs_WM = {
-            {1, 1}
+            {2, 1}
         },
     },
     ["tactical"] = {
