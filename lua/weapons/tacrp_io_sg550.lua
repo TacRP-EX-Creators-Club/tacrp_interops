@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "6Precision Rifle"
 
-SWEP.Description = "Carbine caliber marksman rifle with burst-fire option. Easy to control and has high armor penetration.\nEquipped with a 6x scope by default."
+SWEP.Description = "Carbine caliber marksman rifle. Easy to control, even in full-auto, and has high armor penetration.\nEquipped with a 6x scope by default."
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
@@ -111,13 +111,13 @@ SWEP.MuzzleVelocity = 22000
 // misc. shooting
 
 SWEP.Firemodes = {
-    -3,
     1,
+    2,
 }
 
-SWEP.RPM = 500
-SWEP.RPMMultBurst = 800 / 500
+SWEP.RPM = 700
 
+SWEP.RPMMultBurst = 500 / 700
 SWEP.PostBurstDelay = 0.175
 SWEP.RunawayBurst = false
 
@@ -339,7 +339,7 @@ SWEP.Attachments = {
     },
     [6] = {
         PrintName = "Trigger",
-        Category = {"trigger_burst"},
+        Category = {"trigger_auto"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
