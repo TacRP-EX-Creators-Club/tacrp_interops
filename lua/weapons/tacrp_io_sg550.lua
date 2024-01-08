@@ -257,7 +257,7 @@ SWEP.ProceduralIronFire = {
 SWEP.AttachmentElements = {
     ["sights"] = {
         BGs_VM = {
-            {2, 2}
+            {1, 2}
         },
         BGs_WM = {
             {2, 2}
@@ -265,7 +265,7 @@ SWEP.AttachmentElements = {
     },
     ["irons"] = {
         BGs_VM = {
-            {2, 1}
+            {1, 1}
         },
         BGs_WM = {
             {2, 1}
@@ -318,7 +318,7 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
-        Pos_VM = Vector(-3.5, -0.75, 15),
+        Pos_VM = Vector(-4.25, -0.75, 15),
         Pos_WM = Vector(2, 13, -0.5),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-90, -90 + 3.5, 0),
