@@ -25,7 +25,7 @@ Animation: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_sg550_rifle.mdl"
-SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_sg550_rifle.mdl"
 
 SWEP.Slot = 2
 
@@ -186,8 +186,8 @@ SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/sg551.mdl"
-SWEP.DropMagazineImpact = "metal"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/sg550.mdl"
+SWEP.DropMagazineImpact = "plastic"
 
 SWEP.ReloadUpInTime = 1.7
 SWEP.DropMagazineTime = 0.6
@@ -287,7 +287,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.85,
         Pos_VM = Vector(-3.2, 0.05, 29.25),
-        Pos_WM = Vector(0.1, 36, -1.2),
+        Pos_WM = Vector(0.1, 33, -1.2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },

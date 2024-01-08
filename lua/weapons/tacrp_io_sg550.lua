@@ -25,7 +25,7 @@ Animation: Tactical Intervention
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_shark/v_sg550_sniper.mdl"
-SWEP.WorldModel = "models/weapons/tacint_shark/w_krieg.mdl"
+SWEP.WorldModel = "models/weapons/tacint_shark/w_sg550_sniper.mdl"
 
 SWEP.Slot = 2
 
@@ -198,8 +198,8 @@ SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1
-SWEP.DropMagazineModel = "models/weapons/tacint/magazines/sg551.mdl"
-SWEP.DropMagazineImpact = "metal"
+SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/sg550.mdl"
+SWEP.DropMagazineImpact = "plastic"
 
 SWEP.ReloadUpInTime = 1.7
 SWEP.DropMagazineTime = 0.6
