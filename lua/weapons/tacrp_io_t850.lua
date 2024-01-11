@@ -41,12 +41,6 @@ SWEP.BalanceStats = {
 
         RPM = 240,
         RecoilKick = 8,
-
-        MoveSpeedMult = 1,
-        ShootingSpeedMult = 0.85,
-        SightedSpeedMult = 1,
-        MeleeSpeedMult = 1,
-        ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 37,
@@ -72,23 +66,11 @@ SWEP.BalanceStats = {
         RecoilDissipationRate = 4,
 
         ReloadTimeMult = 1.25,
-
-        MoveSpeedMult = 1,
-        ShootingSpeedMult = 0.9,
-        MeleeSpeedMult = 1,
-        SightedSpeedMult = 0.75,
-        ReloadSpeedMult = 0.9,
     },
     [TacRP.BALANCE_PVE] = {
         Damage_Max = 28,
         Damage_Min = 12,
         RPM = 150,
-
-        MoveSpeedMult = 1,
-        ShootingSpeedMult = 0.85,
-        SightedSpeedMult = 1,
-        MeleeSpeedMult = 1,
-        ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
         Description = "Snub-nosed revolver with compact form factor. High mobility and good recoil among magnum pistols, but performs poorly against armor and has middling accuracy.",

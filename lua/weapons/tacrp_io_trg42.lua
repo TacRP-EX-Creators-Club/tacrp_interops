@@ -44,12 +44,6 @@ SWEP.BalanceStats = {
 
         Sway = 2,
         ScopedSway = 0.075,
-
-        MoveSpeedMult = 0.8,
-        ShootingSpeedMult = 0.5,
-        SightedSpeedMult = 0.7,
-        MeleeSpeedMult = 1,
-        ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_TTT] = {
 
@@ -79,12 +73,6 @@ SWEP.BalanceStats = {
         },
 
         ReloadTimeMult = 1.25,
-
-        MoveSpeedMult = 0.85,
-        ShootingSpeedMult = 0.5,
-        MeleeSpeedMult = 1,
-        SightedSpeedMult = 0.5,
-        ReloadSpeedMult = 0.5,
     },
     [TacRP.BALANCE_PVE] = {
         Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default.",
@@ -96,12 +84,6 @@ SWEP.BalanceStats = {
 
         Sway = 2,
         ScopedSway = 0.075,
-
-        MoveSpeedMult = 0.8,
-        ShootingSpeedMult = 0.5,
-        SightedSpeedMult = 0.7,
-        MeleeSpeedMult = 1,
-        ReloadSpeedMult = 1,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
         HipFireSpreadPenalty = 0.023,
