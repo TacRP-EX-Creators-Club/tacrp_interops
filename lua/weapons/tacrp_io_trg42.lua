@@ -71,8 +71,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.5,
             [HITGROUP_GEAR] = 0.5
         },
-
-        ReloadTimeMult = 1.25,
     },
     [TacRP.BALANCE_PVE] = {
         Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to fire and only lethal at long range.\nEquipped with a 12x scope by default.",
