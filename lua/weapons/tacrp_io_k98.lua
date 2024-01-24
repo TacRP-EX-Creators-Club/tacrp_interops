@@ -21,7 +21,7 @@ SWEP.Credits = [[
 Model: Day of Defeat: Source, edited by 8Z
 Texture: Cafe Rev., rascal, 5hifty
 Sound: Day of Infamy
-Animation: Cry of Fear (converted and rigged by Lazarus)
+Animations: Cry of Fear, Lazarus
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
@@ -142,8 +142,8 @@ SWEP.HoldTypeNPC = "shotgun"
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
-SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(1, 4, 0)
+SWEP.PassiveAng = Angle(1, 2, 0)
+SWEP.PassivePos = Vector(1, 4.5, -0.5)
 
 SWEP.BlindFireAng = Angle(0, 15, -45)
 SWEP.BlindFirePos = Vector(1, -2, -3)
@@ -186,8 +186,8 @@ SWEP.Ammo = "357"
 SWEP.ShotgunReload = true
 SWEP.ShotgunThreeload = true
 
-SWEP.ReloadTimeMult = 1
-SWEP.ShootTimeMult = 0.85
+SWEP.ReloadTimeMult = 0.85
+SWEP.ShootTimeMult = 0.75
 //SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = false
 
