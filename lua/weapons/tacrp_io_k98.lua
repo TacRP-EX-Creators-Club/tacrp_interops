@@ -4,13 +4,13 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Kar98k Scout"
+SWEP.PrintName = "Karabiner 98k"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique infantry rifle retrofitted with a detachable magazine.\nPowerful up close and has high mobility, but cannot use long range optics and damage falls off significantly."
+SWEP.Description = "Antique bolt-action rifle, still seen in common use today thanks to its sturdy construction and powerful round.\nPowerful up close and has high mobility, but cannot use long range optics and damage falls off significantly."
 
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Mauser"
@@ -19,9 +19,9 @@ SWEP.Trivia_Year = "1935"
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Model: Day of Defeat: Source, edited by 8Z
-Magazine/Trigger: TheLama, Darkstorn
 Texture: Cafe Rev., rascal, 5hifty
-Sound: Day of Infamy; Animation: Tactical Intervention
+Sound: Day of Infamy
+Animation: Cry of Fear (converted and rigged by Lazarus)
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
