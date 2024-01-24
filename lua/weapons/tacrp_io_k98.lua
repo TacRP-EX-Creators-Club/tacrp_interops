@@ -143,7 +143,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
 SWEP.PassiveAng = Angle(0, 0, 0)
-SWEP.PassivePos = Vector(2, -2, -6)
+SWEP.PassivePos = Vector(1, 4, 0)
 
 SWEP.BlindFireAng = Angle(0, 15, -45)
 SWEP.BlindFirePos = Vector(1, -2, -3)
@@ -160,11 +160,14 @@ SWEP.BlindFireSuicidePos = Vector(-2, 45, -35)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0.02, 0.35, 0)
-SWEP.SightPos = Vector(-2.582, -1, -3.04)
+SWEP.SightAng = Angle(0, 0.35, -0.1)
+SWEP.SightPos = Vector(-2.3, 1.25, 1.85)
 
 SWEP.CorrectivePos = Vector(0.05, 0, 0.2)
-SWEP.CorrectiveAng = Angle(-0.36, -0.3, 0)
+SWEP.CorrectiveAng = Angle(0.1, -0.3, 0)
+
+SWEP.CustomizePos = Vector(4, 3, -1.5)
+SWEP.CustomizeAng = Angle(30, 15, 0)
 
 SWEP.HolsterVisible = true
 SWEP.HolsterSlot = TacRP.HOLSTER_SLOT_BACK2
@@ -180,14 +183,16 @@ SWEP.ScopeFOV = 90 / 1.5
 
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
+SWEP.ShotgunReload = true
+SWEP.ShotgunThreeload = true
 
 SWEP.ReloadTimeMult = 1
-SWEP.ShootTimeMult = 0.95
-SWEP.DropMagazineImpact = "metal"
-SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/trg42.mdl"
+SWEP.ShootTimeMult = 0.85
+//SWEP.DropMagazineImpact = "metal"
+SWEP.DropMagazineModel = false
 
-SWEP.ReloadUpInTime = 2.1
-SWEP.DropMagazineTime = 1.4
+SWEP.ReloadUpInTime = 5
+//SWEP.DropMagazineTime = 1.4
 
 // sounds
 
@@ -215,8 +220,11 @@ SWEP.EjectDelay = 0.7
 
 SWEP.AnimationTranslationTable = {
     ["deploy"] = "draw",
-    ["fire"] = {"shoot1", "shoot2"},
-    ["blind_fire"] = "shoot1"
+    ["fire"] = "shoot1",
+    ["blind_fire"] = "shoot1",
+	["reload"] = "reload_insert",
+	["reload_finish"] = "reload_end",
+	["melee"] = "melee"
 }
 
 // attachments
@@ -224,7 +232,7 @@ SWEP.AnimationTranslationTable = {
 SWEP.AttachmentElements = {
     ["optic"] = {
         BGs_VM = {
-            {1, 1}
+            {2, 1}
         },
         BGs_WM = {
             {1, 1}
@@ -232,7 +240,7 @@ SWEP.AttachmentElements = {
     },
     ["scope"] = {
         BGs_VM = {
-            {2, 1}
+            {2, 2}
         },
     },
 }
@@ -242,13 +250,13 @@ SWEP.Attachments = {
         PrintName = "Optic",
         Category = {"optic_cqb", "optic_medium"},
         WMBone = "Bone02",
-        Bone = "SPR_root",
+        Bone = "rifle",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
-        VMScale = 0.9,
-        Pos_VM = Vector(-3.95, 0, 12.5),
-        Ang_VM = Angle(90, 0, 0),
+        VMScale = 0.85,
+        Pos_VM = Vector(0.05, 0, 2),
+        Ang_VM = Angle(0, -90, 0),
         Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),
     },
@@ -256,7 +264,7 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         Category = "silencer",
         WMBone = "Bone02",
-        Bone = "SPR_root",
+        Bone = "rifle",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.75,
@@ -270,7 +278,7 @@ SWEP.Attachments = {
         PrintName = "Tactical",
         Category = "tactical",
         WMBone = "Bone02",
-        Bone = "SPR_root",
+        Bone = "rifle",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
@@ -281,7 +289,7 @@ SWEP.Attachments = {
     },
     [4] = {
         PrintName = "Accessory",
-        Category = {"acc", "acc_extmag_sniper", "acc_sling", "acc_duffle", "acc_bipod"},
+        Category = {"acc", "acc_sling", "acc_duffle", "acc_bipod"},
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
     },
@@ -322,9 +330,9 @@ end
 
 addsound("tacint_extras_k98.Clip_Out", path1 .. "magout.wav")
 addsound("tacint_extras_k98.Clip_In", path1 .. "magin.wav")
-addsound("tacint_extras_k98.Bolt_Back", path1 .. "boltback.wav")
-addsound("tacint_extras_k98.bolt_forward", path1 .. "boltforward.wav")
+addsound("tacint_extras_k98.CockBack", path1 .. "boltback.wav")
+addsound("tacint_extras_k98.CockForward", path1 .. "boltforward.wav")
 addsound("tacint_extras_k98.safety", path1 .. "magrelease.wav")
-
+addsound("tacint_extras_k98.InsertShell", path1 .. "boltlatch.wav")
 addsound("tacint_extras_k98.bolt_up", path1 .. "boltlatch.wav")
 addsound("tacint_extras_k98.bolt_down", path1 .. "boltrelease.wav")
