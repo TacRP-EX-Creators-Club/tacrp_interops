@@ -10,8 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique bolt-action rifle, still seen in common use today thanks to its sturdy construction and powerful round.\nPowerful up close and has high mobility, but cannot use long range optics and damage falls off significantly."
-
+SWEP.Description = "Antique bolt-action rifle, still commonly seen today thanks to its robust construction and excellent performance. \nPowerful up close but has high damage dropoff compared to modern rifles." 
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Mauser"
 SWEP.Trivia_Year = "1935"
@@ -248,7 +247,7 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb", "optic_medium"},
+        Category = {"optic_cqb", "optic_medium", "optic_kar98"},
         WMBone = "Bone02",
         Bone = "rifle",
         AttachSound = "TacRP/weapons/optic_on.wav",

@@ -244,6 +244,34 @@ ATT.InstalledElements = {"chmount"}
 TacRP.LoadAtt(ATT, "optic_ar_colt")
 
 ------------------------------
+-- optic_k98_zf41
+------------------------------
+ATT = {}
+
+ATT.PrintName = "Zeiss"
+ATT.FullName = "Zeiss 6x36 Scope." --not actually, it's the scope from the trg-42
+ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
+ATT.Description = "Medium-power sniper scope made specially for the Kar98k."
+ATT.Pros = {"att.zoom.6"}
+
+ATT.Category = "optic_kar98"
+
+ATT.SortOrder = 5
+
+ATT.Override_Scope = true
+ATT.Override_ScopeHideWeapon = true
+ATT.Override_ScopeOverlay = Material("tacrp/scopes/coltscope.png", "mips smooth")
+ATT.Override_ScopeFOV = 90 / 6
+ATT.Override_ScopeOverlaySize = 0.85
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.InstalledElements = {"scope"}
+
+TacRP.LoadAtt(ATT, "optic_k98_zf42")
+
+------------------------------
 -- optic_m16a2_colt
 ------------------------------
 ATT = {}
