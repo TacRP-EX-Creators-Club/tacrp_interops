@@ -142,8 +142,8 @@ SWEP.HoldTypeNPC = "shotgun"
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
 
-SWEP.PassiveAng = Angle(1, 2, 0)
-SWEP.PassivePos = Vector(1, 4.5, -0.5)
+SWEP.PassiveAng = Angle(0, 2, 0)
+SWEP.PassivePos = Vector(1.25, 4.5, -0.5)
 
 SWEP.BlindFireAng = Angle(0, 15, -45)
 SWEP.BlindFirePos = Vector(1, -2, -3)
@@ -158,7 +158,7 @@ SWEP.BlindFireSuicideAng = Angle(0, 135, 0)
 SWEP.BlindFireSuicidePos = Vector(-2, 45, -35)
 
 SWEP.SprintAng = Angle(30, -15, 0)
-SWEP.SprintPos = Vector(5, 0, -2)
+SWEP.SprintPos = Vector(2, 4.5, 0.75)
 
 SWEP.SightAng = Angle(0, 0.3, -0.1)
 SWEP.SightPos = Vector(-2.29, 1.25, 1.85)
