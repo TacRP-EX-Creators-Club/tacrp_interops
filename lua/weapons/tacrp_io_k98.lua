@@ -184,7 +184,6 @@ SWEP.ScopeFOV = 90 / 1.5
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
 SWEP.ShotgunReload = true
-SWEP.ShotgunThreeload = true
 
 SWEP.ReloadTimeMult = 0.85
 SWEP.ShootTimeMult = 0.75
@@ -224,7 +223,8 @@ SWEP.AnimationTranslationTable = {
     ["blind_fire"] = "shoot1",
 	["reload"] = "reload_insert",
 	["reload_finish"] = "reload_end",
-	["melee"] = "melee"
+	["melee"] = "melee",
+	["dryfire"] = "shoot_noshot"
 }
 
 // attachments
