@@ -241,6 +241,10 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 2}
         },
+		BGs_WM = {
+			{1, 2},
+			{2, 1}
+        },
     },
 }
 
