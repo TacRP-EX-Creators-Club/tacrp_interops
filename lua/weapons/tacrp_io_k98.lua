@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "7Sniper Rifle"
 
-SWEP.Description = "Antique bolt-action rifle, still commonly seen today thanks to its robust construction and excellent performance. \nPowerful up close but has high damage dropoff compared to modern rifles." 
+SWEP.Description = "Antique bolt-action rifle with an enduring design. Powerful up close, but has limited range and is slow to load."
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Mauser"
 SWEP.Trivia_Year = "1935"
@@ -68,12 +68,12 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 // "ballistics"
 
 SWEP.Damage_Max = 92
-SWEP.Damage_Min = 45
-SWEP.Range_Min = 1200
-SWEP.Range_Max = 5000
+SWEP.Damage_Min = 48
+SWEP.Range_Min = 500
+SWEP.Range_Max = 3000
 SWEP.Penetration = 12
 SWEP.ArmorPenetration = 0.775
-SWEP.ArmorBonus = 1.5
+SWEP.ArmorBonus = 1
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2.5,
@@ -139,7 +139,7 @@ SWEP.HoldTypeBlindFire = false
 SWEP.HoldTypeNPC = "shotgun"
 
 SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW
-SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 
 SWEP.PassiveAng = Angle(0, 2, 0)
 SWEP.PassivePos = Vector(1.25, 4.5, -0.5)
@@ -159,8 +159,8 @@ SWEP.BlindFireSuicidePos = Vector(-2, 45, -35)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(2, 4.5, 0.75)
 
-SWEP.SightAng = Angle(0, 0.3, -0.1)
-SWEP.SightPos = Vector(-2.29, 1.25, 1.85)
+SWEP.SightAng = Angle(0, 0.1, -0.1)
+SWEP.SightPos = Vector(-2.3, 4, 1.88)
 
 SWEP.CorrectivePos = Vector(0.05, 0, 0.2)
 SWEP.CorrectiveAng = Angle(0.1, -0.3, 0)
@@ -176,16 +176,17 @@ SWEP.HolsterAng = Angle(0, 0, 0)
 // scope
 
 SWEP.Scope = true
-SWEP.ScopeFOV = 90 / 1.5
+SWEP.ScopeFOV = 90 / 1.25
 
 // reload
 
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
 SWEP.ShotgunReload = true
+SWEP.ShotgunThreeload = false
 
-SWEP.ReloadTimeMult = 0.85
-SWEP.ShootTimeMult = 0.75
+SWEP.ReloadTimeMult = 1
+SWEP.ShootTimeMult = 0.8
 //SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = false
 
@@ -220,10 +221,10 @@ SWEP.AnimationTranslationTable = {
     ["deploy"] = "draw",
     ["fire"] = "shoot1",
     ["blind_fire"] = "shoot1",
-	["reload"] = "reload_insert",
-	["reload_finish"] = "reload_end",
-	["melee"] = "melee",
-	["dryfire"] = "shoot_noshot"
+    ["reload"] = "reload_insert",
+    ["reload_finish"] = "reload_end",
+    ["melee"] = "melee",
+    ["dryfire"] = "shoot_noshot"
 }
 
 // attachments
@@ -241,9 +242,9 @@ SWEP.AttachmentElements = {
         BGs_VM = {
             {2, 2}
         },
-		BGs_WM = {
-			{1, 2},
-			{2, 1}
+        BGs_WM = {
+            {1, 2},
+            {2, 1}
         },
     },
 }
