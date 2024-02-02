@@ -26,7 +26,7 @@ Animation: Tactical Intervention
 ]]
 
 // https://gamebanana.com/mods/211419
-SWEP.ViewModel = "models/weapons/tacint_extras/v_fnc.mdl"
+SWEP.ViewModel = "models/weapons/tacint_extras/v_fnc18.mdl"
 SWEP.WorldModel = "models/weapons/tacint_extras/w_fnc.mdl"
 
 SWEP.Slot = 2
@@ -157,7 +157,7 @@ SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
 SWEP.SightAng = Angle(0, 0, 0)
-SWEP.SightPos = Vector(-4.35, -5, -4.175)
+SWEP.SightPos = Vector(-4.43, -8, -2.63)
 
 SWEP.CorrectivePos = Vector(0, 0, 0)
 SWEP.CorrectiveAng = Angle(-0.1, 0.2, 0)
@@ -259,7 +259,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         InstalledElements = {"sights"},
         VMScale = 1,
-        Pos_VM = Vector(-5.9, 0.15, 2.75),
+        Pos_VM = Vector(-4.15, 0.27, 3.4),
         Pos_WM = Vector(0, 2, 2),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
@@ -271,8 +271,8 @@ SWEP.Attachments = {
         WMBone = "Box01",
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
-        VMScale = 0.95,
-        Pos_VM = Vector(-3.6, 0.18, 31),
+        VMScale = 0.75,
+        Pos_VM = Vector(-2.45, 0.33, 25.9),
         Pos_WM = Vector(0, 30, -0.15),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
@@ -285,7 +285,7 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/flashlight_on.wav",
         DetachSound = "tacrp/weapons/flashlight_off.wav",
         VMScale = 1.3,
-        Pos_VM = Vector(-3.7, -0.2, 22),
+        Pos_VM = Vector(-2.45, -0.33, 17.4),
         Pos_WM = Vector(0.5, 20, 0),
         Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(-90, -90, 0),
