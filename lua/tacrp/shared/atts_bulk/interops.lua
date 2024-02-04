@@ -65,8 +65,8 @@ ATT.Mult_Penetration = 0.25
 ATT.Add_ArmorPenetration = -0.1
 ATT.Mult_ArmorBonus = 0.75
 
-ATT.Mult_RPM = 0.55
-ATT.Mult_ClipSize = 1 / 3
+ATT.Mult_RPM = 0.6
+ATT.Mult_ClipSize = 1 / 2.4
 
 ATT.Add_RecoilKick = 4
 ATT.Mult_RecoilSpreadPenalty = 1.75
