@@ -76,7 +76,7 @@ SWEP.Range_Min = 500
 SWEP.Range_Max = 1800
 SWEP.Penetration = 4 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.65
-SWEP.ArmorBonus = 1
+SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 10500
 
@@ -97,7 +97,7 @@ SWEP.Firemodes = {-3, 1}
 SWEP.RPM = 900
 SWEP.RPMMultBurst = 2
 
-SWEP.PostBurstDelay = 0.16
+SWEP.PostBurstDelay = 0.2
 SWEP.RunawayBurst = true
 
 SWEP.Spread = 0.005

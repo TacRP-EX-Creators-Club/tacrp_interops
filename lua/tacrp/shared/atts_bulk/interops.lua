@@ -449,6 +449,7 @@ ATT.Mult_ReloadTimeMult = 0.9
 
 ATT.Override_Firemodes = {1}
 ATT.Mult_RPM = 0.667
+ATT.Mult_RPMMultSemi = 0.7
 -- ATT.Override_RPM = 600
 
 ATT.Add_RecoilKick = 2

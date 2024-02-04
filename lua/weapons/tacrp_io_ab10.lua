@@ -32,7 +32,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 24,
         Damage_Min = 12,
-        RPM = 500,
+        RPM = 750,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 16,
@@ -102,7 +102,8 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemodes = false
 SWEP.Firemode = 1
 
-SWEP.RPM = 480
+SWEP.RPM = 700
+SWEP.RPMMultSemi = 0.7
 
 SWEP.Spread = 0.008
 SWEP.RecoilSpreadPenalty = 0.002
