@@ -75,6 +75,7 @@ SWEP.Range_Min = 300
 SWEP.Range_Max = 1800
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.4
+SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 14000
 
@@ -98,7 +99,7 @@ SWEP.RPM = 1000
 
 SWEP.Spread = 0.012
 SWEP.RecoilSpreadPenalty = 0.0017
-SWEP.HipFireSpreadPenalty = 0.014
+SWEP.HipFireSpreadPenalty = 0.018
 
 SWEP.ShootTimeMult = 0.4
 

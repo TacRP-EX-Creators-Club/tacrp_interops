@@ -77,7 +77,7 @@ SWEP.Range_Min = 200
 SWEP.Range_Max = 1500
 SWEP.Penetration = 3
 SWEP.ArmorPenetration = 0.425
-SWEP.ArmorBonus = 1.1
+SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 10500
 
@@ -98,7 +98,7 @@ SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 1000
 
-SWEP.Spread = 0.009
+SWEP.Spread = 0.011
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 7
@@ -110,7 +110,7 @@ SWEP.RecoilVisualKick = 2
 SWEP.RecoilKick = 4
 
 SWEP.RecoilSpreadPenalty = 0.005
-SWEP.HipFireSpreadPenalty = 0.016
+SWEP.HipFireSpreadPenalty = 0.024
 
 SWEP.CanBlindFire = true
 
