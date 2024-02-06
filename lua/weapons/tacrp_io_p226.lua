@@ -90,10 +90,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 23
-SWEP.Damage_Min = 15
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 14
 SWEP.Range_Min = 1000
-SWEP.Range_Max = 3000
+SWEP.Range_Max = 2600
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
 SWEP.ArmorBonus = 1
@@ -101,9 +101,9 @@ SWEP.ArmorBonus = 1
 SWEP.MuzzleVelocity = 14000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -115,8 +115,8 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 500
-SWEP.RPMMultSemi = 0.7
+SWEP.RPM = 400
+SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.001
 

@@ -60,7 +60,7 @@ SWEP.TTTReplace = {["weapon_zm_pistol"] = 0.5}
 
 // "ballistics"
 
-SWEP.Damage_Max = 28
+SWEP.Damage_Max = 30
 SWEP.Damage_Min = 9
 SWEP.Range_Min = 350
 SWEP.Range_Max = 1500
@@ -70,9 +70,9 @@ SWEP.ArmorPenetration = 0.5
 SWEP.MuzzleVelocity = 8000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -84,8 +84,8 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 300
-SWEP.RPMMultSemi = 0.6
+SWEP.RPM = 280
+SWEP.RPMMultSemi = 0.7
 
 SWEP.Num = 2
 
