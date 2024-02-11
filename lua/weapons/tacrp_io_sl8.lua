@@ -5,6 +5,7 @@ AddCSLuaFile()
 
 // names and stuff
 SWEP.PrintName = "HK SL8"
+SWEP.AbbrevName = "SL8"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
