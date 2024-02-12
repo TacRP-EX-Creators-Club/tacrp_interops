@@ -103,7 +103,7 @@ SWEP.MuzzleVelocity = 24000
 
 SWEP.Firemodes = {2, 1}
 
-SWEP.RPM = 750
+SWEP.RPM = 775
 
 SWEP.Spread = 0.008
 
@@ -157,8 +157,8 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0, 0, 0)
-SWEP.SightPos = Vector(-4.35, -5, -4.175)
+SWEP.SightAng = Angle(0, 0.25, 0)
+SWEP.SightPos = Vector(-4.39, -5, -2.98)
 
 SWEP.CorrectivePos = Vector(0, 0, 0)
 SWEP.CorrectiveAng = Angle(-0.1, 0.2, 0)
