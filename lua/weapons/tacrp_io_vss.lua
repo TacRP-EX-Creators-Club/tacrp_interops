@@ -191,6 +191,7 @@ local path = "tacint_extras/vss/"
 local path1 = "tacrp_extras/ak47/"
 
 SWEP.Sound_Shoot = "^" .. path .. "fire.wav"
+SWEP.Sound_Shoot_Silenced = "^" .. path .. "fire.wav"
 
 SWEP.Vol_Shoot = 80
 SWEP.ShootPitchVariance = 2.5 // amount to vary pitch by each shot
@@ -204,6 +205,7 @@ SWEP.QCA_Eject = 2
 
 SWEP.MuzzleEffect = "muzzleflash_suppressed"
 SWEP.EjectEffect = 2
+SWEP.Silencer = true
 
 // anims
 
