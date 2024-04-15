@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Polymer pistol with an innovative holster stock that allows for incredibly fast burst fire."
+SWEP.Description_Quote = "\"Where's everyone going? Bingo?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
