@@ -12,7 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Compact, high mobility battle rifle with swift handling."
-SWEP.Description_Quote = "\"Sand Bravo, we're reading 70 bogeys in your sector, please verify.\""
+SWEP.Description_Quote = "\"Sand Bravo, we're reading 70 bogeys in your sector.\""
 
 SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "FN America"
