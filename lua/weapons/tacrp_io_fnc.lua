@@ -12,7 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Lightweight assault rifle with high hipfire precision and mobility, but low range and poor armor penetration."
-SWEP.Description_Quote = "Smells like chocolate in here."
+SWEP.Description_Quote = "\"I say what I mean and I do what I say.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"

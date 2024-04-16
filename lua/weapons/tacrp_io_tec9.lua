@@ -12,6 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Machine pistol notorious for its ease of conversion to fully automatic fire, and subsequent criminal usage."
+SWEP.Description_Quote = "\"The customer is always right.\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Intratec"
