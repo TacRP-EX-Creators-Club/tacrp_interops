@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Magnum Pistol"
 
 SWEP.Description = "Imposing magnum pistol, as iconic as it gets.\nPowerful and high capacity, but recoil is hard to manage."
-SWEP.Description_Quote = "\"one deag, two deag, three deag, four deag...\""
+SWEP.Description_Quote = "\"You hear that, Mr. Anderson?\""
 
 SWEP.Trivia_Caliber = ".50 AE"
 SWEP.Trivia_Manufacturer = "Magnum Research"
