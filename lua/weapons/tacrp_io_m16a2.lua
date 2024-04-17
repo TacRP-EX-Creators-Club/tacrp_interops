@@ -12,6 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Vintage burst assault rifle with limited optic options. Despite this, its stable recoil and high damage makes it reliable at medium range."
+SWEP.Description_Quote = "\"Take clean shots, watch your background.\""
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Colt"
