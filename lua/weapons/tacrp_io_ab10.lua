@@ -12,6 +12,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Semi-automatic \"After Ban\" model of the TEC-9 with a short, non-threaded barrel. High capacity among pistols, but has worse handling."
+SWEP.Description_Quote = ""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Intratec"

@@ -9,7 +9,7 @@ SWEP.AbbrevName = "T850"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "2Magnum Pistol"
+SWEP.SubCatType = "1Sidearm" // .38 is not a magnum round, silly
 
 SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility and hip fire accuracy, and good recoil among magnum pistols, but performs poorly against armor."
 

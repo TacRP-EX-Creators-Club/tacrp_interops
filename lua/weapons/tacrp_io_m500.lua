@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Magnum Pistol"
 
 SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage."
-SWEP.Description_Quote = "Massive."
+SWEP.Description_Quote = "\"You dweebs just ruined a five year investigation!\""
 
 SWEP.Trivia_Caliber = ".500 S&W Magnum"
 SWEP.Trivia_Manufacturer = "Smith & Wesson"

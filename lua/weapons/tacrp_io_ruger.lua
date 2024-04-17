@@ -12,6 +12,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "1Sidearm"
 
 SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet has very little stopping power except on a headshot."
+SWEP.Description_Quote = "\"Take comfort in knowing you never had a choice.\""
 
 SWEP.Trivia_Caliber = ".22 LR"
 SWEP.Trivia_Manufacturer = "Sturm, Ruger & Co."
