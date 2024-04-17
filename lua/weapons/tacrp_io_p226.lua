@@ -11,10 +11,10 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Sidearm"
 
-SWEP.Description = "Handgun that performs very well at range but has a below average capacity."
+SWEP.Description = "Handgun with superior range and precision but low overall damage."
 SWEP.Description_Quote = "\"The correct term is 'babes,' sir.\""
 
-SWEP.Trivia_Caliber = ".40 S&W" // Underfunded militias and gangsters take whatever they can get
+SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "1984"
 
@@ -33,11 +33,10 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 24,
-        Damage_Min = 20,
-        Range_Min = 1200,
+        Damage_Max = 22,
+        Damage_Min = 19,
+        Range_Min = 1300,
         Range_Max = 3500,
-		ClipSize = 10,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 4,
@@ -80,9 +79,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 23
-SWEP.Damage_Min = 15
-SWEP.Range_Min = 800
+SWEP.Damage_Max = 20
+SWEP.Damage_Min = 16
+SWEP.Range_Min = 1100
 SWEP.Range_Max = 2200
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
@@ -91,9 +90,9 @@ SWEP.ArmorBonus = 1
 SWEP.MuzzleVelocity = 14000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
-    [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_CHEST] = 1.5,
+    [HITGROUP_STOMACH] = 1.5,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
@@ -171,7 +170,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 12
+SWEP.ClipSize = 15
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
