@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "2Magnum Pistol"
 
-SWEP.Description = "Massive long barrel revolver with massive recoil firing a massive cartridge, able to engage at massive ranges and cause massive damage."
+SWEP.Description = "Massive long barrel revolver firing a massive magnum round, reigning as the most powerful production handgun in the world."
 SWEP.Description_Quote = "\"You dweebs just ruined a five year investigation!\""
 
 SWEP.Trivia_Caliber = ".500 S&W Magnum"
@@ -20,8 +20,8 @@ SWEP.Trivia_Year = "2003"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
-Model: Krycek
-Texture: Soldier11
+Assets: Alliance of Valiant Arms
+Originally ported to CS 1.6 by GR_Lucia
 Sound: Ghost597879, MSKyuuni & Zira
 Animation: Tactical Intervention
 ]]
@@ -177,8 +177,8 @@ SWEP.BlindFireSuicidePos = Vector(30, 24, -6)
 SWEP.SprintAng = Angle(0, 30, 0)
 SWEP.SprintPos = Vector(2, 0, -12)
 
-SWEP.SightAng = Angle(-0.05, -0.2, 0.5)
-SWEP.SightPos = Vector(-3.45, 0, -4)
+SWEP.SightAng = Angle(0.01, 0.6, 0.4)
+SWEP.SightPos = Vector(-3.45, 0, -4.25)
 
 SWEP.CorrectiveAng = Angle(-0.2, 0, 0.5)
 SWEP.CorrectivePos = Vector(-0.125, 0, 0.13)
@@ -292,7 +292,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         VMScale = 1,
         WMScale = 1,
-        Pos_VM = Vector(-3, 0, 15),
+        Pos_VM = Vector(-2.75, -0.1, 11),
         Ang_VM = Angle(90, 0, 180),
         Pos_WM = Vector(0, 10, -1.75),
         Ang_WM = Angle(0, -90, 180),
