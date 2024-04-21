@@ -16,7 +16,7 @@ SWEP.Description_Quote = "\"You hear that, Mr. Anderson?\""
 
 SWEP.Trivia_Caliber = ".50 AE"
 SWEP.Trivia_Manufacturer = "Magnum Research"
-SWEP.Trivia_Year = "1995" // It's a Mark XIX.  Teardrop safety lever, top scope rail and taller cocking serrations on the slide (yes i am severely autistic).
+SWEP.Trivia_Year = "1983"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
