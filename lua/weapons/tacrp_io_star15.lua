@@ -20,7 +20,7 @@ SWEP.Trivia_Year = "2011"
 SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Assets: carl ruins everything, Leon-DLL, Mira + various sources
-Sound: Insurgency & Tactical Intervention
+Sound: Insurgency, rzen1th & Tactical Intervention
 Animation: Tactical Intervention
 ]]
 
