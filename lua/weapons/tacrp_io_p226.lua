@@ -9,7 +9,7 @@ SWEP.AbbrevName = "P226"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Handgun with superior range and precision but low overall damage."
 SWEP.Description_Quote = "\"The correct term is 'babes,' sir.\""

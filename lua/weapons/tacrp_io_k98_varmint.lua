@@ -8,7 +8,7 @@ SWEP.PrintName = "Varmint Rifle"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "5Sporter Carbine"
+SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Carbine caliber bolt-action rifle based on the Kar98k. Lightweight, easy to use and has a generous capacity, but damage is low."
 SWEP.Description_Quote = "For rodents of... unassuming size."

@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Five-seveN"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Bulky PDW caliber pistol with excellent capacity.\nHigh velocity rounds retain effectiveness at range and pierces armor easily."
 SWEP.Description_Quote = "Is that a ferret running around?"

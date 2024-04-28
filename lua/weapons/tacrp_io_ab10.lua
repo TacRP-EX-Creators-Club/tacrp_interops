@@ -9,7 +9,7 @@ SWEP.AbbrevName = "AB-10"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Semi-automatic \"After Ban\" model of the TEC-9 with a short, non-threaded barrel. High capacity among pistols, but has worse handling."
 SWEP.Description_Quote = ""

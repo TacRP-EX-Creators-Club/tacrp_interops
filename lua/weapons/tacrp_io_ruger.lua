@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Amphibian"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet has very little stopping power except on a headshot."
 SWEP.Description_Quote = "\"Take comfort in knowing you never had a choice.\""

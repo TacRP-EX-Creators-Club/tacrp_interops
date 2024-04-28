@@ -9,7 +9,7 @@ SWEP.AbbrevName = "AF2011"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "1Sidearm"
+SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Effectively two M1911s welded together, this exotic abomination fires two bullets per trigger pull."
 SWEP.Description_Quote = "\"If M1911 is so good, why isn't there a M1911 2?\""
