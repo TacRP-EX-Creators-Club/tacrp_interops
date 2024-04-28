@@ -16,7 +16,7 @@ SWEP.Description_Quote = "\"THERE'S GOLD IN THEM THAR HILLS!\""
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Remington"
-SWEP.Trivia_Year = "1992"
+SWEP.Trivia_Year = "1950"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
@@ -177,8 +177,8 @@ SWEP.BlindFirePos = Vector(4, -2, -4)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(-0.575, -0.6, 2)
-SWEP.SightPos = Vector(-3.44, -4, -2.775)
+SWEP.SightAng = Angle(-0.3, -0.6, 2)
+SWEP.SightPos = Vector(-3.32, -4, -2.7)
 
 SWEP.CorrectivePos = Vector(0.31, 0, -0.21)
 SWEP.CorrectiveAng = Angle(1.2, 0.1, 0)
