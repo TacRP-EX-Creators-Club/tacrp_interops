@@ -194,14 +194,14 @@ SWEP.MuzzleEffect = "muzzleflash_m79"
 // anims
 
 SWEP.AnimationTranslationTable = {
-    ["deploy"] = "unholster",
+    ["deploy"] = "deploy",
     ["fire"] = {"shoot1", "shoot2"},
     ["blind_fire"] = {"blind_shoot1"},
     ["melee"] = {"melee1", "melee2"},
     ["reload"] = {"reload", "reload2"}
 }
 
-SWEP.DeployTimeMult = 3
+SWEP.DeployTimeMult = 1.6
 
 // attachments
 
