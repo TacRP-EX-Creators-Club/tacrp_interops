@@ -12,7 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Effectively two M1911s welded together, this exotic abomination fires two bullets per trigger pull."
-SWEP.Description_Quote = "\"If M1911 is so good, why isn't there a M1911 2?\""
+SWEP.Description_Quote = "\"If the 1911 is so good, why isn't there a 1911 2?\""
 
 SWEP.Trivia_Caliber = ".45 ACP"
 SWEP.Trivia_Manufacturer = "Arsenal Firearms"
@@ -282,7 +282,7 @@ SWEP.Attachments = {
     },
     [3] = {
         PrintName = "Tactical",
-        Category = {"tactical"},
+        Category = {"tactical", "tactical_zoom", "tactical_ebullet"},
         Bone = "sphinx_ROOT",
         WMBone = "Box01",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
