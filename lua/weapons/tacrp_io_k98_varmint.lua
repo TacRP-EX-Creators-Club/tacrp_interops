@@ -4,18 +4,21 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "Varmint Rifle"
+// This is not a real gun; the closest thing in real life is the Ruger American Rifle, but that does not resemble a classic Mauser.
+// This is a sort of "what if" scenario
+SWEP.PrintName = "Ruger Classic American"
+SWEP.AbbrevName = "American .223"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Carbine"
 
-SWEP.Description = "Carbine caliber bolt-action rifle based on the Kar98k. Lightweight, easy to use and has a generous capacity, but damage is low."
+SWEP.Description = "Bolt-action rifle based on the Mauser action. Accepts ubiquitous AR-15 magazines. Lightweight, easy to use and has a generous capacity, but damage is low."
 SWEP.Description_Quote = "For rodents of... unassuming size."
 
 SWEP.Trivia_Caliber = ".223 Remington"
-SWEP.Trivia_Manufacturer = "Mauser"
-SWEP.Trivia_Year = "1984" // No idea tbh
+SWEP.Trivia_Manufacturer = "Ruger"
+SWEP.Trivia_Year = "1999"
 
 SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[

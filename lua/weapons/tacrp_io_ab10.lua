@@ -8,11 +8,11 @@ SWEP.PrintName = "Intratec AB-10"
 SWEP.AbbrevName = "AB-10"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Semi-automatic \"After Ban\" model of the TEC-9 with a short, non-threaded barrel. High capacity among pistols, but has worse handling."
-SWEP.Description_Quote = ""
+SWEP.Description = "Semi-automatic \"After Ban\" model of the TEC-9 with a short, non-threaded barrel. Big magazine, but unreliable."
+SWEP.Description_Quote = "\"Who needs an assault weapon?\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Intratec"
@@ -122,6 +122,8 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 SWEP.RecoilVisualKick = 0.5
 
 SWEP.RecoilKick = 2.5
+
+SWEP.JamFactor = 0.3
 
 // handling
 

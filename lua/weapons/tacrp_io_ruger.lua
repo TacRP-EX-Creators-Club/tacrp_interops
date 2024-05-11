@@ -8,10 +8,10 @@ SWEP.PrintName = "AWC Amphibian Ruger"
 SWEP.AbbrevName = "Amphibian"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Quiet as a whisper and pinpoint accurate, but the bullet has very little stopping power except on a headshot."
+SWEP.Description = "Small caliber pistol fitted with an integrated suppressor. Near-zero recoil due to weak rounds."
 SWEP.Description_Quote = "\"Take comfort in knowing you never had a choice.\""
 
 SWEP.Trivia_Caliber = ".22 LR"
@@ -95,16 +95,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 SWEP.Damage_Max = 14
 SWEP.Damage_Min = 8
-SWEP.Range_Min = 1200
+SWEP.Range_Min = 700
 SWEP.Range_Max = 2500
 SWEP.Penetration = 2 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.67
+SWEP.ArmorPenetration = 0.25
 SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 32500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 9,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -121,7 +121,7 @@ SWEP.Firemode = 1
 SWEP.RPM = 550
 SWEP.RPMMultSemi = 0.8
 
-SWEP.Spread = 0.0012
+SWEP.Spread = 0.002
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 5
@@ -130,29 +130,28 @@ SWEP.RecoilDissipationRate = 7.5
 SWEP.RecoilFirstShotMult = 0.8
 
 SWEP.RecoilVisualKick = 0.1
-SWEP.RecoilKick = 0.1
+SWEP.RecoilKick = 1
 
 SWEP.RecoilSpreadPenalty = 0.0015
 SWEP.HipFireSpreadPenalty = 0.015
 SWEP.MidAirSpreadPenalty = 0.06
-SWEP.PeekPenaltyFraction = 0.5
+SWEP.PeekPenaltyFraction = 0.75
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 1
+SWEP.MoveSpeedMult = 0.975
 SWEP.ShootingSpeedMult = 1
-SWEP.SightedSpeedMult = 1
+SWEP.SightedSpeedMult = 0.9
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.15
-SWEP.SprintToFireTime = 0.2
+SWEP.AimDownSightsTime = 0.25
+SWEP.SprintToFireTime = 0.25
 
-SWEP.Sway = 0.5
-SWEP.ScopedSway = 0.1
-SWEP.BlindFireSway = 0.5
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.5
 
 SWEP.FreeAimMaxAngle = 2
 

@@ -8,10 +8,10 @@ SWEP.PrintName = "Taurus 850 Ultralite"
 SWEP.AbbrevName = "T850"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "2Magnum Pistol" // .38 is not a magnum round, silly // nuh uh
+SWEP.SubCatTier = "5Value"
+SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Snub-nosed revolver with compact form factor. High mobility and hip fire accuracy, and good recoil among magnum pistols, but performs poorly against armor."
+SWEP.Description = "Snub-nosed revolver with compact form factor. Very concealable, but this comes at the price of firepower."
 
 SWEP.Trivia_Caliber = ".38 Special"
 SWEP.Trivia_Manufacturer = "Taurus"
@@ -34,11 +34,11 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 60,
+        Damage_Max = 40,
         Damage_Min = 20,
         ArmorPenetration = 0.65,
 
-        RPM = 240,
+        RPM = 450,
         RecoilKick = 8,
     },
     [TacRP.BALANCE_TTT] = {
@@ -48,7 +48,7 @@ SWEP.BalanceStats = {
         Range_Min = 100,
         Range_Max = 1500,
 
-        RPM = 180,
+        RPM = 300,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
@@ -67,20 +67,20 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_PVE] = {
         Damage_Max = 28,
         Damage_Min = 12,
-        RPM = 150,
+        RPM = 300,
     },
     [TacRP.BALANCE_OLDSCHOOL] = {
         Description = "Snub-nosed revolver with compact form factor. High mobility and good recoil among magnum pistols, but performs poorly against armor and has middling accuracy.",
     }
 }
 
-SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
+SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 50
+SWEP.Damage_Max = 28
 SWEP.Damage_Min = 16
-SWEP.Range_Min = 200 // distance for which to maintain maximum damage
+SWEP.Range_Min = 300 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1500 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
@@ -91,9 +91,9 @@ SWEP.MuzzleVelocity = 13000
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.25,
-    [HITGROUP_LEFTARM] = 0.9,
-    [HITGROUP_RIGHTARM] = 0.9,
+    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_LEFTARM] = 1,
+    [HITGROUP_RIGHTARM] = 1,
     [HITGROUP_LEFTLEG] = 0.75,
     [HITGROUP_RIGHTLEG] = 0.75,
     [HITGROUP_GEAR] = 0.75
@@ -105,7 +105,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 250
+SWEP.RPM = 450
 
 SWEP.Spread = 0.01
 
@@ -117,20 +117,19 @@ SWEP.RecoilResetTime = 0.25
 SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1.75
-SWEP.RecoilKick = 10
+SWEP.RecoilVisualKick = 1.5
+SWEP.RecoilKick = 3
 SWEP.RecoilStability = 0.65
 SWEP.RecoilAltMultiplier = 100
 
-SWEP.RecoilSpreadPenalty = 0.014
-SWEP.HipFireSpreadPenalty = 0.005
+SWEP.RecoilSpreadPenalty = 0.0025
 
 SWEP.CanBlindFire = true
 
 // handling
 
 SWEP.MoveSpeedMult = 0.975
-SWEP.ShootingSpeedMult = 0.75
+SWEP.ShootingSpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.8
 
 SWEP.ReloadSpeedMult = 0.75
@@ -138,7 +137,7 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.2
 SWEP.SprintToFireTime = 0.2
 
-SWEP.Sway = 0.75
+SWEP.Sway = 1
 SWEP.ScopedSway = 0.4
 
 SWEP.FreeAimMaxAngle = 1.75

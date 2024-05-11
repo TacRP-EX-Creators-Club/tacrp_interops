@@ -8,10 +8,11 @@ SWEP.PrintName = "Karabiner 98k"
 SWEP.AbbrevName = "Kar98k"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "5Carbine"
 
-SWEP.Description = "Antique bolt-action rifle with an enduring design. Powerful up close, but has limited range and is slow to load."
+SWEP.Description = "Antique bolt-action rifle with an enduring design. Powerful up close, but is essentially obsolete on the modern battlefield."
+SWEP.Description_Quote = "\"Do you want total war?\""
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Mauser"
 SWEP.Trivia_Year = "1935"

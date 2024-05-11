@@ -8,7 +8,7 @@ SWEP.PrintName = "HK VP70"
 SWEP.AbbrevName = "VP70"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
-SWEP.SubCatTier = "2Operator"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Polymer pistol with an innovative holster stock that allows for incredibly fast burst fire."
@@ -72,7 +72,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 22
+SWEP.Damage_Max = 18
 SWEP.Damage_Min = 9
 SWEP.Range_Min = 500
 SWEP.Range_Max = 1800
@@ -83,7 +83,7 @@ SWEP.ArmorBonus = 0.5
 SWEP.MuzzleVelocity = 10500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 4,
+    [HITGROUP_HEAD] = 3,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,

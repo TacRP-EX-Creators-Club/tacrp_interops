@@ -8,7 +8,7 @@ SWEP.PrintName = "Intratec TEC-9"
 SWEP.AbbrevName = "TEC-9"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "2Machine Pistol"
 
 SWEP.Description = "Machine pistol notorious for its ease of conversion to fully automatic fire, and subsequent criminal usage."
