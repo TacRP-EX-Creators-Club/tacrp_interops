@@ -9,7 +9,7 @@ SWEP.AbbrevName = "USC"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "5Carbine"
+SWEP.SubCatType = "5Sporter"
 
 
 SWEP.Description = "Semi-automatic carbine variant of the UMP. Uses low capacity magazines, but its long barrel and gripstock assembly provides excellent medium range performance."

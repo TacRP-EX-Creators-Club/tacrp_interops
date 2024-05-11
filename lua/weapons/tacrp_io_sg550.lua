@@ -9,7 +9,7 @@ SWEP.AbbrevName = "SG 550-1"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "7Sniper Rifle"
+SWEP.SubCatType = "6Precision Rifle"
 
 SWEP.Description = "Carbine caliber marksman rifle with fast automatic fire. Easy to control in short bursts and has high armor penetration. Equipped with a 6x scope by default."
 
