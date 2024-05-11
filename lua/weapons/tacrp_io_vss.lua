@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Vintorez"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "7Sniper Rifle"
 
 SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil, but performs poorly over long bursts.\nEquipped with a 6x scope by default."
 

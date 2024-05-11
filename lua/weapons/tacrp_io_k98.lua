@@ -9,7 +9,7 @@ SWEP.AbbrevName = "Kar98k"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "7Sniper Rifle"
+SWEP.SubCatType = "5Carbine"
 
 SWEP.Description = "Antique bolt-action rifle with an enduring design. Powerful up close, but has limited range and is slow to load."
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
