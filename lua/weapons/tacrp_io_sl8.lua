@@ -9,7 +9,7 @@ SWEP.AbbrevName = "SL8"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "9Sporter"
+SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Semi-automatic variant of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope but has no ironsight option."
 

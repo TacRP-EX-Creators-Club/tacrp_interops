@@ -9,7 +9,7 @@ SWEP.AbbrevName = "SG 550-2"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "1Elite"
-SWEP.SubCatType = "9Sporter"
+SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Long barrel rifle converted to semi-automatic for civilian markets. Easy to control and has high armor penetration."
 
