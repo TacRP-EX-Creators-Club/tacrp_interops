@@ -8,7 +8,7 @@ SWEP.PrintName = "RPK"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "4Machine Gun"
+SWEP.SubCatType = "5Machine Gun"
 
 SWEP.Description = "Light machine gun derived from an infantry rifle. High damage and good recoil, but mobility and spread is poor."
 

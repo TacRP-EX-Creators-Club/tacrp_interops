@@ -9,7 +9,7 @@ SWEP.AbbrevName = "CX4 Storm"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "5Sporter"
+SWEP.SubCatType = "9Sporter"
 
 SWEP.Description = "Semi-automatic pistol carbine with good range.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
 SWEP.Description_Quote = "As famously seen in a certain PMC leader's arsenal."

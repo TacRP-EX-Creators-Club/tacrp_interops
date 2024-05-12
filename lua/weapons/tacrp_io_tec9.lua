@@ -9,7 +9,7 @@ SWEP.AbbrevName = "TEC-9"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Machine pistol notorious for its ease of conversion to fully automatic fire, and subsequent criminal usage."
 SWEP.Description_Quote = "\"The customer is always right.\""

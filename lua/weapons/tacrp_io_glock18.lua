@@ -8,7 +8,7 @@ SWEP.PrintName = "Glock 18C"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "3Security"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Machine pistol with high fire rate and mobility."
 SWEP.Description_Quote = "\"Sooner or later, you'll have to jump.\""

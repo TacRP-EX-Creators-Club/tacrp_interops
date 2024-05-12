@@ -9,7 +9,7 @@ SWEP.AbbrevName = "XM8 LMG"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "4Machine Gun"
+SWEP.SubCatType = "5Machine Gun"
 
 SWEP.Description = "Experimental multi-purpose carbine in MG configuration. Light, high capacity and low recoil, but damage is poor.\nHas an adjustable integrated 2-8x scope."
 

@@ -9,7 +9,7 @@ SWEP.AbbrevName = "SCAR-H"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "2Operator"
-SWEP.SubCatType = "6Precision Rifle"
+SWEP.SubCatType = "5Battle Rifle"
 
 SWEP.Description = "Compact, high mobility battle rifle with swift handling."
 SWEP.Description_Quote = "\"Sand Bravo, we're reading 70 bogeys in your sector.\""

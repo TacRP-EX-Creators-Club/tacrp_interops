@@ -9,7 +9,7 @@ SWEP.AbbrevName = "VP70"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
 SWEP.SubCatTier = "4Consumer"
-SWEP.SubCatType = "2Machine Pistol"
+SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Polymer pistol with an innovative holster stock that allows for incredibly fast burst fire."
 SWEP.Description_Quote = "\"Where's everyone going? Bingo?\""

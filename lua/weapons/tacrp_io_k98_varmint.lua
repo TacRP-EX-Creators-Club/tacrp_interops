@@ -8,7 +8,7 @@ SWEP.PrintName = "Varmint Rifle"
 SWEP.Category = "Tactical RP"
 
 SWEP.SubCatTier = "5Value"
-SWEP.SubCatType = "5Sporter"
+SWEP.SubCatType = "9Sporter"
 
 SWEP.Description = "Bolt-action rifle based on the Mauser action. Accepts ubiquitous AR-15 magazines. Lightweight, easy to use and has a generous capacity, but damage is low."
 SWEP.Description_Quote = "For rodents of... unassuming size."
