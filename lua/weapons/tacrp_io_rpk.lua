@@ -18,8 +18,7 @@ SWEP.Trivia_Year = "1961"
 
 SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
-Model: BOOLY
-Texture: 98B's
+Assets: Call To Arms
 Animation: Tactical Intervention
 ]]
 
@@ -148,8 +147,8 @@ SWEP.BlindFirePos = Vector(3, -2, -5)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, 0, -2)
 
-SWEP.SightAng = Angle(0, 0.5, 0)
-SWEP.SightPos = Vector(-4.7, -7.5, -3.35)
+SWEP.SightAng = Angle(0.05, -0.7, 0)
+SWEP.SightPos = Vector(-4.68, -7.5, -2.9)
 
 SWEP.CorrectivePos = Vector(0, 0, -0.05)
 SWEP.CorrectiveAng = Angle(0.75, 0.7, 0)
@@ -172,7 +171,7 @@ SWEP.ClipSize = 50
 SWEP.Ammo = "ar2"
 
 SWEP.ReloadTimeMult = 1.3
-SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/rpk.mdl"
+SWEP.DropMagazineModel = "models/weapons/tacint_shark/magazines/rpk.mdl"
 SWEP.DropMagazineImpact = "metal"
 
 SWEP.ReloadUpInTime = 1.55
@@ -274,8 +273,8 @@ SWEP.Attachments = {
         AttachSound = "tacrp/weapons/silencer_on.wav",
         DetachSound = "tacrp/weapons/silencer_off.wav",
         VMScale = 0.9,
-        Pos_VM = Vector(-3.25, 0.15, 34.5),
-        Pos_WM = Vector(0, 36.5, -1.75),
+        Pos_VM = Vector(-3.35, 0.15, 33),
+        Pos_WM = Vector(0, 31, -1.75),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
     },

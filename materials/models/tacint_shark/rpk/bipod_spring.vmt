@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/tacint_shark/rpk/bipod_spring"
+	//"$bumpmap" "models/tacint_shark/rpk/bipod_spring_bump"
+	"$translucent" 0
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/tacint_shark/rpk/main"
+	//"$bumpmap" "models/tacint_shark/rpk/main_bump"
+	"$translucent" 0
+	
+	"$surfaceprop" "weapon"
+	
+	"$phong" 1
+	"$phongboost"				0.2
+	"$phongexponent"				50
+	"$phongfresnelranges"		"[1 5 6]"
+	"$phongalbedotint" "1"
+}
