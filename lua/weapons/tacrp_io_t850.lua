@@ -106,6 +106,7 @@ SWEP.Firemode = 1
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
 SWEP.RPM = 450
+SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.01
 
@@ -113,14 +114,14 @@ SWEP.ShootTimeMult = 0.65
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 3
-SWEP.RecoilResetTime = 0.25
+SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilKick = 3
-SWEP.RecoilStability = 0.65
-SWEP.RecoilAltMultiplier = 100
+SWEP.RecoilKick = 6
+SWEP.RecoilStability = 0.2
+SWEP.RecoilAltMultiplier = 450
 
 SWEP.RecoilSpreadPenalty = 0.0025
 
@@ -176,7 +177,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 0.95
 
 SWEP.ReloadUpInTime = 1.35
 
@@ -210,6 +211,8 @@ SWEP.AnimationTranslationTable = {
     ["melee"] = {"melee1", "melee2"},
     ["jam"] = "draw",
 }
+
+SWEP.DeployTimeMult = 0.7
 
 SWEP.ProceduralIronFire = {
     vm_pos = Vector(0, -3, -3.5),

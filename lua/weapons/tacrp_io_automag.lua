@@ -84,7 +84,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Magnum
 
 // "ballistics"
 
-SWEP.Damage_Max = 45
+SWEP.Damage_Max = 42
 SWEP.Damage_Min = 28
 SWEP.Range_Min = 600
 SWEP.Range_Max = 2500
@@ -95,7 +95,7 @@ SWEP.ArmorBonus = 1.5
 SWEP.MuzzleVelocity = 14000
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.25,
+    [HITGROUP_HEAD] = 2.5,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1.25,
     [HITGROUP_LEFTARM] = 0.9,

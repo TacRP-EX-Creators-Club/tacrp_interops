@@ -8,7 +8,7 @@ SWEP.PrintName = "Intratec TEC-9"
 SWEP.AbbrevName = "TEC-9"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "4Consumer"
+SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "3Machine Pistol"
 
 SWEP.Description = "Machine pistol notorious for its ease of conversion to fully automatic fire, and subsequent criminal usage."
@@ -73,10 +73,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.MachinePistol
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 6
-SWEP.Range_Min = 300
+SWEP.Range_Min = 400
 SWEP.Range_Max = 1800
-SWEP.Penetration = 6 // units of metal this weapon can penetrate
-SWEP.ArmorPenetration = 0.4
+SWEP.Penetration = 4 // units of metal this weapon can penetrate
+SWEP.ArmorPenetration = 0.5
 SWEP.ArmorBonus = 0.5
 
 SWEP.MuzzleVelocity = 11000
@@ -113,8 +113,8 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 0.75
 
-SWEP.RecoilKick = 3.75
-SWEP.RecoilStability = 0.15
+SWEP.RecoilKick = 4.5
+SWEP.RecoilStability = 0.2
 
 SWEP.CanBlindFire = true
 
