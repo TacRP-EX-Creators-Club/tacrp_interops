@@ -109,7 +109,7 @@ SWEP.MuzzleVelocity = 35000
 SWEP.Firemode = 1
 
 SWEP.RPM = 450
-SWEP.RPMMultSemi = 0.6
+SWEP.RPMMultSemi = 0.7
 
 SWEP.Spread = 0.001
 

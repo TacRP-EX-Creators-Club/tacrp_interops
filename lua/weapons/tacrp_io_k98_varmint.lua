@@ -103,7 +103,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 60
+SWEP.RPM = 65
 
 SWEP.Spread = 0.0015
 
@@ -190,7 +190,7 @@ SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
 
 SWEP.ReloadTimeMult = 1.25
-SWEP.ShootTimeMult = 0.725
+SWEP.ShootTimeMult = 0.625
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/m4.mdl"
 SWEP.DropMagazineImpact = "metal"
 
