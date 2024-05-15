@@ -152,6 +152,8 @@ SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint/magazines/skorpion.mdl"
 SWEP.DropMagazineImpact = "pistol"
 
+SWEP.NoTactical = true
+
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
