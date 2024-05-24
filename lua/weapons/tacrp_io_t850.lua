@@ -11,7 +11,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Snub-nosed revolver with compact form factor. Very concealable, but this comes at the price of firepower."
+SWEP.Description = "Snub-nosed revolver with compact form factor. Lethality falls off sharply past point blank."
 
 SWEP.Trivia_Caliber = ".38 Special"
 SWEP.Trivia_Manufacturer = "Taurus"
@@ -34,8 +34,8 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 40,
-        Damage_Min = 20,
+        Damage_Max = 50,
+        Damage_Min = 22,
         ArmorPenetration = 0.65,
 
         RPM = 450,
@@ -63,14 +63,6 @@ SWEP.BalanceStats = {
 
         RecoilResetTime = 0.3,
         RecoilDissipationRate = 4,
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 28,
-        Damage_Min = 12,
-        RPM = 300,
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        Description = "Snub-nosed revolver with compact form factor. High mobility and good recoil among magnum pistols, but performs poorly against armor and has middling accuracy.",
     }
 }
 
@@ -78,10 +70,10 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 28
+SWEP.Damage_Max = 38
 SWEP.Damage_Min = 16
-SWEP.Range_Min = 300 // distance for which to maintain maximum damage
-SWEP.Range_Max = 1500 // distance at which we drop to minimum damage
+SWEP.Range_Min = 100 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1200 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.5
 SWEP.ArmorBonus = 0.5
@@ -105,7 +97,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 450
+SWEP.RPM = 400
 SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.01
@@ -113,13 +105,13 @@ SWEP.Spread = 0.01
 SWEP.ShootTimeMult = 0.65
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 3
+SWEP.RecoilMaximum = 2
 SWEP.RecoilResetTime = 0.2
 SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilKick = 6
+SWEP.RecoilKick = 8
 SWEP.RecoilStability = 0.2
 SWEP.RecoilAltMultiplier = 450
 
@@ -129,14 +121,14 @@ SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.975
-SWEP.ShootingSpeedMult = 0.9
-SWEP.SightedSpeedMult = 0.8
+SWEP.MoveSpeedMult = 1
+SWEP.ShootingSpeedMult = 0.8
+SWEP.SightedSpeedMult = 0.9
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.2
-SWEP.SprintToFireTime = 0.2
+SWEP.AimDownSightsTime = 0.17
+SWEP.SprintToFireTime = 0.17
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.4
@@ -177,7 +169,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 SWEP.ClipSize = 5
 SWEP.Ammo = "357"
 
-SWEP.ReloadTimeMult = 0.95
+SWEP.ReloadTimeMult = 1
 
 SWEP.ReloadUpInTime = 1.35
 
