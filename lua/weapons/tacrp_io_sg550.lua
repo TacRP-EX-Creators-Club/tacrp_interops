@@ -104,15 +104,15 @@ SWEP.Spread = 0.0005
 
 SWEP.RecoilResetInstant = false
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 10
-SWEP.RecoilResetTime = 0.045
+SWEP.RecoilMaximum = 7
+SWEP.RecoilResetTime = 0.07
 SWEP.RecoilDissipationRate = 24
-SWEP.RecoilFirstShotMult = 0.75
+SWEP.RecoilFirstShotMult = 1
 
 SWEP.RecoilVisualKick = 0.75
-SWEP.RecoilKick = 2
-SWEP.RecoilStability = 0.5
-SWEP.RecoilAltMultiplier = 700
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.45
+SWEP.RecoilAltMultiplier = 750
 
 SWEP.RecoilSpreadPenalty = 0.0024
 SWEP.HipFireSpreadPenalty = 0.06
