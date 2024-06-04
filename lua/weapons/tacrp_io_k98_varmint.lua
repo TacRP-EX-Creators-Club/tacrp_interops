@@ -7,7 +7,7 @@ AddCSLuaFile()
 SWEP.PrintName = "Varmint Rifle"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "5Value"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Bolt-action rifle based on the Mauser action. Accepts ubiquitous AR-15 magazines. Lightweight, easy to use and has a generous capacity, but damage is low."
@@ -34,7 +34,9 @@ SWEP.SlotAlt = 3
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 40,
-        Damage_Min = 20,
+        Damage_Min = 25,
+        Range_Min = 1500,
+        HipFireSpreadPenalty = 0.0125,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 28,
@@ -80,8 +82,8 @@ SWEP.TTTReplace = {["weapon_zm_rifle"] = 0.5, ["weapon_zm_mac10"] = 0.5}
 SWEP.Damage_Max = 40
 SWEP.Damage_Min = 20
 SWEP.Range_Min = 800
-SWEP.Range_Max = 3500
-SWEP.Penetration = 10
+SWEP.Range_Max = 4000
+SWEP.Penetration = 7
 SWEP.ArmorPenetration = 0.775
 
 SWEP.BodyDamageMultipliers = {
@@ -107,7 +109,7 @@ SWEP.RPM = 65
 
 SWEP.Spread = 0.0015
 
-SWEP.HipFireSpreadPenalty = 0.0125
+SWEP.HipFireSpreadPenalty = 0.02
 SWEP.PeekPenaltyFraction = 0.3
 
 SWEP.RecoilPerShot = 1
