@@ -34,6 +34,7 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 30,
         Damage_Min = 17,
+        HipFireSpreadPenalty = 0.05,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 22,
@@ -112,7 +113,7 @@ SWEP.RecoilStability = 0.55
 SWEP.RecoilAltMultiplier = 200
 
 SWEP.RecoilSpreadPenalty = 0.0033
-SWEP.HipFireSpreadPenalty = 0.06
+SWEP.HipFireSpreadPenalty = 0.04
 SWEP.PeekPenaltyFraction = 0.15
 
 SWEP.CanBlindFire = true
