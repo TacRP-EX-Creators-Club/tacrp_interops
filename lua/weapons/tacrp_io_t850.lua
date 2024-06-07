@@ -34,11 +34,11 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 50,
-        Damage_Min = 22,
+        Damage_Max = 55,
+        Damage_Min = 20,
         ArmorPenetration = 0.65,
 
-        RPM = 450,
+        RPM = 420,
         RecoilKick = 8,
     },
     [TacRP.BALANCE_TTT] = {
@@ -70,8 +70,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 38
-SWEP.Damage_Min = 16
+SWEP.Damage_Max = 45
+SWEP.Damage_Min = 18
 SWEP.Range_Min = 100 // distance for which to maintain maximum damage
 SWEP.Range_Max = 1200 // distance at which we drop to minimum damage
 SWEP.Penetration = 3 // units of metal this weapon can penetrate
@@ -97,21 +97,21 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Double-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 400
+SWEP.RPM = 360
 SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.01
 
-SWEP.ShootTimeMult = 0.65
+SWEP.ShootTimeMult = 0.8
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 2
-SWEP.RecoilResetTime = 0.2
+SWEP.RecoilMaximum = 3
+SWEP.RecoilResetTime = 0.3
 SWEP.RecoilDissipationRate = 6
 SWEP.RecoilFirstShotMult = 1
 
-SWEP.RecoilVisualKick = 1.5
-SWEP.RecoilKick = 8
+SWEP.RecoilVisualKick = 2
+SWEP.RecoilKick = 10
 SWEP.RecoilStability = 0.2
 SWEP.RecoilAltMultiplier = 450
 
@@ -122,13 +122,13 @@ SWEP.CanBlindFire = true
 // handling
 
 SWEP.MoveSpeedMult = 1
-SWEP.ShootingSpeedMult = 0.8
+SWEP.ShootingSpeedMult = 0.75
 SWEP.SightedSpeedMult = 0.9
 
 SWEP.ReloadSpeedMult = 0.75
 
-SWEP.AimDownSightsTime = 0.17
-SWEP.SprintToFireTime = 0.17
+SWEP.AimDownSightsTime = 0.15
+SWEP.SprintToFireTime = 0.15
 
 SWEP.Sway = 1
 SWEP.ScopedSway = 0.4
@@ -167,7 +167,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 // reload
 
 SWEP.ClipSize = 5
-SWEP.Ammo = "357"
+SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
 
