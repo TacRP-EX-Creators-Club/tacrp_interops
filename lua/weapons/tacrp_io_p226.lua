@@ -11,14 +11,14 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "1Pistol"
 
-SWEP.Description = "Handgun with superior range and precision but low overall damage."
+SWEP.Description = "Handgun with superior range and precision but low capacity."
 SWEP.Description_Quote = "\"The correct term is 'babes,' sir.\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "1984"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Model: SoulSlayer
 Texture: Thanez
@@ -33,16 +33,16 @@ SWEP.Slot = 1
 
 SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
-        Damage_Max = 22,
+        Damage_Max = 28,
         Damage_Min = 20,
-        Range_Min = 1300,
-        Range_Max = 3500,
-        RPM = 400,
+        Range_Min = 1200,
+        Range_Max = 3000,
+        RPM = 450,
 
         BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 4,
+            [HITGROUP_HEAD] = 5,
             [HITGROUP_CHEST] = 1,
-            [HITGROUP_STOMACH] = 1.25,
+            [HITGROUP_STOMACH] = 1,
             [HITGROUP_LEFTARM] = 1,
             [HITGROUP_RIGHTARM] = 1,
             [HITGROUP_LEFTLEG] = 0.75,
@@ -51,17 +51,18 @@ SWEP.BalanceStats = {
         },
     },
     [TacRP.BALANCE_TTT] = {
-        Damage_Max = 20,
-        Damage_Min = 15,
+        Damage_Max = 24,
+        Damage_Min = 16,
         Range_Min = 750,
         Range_Max = 3000,
-        RPM = 240,
+        RPM = 180,
+        RPMMultSemi = 1,
 
         RecoilMaximum = 4,
-        RecoilResetTime = 0.15,
-        RecoilDissipationRate = 6,
+        RecoilResetTime = 0.2,
+        RecoilDissipationRate = 5,
         RecoilFirstShotMult = 1,
-        RecoilSpreadPenalty = 0.01,
+        RecoilSpreadPenalty = 0.008,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 2.5,
@@ -73,6 +74,8 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
+
+        ReloadTimeMult = 1.15,
     },
 }
 
@@ -80,9 +83,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.Pistol
 
 // "ballistics"
 
-SWEP.Damage_Max = 24
-SWEP.Damage_Min = 16
-SWEP.Range_Min = 1100
+SWEP.Damage_Max = 25
+SWEP.Damage_Min = 15
+SWEP.Range_Min = 800
 SWEP.Range_Max = 2500
 SWEP.Penetration = 6 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.75
@@ -105,7 +108,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 420
+SWEP.RPM = 400
 SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.001
@@ -171,7 +174,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 15
+SWEP.ClipSize = 10
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
