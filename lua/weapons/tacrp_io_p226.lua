@@ -4,7 +4,7 @@ SWEP.Spawnable = true
 AddCSLuaFile()
 
 // names and stuff
-SWEP.PrintName = "SIG P226"
+SWEP.PrintName = "SIG P226" // Apparently this is specifically the XM25 model adopted by the Navy SEALs but i dont wanna specify it
 SWEP.AbbrevName = "P226"
 SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 
@@ -14,7 +14,7 @@ SWEP.SubCatType = "1Pistol"
 SWEP.Description = "Handgun with superior range and precision but low capacity."
 SWEP.Description_Quote = "\"The correct term is 'babes,' sir.\""
 
-SWEP.Trivia_Caliber = "9x19mm"
+SWEP.Trivia_Caliber = ".40 S&W" // ... because the XM25 is 9mm only and doesn't come in 13 rounders
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"
 SWEP.Trivia_Year = "1984"
 
@@ -55,6 +55,7 @@ SWEP.BalanceStats = {
         Damage_Min = 16,
         Range_Min = 750,
         Range_Max = 3000,
+        ClipSize = 10,
         RPM = 180,
         RPMMultSemi = 1,
 
@@ -106,7 +107,7 @@ SWEP.BodyDamageMultipliers = {
 
 SWEP.Firemode = 1
 
-SWEP.RPM = 400
+SWEP.RPM = 380
 SWEP.RPMMultSemi = 0.75
 
 SWEP.Spread = 0.001
@@ -172,7 +173,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 10
+SWEP.ClipSize = 13
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 1
