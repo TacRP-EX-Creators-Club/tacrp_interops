@@ -44,8 +44,6 @@ SWEP.BalanceStats = {
         RecoilDissipationRate = 6,
         RecoilFirstShotMult = 2,
         RecoilSpreadPenalty = 0.01,
-
-        ReloadTimeMult = 1.15 * 1.25,
     },
     [TacRP.BALANCE_PVE] = {
         Damage_Max = 15,
