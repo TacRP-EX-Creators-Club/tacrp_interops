@@ -85,7 +85,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 SWEP.Damage_Max = 85
 SWEP.Damage_Min = 42
-SWEP.Range_Min = 500
+SWEP.Range_Min = 800
 SWEP.Range_Max = 2800
 SWEP.Penetration = 12
 SWEP.ArmorPenetration = 0.775
@@ -197,7 +197,7 @@ SWEP.ScopeFOV = 90 / 1.25
 // reload
 
 SWEP.ClipSize = 5
-SWEP.Ammo = "357"
+SWEP.Ammo = "ar2"
 SWEP.ShotgunReload = true
 SWEP.ShotgunThreeload = false
 
