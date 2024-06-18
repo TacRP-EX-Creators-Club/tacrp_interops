@@ -21,7 +21,7 @@ SWEP.Faction = TacRP.FACTION_MILITIA
 SWEP.Credits = [[
 Model: Day of Defeat: Source, edited by 8Z
 Texture: Cafe Rev., rascal, 5hifty
-Sound: Day of Infamy
+Sound: rzen1th
 Animations: Cry of Fear, Lazarus
 ]]
 
@@ -35,6 +35,20 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 80,
         Damage_Min = 55,
+
+        RPM = 50,
+        ShootTimeMult = 0.75,
+
+        BodyDamageMultipliers = {
+            [HITGROUP_HEAD] = 3,
+            [HITGROUP_CHEST] = 1,
+            [HITGROUP_STOMACH] = 1.25,
+            [HITGROUP_LEFTARM] = 0.75,
+            [HITGROUP_RIGHTARM] = 0.75,
+            [HITGROUP_LEFTLEG] = 0.5,
+            [HITGROUP_RIGHTLEG] = 0.5,
+            [HITGROUP_GEAR] = 0.5
+        },
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 70,
@@ -69,18 +83,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 92
-SWEP.Damage_Min = 48
+SWEP.Damage_Max = 85
+SWEP.Damage_Min = 42
 SWEP.Range_Min = 500
-SWEP.Range_Max = 3000
+SWEP.Range_Max = 2800
 SWEP.Penetration = 12
 SWEP.ArmorPenetration = 0.775
 SWEP.ArmorBonus = 1
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 2.5,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.1,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.75,
     [HITGROUP_RIGHTARM] = 0.75,
     [HITGROUP_LEFTLEG] = 0.5,
@@ -96,7 +110,7 @@ SWEP.Firemode = 1
 
 SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name distinction
 
-SWEP.RPM = 42
+SWEP.RPM = 45
 
 SWEP.Spread = 0.001
 

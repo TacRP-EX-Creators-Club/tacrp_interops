@@ -21,7 +21,7 @@ SWEP.Faction = TacRP.FACTION_NEUTRAL
 SWEP.Credits = [[
 Model: Day of Defeat: Source, edited by 8Z
 Texture: 5hifty
-Sound: Day of Infamy
+Sound: rzen1th
 Animation: Tactical Intervention
 ]]
 
