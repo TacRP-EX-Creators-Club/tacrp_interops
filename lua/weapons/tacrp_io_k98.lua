@@ -36,6 +36,7 @@ SWEP.BalanceStats = {
         Damage_Max = 80,
         Damage_Min = 55,
 
+        Spread = 0.002,
         RPM = 50,
         ShootTimeMult = 0.75,
 
@@ -58,6 +59,7 @@ SWEP.BalanceStats = {
 
         RPM = 35,
         ShootTimeMult = 1.1,
+        Spread = 0.001,
 
         BodyDamageMultipliers = {
             [HITGROUP_HEAD] = 4,
@@ -112,7 +114,7 @@ SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name dist
 
 SWEP.RPM = 45
 
-SWEP.Spread = 0.001
+SWEP.Spread = 0.008 // WW2 rifles weren't all that accurate...
 
 SWEP.HipFireSpreadPenalty = 0.03
 SWEP.PeekPenaltyFraction = 0.3
