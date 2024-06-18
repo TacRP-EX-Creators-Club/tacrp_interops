@@ -271,7 +271,7 @@ SWEP.Attachments = {
         Pos_VM = Vector(-0.5, 0.25, 7),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(14.2, 1.2, -4.25),
-        Ang_WM = Angle(0, 0, 0),
+        Ang_WM = Angle(0, 0, 180),
     },
     [3] = {
         PrintName = "Tactical",
