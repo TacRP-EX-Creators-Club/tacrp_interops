@@ -34,15 +34,18 @@ SWEP.BalanceStats = {
         Damage_Max = 24,
         Damage_Min = 17,
         ClipSize = 30,
+        RPM = 600,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 20,
-        Damage_Min = 13,
+        Damage_Min = 14,
         Range_Min = 750,
         Range_Max = 3000,
 
         RecoilKick = 3,
-        RPM = 400,
+        RPM = 380,
+        RPMMultSemi = 0.8,
+        ClipSize = 20,
 
         RecoilResetTime = 0.175,
         RecoilSpreadPenalty = 0.0026,
@@ -78,7 +81,7 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 SWEP.Damage_Max = 20
 SWEP.Damage_Min = 14
 SWEP.Range_Min = 1000
-SWEP.Range_Max = 3400
+SWEP.Range_Max = 3800
 SWEP.Penetration = 8 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.775
 
