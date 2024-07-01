@@ -12,6 +12,7 @@ SWEP.SubCatTier = "5Value"
 SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Snub-nosed revolver with compact form factor. Lethality falls off sharply past point blank."
+SWEP.Description_Quote = "Cardio is free when you're chasing gangsters"
 
 SWEP.Trivia_Caliber = ".38 Special"
 SWEP.Trivia_Manufacturer = "Taurus"
