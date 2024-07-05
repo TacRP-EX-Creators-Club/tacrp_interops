@@ -200,6 +200,8 @@ SWEP.ScopeFOV = 90 / 1.25
 
 SWEP.ClipSize = 5
 SWEP.Ammo = "ar2"
+SWEP.Ammo_Expanded = "ti_rifle"
+
 SWEP.ShotgunReload = true
 SWEP.ShotgunThreeload = false
 

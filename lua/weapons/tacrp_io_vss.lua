@@ -177,6 +177,7 @@ SWEP.ScopeOverlaySize = 0.9
 
 SWEP.ClipSize = 20
 SWEP.Ammo = "smg1"
+SWEP.Ammo_Expanded = "ti_pdw"
 
 SWEP.ReloadTimeMult = 1
 SWEP.DropMagazineModel = "models/weapons/tacint_extras/magazines/vss.mdl"
