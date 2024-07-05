@@ -67,7 +67,7 @@ SWEP.ArmorPenetration = 0.5
 SWEP.MuzzleVelocity = 15500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -80,40 +80,40 @@ SWEP.BodyDamageMultipliers = {
 // misc. shooting
 
 SWEP.Firemode = 1
-SWEP.RPM = 550
+SWEP.RPM = 700
 SWEP.RPMMultSemi = 0.6
 
-SWEP.Spread = 0.0025
+SWEP.Spread = 0.006
 SWEP.RecoilSpreadPenalty = 0.0012
-SWEP.HipFireSpreadPenalty = 0.02
+SWEP.HipFireSpreadPenalty = 0.025
 
 SWEP.ShootTimeMult = 0.65
 
 SWEP.RecoilPerShot = 1
-SWEP.RecoilMaximum = 8
+SWEP.RecoilMaximum = 7
 SWEP.RecoilResetTime = 0.175 // time after you stop shooting for recoil to start dissipating
 SWEP.RecoilDissipationRate = 12
-SWEP.RecoilFirstShotMult = 0.75 // multiplier for the first shot's recoil amount
+SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
-SWEP.RecoilKick = 2
-SWEP.RecoilStability = 0.25
+SWEP.RecoilKick = 3
+SWEP.RecoilStability = 0.35
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
+SWEP.MoveSpeedMult = 0.9
 SWEP.ShootingSpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.6
 
-SWEP.AimDownSightsTime = 0.32
-SWEP.SprintToFireTime = 0.35
+SWEP.AimDownSightsTime = 0.36
+SWEP.SprintToFireTime = 0.39
 
-SWEP.Sway = 0.75
-SWEP.ScopedSway = 0.125
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.25
 
 SWEP.FreeAimMaxAngle = 4.75
 
@@ -151,7 +151,7 @@ SWEP.HolsterAng = Angle(90, 0, 0)
 
 // reload
 
-SWEP.ClipSize = 20
+SWEP.ClipSize = 18
 SWEP.Ammo = "pistol"
 
 SWEP.ReloadTimeMult = 0.9
