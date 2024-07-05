@@ -8,7 +8,7 @@ SWEP.PrintName = "FN FNC Para"
 SWEP.AbbrevName = "FNC Para"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Lightweight assault rifle with high hipfire precision and mobility, but low range and poor armor penetration."
@@ -81,8 +81,8 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AssaultRifle
 
 SWEP.Damage_Max = 18
 SWEP.Damage_Min = 10
-SWEP.Range_Min = 300
-SWEP.Range_Max = 1700
+SWEP.Range_Min = 700
+SWEP.Range_Max = 2700
 SWEP.Penetration = 7 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.6
 
@@ -105,7 +105,7 @@ SWEP.Firemodes = {2, 1}
 
 SWEP.RPM = 775
 
-SWEP.Spread = 0.008
+SWEP.Spread = 0.0057
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 15
