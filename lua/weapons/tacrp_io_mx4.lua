@@ -8,10 +8,10 @@ SWEP.PrintName = "Beretta MX4 Storm"
 SWEP.AbbrevName = "MX4 Storm"
 SWEP.Category = "Tactical RP"
 
-SWEP.SubCatTier = "3Security"
+SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
-SWEP.Description = "Military pistol carbine with high rate of fire.\nMediocre armor penetration, but the large frame makes the weapon quite stable."
+SWEP.Description = "Bulky pistol carbine with high rate of fire but mediocre armor penetration."
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"
@@ -32,6 +32,9 @@ SWEP.BalanceStats = {
     [TacRP.BALANCE_SBOX] = {
         Damage_Max = 17,
         Damage_Min = 8,
+
+        RecoilKick = 2.5,
+        HipFireSpreadPenalty = 0.018,
     },
     [TacRP.BALANCE_TTT] = {
         Damage_Max = 12,
@@ -71,16 +74,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SMG
 // "ballistics"
 
 SWEP.Damage_Max = 15
-SWEP.Damage_Min = 8
-SWEP.Range_Min = 600
-SWEP.Range_Max = 3000
+SWEP.Damage_Min = 7
+SWEP.Range_Min = 400
+SWEP.Range_Max = 2200
 SWEP.Penetration = 3
 SWEP.ArmorPenetration = 0.5
 
-SWEP.MuzzleVelocity = 12500
+SWEP.MuzzleVelocity = 11500
 
 SWEP.BodyDamageMultipliers = {
-    [HITGROUP_HEAD] = 5,
+    [HITGROUP_HEAD] = 4,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
@@ -99,9 +102,9 @@ SWEP.Firemodes = {
 
 SWEP.RPM = 950
 
-SWEP.Spread = 0.005
-SWEP.RecoilSpreadPenalty = 0.0015
-SWEP.HipFireSpreadPenalty = 0.015
+SWEP.Spread = 0.009
+SWEP.RecoilSpreadPenalty = 0.0018
+SWEP.HipFireSpreadPenalty = 0.033
 
 SWEP.ShootTimeMult = 0.5
 
@@ -113,25 +116,26 @@ SWEP.RecoilFirstShotMult = 1 // multiplier for the first shot's recoil amount
 
 SWEP.RecoilVisualKick = 1
 
-SWEP.RecoilKick = 2
+SWEP.RecoilKick = 4
+SWEP.RecoilStability = 0.2
 
 SWEP.CanBlindFire = true
 
 // handling
 
-SWEP.MoveSpeedMult = 0.925
-SWEP.ShootingSpeedMult = 0.9
+SWEP.MoveSpeedMult = 0.9
+SWEP.ShootingSpeedMult = 0.75
 SWEP.SightedSpeedMult = 0.7
 
 SWEP.ReloadSpeedMult = 0.6
 
-SWEP.AimDownSightsTime = 0.32
-SWEP.SprintToFireTime = 0.35
+SWEP.AimDownSightsTime = 0.36
+SWEP.SprintToFireTime = 0.39
 
-SWEP.Sway = 0.75
-SWEP.ScopedSway = 0.125
+SWEP.Sway = 1
+SWEP.ScopedSway = 0.25
 
-SWEP.FreeAimMaxAngle = 4.25
+SWEP.FreeAimMaxAngle = 4.5
 
 // hold types
 
