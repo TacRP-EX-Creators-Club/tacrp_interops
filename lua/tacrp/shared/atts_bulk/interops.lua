@@ -188,9 +188,9 @@ TacRP.LoadAtt(ATT, "muzz_tec9_shroud")
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "PSO-1"
+ATT.PrintName = "att.optic_ak_pso1.name"
 ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
-ATT.Description = "Russian dovetail scope with medium-long range magnification."
+ATT.Description = "att.optic_ak_pso1.desc"
 ATT.Pros = {"att.zoom.6"}
 
 ATT.Category = "optic_ak"
@@ -219,10 +219,10 @@ TacRP.LoadAtt(ATT, "optic_ak_pso1")
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Colt 3x20"
-ATT.FullName = "Colt 3x20 Rifle Scope"
+ATT.PrintName = "att.optic_ar_colt.name"
+ATT.FullName = "att.optic_ar_colt.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
-ATT.Description = "Low power optical scope mounted on AR pattern carry handles."
+ATT.Description = "att.optic_ar_colt.desc"
 ATT.Pros = {"att.zoom.3"}
 
 ATT.Category = "optic_ar"
@@ -276,10 +276,10 @@ TacRP.LoadAtt(ATT, "optic_k98_zf42")
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Colt 3x20"
-ATT.FullName = "Colt 3x20 Rifle Scope"
+ATT.PrintName = "att.optic_ar_colt.name"
+ATT.FullName = "att.optic_ar_colt.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
-ATT.Description = "Low power optical scope mounted on AR pattern carry handles."
+ATT.Description = "att.optic_ar_colt.desc"
 ATT.Pros = {"att.zoom.3"}
 
 ATT.Category = "optic_m16a2"
@@ -302,9 +302,9 @@ TacRP.LoadAtt(ATT, "optic_m16a2_colt")
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "PSO-1"
+ATT.PrintName = "att.optic_ak_pso1.name"
 ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
-ATT.Description = "Russian scope with medium-long range magnification."
+ATT.Description = "att.optic_ak_pso1.desc"
 ATT.Pros = {"att.zoom.6"}
 
 ATT.Category = "optic_pso1"
