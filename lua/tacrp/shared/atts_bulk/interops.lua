@@ -249,14 +249,14 @@ TacRP.LoadAtt(ATT, "optic_ar_colt")
 ATT = {}
 
 ATT.PrintName = "Zeiss"
-ATT.FullName = "Zeiss 6x36 Scope." --not actually, it's the scope from the trg-42
+ATT.FullName = "Zeiss 6x36 Scope" --not actually, it's the scope from the trg-42
 ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
 ATT.Description = "Medium-power sniper scope made specially for the Kar98k."
 ATT.Pros = {"att.zoom.6"}
 
 ATT.Category = "optic_kar98"
 
-ATT.SortOrder = 5
+ATT.SortOrder = 6
 
 ATT.Override_Scope = true
 ATT.Override_ScopeHideWeapon = true
