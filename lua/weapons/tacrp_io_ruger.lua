@@ -150,8 +150,8 @@ SWEP.ReloadSpeedMult = 0.75
 SWEP.AimDownSightsTime = 0.25
 SWEP.SprintToFireTime = 0.25
 
-SWEP.Sway = 1
-SWEP.ScopedSway = 0.5
+SWEP.Sway = 0.75
+SWEP.ScopedSway = 0.2
 
 SWEP.FreeAimMaxAngle = 2
 
