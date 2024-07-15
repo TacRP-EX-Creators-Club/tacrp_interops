@@ -38,6 +38,7 @@ SWEP.BalanceStats = {
         Range_Max = 2500,
         Num = 6,
         RPM = 200,
+        RPMMultSemi = 1,
 
         Spread = 0.02,
 
@@ -82,16 +83,16 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AutoShotgun
 SWEP.ShootTimeMult = 0.85
 
 SWEP.Damage_Max = 12
-SWEP.Damage_Min = 7
+SWEP.Damage_Min = 6
 SWEP.Range_Min = 500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 3000 // distance at which we drop to minimum damage
+SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.45
 SWEP.ArmorBonus = 1.25
 
 SWEP.Num = 6
 
-SWEP.MuzzleVelocity = 13000
+SWEP.MuzzleVelocity = 10000
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 1.5,
@@ -109,12 +110,13 @@ SWEP.BodyDamageMultipliers = {
 SWEP.Firemode = 1
 
 SWEP.RPM = 300
+SWEP.RPMMultSemi = 0.85
 SWEP.PostBurstDelay = 0.1
 
-SWEP.Spread = 0.015
-SWEP.ShotgunPelletSpread = 0.015
+SWEP.Spread = 0.02
+SWEP.ShotgunPelletSpread = 0.02
 
-SWEP.HipFireSpreadPenalty = 0.02
+SWEP.HipFireSpreadPenalty = 0.025
 SWEP.MidAirSpreadPenalty = 0
 
 SWEP.RecoilPerShot = 1
@@ -127,6 +129,7 @@ SWEP.RecoilVisualKick = 1.5
 SWEP.RecoilKick = 7
 SWEP.RecoilStability = 0.25
 SWEP.RecoilAltMultiplier = 150
+SWEP.NoRecoilPattern = true
 
 SWEP.RecoilSpreadPenalty = 0.009
 
