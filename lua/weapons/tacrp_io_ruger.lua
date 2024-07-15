@@ -224,6 +224,9 @@ SWEP.MuzzleEffect = "muzzleflash_suppressed"
 
 // anims
 
+SWEP.DeployTimeMult = 0.9
+SWEP.HolsterTimeMult = 0.75
+
 SWEP.AnimationTranslationTable = {
     ["deploy"] = "draw",
     ["fire_iron"] = "sshoot1",
