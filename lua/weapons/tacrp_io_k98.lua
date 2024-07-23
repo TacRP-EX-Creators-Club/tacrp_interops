@@ -204,6 +204,8 @@ SWEP.Ammo_Expanded = "ti_rifle"
 
 SWEP.ShotgunReload = true
 SWEP.ShotgunThreeload = false
+SWEP.ShotgunFullCancel = true
+SWEP.ShotgunNoReverseStart = true
 
 SWEP.ReloadTimeMult = 1
 SWEP.ShootTimeMult = 0.8
