@@ -210,11 +210,12 @@ SWEP.ShotgunNoReverseStart = true
 
 SWEP.ReloadTimeMult = 1
 SWEP.ShootTimeMult = 0.8
-//SWEP.DropMagazineImpact = "metal"
 SWEP.DropMagazineModel = false
 
-SWEP.ReloadUpInTime = 5
-//SWEP.DropMagazineTime = 1.4
+SWEP.ShotgunLoadInTime = 0
+SWEP.BulletBodygroups = {
+    [1] = {1, 1},
+}
 
 // sounds
 
