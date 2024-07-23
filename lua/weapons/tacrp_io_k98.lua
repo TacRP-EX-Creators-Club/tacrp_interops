@@ -36,6 +36,7 @@ SWEP.BalanceStats = {
         Damage_Max = 80,
         Damage_Min = 55,
 
+        HipFireSpreadPenalty = 0.03,
         Spread = 0.002,
         RPM = 50,
         ShootTimeMult = 0.75,
@@ -85,18 +86,18 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 85
-SWEP.Damage_Min = 42
-SWEP.Range_Min = 800
+SWEP.Damage_Max = 80
+SWEP.Damage_Min = 46
+SWEP.Range_Min = 500
 SWEP.Range_Max = 2800
 SWEP.Penetration = 12
-SWEP.ArmorPenetration = 0.775
+SWEP.ArmorPenetration = 0.8
 SWEP.ArmorBonus = 1
 
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1,
+    [HITGROUP_STOMACH] = 1.1,
     [HITGROUP_LEFTARM] = 0.75,
     [HITGROUP_RIGHTARM] = 0.75,
     [HITGROUP_LEFTLEG] = 0.5,
@@ -116,7 +117,7 @@ SWEP.RPM = 45
 
 SWEP.Spread = 0.008 // WW2 rifles weren't all that accurate...
 
-SWEP.HipFireSpreadPenalty = 0.03
+SWEP.HipFireSpreadPenalty = 0.04
 SWEP.PeekPenaltyFraction = 0.3
 
 SWEP.RecoilPerShot = 1
