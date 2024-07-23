@@ -86,9 +86,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.SniperRifle
 
 // "ballistics"
 
-SWEP.Damage_Max = 80
+SWEP.Damage_Max = 85
 SWEP.Damage_Min = 46
-SWEP.Range_Min = 500
+SWEP.Range_Min = 300
 SWEP.Range_Max = 2800
 SWEP.Penetration = 12
 SWEP.ArmorPenetration = 0.8
@@ -97,7 +97,7 @@ SWEP.ArmorBonus = 1
 SWEP.BodyDamageMultipliers = {
     [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
-    [HITGROUP_STOMACH] = 1.1,
+    [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 0.75,
     [HITGROUP_RIGHTARM] = 0.75,
     [HITGROUP_LEFTLEG] = 0.5,
@@ -208,7 +208,7 @@ SWEP.ShotgunThreeload = false
 SWEP.ShotgunFullCancel = true
 SWEP.ShotgunNoReverseStart = true
 
-SWEP.ReloadTimeMult = 1
+SWEP.ReloadTimeMult = 0.95
 SWEP.ShootTimeMult = 0.8
 SWEP.DropMagazineModel = false
 
