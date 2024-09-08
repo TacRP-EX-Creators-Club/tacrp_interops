@@ -221,6 +221,7 @@ SWEP.QCA_Muzzle = 3
 SWEP.EjectScale = 0.7
 
 SWEP.MuzzleEffect = "muzzleflash_suppressed"
+SWEP.EjectEffect = 1
 
 // anims
 
