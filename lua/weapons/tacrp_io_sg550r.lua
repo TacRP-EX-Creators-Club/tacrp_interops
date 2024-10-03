@@ -226,20 +226,25 @@ SWEP.ProceduralIronFire = {
 // attachments
 
 SWEP.AttachmentElements = {
+    ["sights"] = {
+        BGs_VM = {
+            {3, 2}
+        },
+    },
     ["foldstock"] = {
         BGs_VM = {
-            {2, 1}
+            {1, 1}
         },
         BGs_WM = {
-            {2, 1}
+            {1, 1}
         },
     },
     ["tactical"] = {
         BGs_VM = {
-            {3, 1}
+            {2, 1}
         },
         BGs_WM = {
-            {3, 1}
+            {2, 1}
         },
     },
 }
@@ -247,7 +252,7 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb_nookp7", "optic_medium", "optic_sniper"},
+        Category = {"optic_cqb", "optic_medium", "optic_sniper"},
         InstalledElements = {"sights"},
         Bone = "ValveBiped.sg551_rootbone",
         WMBone = "Box01",
@@ -255,7 +260,7 @@ SWEP.Attachments = {
         DetachSound = "tacrp/weapons/optic_off.wav",
         VMScale = 0.75,
         WMScale = 0.75,
-        Pos_VM = Vector(-5.2, 0, 6.0),
+        Pos_VM = Vector(-5.1, 0, 6.0),
         Pos_WM = Vector(0, 5, 1),
         Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, -90, 0),
