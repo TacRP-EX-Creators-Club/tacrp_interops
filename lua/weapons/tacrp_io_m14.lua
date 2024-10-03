@@ -175,7 +175,7 @@ SWEP.SprintMidPoint = {
 SWEP.SightAng = Angle(0, -0.05, 0)
 SWEP.SightPos = Vector(-3.8, -7.5, -2.63)
 
-SWEP.CorrectivePos = Vector(0.025, -7.5, 0.1)
+SWEP.CorrectivePos = Vector(0.025, -0.5, 0.1)
 SWEP.CorrectiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterVisible = true

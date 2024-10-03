@@ -239,6 +239,8 @@ SWEP.AttachmentElements = {
 
 // attachments
 
+SWEP.NoRMR = true
+
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
@@ -250,7 +252,7 @@ SWEP.Attachments = {
         DetachSound = "TacRP/weapons/optic_off.wav",
         VMScale = 0.8,
         WMScale = 0.8,
-        Pos_VM = Vector(-3.3, 0, 8.5),
+        Pos_VM = Vector(-3.18, 0, 8.5),
         Ang_VM = Angle(90, 0, 0),
         Pos_WM = Vector(8, 0.1, -5.4),
         Ang_WM = Angle(-25, 3.5, 180),
