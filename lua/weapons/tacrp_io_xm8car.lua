@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Experimental multi-purpose carbine. Easy to use, but low damage.\nHas an adjustable integrated 2-8x scope."
+SWEP.Description_Quote = "\"Who loves spaghetti?!\"" -- Battlefield: Bad Company 2
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"

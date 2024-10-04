@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Semi-automatic variant of the G36 made for precision shooting. Low fire rate, but recoil control is excellent.\nEquipped with a 2x scope but has no ironsight option."
+SWEP.Description_Quote = "\"Used to be a cop myself, only for one day though.\"" -- Resident Evil 4
 
 SWEP.Trivia_Caliber = ".223 Remington"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
