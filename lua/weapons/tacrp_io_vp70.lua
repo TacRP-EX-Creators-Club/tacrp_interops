@@ -18,7 +18,7 @@ SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Year = "1970"
 
-SWEP.Faction = TacRP.FACTION_MILITIA
+SWEP.Faction = TacRP.FACTION_COALITION
 SWEP.Credits = [[
 Model & Texture: KnechtRuprecht
 Sound: Strelok & xLongWayHome
