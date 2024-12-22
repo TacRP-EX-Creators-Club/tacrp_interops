@@ -115,7 +115,7 @@ SWEP.FiremodeName = "Bolt-Action" // only used externally for firemode name dist
 
 SWEP.RPM = 45
 
-SWEP.Spread = 0.008 // WW2 rifles weren't all that accurate...
+SWEP.Spread = 0.004 // WW2 rifles weren't all that accurate...
 
 SWEP.HipFireSpreadPenalty = 0.04
 SWEP.PeekPenaltyFraction = 0.3
