@@ -10,7 +10,7 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
-SWEP.Description = "High capacity shotgun feeding from a box magazine. Tight spread and high firerate, but damage is relatively low."
+SWEP.Description = "High capacity shotgun feeding from a box magazine, suitable for spraying down a room."
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Kalashnikov Concern"
@@ -52,27 +52,6 @@ SWEP.BalanceStats = {
             [HITGROUP_RIGHTLEG] = 0.75,
             [HITGROUP_GEAR] = 0.9
         },
-    },
-    [TacRP.BALANCE_PVE] = {
-        Damage_Max = 10,
-        Damage_Min = 3,
-        RPM = 200,
-
-        RecoilSpreadPenalty = 0.004,
-
-        BodyDamageMultipliers = {
-            [HITGROUP_HEAD] = 1.5,
-            [HITGROUP_CHEST] = 1,
-            [HITGROUP_STOMACH] = 1,
-            [HITGROUP_LEFTARM] = 0.75,
-            [HITGROUP_RIGHTARM] = 0.75,
-            [HITGROUP_LEFTLEG] = 0.5,
-            [HITGROUP_RIGHTLEG] = 0.5,
-            [HITGROUP_GEAR] = 0.9
-        },
-    },
-    [TacRP.BALANCE_OLDSCHOOL] = {
-        RecoilMaximum = 10
     }
 }
 
@@ -83,9 +62,9 @@ SWEP.TTTReplace = TacRP.TTTReplacePreset.AutoShotgun
 SWEP.ShootTimeMult = 0.85
 
 SWEP.Damage_Max = 12
-SWEP.Damage_Min = 6
-SWEP.Range_Min = 500 // distance for which to maintain maximum damage
-SWEP.Range_Max = 2000 // distance at which we drop to minimum damage
+SWEP.Damage_Min = 3
+SWEP.Range_Min = 100 // distance for which to maintain maximum damage
+SWEP.Range_Max = 1200 // distance at which we drop to minimum damage
 SWEP.Penetration = 1 // units of metal this weapon can penetrate
 SWEP.ArmorPenetration = 0.45
 SWEP.ArmorBonus = 1.25
@@ -113,11 +92,12 @@ SWEP.RPM = 300
 SWEP.RPMMultSemi = 0.85
 SWEP.PostBurstDelay = 0.1
 
-SWEP.Spread = 0.02
-SWEP.ShotgunPelletSpread = 0.02
+SWEP.Spread = 0.04
+SWEP.ShotgunPelletSpread = 0.03
 
-SWEP.HipFireSpreadPenalty = 0.025
+SWEP.HipFireSpreadPenalty = 0.015
 SWEP.MidAirSpreadPenalty = 0
+SWEP.MoveSpreadPenalty = 0
 
 SWEP.RecoilPerShot = 1
 SWEP.RecoilMaximum = 5
