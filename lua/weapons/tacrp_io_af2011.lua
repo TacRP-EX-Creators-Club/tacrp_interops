@@ -87,6 +87,7 @@ SWEP.RPM = 280
 SWEP.RPMMultSemi = 0.7
 
 SWEP.Num = 2
+SWEP.NotShotgun = true
 
 SWEP.Spread = 0.0125
 SWEP.ShotgunPelletSpread = 0.0035
