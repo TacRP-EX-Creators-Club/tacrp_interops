@@ -136,7 +136,7 @@ ATT = {}
 
 ATT.PrintName = "att.muzz_pistol_comp.name"
 ATT.Icon = Material("entities/tacrp_att_muzz_pistol_comp.png", "mips smooth")
-ATT.Description = "Muzzle device which reduces recoil impact."
+ATT.Description = "att.muzz_pistol_comp.desc"
 ATT.Pros = {"stat.recoil", "stat.muzzlevelocity"}
 ATT.Cons = {"stat.rpm"}
 
@@ -189,6 +189,7 @@ TacRP.LoadAtt(ATT, "muzz_tec9_shroud")
 ATT = {}
 
 ATT.PrintName = "att.optic_ak_pso1.name"
+ATT.FullName = "att.optic_ak_pso1.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
 ATT.Description = "att.optic_ak_pso1.desc"
 ATT.Pros = {"att.zoom.6"}
@@ -303,6 +304,7 @@ TacRP.LoadAtt(ATT, "optic_m16a2_colt")
 ATT = {}
 
 ATT.PrintName = "att.optic_ak_pso1.name"
+ATT.FullName = "att.optic_ak_pso1.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
 ATT.Description = "att.optic_ak_pso1.desc"
 ATT.Pros = {"att.zoom.6"}
@@ -431,6 +433,7 @@ TacRP.LoadAtt(ATT, "trigger_vp70_auto")
 ATT = {}
 
 ATT.PrintName = "Stockless"
+ATT.FullName = "VP-70 Remove Stock"
 ATT.Icon = Material("entities/tacrp_att_trigger_vp70_semi.png", "smooth")
 ATT.Description = "Removes burst fire capability, improving handling and mobility."
 ATT.Pros = {"stat.damage", "rating.handling", "rating.mobility"}
