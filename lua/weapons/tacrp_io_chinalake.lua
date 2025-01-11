@@ -8,6 +8,8 @@ SWEP.PrintName = "China Lake Launcher"
 SWEP.AbbrevName = "China Lake"
 SWEP.Category = "Tactical RP (Special)"
 
+SWEP.NoAimAssist = true
+
 SWEP.SubCatTier = "9Special"
 SWEP.SubCatType = "6Launcher"
 
