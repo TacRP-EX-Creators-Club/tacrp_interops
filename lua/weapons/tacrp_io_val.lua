@@ -11,6 +11,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "4Assault Rifle"
 
 SWEP.Description = "Integrally-suppressed rifle with high damage output and precision, but performs poorly over long bursts."
+SWEP.Description_Quote = "\"Call me the cloaker-smoker!\"" -- PAYDAY 2 (2015)
 
 SWEP.Trivia_Caliber = "9x39mm"
 SWEP.Trivia_Manufacturer = "Tula Arms Plant"

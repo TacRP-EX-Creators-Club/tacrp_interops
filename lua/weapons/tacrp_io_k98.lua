@@ -13,6 +13,7 @@ SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Antique bolt-action rifle with an enduring design. Powerful up close, but is essentially obsolete on the modern battlefield."
 SWEP.Description_Quote = "\"Do you want total war?\""
+
 SWEP.Trivia_Caliber = "7.92x57mm Mauser"
 SWEP.Trivia_Manufacturer = "Mauser"
 SWEP.Trivia_Year = "1935"

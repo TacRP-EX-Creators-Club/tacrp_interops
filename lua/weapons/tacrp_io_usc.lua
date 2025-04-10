@@ -11,8 +11,8 @@ SWEP.Category = "Tactical RP" // "Tactical RP (Extras)"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter"
 
-
 SWEP.Description = "Semi-automatic carbine variant of the UMP. Uses low capacity magazines, but its long barrel and gripstock assembly provides excellent medium range performance."
+SWEP.Description_Quote = "Police reg.: 8593-A503" -- Kane & Lynch 2: Dog Days (2010)
 
 SWEP.Trivia_Caliber = ".45 ACP"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"

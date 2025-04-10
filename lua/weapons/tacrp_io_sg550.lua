@@ -12,6 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Carbine caliber marksman rifle with fast automatic fire. Easy to control in short bursts and has high armor penetration. Equipped with a 6x scope by default."
+SWEP.Description_Quote = nil
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"

@@ -12,6 +12,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
 SWEP.Description = "Bulky pistol carbine with high rate of fire but mediocre armor penetration."
+SWEP.Description_Quote = "\"I won't forget what you've done for us... I won't.\""
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Pietro Beretta"

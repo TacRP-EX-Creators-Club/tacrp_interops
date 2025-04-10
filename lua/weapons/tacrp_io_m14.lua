@@ -11,6 +11,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Modernized short barrel rifle with improved mobility and fast automatic fire but punishing recoil.\nEquipped with a 6x scope by default."
+SWEP.Description_Quote = "\"One man in a Gulag doesn't mean much to the Navy at this point.\"" -- Call of Duty: Modern Warfare 2 (2009) It was an EBR, but close enough.
 
 SWEP.Trivia_Caliber = "7.62x51mm"
 SWEP.Trivia_Manufacturer = "Troy Industries"

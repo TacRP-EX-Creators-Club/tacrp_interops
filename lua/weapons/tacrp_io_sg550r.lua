@@ -12,6 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Long barrel rifle converted to semi-automatic for civilian markets. Easy to control and has high armor penetration."
+SWEP.Description_Quote = nil
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"

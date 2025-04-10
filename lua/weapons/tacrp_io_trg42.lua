@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "7Sniper Rifle"
 
 SWEP.Description = "Magnum sniper rifle with decent handling and mobility.\nPowerful, but slow to cycle and not very stable.\nEquipped with a 12x scope by default."
+SWEP.Description_Quote = nil
 
 SWEP.Trivia_Caliber = ".338 Lapua Magnum"
 SWEP.Trivia_Manufacturer = "SAKO"

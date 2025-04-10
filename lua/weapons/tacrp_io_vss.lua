@@ -12,6 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Integrally-suppressed marksman rifle with high fire rate and low recoil, but performs poorly over long bursts.\nEquipped with a 6x scope by default."
+SWEP.Description_Quote = "\"Enemy has no more medicine!\"" -- PAYDAY 2 (2015)
 
 SWEP.Trivia_Caliber = "9x39mm"
 SWEP.Trivia_Manufacturer = "Tula Arms Plant"
