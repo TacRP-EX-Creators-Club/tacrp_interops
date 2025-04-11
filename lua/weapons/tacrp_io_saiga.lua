@@ -11,7 +11,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Shotgun"
 
 SWEP.Description = "High capacity shotgun feeding from a box magazine, suitable for spraying down a room."
-SWEP.Description_Quote = "Ubisoft calls it the SASG." -- Splinter Cell: Blacklist, Rainbow Six: Siege, and The Division 2 all do this
+SWEP.Description_Quote = "Some people call it the SASG." -- Splinter Cell: Blacklist, Rainbow Six: Siege, and The Division 2 all do this
 
 SWEP.Trivia_Caliber = "12 Gauge"
 SWEP.Trivia_Manufacturer = "Kalashnikov Concern"

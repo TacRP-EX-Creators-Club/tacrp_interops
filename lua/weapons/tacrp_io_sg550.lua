@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "6Marksman Rifle"
 
 SWEP.Description = "Carbine caliber marksman rifle with fast automatic fire. Easy to control in short bursts and has high armor penetration. Equipped with a 6x scope by default."
-SWEP.Description_Quote = nil
+SWEP.Description_Quote = "Some might remember it as the Krieg 550 Commando." -- Counter Strike (2000), Counter-Strike: Condition Zero(2004), and Counter Strike: Source (2004)
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "SIG Sauer AG"

@@ -11,7 +11,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Machine Gun"
 
 SWEP.Description = "Light machine gun derived from an infantry rifle. High damage and good recoil, but mobility and spread is poor."
-SWEP.Description_Quote = "Fun Fact: Some movies use the Valmet M78 in place of an RPK."
+SWEP.Description_Quote = "A simple yet effective concept."
 
 SWEP.Trivia_Caliber = "7.62x39mm"
 SWEP.Trivia_Manufacturer = "Molot" // I checked, neither Izhmash nor Tula ever manufactured the original RPK.
