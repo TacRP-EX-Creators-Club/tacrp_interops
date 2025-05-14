@@ -12,7 +12,7 @@ SWEP.SubCatTier = "1Elite"
 SWEP.SubCatType = "1Pistol"
 
 SWEP.Description = "Bulky PDW caliber pistol with excellent capacity.\nHigh velocity rounds retain effectiveness at range and pierces armor easily."
-SWEP.Description_Quote = "Is that a ferret running around?"
+SWEP.Description_Quote = "The notorious \"mata-policias.\"" -- The Five-seveN has large purchase among Mexican cartels. The nickname translates to "cop-killer."
 
 SWEP.Trivia_Caliber = "5.7x28mm"
 SWEP.Trivia_Manufacturer = "FN Herstal"

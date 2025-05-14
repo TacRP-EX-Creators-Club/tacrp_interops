@@ -136,7 +136,7 @@ ATT = {}
 
 ATT.PrintName = "att.muzz_pistol_comp.name"
 ATT.Icon = Material("entities/tacrp_att_muzz_pistol_comp.png", "mips smooth")
-ATT.Description = "att.muzz_pistol_comp.desc"
+ATT.Description = "att.muzz_comp_io_m14.desc"
 ATT.Pros = {"stat.recoil", "stat.muzzlevelocity"}
 ATT.Cons = {"stat.rpm"}
 
