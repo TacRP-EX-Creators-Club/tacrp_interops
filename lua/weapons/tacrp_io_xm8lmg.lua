@@ -12,7 +12,7 @@ SWEP.SubCatTier = "2Operator"
 SWEP.SubCatType = "5Machine Gun"
 
 SWEP.Description = "Experimental multi-purpose carbine in MG configuration. Light, high capacity and low recoil, but damage is poor.\nHas an adjustable integrated 2-8x scope."
-SWEP.Description_Quote = "This LMG fills the tactical gap between assault rifles and GMPGs." -- Battlefield: Bad Company 2 (taken from the weapon description)
+SWEP.Description_Quote = "\"How ya like me now, bitch!?\"" -- Battlefield: Bad Company 2
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Heckler & Koch"
