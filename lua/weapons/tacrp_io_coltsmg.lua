@@ -11,7 +11,7 @@ SWEP.SubCatTier = "4Consumer"
 SWEP.SubCatType = "3Submachine Gun"
 
 SWEP.Description = "AR platform burst-fire SMG. Excellent recoil control, good damage and range but limited optic options. Favored by the Department of Energy."
-SWEP.Description_Quote = "Loudspeaker not included."
+SWEP.Description_Quote = "\"It's a little early for Halloween, Simmons.\"" -- Spawn (1997)
 
 SWEP.Trivia_Caliber = "9x19mm"
 SWEP.Trivia_Manufacturer = "Colt"
