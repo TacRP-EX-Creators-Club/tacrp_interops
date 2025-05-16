@@ -12,7 +12,7 @@ SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter"
 
 SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting and able to accept caliber conversion kits."
-SWEP.Description_Quote = nil -- Can't tell if the description is supposed to be a quote or not :shrug:
+SWEP.Description_Quote = "\"Real popular with the big PMCs.\"" -- Metal Gear Solid 4 (2008)
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Spikes Tactical"
