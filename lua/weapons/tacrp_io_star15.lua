@@ -11,8 +11,8 @@ SWEP.Category = "Tactical RP"
 SWEP.SubCatTier = "3Security"
 SWEP.SubCatType = "5Sporter"
 
-SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting and able to accept caliber conversion kits."
-SWEP.Description_Quote = "\"Real popular with the big PMCs.\"" -- Metal Gear Solid 4 (2008)
+SWEP.Description = "Aftermarket AR-15 fine tuned for precision shooting.\nEver the choice for lone wolves on a path of revenge, your fate will be a cacophonous funeral... and a silent farewell. Bring a detonator."
+SWEP.Description_Quote = nil
 
 SWEP.Trivia_Caliber = "5.56x45mm"
 SWEP.Trivia_Manufacturer = "Spikes Tactical"
