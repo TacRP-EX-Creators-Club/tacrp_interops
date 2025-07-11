@@ -209,11 +209,12 @@ SWEP.ShotgunThreeload = false
 SWEP.ShotgunFullCancel = true
 SWEP.ShotgunNoReverseStart = true
 
-SWEP.ReloadTimeMult = 0.8
+SWEP.ReloadTimeMult = 0.85
 SWEP.ShootTimeMult = 0.65
 SWEP.DropMagazineModel = false
 
-SWEP.ShotgunUpInTime = 2.6
+SWEP.ShotgunUpInTime = 2.4
+SWEP.ReloadUpInTime = 2.2
 
 SWEP.BulletBodygroups = {
     [1] = {1, 1},
@@ -250,10 +251,11 @@ SWEP.AnimationTranslationTable = {
     ["blind_idle"] = "idle",
     ["blind_dryfire"] = "dryfire",
     ["blind_fire"] = "shoot1",
-    ["reload"] = "reload_insert",
+	["reload"] = "reload",
     ["reload_finish"] = "reload_end",
+	["reload_clip"] = "reload_clip",
     ["melee"] = "melee",
-    ["dryfire"] = "shoot_noshot",
+    ["dryfire"] = "dryfire",
     ["jam"] = "reload_end"
 }
 
@@ -266,6 +268,14 @@ SWEP.AttachmentElements = {
         },
         BGs_WM = {
             {1, 1}
+        },
+    },
+    ["optic_clip"] = {
+        BGs_VM = {
+            {2, 0}
+        },
+        BGs_WM = {
+            {1, 0}
         },
     },
     ["scope"] = {
@@ -282,7 +292,7 @@ SWEP.AttachmentElements = {
 SWEP.Attachments = {
     [1] = {
         PrintName = "Optic",
-        Category = {"optic_cqb_nookp7", "optic_okp7", "optic_medium", "optic_kar98"},
+        Category = {"optic_cqb_nookp7", "optic_okp7", "optic_medium", "optic_kar98", "stripper_clip"},
         WMBone = "Bone02",
         Bone = "k98_root",
         AttachSound = "TacRP/weapons/optic_on.wav",
@@ -368,6 +378,8 @@ addsound("tacint_extras_k98.CockBack", path1 .. "boltback.wav")
 addsound("tacint_extras_k98.CockForward", path1 .. "boltforward.wav")
 addsound("tacint_extras_k98.safety", path1 .. "magrelease.wav")
 addsound("tacint_extras_k98.InsertShell", path1 .. "roundinsert.wav")
+addsound("tacint_extras_k98.ClipIn", path1 .. "clipin2.wav")
+addsound("tacint_extras_k98.ClipIn2", path1 .. "roundinsert_clip.wav")
 addsound("tacint_extras_k98.bolt_up", path1 .. "boltup.wav")
 addsound("tacint_extras_k98.bolt_down", path1 .. "boltdown.wav")
 --addsound("tacint_extras_k98.bolt_up", path1 .. "boltlatch.wav")
