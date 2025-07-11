@@ -162,7 +162,7 @@ SWEP.GestureShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_CROSSBOW
 SWEP.GestureReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 
 SWEP.PassiveAng = Angle(0, 2, 0)
-SWEP.PassivePos = Vector(1.25, 4.5, -0.5)
+SWEP.PassivePos = Vector(0, 1, -0.5)
 
 SWEP.BlindFireAng = Angle(0, 0, -45)
 SWEP.BlindFirePos = Vector(1, 0, 5)
@@ -179,8 +179,8 @@ SWEP.BlindFireSuicidePos = Vector(-2, 25, -32)
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(2, 4.5, 0.75)
 
-SWEP.SightAng = Angle(0, 0.1, -0.1)
-SWEP.SightPos = Vector(-2.3, 1, 1.88)
+SWEP.SightAng = Angle(0, 0.4, 0)
+SWEP.SightPos = Vector(-4.72, 1, 2.15)
 
 SWEP.CorrectivePos = Vector(0.05, 0, 0.2)
 SWEP.CorrectiveAng = Angle(0.1, -0.3, 0)
@@ -209,13 +209,15 @@ SWEP.ShotgunThreeload = false
 SWEP.ShotgunFullCancel = true
 SWEP.ShotgunNoReverseStart = true
 
-SWEP.ReloadTimeMult = 0.95
-SWEP.ShootTimeMult = 0.8
+SWEP.ReloadTimeMult = 0.8
+SWEP.ShootTimeMult = 0.65
 SWEP.DropMagazineModel = false
 
-SWEP.ShotgunLoadInTime = 0
+SWEP.ShotgunUpInTime = 2.6
+
 SWEP.BulletBodygroups = {
     [1] = {1, 1},
+    [2] = {1, 0},
 }
 
 // sounds
@@ -244,7 +246,7 @@ SWEP.EjectDelay = 0.7
 
 SWEP.AnimationTranslationTable = {
     ["deploy"] = "draw",
-    ["fire"] = "shoot1",
+    ["fire"] = {"shoot1", "shoot2"},
     ["blind_idle"] = "idle",
     ["blind_dryfire"] = "dryfire",
     ["blind_fire"] = "shoot1",
@@ -282,13 +284,13 @@ SWEP.Attachments = {
         PrintName = "Optic",
         Category = {"optic_cqb_nookp7", "optic_okp7", "optic_medium", "optic_kar98"},
         WMBone = "Bone02",
-        Bone = "rifle",
+        Bone = "k98_root",
         AttachSound = "TacRP/weapons/optic_on.wav",
         DetachSound = "TacRP/weapons/optic_off.wav",
         InstalledElements = {"optic"},
-        VMScale = 0.8,
-        Pos_VM = Vector(0.01, 0, 2),
-        Ang_VM = Angle(0, -90, 0),
+        VMScale = 0.9,
+        Pos_VM = Vector(0.05, -2.8, 7),
+        Ang_VM = Angle(90, 0, -90),
         Pos_WM = Vector(0, 1.25, -5.6),
         Ang_WM = Angle(0, 0, 180),
     },
@@ -296,27 +298,27 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         Category = "silencer",
         WMBone = "Bone02",
-        Bone = "rifle",
+        Bone = "k98_root",
         AttachSound = "TacRP/weapons/silencer_on.wav",
         DetachSound = "TacRP/weapons/silencer_off.wav",
         VMScale = 0.75,
         WMScale = 0.75,
-        Pos_VM = Vector(-0.02, 20.5, 0.8),
+        Pos_VM = Vector(-0.03, -1.45, 34),
         Pos_WM = Vector(25.5, 1.2, -4.9),
-        Ang_VM = Angle(0, -90, 0),
+        Ang_VM = Angle(90, 0, -90),
         Ang_WM = Angle(0, 0, 180),
     },
     [3] = {
         PrintName = "Tactical",
         Category = {"tactical", "tactical_zoom"},
         WMBone = "Bone02",
-        Bone = "rifle",
+        Bone = "k98_root",
         AttachSound = "TacRP/weapons/flashlight_on.wav",
         DetachSound = "TacRP/weapons/flashlight_off.wav",
         InstalledElements = {"tactical"},
-        Pos_VM = Vector(0.5, 11, 0.5),
+        Pos_VM = Vector(-0.5, -1, 22),
         Pos_WM = Vector(8, 2, -4),
-        Ang_VM = Angle(0, -90, -90),
+        Ang_VM = Angle(90, 0, 0),
         Ang_WM = Angle(0, 0, 90),
     },
     [4] = {
@@ -354,7 +356,7 @@ SWEP.Attachments = {
 local function addsound(name, spath)
     sound.Add({
         name = name,
-        channel = 16,
+        channel = CHAN_AUTO,
         volume = 1.0,
         sound = spath
     })
@@ -366,5 +368,9 @@ addsound("tacint_extras_k98.CockBack", path1 .. "boltback.wav")
 addsound("tacint_extras_k98.CockForward", path1 .. "boltforward.wav")
 addsound("tacint_extras_k98.safety", path1 .. "magrelease.wav")
 addsound("tacint_extras_k98.InsertShell", path1 .. "roundinsert.wav")
-addsound("tacint_extras_k98.bolt_up", path1 .. "boltlatch.wav")
-addsound("tacint_extras_k98.bolt_down", path1 .. "boltrelease.wav")
+addsound("tacint_extras_k98.bolt_up", path1 .. "boltup.wav")
+addsound("tacint_extras_k98.bolt_down", path1 .. "boltdown.wav")
+--addsound("tacint_extras_k98.bolt_up", path1 .. "boltlatch.wav")
+--addsound("tacint_extras_k98.bolt_down", path1 .. "boltrelease.wav")
+
+
