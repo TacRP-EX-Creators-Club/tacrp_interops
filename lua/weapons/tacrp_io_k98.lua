@@ -23,7 +23,7 @@ SWEP.Credits = [[
 Model: Day of Defeat: Source, edited by 8Z
 Texture: Cafe Rev., rascal, 5hifty
 Sound: rzen1th
-Animations: Cry of Fear, Lazarus
+Animations: speedonerd
 ]]
 
 SWEP.ViewModel = "models/weapons/tacint_extras/v_k98.mdl"
@@ -292,7 +292,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     [1] = {
-        PrintName = "Optic",
+        PrintName = "Top",
         Category = {"optic_cqb_nookp7", "optic_okp7", "optic_medium", "optic_kar98", "stripper_clip"},
         WMBone = "Bone02",
         Bone = "k98_root",
