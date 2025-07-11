@@ -167,14 +167,14 @@ SWEP.PassivePos = Vector(0, 1, -0.5)
 SWEP.BlindFireAng = Angle(0, 0, -45)
 SWEP.BlindFirePos = Vector(1, 0, 5)
 
-SWEP.BlindFireLeftAng = Angle(75, 0, 0)
+SWEP.BlindFireLeftAng = Angle(75, 0, -20)
 SWEP.BlindFireLeftPos = Vector(8, 10, -2)
 
-SWEP.BlindFireRightAng = Angle(-75, 0, 0)
-SWEP.BlindFireRightPos = Vector(0, 10, 0)
+SWEP.BlindFireRightAng = Angle(-75, 0, -45)
+SWEP.BlindFireRightPos = Vector(-9, 17, -5)
 
 SWEP.BlindFireSuicideAng = Angle(0, 115, 0)
-SWEP.BlindFireSuicidePos = Vector(-2, 25, -32)
+SWEP.BlindFireSuicidePos = Vector(-4.5, 25, -45)
 
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(2, 4.5, 0.75)
@@ -209,11 +209,11 @@ SWEP.ShotgunThreeload = false
 SWEP.ShotgunFullCancel = true
 SWEP.ShotgunNoReverseStart = true
 
-SWEP.ReloadTimeMult = 0.85
+SWEP.ReloadTimeMult = 0.8
 SWEP.ShootTimeMult = 0.65
 SWEP.DropMagazineModel = false
 
-SWEP.ShotgunUpInTime = 2.4
+SWEP.ShotgunUpInTime = 2.3
 SWEP.ReloadUpInTime = 2.2
 
 SWEP.BulletBodygroups = {
@@ -254,7 +254,8 @@ SWEP.AnimationTranslationTable = {
 	["reload"] = "reload",
     ["reload_finish"] = "reload_end",
 	["reload_clip"] = "reload_clip",
-    ["melee"] = "melee",
+    --["melee"] = {"melee1", "melee2"},
+    ["melee"] = "melee_bayonet",
     ["dryfire"] = "dryfire",
     ["jam"] = "reload_end"
 }
