@@ -254,8 +254,8 @@ SWEP.AnimationTranslationTable = {
 	["reload"] = "reload",
     ["reload_finish"] = "reload_end",
 	["reload_clip"] = "reload_clip",
-    --["melee"] = {"melee1", "melee2"},
-    ["melee"] = "melee_bayonet",
+    ["melee"] = {"melee1", "melee2"},
+    --["melee"] = "melee_bayonet",
     ["dryfire"] = "dryfire",
     ["jam"] = "reload_end"
 }
