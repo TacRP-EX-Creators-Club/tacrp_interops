@@ -3,14 +3,14 @@
 local ATT = {}
 
 ------------------------------
--- ammo_star15_300blk
+-- ammo_star15_300blk (ST AR-15 .300 AC Blackout Mod Kit (.300 BLK))
 ------------------------------
 ATT = {}
 
-ATT.PrintName = ".300 BLK"
-ATT.FullName = "ST AR-15 .300 AAC Blackout Mod Kit"
+ATT.PrintName = "att.ammo_star15_300blk.name"
+ATT.FullName = "att.ammo_star15_300blk.name.full"
 ATT.Icon = Material("entities/tacrp_att_ammo_star15_300blk.png", "mips smooth")
-ATT.Description = "Modification to load lower velocity bullets with better CQB potential."
+ATT.Description = "att.ammo_star15_300blk.desc"
 ATT.Pros = {"stat.damage_max"}
 ATT.Cons = {"rating.range", "stat.muzzlevelocity", "att.procon.armor"}
 
@@ -40,14 +40,14 @@ ATT.Override_DropMagazineImpact = "plastic"
 TacRP.LoadAtt(ATT, "ammo_star15_300blk")
 
 ------------------------------
--- ammo_star15_50beo
+-- ammo_star15_50beo (ST AR-15 .50 Beowulf Mod Kit)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = ".50 BEO"
-ATT.FullName = "ST AR-15 .50 Beowulf Mod Kit"
+ATT.PrintName = "att.ammo_star15_50beo.name"
+ATT.FullName = "att.ammo_star15_50beo.name.full"
 ATT.Icon = Material("entities/tacrp_att_ammo_star15_50beo.png", "mips smooth")
-ATT.Description = "Modification to load low capacity, high power magnum rounds."
+ATT.Description = "att.ammo_star15_50beo.desc"
 ATT.Pros = {"rating.lethality"}
 ATT.Cons = {"rating.range", "rating.control", "att.procon.armor"}
 
@@ -82,14 +82,14 @@ ATT.Override_Sound_Shoot_Silenced = "tacint_extras/star15/fire_beo-supp.ogg"
 TacRP.LoadAtt(ATT, "ammo_star15_50beo")
 
 ------------------------------
--- bolt_af2011_alt
+-- bolt_af2011_alt (AF2011-A1 Alternating Bolt)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Alternating"
-ATT.FullName = "AF2011-A1 Alternating Bolt"
+ATT.PrintName = "att.bolt_af2011_alt.name"
+ATT.FullName = "att.bolt_af2011_alt.name.full"
 ATT.Icon = Material("entities/tacrp_att_bolt_heavy.png", "mips smooth")
-ATT.Description = "Malicious interpretation of the concept of \"double-stacked magazines\"."
+ATT.Description = "att.bolt_af2011_alt.desc"
 ATT.Pros = {"stat.spread", "rating.control", "stat.rpm"}
 ATT.Cons = {"att.procon.onebullet", "stat.recoilmaximum"}
 
@@ -130,7 +130,7 @@ ATT.Override_EffectsDoubled = false
 TacRP.LoadAtt(ATT, "bolt_af2011_alt")
 
 ------------------------------
--- muzz_comp_io_m14
+-- muzz_comp_io_m14 (Compensator)
 ------------------------------
 ATT = {}
 
@@ -154,14 +154,14 @@ ATT.InstalledElements = {"muzzle"}
 TacRP.LoadAtt(ATT, "muzz_comp_io_m14")
 
 ------------------------------
--- muzz_tec9_shroud
+-- muzz_tec9_shroud (TEC-9 Barrel Shroud)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Shroud"
-ATT.FullName = "TEC-9 Barrel Shroud"
+ATT.PrintName = "att.muzz_tec9_shroud.name"
+ATT.FullName = "att.muzz_tec9_shroud.name.full"
 ATT.Icon = Material("entities/tacrp_att_muzz_tec9_shroud.png", "mips smooth")
-ATT.Description = "Barrel extension improving performance at range."
+ATT.Description = "att.muzz_tec9_shroud.desc"
 ATT.Pros = {"rating.precision", "rating.control", "rating.range"}
 ATT.Cons = {"stat.rpm", "rating.maneuvering"}
 
@@ -184,7 +184,33 @@ ATT.Add_Pitch_Shoot = -5
 TacRP.LoadAtt(ATT, "muzz_tec9_shroud")
 
 ------------------------------
--- optic_ak_pso1
+-- optic_pso1 (PSO-1 Scope)
+------------------------------
+ATT = {}
+
+ATT.PrintName = "att.optic_ak_pso1.name"
+ATT.FullName = "att.optic_ak_pso1.name.full"
+ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
+ATT.Description = "att.optic_ak_pso1.desc"
+ATT.Pros = {"att.zoom.6"}
+
+ATT.Category = "optic_pso1"
+ATT.InvAtt = "optic_ak_pso1"
+
+ATT.SortOrder = 6
+
+ATT.Override_Scope = true
+ATT.Override_ScopeOverlay = Material("tacrp/scopes/pso1.png", "mips smooth")
+ATT.Override_ScopeFOV = 90 / 6
+ATT.Override_ScopeOverlaySize = 0.9
+ATT.Override_ScopeHideWeapon = true
+
+ATT.InstalledElements = {"pso1"}
+
+TacRP.LoadAtt(ATT, "optic_pso1")
+
+------------------------------
+-- optic_ak_pso1 (PSO-1 Scope)
 ------------------------------
 ATT = {}
 
@@ -216,7 +242,33 @@ ATT.InstalledElements = {"akmount"}
 TacRP.LoadAtt(ATT, "optic_ak_pso1")
 
 ------------------------------
--- optic_ar_colt
+-- optic_m16a2_colt (Colt 3×20 Scope/3x20)
+------------------------------
+ATT = {}
+
+ATT.PrintName = "att.optic_ar_colt.name"
+ATT.FullName = "att.optic_ar_colt.name.full"
+ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
+ATT.Description = "att.optic_ar_colt.desc"
+ATT.Pros = {"att.zoom.3"}
+
+ATT.Category = "optic_m16a2"
+ATT.InvAtt = "optic_ar_colt"
+
+ATT.SortOrder = 3
+
+ATT.Override_Scope = true
+ATT.Override_ScopeHideWeapon = true
+ATT.Override_ScopeOverlay = Material("tacrp/scopes/coltscope.png", "mips smooth")
+ATT.Override_ScopeFOV = 90 / 3
+ATT.Override_ScopeOverlaySize = 0.85
+
+ATT.InstalledElements = {"coltscope"}
+
+TacRP.LoadAtt(ATT, "optic_m16a2_colt")
+
+------------------------------
+-- optic_ar_colt (Colt 3×20 Scope/3x20)
 ------------------------------
 ATT = {}
 
@@ -245,14 +297,14 @@ ATT.InstalledElements = {"chmount"}
 TacRP.LoadAtt(ATT, "optic_ar_colt")
 
 ------------------------------
--- optic_k98_zf41
+-- optic_k98_zf41 (Zeiss 6×38 Scope/6x38)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Zeiss"
-ATT.FullName = "Zeiss 6x36 Scope" --not actually, it's the scope from the trg-42
+ATT.PrintName = "att.optic_k98_zf41.name"
+ATT.FullName = "att.optic_k98_zf41.name.full" --not actually, it's the scope from the trg-42
 ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
-ATT.Description = "Medium-power sniper scope made specially for the Kar98k."
+ATT.Description = "att.optic_k98_zf41.desc"
 ATT.Pros = {"att.zoom.6"}
 
 ATT.Category = "optic_kar98"
@@ -273,66 +325,14 @@ ATT.InstalledElements = {"scope"}
 TacRP.LoadAtt(ATT, "optic_k98_zf42")
 
 ------------------------------
--- optic_m16a2_colt
+-- optic_xm8_4x (XM8 Integrated Scope (4x))
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "att.optic_ar_colt.name"
-ATT.FullName = "att.optic_ar_colt.name.full"
-ATT.Icon = Material("entities/tacrp_att_optic_m16a2_colt.png", "mips smooth")
-ATT.Description = "att.optic_ar_colt.desc"
-ATT.Pros = {"att.zoom.3"}
-
-ATT.Category = "optic_m16a2"
-ATT.InvAtt = "optic_ar_colt"
-
-ATT.SortOrder = 3
-
-ATT.Override_Scope = true
-ATT.Override_ScopeHideWeapon = true
-ATT.Override_ScopeOverlay = Material("tacrp/scopes/coltscope.png", "mips smooth")
-ATT.Override_ScopeFOV = 90 / 3
-ATT.Override_ScopeOverlaySize = 0.85
-
-ATT.InstalledElements = {"coltscope"}
-
-TacRP.LoadAtt(ATT, "optic_m16a2_colt")
-
-------------------------------
--- optic_pso1
-------------------------------
-ATT = {}
-
-ATT.PrintName = "att.optic_ak_pso1.name"
-ATT.FullName = "att.optic_ak_pso1.name.full"
-ATT.Icon = Material("entities/tacrp_att_optic_pso1.png", "mips smooth")
-ATT.Description = "att.optic_ak_pso1.desc"
-ATT.Pros = {"att.zoom.6"}
-
-ATT.Category = "optic_pso1"
-ATT.InvAtt = "optic_ak_pso1"
-
-ATT.SortOrder = 6
-
-ATT.Override_Scope = true
-ATT.Override_ScopeOverlay = Material("tacrp/scopes/pso1.png", "mips smooth")
-ATT.Override_ScopeFOV = 90 / 6
-ATT.Override_ScopeOverlaySize = 0.9
-ATT.Override_ScopeHideWeapon = true
-
-ATT.InstalledElements = {"pso1"}
-
-TacRP.LoadAtt(ATT, "optic_pso1")
-
-------------------------------
--- optic_xm8_4x
-------------------------------
-ATT = {}
-
-ATT.PrintName = "4x"
-ATT.FullName = "XM8 Integrated Scope (4x)"
+ATT.PrintName = "att.optic_xm8_4x.name"
+ATT.FullName = "att.optic_xm8_4x.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_acog.png", "mips smooth")
-ATT.Description = "Medium range zoom setting with ACOG reticle."
+ATT.Description = "att.optic_xm8_4x.desc"
 ATT.Pros = {"att.zoom.4"}
 
 ATT.Category = "optic_xm8"
@@ -349,14 +349,14 @@ ATT.Free = true
 TacRP.LoadAtt(ATT, "optic_xm8_4x")
 
 ------------------------------
--- optic_xm8_6x
+-- optic_xm8_6x XM8 Integrated Scope (6x)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "6x"
-ATT.FullName = "XM8 Integrated Scope (6x)"
+ATT.PrintName = "att.optic_xm8_6x.name"
+ATT.FullName = "att.optic_xm8_6x.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_acog.png", "mips smooth")
-ATT.Description = "Medium-long range zoom setting with Short Dot reticle."
+ATT.Description = "att.optic_xm8_6x.desc"
 ATT.Pros = {"att.zoom.6"}
 
 ATT.Category = "optic_xm8"
@@ -373,14 +373,14 @@ ATT.Free = true
 TacRP.LoadAtt(ATT, "optic_xm8_6x")
 
 ------------------------------
--- optic_xm8_8x
+-- optic_xm8_8x XM8 Integrated Scope (8x)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "8x"
-ATT.FullName = "XM8 Integrated Scope (8x)"
+ATT.PrintName = "att.optic_xm8_8x.name"
+ATT.FullName = "att.optic_xm8_8x.name.full"
 ATT.Icon = Material("entities/tacrp_att_optic_acog.png", "mips smooth")
-ATT.Description = "Long range zoom setting with sniper reticle."
+ATT.Description = "att.optic_xm8_8x.desc"
 ATT.Pros = {"att.zoom.8"}
 
 ATT.Category = "optic_xm8"
@@ -397,14 +397,14 @@ ATT.Free = true
 TacRP.LoadAtt(ATT, "optic_xm8_8x")
 
 ------------------------------
--- trigger_vp70_auto
+-- trigger_vp70_auto (VP-70 Auto Sear Stock/Automatic)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Automatic"
-ATT.FullName = "VP-70 Auto Sear Stock"
+ATT.PrintName = "att.trigger_vp70_auto.name"
+ATT.FullName = "att.trigger_vp70_auto.name.desc"
 ATT.Icon = Material("entities/tacrp_att_trigger_vp70_auto.png", "smooth")
-ATT.Description = "The engineers at H&K are frothing at their mouths as we speak."
+ATT.Description = "att.trigger_vp70_auto.desc"
 ATT.Pros = {"att.procon.auto"}
 ATT.Cons = {"stat.rpm", "rating.control"}
 
@@ -428,14 +428,14 @@ ATT.Add_RecoilMaximum = 3
 TacRP.LoadAtt(ATT, "trigger_vp70_auto")
 
 ------------------------------
--- trigger_vp70_semi
+-- trigger_vp70_semi (VP-70 Remove Stock/Stockless)
 ------------------------------
 ATT = {}
 
-ATT.PrintName = "Stockless"
-ATT.FullName = "VP-70 Remove Stock"
+ATT.PrintName = "att.trigger_vp70_semi.name"
+ATT.FullName = "att.trigger_vp70_semi.name.full"
 ATT.Icon = Material("entities/tacrp_att_trigger_vp70_semi.png", "smooth")
-ATT.Description = "Removes burst fire capability, improving handling and mobility."
+ATT.Description = "att.trigger_vp70_semi.desc"
 ATT.Pros = {"stat.damage", "rating.handling", "rating.mobility"}
 ATT.Cons = {"att.procon.semi", "rating.stability"}
 
@@ -473,4 +473,3 @@ ATT.Add_FreeAimMaxAngle = -1.5
 ATT.InstalledElements = {"foldstock"}
 
 TacRP.LoadAtt(ATT, "trigger_vp70_semi")
-
